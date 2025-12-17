@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>QCM Naturopathie – ISUPNAT (v4 – fix bank loader)</title>
+  <meta name="color-scheme" content="light dark" />
+  <style>
+    :root{ --bg:#0b0c10; --surface:#121318; --card:#171923; --text:#e6e6ea; --muted:#b5b8c5;
+           --primary:#3ddc97; --accent:#7aa2f7; --ok:#22c55e; --bad:#ef4444; --radius:14px;
+           --shadow:0 8px 24px rgba(0,0,0,.35) }
+    @media (prefers-color-scheme: light){ :root{ --bg:#f5f7fb; --surface:#fff; --card:#fff; --text:#0f172a; --muted:#475569; --primary:#0ea5e9; --accent:#7c3aed; --shadow:0 8px 24px rgba(2,6,23,.1) } }
+    *{box-sizing:border-box}
+    body{margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,'Noto Sans',sans-serif; background:var(--bg); color:var(--text)}
+    .container{max-width:980px;margin:0 auto;padding:clamp(16px,3vw,28px)}
+    header{display:flex;align-items:center;gap:16px;justify-content:space-between;flex-wrap:wrap; padding:16px;border-radius:var(--radius); background:linear-gradient(135deg,var(--surface),var(--card)); box-shadow:var(--shadow)}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{inline-size:48px;block-size:48px;border-radius:12px;display:grid;place-items:center;background:radial-gradient(120% 120% at 30% 30%, var(--primary) 0%, var(--accent) 60%, transparent 100%); box-shadow:var(--shadow)}
+    .brand h1{margin:0; font-size:clamp(20px,4vw,28px)}
+    .actions{display:flex;gap:12px}
+    .btn{appearance:none;border:none;border-radius:12px;padding:10px 14px;font-weight:600;cursor:pointer; background:var(--primary); color:#fff; box-shadow:var(--shadow)}
+    .btn.secondary{background:transparent;color:var(--text); border:1px solid color-mix(in oklab,var(--text) 30%, transparent)}
+    .card{background:var(--card); border-radius:var(--radius); box-shadow:var(--shadow); padding:18px; margin-top:18px}
+    .card h2{margin:0 0 10px}
+    .field{display:grid; gap:8px}
+    select{width:100%; padding:12px 14px; border-radius:12px; border:1px solid color-mix(in oklab,var(--muted) 30%, transparent); background:color-mix(in oklab,var(--surface) 85%, black 0%); color:var(--text)}
+    .stats{display:flex;align-items:center;gap:10px; margin-top:10px}
+    progress{width:100%; height:14px; accent-color:var(--primary)}
+    .pill{padding:6px 10px;border-radius:999px;background:color-mix(in oklab,var(--primary) 20%, var(--surface)); font-weight:700}
+    .question{padding:14px; border-radius:12px; border:1px solid color-mix(in oklab,var(--muted) 25%, transparent); background:color-mix(in oklab,var(--surface) 92%, var(--accent) 3%); margin-bottom:12px}
+    .question h3{margin:0 0 8px; font-size:clamp(16px,3vw,20px)}
+    .choices{display:grid; gap:8px}
+    .choice{display:flex; gap:10px; align-items:center; padding:10px; border-radius:10px; border:1px dashed color-mix(in oklab,var(--muted) 30%, transparent)}
+    .choice input{accent-color:var(--primary)}
+    .explain{margin-top:8px; padding:10px; border-radius:10px; background:color-mix(in oklab,var(--surface) 90%, var(--primary) 8%); display:none}
+    .question.correct{border-color:var(--ok); box-shadow:0 0 0 3px color-mix(in oklab,var(--ok) 30%, transparent)}
+    .question.wrong{border-color:var(--bad); box-shadow:0 0 0 3px color-mix(in oklab,var(--bad) 30%, transparent)}
+    .choice.right{border-color:var(--ok); background:color-mix(in oklab,var(--surface) 92%, var(--ok) 8%)}
+    .choice.bad{border-color:var(--bad); background:color-mix(in oklab,var(--surface) 92%, var(--bad) 8%)}
+    .status{font-weight:700; margin:6px 0}
+    .status.ok{color:var(--ok)} .status.bad{color:var(--bad)}
+    .hide{display:none}
+    footer{margin-top:24px; color:var(--muted); text-align:center}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo" aria-hidden="true">🩺</div>
+        <div>
+          <h1>QCM Naturopathie – ISUPNAT</h1>
+          <div style="color:var(--muted)">Responsive · Clair/Sombre · HTML monofichier</div>
+        </div>
+      </div>
+      <div class="actions">
+        <button class="btn secondary" id="toggleTheme" aria-label="Basculer le thème">🌗</button>
+        <button class="btn" id="startBtn">Commencer</button>
+      </div>
+    </header>
+
+    <section class="card">
+      <h2>Choisis une matière</h2>
+      <div class="field">
+        <select id="matiere">
+          <option value="">— Sélectionne —</option>
+          <option>Micronutrition et compléments alimentaires</option>
+          <option>Techniques manuelles</option>
+          <option>Phytologie</option>
+          <option>Gestion des émotions, du mental et du stress</option>
+          <option>Bionutrition</option>
+          <option>Hydrologie</option>
+          <option>Exercice physique</option>
+          <option>Émonctoires et synthèse des interactions</option>
+          <option>Biodiététique et jeûne</option>
+          <option>Introduction à la psychologie</option>
+          <option>PNEI (Psycho-Neuro-Endocrino-Immunologie)</option>
+          <option>Déontologie et bilan de vitalité</option>
+          <option>Approche naturopathique des dérèglements respiratoires</option>
+          <option>Approche naturopathique des dérèglements digestifs</option>
+          <option>Approche naturopathique des dérèglements cardio-vasculaires</option>
+          <option>Approche naturopathique des déséquilibres ostéo-musculaires</option>
+          <option>Approche naturopathique des dérèglements neuro-glandulaires</option>
+          <option>Hygiène de vie des femmes enceintes et nouveau-nés</option>
+          <option>Hygiène de vie des plus de 50 ans</option>
+          <option>Hygiène de vie des enfants et des adolescents</option>
+          <option>Approche naturopathique des dérèglements uro-génitaux et cutanés</option>
+          <option>Plantes au féminin et contraception naturelle</option>
+        </select>
+      </div>
+      <div class="stats">
+        <progress id="bar" value="0" max="1"></progress>
+        <span class="pill" id="score">Score : 0/0</span>
+      </div>
+    </section>
+
+    <section class="card hide" id="quiz">
+      <h2 id="matiereTitle">QCM</h2>
+      <div id="questions"></div>
+    </section>
+
+    <footer>© ISUPNAT · Intègre vos banques de questions externes · Explications affichées automatiquement</footer>
+  </div>
+
+  <!-- ===== Banques de questions externes (laisse ce bloc) ===== -->
+  <script src="01_micronutrition.js"></script>
+  <script src="02_tech_manuelles.js"></script>
+  <script src="03_phytologie.js"></script>
+  <script src="04_gestionstress.js"></script>
+  <script src="05_bionutrition.js"></script>
+  <script src="06_hydrologie.js"></script>
+  <script src="07_exercicephysique.js"></script>
+  <script src="08_emonctoires.js"></script>
+  <script src="09_biodietetique.js"></script>
+  <script src="10_psycho.js"></script>
+  <script src="11_pnei.js"></script>
+  <script src="12_deontologie.js"></script>
+  <script src="13_dereglements_respi.js"></script>
+  <script src="14_dereglements_digestifs.js"></script>
+  <script src="15_dereglements_cardio.js"></script>
+  <script src="16_dereglements_osteo.js"></script>
+  <script src="17_dereglements_neuroglandu.js"></script>
+  <script src="18_hygiene_femme_enceinte.js"></script>
+  <script src="19_hygiene_50_ans.js"></script>
+  <script src="20_hygiene_ado.js"></script>
+  <script src="21_urogenital.js"></script>
+  <script src="22_plantes.js"></script>
+
+  <!-- ===== Script principal ===== -->
+  <script>
+    document.getElementById('toggleTheme').addEventListener('click', ()=>{
+      const isDark = document.documentElement.style.colorScheme === 'dark';
+      document.documentElement.style.colorScheme = isDark ? 'light' : 'dark';
+    });
+
+    // Mapping matière -> NOM de variable attendu si tes fichiers exposent un nom spécifique
+    const BANKS = {
+      'Micronutrition et compléments alimentaires':'questionsMicronutrition',
+      'Techniques manuelles':'questionsTechniquesManuelles',
+      'Phytologie':'questionsPhytologie',
+      'Gestion des émotions, du mental et du stress':'questionsGestionStress',
+      'Bionutrition':'questionsBionutrition',
+      'Hydrologie':'questionsHydrologie',
+      'Exercice physique':'questionsExercicePhysique',
+      'Émonctoires et synthèse des interactions':'questionsEmonctoires',
+      'Biodiététique et jeûne':'questionsBiodietetique',
+      'Introduction à la psychologie':'questionsPsychologie',
+      'PNEI (Psycho-Neuro-Endocrino-Immunologie)':'questionsPnei',
+      'Déontologie et bilan de vitalité':'questionsDeontologie',
+      'Approche naturopathique des dérèglements respiratoires':'questionsDereglementsRespiratoires',
+      'Approche naturopathique des dérèglements digestifs':'questionsDereglementsDigestifs',
+      'Approche naturopathique des dérèglements cardio-vasculaires':'questionsDereglementsCardio',
+      'Approche naturopathique des déséquilibres ostéo-musculaires':'questionsDereglementsOsteo',
+      'Approche naturopathique des dérèglements neuro-glandulaires':'questionsDereglementsNeuro',
+      'Hygiène de vie des femmes enceintes et nouveau-nés':'questionsFemmesEnceintes',
+      'Hygiène de vie des plus de 50 ans':'questionsPlus50Ans',
+      'Hygiène de vie des enfants et des adolescents':'questionsEnfantsAdolescents',
+      'Approche naturopathique des dérèglements uro-génitaux et cutanés':'questionsUroGenital',
+      'Plantes au féminin et contraception naturelle':'questionsPlantesFeminin'
+    };
+
+    const startBtn = document.getElementById('startBtn');
+    const matiereSelect = document.getElementById('matiere');
+    const quizEl = document.getElementById('quiz');
+    const questionsEl = document.getElementById('questions');
+    const scoreEl = document.getElementById('score');
+    const bar = document.getElementById('bar');
+    const titleEl = document.getElementById('matiereTitle');
+    let total = 0, correct = 0;
+
+    function getBank(matiere){
+      // 1) Essaye d'accéder à une variable nommée selon BANKS
+      const varName = BANKS[matiere];
+      try {
+        const byName = (function(n){ return eval(n); })(varName); // eval voit les bindings let/const
+        if (Array.isArray(byName)) return byName;
+      } catch(e){ /* ignore */ }
+      // 2) Sinon, si le fichier expose const questionMatiere = [...] (ton format)
+      try {
+        if (typeof questionMatiere !== 'undefined' && Array.isArray(questionMatiere)) return questionMatiere;
+      } catch(e){ /* ignore */ }
+      return [];
+    }
+
+    function normItem(it){
+      const text = it.question ?? '';
+      const options = it.options ?? [];
+      const multiple = Boolean(it.multiple ?? (Array.isArray(it.correctAnswers) && it.correctAnswers.length>1));
+      const correctTexts = (it.correctAnswers ?? []).map(String);
+      const correctIdxs = options.map(String).map((opt,i)=> correctTexts.includes(opt) ? i : null).filter(i=> i!==null);
+      const explanation = it.explanation ?? '';
+      return { text, options, correctIdxs, explanation, multiple };
+    }
+
+    function render(bank){
+      questionsEl.innerHTML='';
+      const items = bank.map(normItem);
+      total = items.length; correct = 0; updateScore(); bar.max = total; bar.value = 0;
+      items.forEach((item, idx)=>{
+        const wrap = document.createElement('div'); wrap.className='question';
+        const h3 = document.createElement('h3'); h3.textContent = `Q${idx+1}. ${item.text}`; wrap.appendChild(h3);
+        const status = document.createElement('div'); status.className='status'; wrap.appendChild(status);
+        const choicesEl = document.createElement('div'); choicesEl.className='choices';
+        item.options.forEach((label, i)=>{
+          const lab = document.createElement('label'); lab.className='choice';
+          const input = document.createElement('input'); input.type = item.multiple ? 'checkbox' : 'radio'; input.name = `q${idx}`; input.value = i;
+          lab.appendChild(input); const span = document.createElement('span'); span.textContent = label; lab.appendChild(span);
+          choicesEl.appendChild(lab);
+        });
+        wrap.appendChild(choicesEl);
+        const explain = document.createElement('div'); explain.className='explain'; wrap.appendChild(explain);
+        let validateBtn = null; if(item.multiple){ validateBtn=document.createElement('button'); validateBtn.className='btn'; validateBtn.textContent='Valider'; wrap.appendChild(validateBtn); }
+
+        function lock(){ wrap.querySelectorAll('input').forEach(inp=> inp.disabled = true); if(validateBtn) validateBtn.disabled = true; }
+        function showExplanation(ok){ explain.style.display='block'; explain.innerHTML = item.explanation ? `<strong>Explication :</strong> ${item.explanation}` : ''; status.className='status '+(ok?'ok':'bad'); status.textContent = ok? '✔ Bonne réponse':'✖ Mauvaise réponse'; wrap.classList.toggle('correct', ok); wrap.classList.toggle('wrong', !ok); wrap.querySelectorAll('.choice').forEach((l,i)=>{ if(item.correctIdxs.includes(i)) l.classList.add('right'); }); }
+        function updateProgress(ok){ if(ok) correct++; updateScore(); bar.value = correct; }
+
+        if(!item.multiple){
+          wrap.querySelectorAll('input').forEach(inp=>{
+            inp.addEventListener('change', ()=>{
+              const ok = item.correctIdxs.includes(Number(inp.value));
+              (ok ? inp.closest('.choice').classList.add('right') : inp.closest('.choice').classList.add('bad'));
+              showExplanation(ok); lock(); updateProgress(ok);
+            }, { once:true });
+          });
+        } else if(validateBtn){
+          validateBtn.addEventListener('click', ()=>{
+            const selected = Array.from(wrap.querySelectorAll('input[type=checkbox]:checked')).map(el=>Number(el.value));
+            const ok = selected.length===item.correctIdxs.length && selected.every(v=> item.correctIdxs.includes(v));
+            wrap.querySelectorAll('.choice').forEach((ch,i)=>{ if(selected.includes(i) && !item.correctIdxs.includes(i)) ch.classList.add('bad'); if(item.correctIdxs.includes(i)) ch.classList.add('right'); });
+            showExplanation(ok); lock(); updateProgress(ok);
+          }, { once:true });
+        }
+        questionsEl.appendChild(wrap);
+      });
+    }
+
+    function updateScore(){ scoreEl.textContent = `Score : ${correct}/${total}`; }
+
+    startBtn.addEventListener('click', ()=>{
+      const mat = matiereSelect.value; if(!mat){ alert('Sélectionne une matière.'); return; }
+      const bank = getBank(mat);
+      if(!bank || !Array.isArray(bank) || bank.length===0){ alert('Banque de questions introuvable pour cette matière.'); return; }
+      titleEl.textContent = mat; quizEl.classList.remove('hide'); render(bank); window.scrollTo({ top: quizEl.offsetTop - 10, behavior:'smooth' });
+    });
+  </script>
+</body>
+</html>
