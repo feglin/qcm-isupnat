@@ -33,11 +33,11 @@ const questionsDeontologie =
         "question": "Quel est le rôle du secret professionnel en naturopathie",
         "options": [
             "Partage des informations du client avec d'autres professionnels sans son consentement",
-            "Protection absolue des informations échangées avec le client, y compris vis-à-vis des membres de sa famille",
+            "Protection absolue des informations échangées avec le client y compris vis-à-vis des membres de sa famille",
             "Divulgation publique des cas cliniques pour éducation",
             "Utilisation des données du client à des fins commerciales"
         ],
-        "correctAnswers": ["Protection absolue des informations échangées avec le client, y compris vis-à-vis des membres de sa famille"],
+        "correctAnswers": ["Protection absolue des informations échangées avec le client y compris vis-à-vis des membres de sa famille"],
         "explanation": "Le secret professionnel en naturopathie est une obligation légale et éthique : toutes les informations échangées avec le client sont confidentielles, même vis-à-vis de sa famille, sauf accord explicite du client.",
         "multiple": false
     },
@@ -69,11 +69,11 @@ const questionsDeontologie =
         "question": "Quel est l'objectif principal du bilan de vitalité en naturopathie",
         "options": [
             "Établir un diagnostic médical",
-            "Évaluer la force vitale, les déséquilibres et les ressources du client pour un accompagnement personnalisé",
+            "Évaluer la force vitale les déséquilibres et les ressources du client pour un accompagnement personnalisé",
             "Prescrire des examens sanguins",
             "Remplacer une consultation médicale"
         ],
-        "correctAnswers": ["Évaluer la force vitale, les déséquilibres et les ressources du client pour un accompagnement personnalisé"],
+        "correctAnswers": ["Évaluer la force vitale les déséquilibres et les ressources du client pour un accompagnement personnalisé"],
         "explanation": "Le bilan de vitalité vise à évaluer la force vitale, les déséquilibres (physiques, émotionnels, environnementaux) et les ressources du client, afin de proposer un accompagnement naturopathique adapté et personnalisé.",
         "multiple": false
     },
@@ -97,11 +97,11 @@ const questionsDeontologie =
         "question": "Quel est le cadre légal de la naturopathie en France",
         "options": [
             "Profession réglementée par l'Ordre des médecins",
-            "Profession libérale non réglementée, soumise au code de déontologie de la FENA",
+            "Profession libérale non réglementée soumise au code de déontologie de la FENA",
             "Interdiction totale d'exercice",
             "Obligation d'être médecin pour pratiquer"
         ],
-        "correctAnswers": ["Profession libérale non réglementée, soumise au code de déontologie de la FENA"],
+        "correctAnswers": ["Profession libérale non réglementée soumise au code de déontologie de la FENA"],
         "explanation": "En France, la naturopathie est une profession libérale non réglementée, encadrée par le code de déontologie de la FENA, sans reconnaissance officielle par l'État (contrairement à d'autres pays européens).",
         "multiple": false
     },
@@ -133,11 +133,11 @@ const questionsDeontologie =
         "question": "Quel est le principe de l'obligation de moyens en naturopathie",
         "options": [
             "Garantir un résultat thérapeutique",
-            "Mettre en œuvre tous les moyens nécessaires pour accompagner le client, sans garantie de résultat",
+            "Mettre en œuvre tous les moyens nécessaires pour accompagner le client sans garantie de résultat",
             "Prescrire des traitements médicaux",
             "Interdire toute formation complémentaire"
         ],
-        "correctAnswers": ["Mettre en œuvre tous les moyens nécessaires pour accompagner le client, sans garantie de résultat"],
+        "correctAnswers": ["Mettre en œuvre tous les moyens nécessaires pour accompagner le client sans garantie de résultat"],
         "explanation": "Le naturopathe est tenu à une obligation de moyens (compétence, diligence, information) et non de résultat, conformément aux principes déontologiques et juridiques des professions libérales.",
         "multiple": false
     },
@@ -161,11 +161,11 @@ const questionsDeontologie =
         "question": "Quel est le rôle de la formation continue pour un naturopathe",
         "options": [
             "Optionnelle et sans impact sur la pratique",
-            "Obligatoire pour maintenir et actualiser ses compétences, conformément à l'article 4 bis du code de déontologie",
+            "Obligatoire pour maintenir et actualiser ses compétences conformément à l'article 4 bis du code de déontologie",
             "Réservée aux naturopathes débutants",
             "Imposée uniquement par les laboratoires de compléments alimentaires"
         ],
-        "correctAnswers": ["Obligatoire pour maintenir et actualiser ses compétences, conformément à l'article 4 bis du code de déontologie"],
+        "correctAnswers": ["Obligatoire pour maintenir et actualiser ses compétences conformément à l'article 4 bis du code de déontologie"],
         "explanation": "La formation continue est une obligation déontologique (article 4 bis) pour tout naturopathe, afin de perfectionner ses connaissances et garantir une pratique professionnelle de qualité.",
         "multiple": false
     },
@@ -197,11 +197,11 @@ const questionsDeontologie =
         "question": "Quel est le cadre éthique pour la publicité d'un naturopathe",
         "options": [
             "Promesses de guérison et témoignages clients",
-            "Information honnête, loyale et non trompeuse sur les compétences et les limites de la pratique",
+            "Information honnête loyale et non trompeuse sur les compétences et les limites de la pratique",
             "Comparaison avec les médecins conventionnels",
             "Utilisation de titres protégés (ex : \"docteur\")"
         ],
-        "correctAnswers": ["Information honnête, loyale et non trompeuse sur les compétences et les limites de la pratique"],
+        "correctAnswers": ["Information honnête loyale et non trompeuse sur les compétences et les limites de la pratique"],
         "explanation": "La publicité d'un naturopathe doit être honnête, loyale et non trompeuse, en évitant toute promesse de résultat ou utilisation de titres protégés (article 8 du code de déontologie).",
         "multiple": false
     },
@@ -221,11 +221,11 @@ const questionsDeontologie =
         "question": "Quel est le principe de la bienveillance et de la confraternité entre naturopathes",
         "options": [
             "Concurrence agressive",
-            "Respect mutuel, entraide et absence de dénigrement entre confrères",
+            "Respect mutuel entraide et absence de dénigrement entre confrères",
             "Partage systématique des dossiers clients",
             "Interdiction de toute collaboration"
         ],
-        "correctAnswers": ["Respect mutuel, entraide et absence de dénigrement entre confrères"],
+        "correctAnswers": ["Respect mutuel entraide et absence de dénigrement entre confrères"],
         "explanation": "La déontologie impose aux naturopathes une attitude de bienveillance, de respect mutuel et d'entraide, sans dénigrement ni concurrence déloyale (article 14 du code de déontologie).",
         "multiple": false
     },
@@ -233,11 +233,11 @@ const questionsDeontologie =
         "question": "Quelle est la règle déontologique concernant les honoraires en naturopathie",
         "options": [
             "Tarifs imposés par l'État",
-            "Liberté de fixation des honoraires, avec transparence et accord préalable du client",
+            "Liberté de fixation des honoraires avec transparence et accord préalable du client",
             "Gratuité obligatoire des consultations",
             "Paiement exclusif en nature"
         ],
-        "correctAnswers": ["Liberté de fixation des honoraires, avec transparence et accord préalable du client"],
+        "correctAnswers": ["Liberté de fixation des honoraires avec transparence et accord préalable du client"],
         "explanation": "Les honoraires en naturopathie sont libres, mais doivent être fixés de manière transparente et avec l'accord du client avant toute prestation (article 6 du code de déontologie).",
         "multiple": false
     },
@@ -285,11 +285,11 @@ const questionsDeontologie =
         "question": "Quelle est la règle concernant la conservation des données clients en naturopathie",
         "options": [
             "Destruction immédiate après la consultation",
-            "Conservation sécurisée et confidentielle, avec respect du RGPD",
+            "Conservation sécurisée et confidentielle avec respect du RGPD",
             "Partage systématique avec les assurances",
             "Utilisation à des fins commerciales"
         ],
-        "correctAnswers": ["Conservation sécurisée et confidentielle, avec respect du RGPD"],
+        "correctAnswers": ["Conservation sécurisée et confidentielle avec respect du RGPD"],
         "explanation": "Les données clients doivent être conservées de manière sécurisée et confidentielle, conformément au RGPD, avec une durée de conservation limitée et justifiée (article 12 du code de déontologie).",
         "multiple": false
     },
@@ -297,11 +297,11 @@ const questionsDeontologie =
         "question": "Quel est le cadre déontologique pour l'utilisation des réseaux sociaux par un naturopathe",
         "options": [
             "Promotion de produits miracles et témoignages clients",
-            "Information objective sur la naturopathie, sans promesse de résultat ni diagnostic",
+            "Information objective sur la naturopathie sans promesse de résultat ni diagnostic",
             "Diagnostic et traitement à distance",
             "Partage des données personnelles des clients"
         ],
-        "correctAnswers": ["Information objective sur la naturopathie, sans promesse de résultat ni diagnostic"],
+        "correctAnswers": ["Information objective sur la naturopathie sans promesse de résultat ni diagnostic"],
         "explanation": "Sur les réseaux sociaux, le naturopathe doit communiquer de manière objective, sans promesse de résultat, diagnostic ou partage de données personnelles, pour respecter les règles déontologiques et légales.",
         "multiple": false
     },
@@ -321,11 +321,11 @@ const questionsDeontologie =
         "question": "Quel est le principe de la relation avec le client en naturopathie",
         "options": [
             "Relation de dépendance",
-            "Relation d'accompagnement bienveillant, basée sur l'écoute active et le respect",
+            "Relation d'accompagnement bienveillant basée sur l'écoute active et le respect",
             "Relation commerciale exclusive",
             "Relation de supériorité hiérarchique"
         ],
-        "correctAnswers": ["Relation d'accompagnement bienveillant, basée sur l'écoute active et le respect"],
+        "correctAnswers": ["Relation d'accompagnement bienveillant basée sur l'écoute active et le respect"],
         "explanation": "La relation avec le client en naturopathie doit être bienveillante, basée sur l'écoute active, le respect et l'autonomie, sans jugement ni manipulation (article 15 du code de déontologie).",
         "multiple": false
     },
@@ -361,11 +361,11 @@ const questionsDeontologie =
         "question": "Quelle est la limite légale de la naturopathie concernant les pathologies lourdes (ex : cancer)",
         "options": [
             "Accompagnement exclusif en remplacement des traitements conventionnels",
-            "Accompagnement complémentaire en hygiène de vie, avec respect des traitements médicaux et collaboration avec l'équipe soignante",
+            "Accompagnement complémentaire en hygiène de vie avec respect des traitements médicaux et collaboration avec l'équipe soignante",
             "Interdiction totale d'accompagner ces clients",
             "Prescription de protocoles alternatifs non validés"
         ],
-        "correctAnswers": ["Accompagnement complémentaire en hygiène de vie, avec respect des traitements médicaux et collaboration avec l'équipe soignante"],
+        "correctAnswers": ["Accompagnement complémentaire en hygiène de vie avec respect des traitements médicaux et collaboration avec l'équipe soignante"],
         "explanation": "Pour les pathologies lourdes, le naturopathe peut accompagner le client en hygiène de vie (nutrition, gestion du stress), mais doit respecter les traitements médicaux en cours et collaborer avec l'équipe soignante, sans jamais se substituer à elle.",
         "multiple": false
     },
@@ -386,7 +386,7 @@ const questionsDeontologie =
         "options": [
             "Utilisation libre et anonyme des témoignages",
             "Interdiction d'utiliser des témoignages sans accord écrit et identifiable du client",
-            "Obligation de publier tous les témoignages, positifs ou négatifs",
+            "Obligation de publier tous les témoignages positifs ou négatifs",
             "Modification des témoignages pour les rendre plus positifs"
         ],
         "correctAnswers": ["Interdiction d'utiliser des témoignages sans accord écrit et identifiable du client"],
@@ -433,11 +433,11 @@ const questionsDeontologie =
         "question": "Quelle est la règle déontologique concernant la publicité comparative en naturopathie",
         "options": [
             "Autorisée si elle met en valeur les avantages de la naturopathie",
-            "Interdite, car elle peut dénigrer d'autres professions ou induire en erreur",
+            "Interdite car elle peut dénigrer d'autres professions ou induire en erreur",
             "Obligatoire pour se différencier",
             "Réservée aux naturopathes expérimentés"
         ],
-        "correctAnswers": ["Interdite, car elle peut dénigrer d'autres professions ou induire en erreur"],
+        "correctAnswers": ["Interdite car elle peut dénigrer d'autres professions ou induire en erreur"],
         "explanation": "La publicité comparative est interdite en naturopathie, car elle risque de dénigrer d'autres professions ou d'induire le public en erreur sur les compétences réelles du naturopathe (article 8 du code de déontologie).",
         "multiple": false
     },
@@ -445,11 +445,11 @@ const questionsDeontologie =
         "question": "Quel est le cadre légal pour l'utilisation des compléments alimentaires en naturopathie",
         "options": [
             "Prescription libre et systématique",
-            "Conseil raisonné, basé sur les besoins du client et sans conflit d'intérêts",
+            "Conseil raisonné basé sur les besoins du client et sans conflit d'intérêts",
             "Interdiction totale",
             "Vente exclusive en ligne"
         ],
-        "correctAnswers": ["Conseil raisonné, basé sur les besoins du client et sans conflit d'intérêts"],
+        "correctAnswers": ["Conseil raisonné basé sur les besoins du client et sans conflit d'intérêts"],
         "explanation": "Les compléments alimentaires doivent être conseillés de manière raisonnée, en fonction des besoins du client et sans conflit d'intérêts (ex : commissions), conformément aux règles déontologiques et légales (règlement UE 2015/2283).",
         "multiple": false
     },
