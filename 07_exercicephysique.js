@@ -1,468 +1,491 @@
-const questionsExercicePhysique = [
+const questionsExercicePhysique =
+[
     {
-        "question": "Quel est le mécanisme physiologique principal par lequel l'exercice physique modéré réduit le stress oxydatif chez les patients souffrant de maladies métaboliques (ex : diabète de type 2) ?",
+        "question": "Quel est le mécanisme biochimique principal par lequel la créatine phosphate régénère l'ATP lors d'un effort anaérobie alactique",
         "options": [
-            "Augmentation de l'expression des enzymes antioxydantes (SOD, catalase) via l'activation de la voie Nrf2",
-            "Inhibition de la production de radicaux libres par la chaîne respiratoire mitochondriale",
-            "Stimulation de la synthèse de glutathion par les hépatocytes",
-            "Réduction de la peroxydation lipidique via l'augmentation de la concentration plasmatique de vitamine E"
+            "Transfert d'un groupe phosphate à l'ADP via la créatine kinase",
+            "Oxydation du glucose en pyruvate",
+            "Hydrolyse de l'ATP en ADP et Pi",
+            "Phosphorylation oxydative mitochondriale"
         ],
-        "correctAnswers": ["Augmentation de l'expression des enzymes antioxydantes (SOD, catalase) via l'activation de la voie Nrf2"],
-        "explanation": "L'exercice modéré active la voie Nrf2, ce qui augmente l'expression des enzymes antioxydantes (SOD, catalase) dans les muscles et autres tissus, réduisant ainsi le stress oxydatif. Il ne bloque pas directement la production de radicaux libres, ne stimule pas spécifiquement la synthèse hépatique de glutathion, et n'augmente pas la vitamine E plasmatique.",
+        "correctAnswers": ["Transfert d'un groupe phosphate à l'ADP via la créatine kinase"],
+        "explanation": "La créatine phosphate (PCr) régénère rapidement l'ATP en transférant un groupe phosphate à l'ADP grâce à l'enzyme créatine kinase, permettant ainsi un effort intense et bref (ex : sprint, haltérophilie).",
         "multiple": false
     },
     {
-        "question": "Quels sont les marqueurs biologiques permettant d'évaluer l'adaptation cardiovasculaire à un programme d'entraînement en endurance chez un sportif amateur ? (3 bonnes réponses)",
+        "question": "Quels sont les effets d'un entraînement en endurance sur le muscle cardiaque (2 bonnes réponses)",
         "options": [
-            "Augmentation de la VO₂ max (consommation maximale d'oxygène)",
-            "Diminution de la fréquence cardiaque au repos (bradycardie d'entraînement)",
-            "Réduction des niveaux de CRP (C-Réactive Protein) sérique",
-            "Augmentation de la variabilité du rythme cardiaque (VRC)",
-            "Diminution de la pression artérielle systolique de repos"
+            "Augmentation de la fréquence cardiaque maximale",
+            "Hypertrophie des ventricules",
+            "Amélioration de la fraction d'éjection",
+            "Diminution du volume d'éjection systolique",
+            "Réduction de la pression artérielle diastolique"
         ],
         "correctAnswers": [
-            "Augmentation de la VO₂ max (consommation maximale d'oxygène)",
-            "Diminution de la fréquence cardiaque au repos (bradycardie d'entraînement)",
-            "Augmentation de la variabilité du rythme cardiaque (VRC)"
+            "Hypertrophie des ventricules",
+            "Amélioration de la fraction d'éjection"
         ],
-        "explanation": "Les marqueurs clés de l'adaptation cardiovasculaire sont : l'augmentation de la VO₂ max (capacité aérobie), la bradycardie de repos (efficacité cardiaque), et l'augmentation de la VRC (équilibre autonome). La CRP est un marqueur inflammatoire non spécifique, et la pression systolique peut diminuer, mais ce n'est pas un marqueur principal.",
+        "explanation": "L'entraînement en endurance induit une hypertrophie physiologique des ventricules (cœur plus efficace) et améliore la fraction d'éjection, optimisant ainsi le débit cardiaque.",
         "multiple": true
     },
     {
-        "question": "Quel est le protocole d'entraînement en résistance (musculation) recommandé pour un patient de 60 ans souffrant de sarcopénie, selon les guidelines de l'ACSM ?",
+        "question": "Quel est le rôle du diaphragme dans la pratique de la respiration abdominale pendant l'effort",
         "options": [
-            "3 séries de 8-12 répétitions à 60-70% de 1RM, 2-3 fois/semaine, avec un repos de 2-3 minutes entre les séries",
-            "2 séries de 15-20 répétitions à 40-50% de 1RM, 3 fois/semaine, avec un repos de 1 minute entre les séries",
-            "4 séries de 6 répétitions à 80% de 1RM, 2 fois/semaine, avec un repos de 4 minutes entre les séries",
-            "1 série de 25 répétitions à 30% de 1RM, tous les jours, sans repos entre les exercices"
+            "Augmenter la pression intra-abdominale",
+            "Optimiser l'oxygénation par une ventilation pulmonaire profonde",
+            "Réduire la circulation lymphatique",
+            "Stimuler la sécrétion d'adrénaline"
         ],
-        "correctAnswers": ["3 séries de 8-12 répétitions à 60-70% de 1RM, 2-3 fois/semaine, avec un repos de 2-3 minutes entre les séries"],
-        "explanation": "Pour la sarcopénie, l'ACSM recommande 3 séries de 8-12 répétitions à 60-70% de 1RM, 2-3 fois/semaine, avec 2-3 minutes de repos (hypertrophie et force). Les autres protocoles sont soit trop légers (15-20 répétitions), soit trop intenses (80% de 1RM), ou inadaptés (quotidien sans repos).",
+        "correctAnswers": ["Optimiser l'oxygénation par une ventilation pulmonaire profonde"],
+        "explanation": "Le diaphragme, muscle principal de la respiration, permet une ventilation pulmonaire profonde en augmentant le volume thoracique, améliorant ainsi l'apport en O2 et l'élimination du CO2 pendant l'effort.",
         "multiple": false
     },
     {
-        "question": "Quels sont les effets de l'entraînement par intervalles à haute intensité (HIIT) sur la sensibilité à l'insuline chez les patients prédiabétiques, selon les méta-analyses récentes ? (2 bonnes réponses)",
+        "question": "Quel est l'effet d'un échauffement progressif sur la prévention des blessures musculaires",
         "options": [
-            "Amélioration de la capture du glucose par les muscles squelettiques via l'activation de l'AMPK",
-            "Augmentation de la sécrétion d'insuline par les cellules β pancréatiques",
-            "Réduction de la résistance à l'insuline hépatique via la diminution des triglycérides intrahépatiques",
-            "Stimulation de la lipogenèse dans le tissu adipeux sous-cutané",
-            "Diminution de la production de glucagon par les cellules α pancréatiques"
+            "Diminution de l'élasticité des tendons",
+            "Augmentation de la température musculaire et de la viscosité du collagène",
+            "Réduction de la circulation sanguine locale",
+            "Inhibition de la synthèse d'ATP"
         ],
-        "correctAnswers": [
-            "Amélioration de la capture du glucose par les muscles squelettiques via l'activation de l'AMPK",
-            "Réduction de la résistance à l'insuline hépatique via la diminution des triglycérides intrahépatiques"
-        ],
-        "explanation": "Le HIIT améliore la sensibilité à l'insuline en activant l'AMPK (capture musculaire du glucose) et en réduisant la résistance hépatique (diminution des triglycérides intrahépatiques). Il ne stimule pas la sécrétion d'insuline, la lipogenèse, ou ne diminue pas le glucagon.",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le mécanisme par lequel l'exercice physique régulier réduit l'inflammation systémique chez les patients souffrant d'obésité métabolique ?",
-        "options": [
-            "Diminution de la sécrétion d'adipokines pro-inflammatoires (ex : IL-6, TNF-α) par le tissu adipeux viscéral",
-            "Augmentation de la production de myokines anti-inflammatoires (ex : irisine, IL-10) par les muscles squelettiques",
-            "Inhibition de la voie NF-κB dans les macrophages via l'élévation des niveaux de cortisol",
-            "Stimulation de la phagocytose des lipopolysaccharides (LPS) par les neutrophiles"
-        ],
-        "correctAnswers": ["Augmentation de la production de myokines anti-inflammatoires (ex : irisine, IL-10) par les muscles squelettiques"],
-        "explanation": "L'exercice réduit l'inflammation en stimulant la production de myokines anti-inflammatoires (ex : irisine, IL-10) par les muscles. La réduction des adipokines est un effet secondaire, et les autres mécanismes (NF-κB, phagocytose des LPS) ne sont pas les principaux impliqués.",
+        "correctAnswers": ["Augmentation de la température musculaire et de la viscosité du collagène"],
+        "explanation": "L'échauffement élève la température musculaire, réduisant la viscosité du collagène et augmentant l'élasticité des tissus conjonctifs, ce qui diminue le risque de déchirures ou d'entorses.",
         "multiple": false
     },
     {
-        "question": "Quels sont les critères de prescription d'un programme d'activité physique adaptée (APA) pour un patient souffrant d'insuffisance cardiaque chronique (classe NYHA II) ? (3 bonnes réponses)",
+        "question": "Quelle filière énergétique est prédominante lors d'un marathon",
         "options": [
-            "Intensité modérée (50-70% de la fréquence cardiaque maximale théorique)",
-            "Durée initiale de 10-15 minutes par séance, avec augmentation progressive",
-            "Fréquence de 3-5 séances par semaine, en évitant les jours consécutifs",
-            "Utilisation exclusive d'exercices en résistance (musculation) pour éviter les risques cardiovasculaires",
-            "Surveillance de la fréquence cardiaque et de la perception de l'effort (échelle de Borg)"
+            "Filière anaérobie alactique",
+            "Filière anaérobie lactique",
+            "Filière aérobie (oxydative)",
+            "Filière des phosphagènes"
         ],
-        "correctAnswers": [
-            "Intensité modérée (50-70% de la fréquence cardiaque maximale théorique)",
-            "Durée initiale de 10-15 minutes par séance, avec augmentation progressive",
-            "Surveillance de la fréquence cardiaque et de la perception de l'effort (échelle de Borg)"
-        ],
-        "explanation": "Pour un patient NYHA II, l'APA doit être d'intensité modérée (50-70% FCmax), avec une durée progressive (10-15 min initially), et une surveillance de la FC et de l'échelle de Borg. La fréquence de 3-5 séances/semaine est correcte, mais les exercices de résistance ne doivent pas être exclusifs (l'endurance est essentielle).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est l'impact d'un entraînement en endurance (60-70% VO₂ max) sur la neurogenèse hippocampique chez les adultes âgés, selon les études en neurosciences ?",
-        "options": [
-            "Augmentation de la production de BDNF (Brain-Derived Neurotrophic Factor) et amélioration de la mémoire spatiale",
-            "Réduction du volume de l'hippocampe via l'apoptose des neurones non fonctionnels",
-            "Stimulation de la différenciation des cellules souches neurales en oligodendrocytes",
-            "Inhibition de la synthèse de sérotonine dans le raphe dorsal"
-        ],
-        "correctAnswers": ["Augmentation de la production de BDNF (Brain-Derived Neurotrophic Factor) et amélioration de la mémoire spatiale"],
-        "explanation": "L'endurance augmente la production de BDNF, favorisant la neurogenèse hippocampique et la mémoire spatiale. Les autres options (réduction du volume hippocampique, différenciation en oligodendrocytes, inhibition de la sérotonine) ne sont pas étayées par les données.",
+        "correctAnswers": ["Filière aérobie (oxydative)"],
+        "explanation": "Le marathon sollicite principalement la filière aérobie, qui utilise l'oxygène pour métaboliser les glucides et les lipides, produisant de l'ATP de manière durable.",
         "multiple": false
     },
     {
-        "question": "Quels sont les effets de la marche nordique sur la posture et l'équilibre chez les patients âgés souffrant de troubles vestibulaires ? (2 bonnes réponses)",
+        "question": "Quels sont les effets d'un entraînement en résistance sur la densité minérale osseuse (2 bonnes réponses)",
         "options": [
-            "Amélioration de la stabilité posturale via l'activation des propriocepteurs des membres supérieurs",
-            "Réduction de la base de sustentation grâce à un meilleur alignement vertébral",
-            "Stimulation du système vestibulaire par les mouvements de rotation du tronc",
-            "Augmentation de la force musculaire des extenseurs du genou",
-            "Diminution de la raideur articulaire des épaules"
+            "Augmentation de la résorption osseuse",
+            "Stimulation de la formation osseuse via l'ostéoblastogenèse",
+            "Réduction du risque d'ostéoporose",
+            "Diminution de la sécrétion de parathormone",
+            "Inhibition de la vitamine D"
         ],
         "correctAnswers": [
-            "Amélioration de la stabilité posturale via l'activation des propriocepteurs des membres supérieurs",
-            "Réduction de la base de sustentation grâce à un meilleur alignement vertébral"
+            "Stimulation de la formation osseuse via l'ostéoblastogenèse",
+            "Réduction du risque d'ostéoporose"
         ],
-        "explanation": "La marche nordique améliore l'équilibre en activant les propriocepteurs des membres supérieurs (via les bâtons) et en réduisant la base de sustentation (meilleur alignement postural). Les autres effets (stimulation vestibulaire, force des genoux, raideur des épaules) sont secondaires ou non spécifiques.",
+        "explanation": "L'entraînement en résistance stimule la formation osseuse en activant les ostéoblastes et réduit le risque d'ostéoporose grâce à l'augmentation de la densité minérale.",
         "multiple": true
     },
     {
-        "question": "Quel est le protocole d'entraînement en résistance recommandé pour une femme ménopausée présentant une ostéoporose confirmée (T-score < -2,5) ?",
+        "question": "Quel est le mécanisme par lequel l'exercice physique réduit le stress oxydatif",
         "options": [
-            "Exercices de charge axiale (ex : squats, step) à 60-70% de 1RM, 3 séries de 8-12 répétitions, 3 fois/semaine, avec un apport en vitamine D3 et calcium",
-            "Exercices isométriques (ex : gainage) à 30% de 1RM, 2 séries de 20 répétitions, quotidiennement",
-            "Exercices de haute intensité (ex : plyométrie) à 80% de 1RM, 4 séries de 6 répétitions, 2 fois/semaine",
-            "Exercices en résistance avec élastiques (faible charge), 1 série de 30 répétitions, 5 fois/semaine"
+            "Inhibition de la SOD (superoxyde dismutase)",
+            "Augmentation de la production de radicaux libres",
+            "Stimulation des antioxydants endogènes (glutathion, catalase)",
+            "Diminution de la consommation d'O2"
         ],
-        "correctAnswers": ["Exercices de charge axiale (ex : squats, step) à 60-70% de 1RM, 3 séries de 8-12 répétitions, 3 fois/semaine, avec un apport en vitamine D3 et calcium"],
-        "explanation": "Pour l'ostéoporose, les exercices de charge axiale (60-70% de 1RM, 3 séries de 8-12 répétitions, 3 fois/semaine) stimulent la formation osseuse. Ils doivent être associés à de la vitamine D3 et du calcium. Les autres protocoles sont soit trop légers (élastiques), soit trop intenses (plyométrie), ou inadaptés (isométrique quotidien).",
+        "correctAnswers": ["Stimulation des antioxydants endogènes (glutathion, catalase)"],
+        "explanation": "L'exercice régulier et modéré stimule la production d'enzymes antioxydantes (SOD, glutathion peroxydase), réduisant ainsi le stress oxydatif et les dommages cellulaires.",
         "multiple": false
     },
     {
-        "question": "Quels sont les mécanismes par lesquels l'exercice physique réduit le risque de cancer du sein chez les femmes post-ménopausées ? (2 bonnes réponses)",
+        "question": "Quel type d'exercice est recommandé pour un sujet de tempérament 'rétracté' avec fatigue surrénalienne",
         "options": [
-            "Diminution des niveaux circulants d'œstrogènes via la réduction de la masse grasse viscérale",
-            "Augmentation de la concentration sérique d'adiponectine (effet anti-prolifératif)",
-            "Inhibition de l'expression des récepteurs HER2/neu dans les cellules mammaires",
-            "Stimulation de l'apoptose des cellules tumorales via l'augmentation de la température corporelle centrale",
-            "Réduction de l'inflammation systémique (diminution de l'IL-6 et du TNF-α)"
+            "HIIT (High-Intensity Interval Training)",
+            "Yoga ou Tai Chi",
+            "Marathon",
+            "Musculation intensive"
         ],
-        "correctAnswers": [
-            "Diminution des niveaux circulants d'œstrogènes via la réduction de la masse grasse viscérale",
-            "Réduction de l'inflammation systémique (diminution de l'IL-6 et du TNF-α)"
-        ],
-        "explanation": "L'exercice réduit le risque de cancer du sein en diminuant les œstrogènes (via la réduction de la graisse viscérale) et l'inflammation systémique (IL-6, TNF-α). Les autres mécanismes (adiponectine, HER2/neu, apoptose par chaleur) ne sont pas les principaux impliqués.",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle de l'entraînement excentrique dans la rééducation des tendinopathies (ex : tendinopathie achilléenne) ?",
-        "options": [
-            "Stimulation de la synthèse de collagène de type I par les ténocytes via l'activation de la voie TGF-β",
-            "Réduction de la néovascularisation et de l'infiltration nerveuse dans le tendon",
-            "Augmentation de la rigidité du tendon par alignement des fibres de collagène",
-            "Inhibition de la production de métalloprotéinases (MMP) par les macrophages"
-        ],
-        "correctAnswers": ["Stimulation de la synthèse de collagène de type I par les ténocytes via l'activation de la voie TGF-β"],
-        "explanation": "L'entraînement excentrique stimule la synthèse de collagène de type I par les ténocytes (via TGF-β), favorisant la réparation tendineuse. Les autres effets (néovascularisation, rigidité, MMP) sont secondaires ou non spécifiques à l'excentrique.",
+        "correctAnswers": ["Yoga ou Tai Chi"],
+        "explanation": "Les sujets 'rétractés' (fatigue surrénalienne, stress chronique) bénéficient d'activités douces comme le yoga ou le Tai Chi, qui restaurent l'équilibre neurovégétatif sans épuisement.",
         "multiple": false
     },
     {
-        "question": "Quels sont les critères de sécurité pour la prescription d'un programme d'exercice physique chez un patient sous traitement anticoagulant (warfarine) ? (3 bonnes réponses)",
+        "question": "Quel est l'impact de l'exercice physique sur la sensibilité à l'insuline",
         "options": [
-            "Éviter les sports de contact ou à risque de chute (ex : arts martiaux, ski alpin)",
-            "Privilégier les activités en endurance modérée (ex : marche, natation) avec surveillance de l'INR",
-            "Contre-indication absolue pour les exercices de résistance (musculation)",
-            "Hydratation adéquate avant, pendant et après l'effort pour éviter l'hémoconcentration",
-            "Port de protections (ex : casque, genouillères) pour les activités à risque modéré (ex : vélo)"
+            "Augmentation de la résistance à l'insuline",
+            "Amélioration de la sensibilité à l'insuline via l'activation de l'AMPK",
+            "Diminution de la sécrétion d'insuline",
+            "Stimulation de la gluconéogenèse hépatique"
         ],
-        "correctAnswers": [
-            "Éviter les sports de contact ou à risque de chute (ex : arts martiaux, ski alpin)",
-            "Privilégier les activités en endurance modérée (ex : marche, natation) avec surveillance de l'INR",
-            "Hydratation adéquate avant, pendant et après l'effort pour éviter l'hémoconcentration"
-        ],
-        "explanation": "Pour un patient sous warfarine, il faut éviter les sports à risque de traumatisme, privilégier l'endurance modérée (avec surveillance de l'INR), et maintenir une hydratation optimale. La musculation n'est pas contre-indiquée (sous supervision), et les protections sont recommandées mais pas suffisantes à elles seules.",
-        "multiple": true
-    },
-    {
-        "question": "Quel est l'impact d'un entraînement combiné (endurance + résistance) sur la composition corporelle chez les patients obèses avec syndrome métabolique ?",
-        "options": [
-            "Diminution de la masse grasse viscérale et augmentation de la masse musculaire squelettique",
-            "Réduction de la masse grasse sous-cutanée sans modification de la masse musculaire",
-            "Augmentation de la dépense énergétique de repos (DER) via l'élévation des niveaux de leptine",
-            "Diminution du tour de taille et amélioration du rapport taille/hanche"
-        ],
-        "correctAnswers": ["Diminution de la masse grasse viscérale et augmentation de la masse musculaire squelettique"],
-        "explanation": "L'entraînement combiné réduit la masse grasse viscérale (risque métabolique) et augmente la masse musculaire (métabolisme). Les autres options (grasse sous-cutanée seule, DER via leptine, tour de taille) sont des effets secondaires ou partiels.",
+        "correctAnswers": ["Amélioration de la sensibilité à l'insuline via l'activation de l'AMPK"],
+        "explanation": "L'exercice active l'AMPK, une kinase qui favorise la translocation des transporteurs GLUT4 vers la membrane cellulaire, améliorant ainsi la captation du glucose et la sensibilité à l'insuline.",
         "multiple": false
     },
     {
-        "question": "Quels sont les effets de l'entraînement en apnée (ex : méthode Wim Hof) sur le système nerveux autonome, selon les études récentes ? (2 bonnes réponses)",
+        "question": "Quels sont les effets d'un entraînement en hypoxie (altitude) sur la performance aérobie (2 bonnes réponses)",
         "options": [
-            "Augmentation de l'activité parasympathique (mesurée par la variabilité du rythme cardiaque)",
-            "Réduction de la réponse inflammatoire systémique (diminution de l'IL-6)",
-            "Stimulation de la sécrétion d'adrénaline par les glandes surrénales",
-            "Inhibition de la production de cortisol salivaire",
-            "Amélioration de la thermogenèse via l'activation de la graisse brune"
+            "Augmentation de la production d'EPO (érythropoïétine)",
+            "Diminution de la capacité de transport de l'O2",
+            "Amélioration de l'efficacité mitochondriale",
+            "Réduction du volume plasmatique",
+            "Augmentation de la lactatémie"
         ],
         "correctAnswers": [
-            "Augmentation de l'activité parasympathique (mesurée par la variabilité du rythme cardiaque)",
-            "Réduction de la réponse inflammatoire systémique (diminution de l'IL-6)"
+            "Augmentation de la production d'EPO (érythropoïétine)",
+            "Amélioration de l'efficacité mitochondriale"
         ],
-        "explanation": "L'entraînement en apnée augmente l'activité parasympathique (VRC) et réduit l'inflammation (IL-6). Les autres effets (adrénaline, cortisol, graisse brune) sont soit transitoires (adrénaline), soit non confirmés (cortisol, graisse brune).",
+        "explanation": "L'entraînement en hypoxie stimule la production d'EPO (augmentant la masse globulaire) et améliore l'efficacité mitochondriale, optimisant ainsi la performance aérobie.",
         "multiple": true
     },
     {
-        "question": "Quel est le protocole d'entraînement en endurance recommandé pour un patient souffrant de BPCO (stade GOLD II) ?",
+        "question": "Quel est le rôle des étirements dynamiques avant un effort",
         "options": [
-            "Marche ou vélo à 40-60% de la puissance maximale aérobie (PMA), 30-40 minutes, 3-5 fois/semaine, avec oxygénothérapie si nécessaire",
-            "Course à pied à 70-80% de la fréquence cardiaque maximale, 20 minutes, 3 fois/semaine",
-            "Natation en eau froide (18°C) à intensité modérée, 2 fois/semaine pendant 30 minutes",
-            "Exercices de haute intensité (HIIT) : 30 secondes à 90% PMA suivies de 3 minutes de récupération, 10 répétitions, 2 fois/semaine"
+            "Augmenter la raideur musculaire",
+            "Améliorer la mobilité articulaire et la performance neuromusculaire",
+            "Réduire la température corporelle",
+            "Inhiber la contraction musculaire"
         ],
-        "correctAnswers": ["Marche ou vélo à 40-60% de la puissance maximale aérobie (PMA), 30-40 minutes, 3-5 fois/semaine, avec oxygénothérapie si nécessaire"],
-        "explanation": "Pour un patient BPCO GOLD II, l'endurance doit être à 40-60% PMA, 30-40 min, 3-5 fois/semaine, avec oxygène si besoin. Les autres protocoles sont soit trop intenses (course, HIIT), soit inadaptés (eau froide).",
+        "correctAnswers": ["Améliorer la mobilité articulaire et la performance neuromusculaire"],
+        "explanation": "Les étirements dynamiques préparent les muscles et articulations à l'effort en améliorant la mobilité, la coordination neuromusculaire et la puissance, sans réduire la force explosive.",
         "multiple": false
     },
     {
-        "question": "Quels sont les mécanismes par lesquels l'exercice physique régulier améliore la fonction cognitive chez les patients âgés souffrant de troubles neurocognitifs légers (MCI) ? (2 bonnes réponses)",
+        "question": "Quel est l'effet d'un entraînement en résistance sur le métabolisme de base",
         "options": [
-            "Augmentation de la perfusion cérébrale dans le cortex préfrontal via l'angiogenèse",
-            "Stimulation de la neurogenèse hippocampique via l'élévation des niveaux de BDNF",
-            "Réduction de la concentration d'amyloïde-β (Aβ) dans le liquide céphalo-rachidien",
-            "Amélioration de la connectivité fonctionnelle entre les lobes temporaux et frontaux",
-            "Inhibition de la phosphorylation de la protéine tau"
+            "Diminution du métabolisme de base",
+            "Augmentation du métabolisme de base via l'hypertrophie musculaire",
+            "Aucun effet sur le métabolisme",
+            "Réduction de la thermogenèse"
         ],
-        "correctAnswers": [
-            "Augmentation de la perfusion cérébrale dans le cortex préfrontal via l'angiogenèse",
-            "Stimulation de la neurogenèse hippocampique via l'élévation des niveaux de BDNF"
-        ],
-        "explanation": "L'exercice améliore la cognition en augmentant la perfusion cérébrale (angiogenèse) et en stimulant la neurogenèse (BDNF). Les autres mécanismes (Aβ, connectivité, tau) sont des hypothèses ou effets secondaires.",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle de l'entraînement en résistance progressive dans la prévention de la sarcopénie chez les personnes âgées ?",
-        "options": [
-            "Stimulation de la synthèse protéique musculaire via l'activation de la voie mTORC1",
-            "Augmentation de la densité minérale osseuse (DMO) par les contraintes mécaniques sur le périoste",
-            "Réduction de l'apoptose des fibres musculaires de type II via l'inhibition des caspases",
-            "Amélioration de la sensibilité à l'insuline dans les muscles squelettiques"
-        ],
-        "correctAnswers": ["Stimulation de la synthèse protéique musculaire via l'activation de la voie mTORC1"],
-        "explanation": "L'entraînement en résistance stimule la synthèse protéique musculaire via mTORC1, prévenant la sarcopénie. Les autres effets (DMO, apoptose, insuline) sont bénéfiques mais secondaires.",
+        "correctAnswers": ["Augmentation du métabolisme de base via l'hypertrophie musculaire"],
+        "explanation": "L'augmentation de la masse musculaire (hypertrophie) suite à un entraînement en résistance élève le métabolisme de base, car le muscle est un tissu métaboliquement actif.",
         "multiple": false
     },
     {
-        "question": "Quels sont les critères de prescription d'un programme d'activité physique pour un patient souffrant de dépression majeure, selon les recommandations de l'OMS ? (3 bonnes réponses)",
+        "question": "Quelle est la filière énergétique principale sollicitée lors d'un effort de 30 secondes à intensité maximale (ex : 200m nage libre)",
         "options": [
-            "Intensité modérée (ex : marche rapide, vélo) à 60-70% de la fréquence cardiaque maximale",
-            "Durée minimale de 30 minutes par séance, 3-5 fois par semaine",
-            "Privilégier les activités en groupe pour favoriser la socialisation",
-            "Éviter les exercices de haute intensité (risque d'aggravation des symptômes)",
-            "Associer systématiquement l'activité physique à une thérapie cognitivo-comportementale (TCC)"
+            "Filière aérobie",
+            "Filière anaérobie lactique",
+            "Filière anaérobie alactique",
+            "Filière des lipides"
         ],
-        "correctAnswers": [
-            "Intensité modérée (ex : marche rapide, vélo) à 60-70% de la fréquence cardiaque maximale",
-            "Durée minimale de 30 minutes par séance, 3-5 fois par semaine",
-            "Privilégier les activités en groupe pour favoriser la socialisation"
-        ],
-        "explanation": "Pour la dépression majeure, l'OMS recommande une intensité modérée (60-70% FCmax), une durée ≥30 min 3-5 fois/semaine, et des activités en groupe (socialisation). Les exercices de haute intensité ne sont pas contre-indiqués (sous supervision), et la TCC est complémentaire mais pas systématique.",
-        "multiple": true
-    },
-    {
-        "question": "Quel est l'impact d'un entraînement en intervalles à haute intensité (HIIT) sur la fonction endothéliale chez les patients hypertendus, selon les méta-analyses récentes ?",
-        "options": [
-            "Amélioration de la fonction endothéliale via l'augmentation de la biodisponibilité du monoxyde d'azote (NO)",
-            "Réduction de la pression artérielle systolique et diastolique de ≥ 10 mmHg",
-            "Diminution de la rigidité artérielle (mesurée par la vitesse de l'onde de pouls)",
-            "Augmentation de la concentration plasmatique d'endothéline-1"
-        ],
-        "correctAnswers": ["Amélioration de la fonction endothéliale via l'augmentation de la biodisponibilité du monoxyde d'azote (NO)"],
-        "explanation": "Le HIIT améliore la fonction endothéliale en augmentant la biodisponibilité du NO. Les autres effets (réduction de la PA, rigidité artérielle) sont possibles mais secondaires, et l'endothéline-1 n'est pas augmentée (elle est généralement réduite).",
+        "correctAnswers": ["Filière anaérobie lactique"],
+        "explanation": "Un effort maximal de 30 secondes sollicite principalement la filière anaérobie lactique, qui produit de l'ATP par glycolyse anaérobie, avec accumulation de lactate.",
         "multiple": false
     },
     {
-        "question": "Quels sont les effets de la pratique régulière du yoga sur le système nerveux autonome chez les patients souffrant de troubles anxieux généralisés (TAG) ? (2 bonnes réponses)",
+        "question": "Quels sont les effets de l'exercice physique sur le système immunitaire (2 bonnes réponses)",
         "options": [
-            "Augmentation de l'activité parasympathique (mesurée par la variabilité du rythme cardiaque)",
-            "Réduction de la sécrétion de cortisol salivaire",
-            "Stimulation de la sécrétion d'adrénaline par la médullosurrénale",
-            "Inhibition de la production de GABA dans le cortex préfrontal",
-            "Diminution de la fréquence des ondes bêta cérébrales (EEG)"
+            "Augmentation de la circulation des lymphocytes",
+            "Diminution de l'activité des cellules NK",
+            "Stimulation de la production d'immunoglobulines",
+            "Réduction de la réponse inflammatoire chronique",
+            "Inhibition de la phagocytose"
         ],
         "correctAnswers": [
-            "Augmentation de l'activité parasympathique (mesurée par la variabilité du rythme cardiaque)",
-            "Réduction de la sécrétion de cortisol salivaire"
+            "Augmentation de la circulation des lymphocytes",
+            "Réduction de la réponse inflammatoire chronique"
         ],
-        "explanation": "Le yoga augmente l'activité parasympathique (VRC) et réduit le cortisol (marqueur de stress). Les autres effets (adrénaline, GABA, ondes bêta) ne sont pas confirmés ou sont opposés à ses bénéfices.",
+        "explanation": "L'exercice modéré augmente la circulation des lymphocytes et réduit l'inflammation chronique, renforçant ainsi l'immunosurveillance. Un exercice excessif peut cependant affaiblir temporairement l'immunité.",
         "multiple": true
     },
     {
-        "question": "Quel est le protocole d'entraînement recommandé pour un patient souffrant de lombalgie chronique non spécifique, selon les guidelines de l'American College of Physicians (ACP) ?",
+        "question": "Quel est le mécanisme par lequel l'exercice physique améliore la santé mentale",
         "options": [
-            "Exercices de stabilisation lombaire (ex : 'bird-dog', planche) et étirements des muscles fléchisseurs de la hanche, 3 fois/semaine pendant 12 semaines",
-            "Renforcement exclusif des muscles abdominaux (ex : crunchs) à haute intensité, 5 fois/semaine",
-            "Mobilisations vertébrales passives en extension, 2 fois/semaine pendant 4 semaines",
-            "Repos strict au lit pendant 2 semaines, suivi d'une reprise progressive"
+            "Diminution de la production de BDNF (Brain-Derived Neurotrophic Factor)",
+            "Augmentation de la neurogenèse hippocampique et de la sécrétion d'endorphines",
+            "Inhibition de la sérotonine",
+            "Réduction de la plasticité synaptique"
         ],
-        "correctAnswers": ["Exercices de stabilisation lombaire (ex : 'bird-dog', planche) et étirements des muscles fléchisseurs de la hanche, 3 fois/semaine pendant 12 semaines"],
-        "explanation": "Pour la lombalgie chronique, l'ACP recommande des exercices de stabilisation lombaire et des étirements des fléchisseurs de la hanche, 3 fois/semaine pendant 12 semaines. Les autres options (abdominaux exclusifs, mobilisations passives, repos strict) sont inefficaces ou contre-indiquées.",
+        "correctAnswers": ["Augmentation de la neurogenèse hippocampique et de la sécrétion d'endorphines"],
+        "explanation": "L'exercice stimule la production de BDNF (favorisant la neurogenèse) et d'endorphines (effet euphorisant), réduisant ainsi l'anxiété et la dépression.",
         "multiple": false
     },
     {
-        "question": "Quels sont les mécanismes par lesquels l'exercice physique réduit le risque de maladie d'Alzheimer chez les personnes âgées ? (2 bonnes réponses)",
+        "question": "Quel type d'exercice est le plus adapté pour un sujet de tempérament 'sanguin' en surpoids",
         "options": [
-            "Augmentation de la production de BDNF (Brain-Derived Neurotrophic Factor) dans l'hippocampe",
-            "Réduction de l'accumulation de plaques amyloïdes via l'activation de la voie de dégradation par les métalloprotéinases",
-            "Stimulation de la neurogenèse dans le gyrus denté via l'élévation des niveaux d'IGF-1",
-            "Inhibition de la phosphorylation de la protéine tau par activation de la protéine kinase A (PKA)",
-            "Amélioration de la perfusion cérébrale dans le cortex temporal"
+            "Activités collectives et variées (ex : danse, sports d'équipe)",
+            "Exercices solitaires et intenses (ex : marathon)",
+            "Séances de musculation statique",
+            "Yoga passif"
         ],
-        "correctAnswers": [
-            "Augmentation de la production de BDNF (Brain-Derived Neurotrophic Factor) dans l'hippocampe",
-            "Stimulation de la neurogenèse dans le gyrus denté via l'élévation des niveaux d'IGF-1"
-        ],
-        "explanation": "L'exercice réduit le risque d'Alzheimer en augmentant le BDNF (neuroprotection) et en stimulant la neurogenèse (IGF-1). Les autres mécanismes (amyloïdes, tau, perfusion temporale) sont des hypothèses ou effets secondaires.",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle de l'entraînement en résistance (musculation) dans la gestion du diabète de type 2, selon les dernières méta-analyses ?",
-        "options": [
-            "Amélioration de la sensibilité à l'insuline dans les muscles squelettiques via l'activation de la voie PI3K/Akt",
-            "Augmentation de la sécrétion d'insuline par les cellules β pancréatiques",
-            "Réduction de la glycémie à jeun via l'augmentation de la captation du glucose par le foie",
-            "Diminution de la résistance à l'insuline hépatique par inhibition de la gluconéogenèse"
-        ],
-        "correctAnswers": ["Amélioration de la sensibilité à l'insuline dans les muscles squelettiques via l'activation de la voie PI3K/Akt"],
-        "explanation": "L'entraînement en résistance améliore la sensibilité à l'insuline dans les muscles via la voie PI3K/Akt. Les autres effets (sécrétion d'insuline, captation hépatique, gluconéogenèse) ne sont pas les principaux mécanismes.",
+        "correctAnswers": ["Activités collectives et variées (ex : danse, sports d'équipe)"],
+        "explanation": "Les sujets 'sanguins' (extravertis, sociables) bénéficient d'activités dynamiques et variées, comme les sports collectifs ou la danse, qui maintiennent leur motivation et favorisent l'adhérence.",
         "multiple": false
     },
     {
-        "question": "Quels sont les critères de sécurité pour la prescription d'un programme d'exercice physique chez un patient souffrant d'épilepsie contrôlée par traitement (sans crise depuis 1 an) ? (3 bonnes réponses)",
+        "question": "Quel est l'impact d'un entraînement en endurance sur la pression artérielle",
         "options": [
-            "Éviter les sports à risque de traumatisme crânien (ex : boxe, sports de combat)",
-            "Privilégier les activités en endurance modérée (ex : marche, natation) avec surveillance de l'électrolytémie",
-            "Contre-indication absolue pour les exercices en résistance (musculation)",
-            "Hydratation adéquate avant, pendant et après l'effort pour éviter les déséquilibres hydro-électrolytiques",
-            "Port d'un casque et de protections pour les activités à risque modéré (ex : vélo, ski)"
+            "Augmentation de la pression systolique",
+            "Diminution de la pression artérielle au repos",
+            "Aucun effet sur la pression artérielle",
+            "Augmentation de la rigidité artérielle"
         ],
-        "correctAnswers": [
-            "Éviter les sports à risque de traumatisme crânien (ex : boxe, sports de combat)",
-            "Privilégier les activités en endurance modérée (ex : marche, natation) avec surveillance de l'électrolytémie",
-            "Hydratation adéquate avant, pendant et après l'effort pour éviter les déséquilibres hydro-électrolytiques"
-        ],
-        "explanation": "Pour un patient épileptique contrôlé, il faut éviter les sports à risque de traumatisme crânien, privilégier l'endurance modérée (avec surveillance), et maintenir une hydratation optimale. La musculation n'est pas contre-indiquée (sous supervision), et les protections sont recommandées mais pas suffisantes à elles seules.",
-        "multiple": true
-    },
-    {
-        "question": "Quel est l'impact d'un entraînement combiné (endurance + résistance) sur le profil lipidique chez les patients dyslipidémiques (hypercholestérolémie familiale hétérozygote) ?",
-        "options": [
-            "Réduction des niveaux de LDL-cholestérol et augmentation des HDL-cholestérol",
-            "Diminution des triglycérides et augmentation des VLDL",
-            "Augmentation de la taille des particules de LDL (passage de LDL petites et denses à LDL larges)",
-            "Inhibition de l'activité de la HMG-CoA réductase (enzyme clé de la synthèse du cholestérol)"
-        ],
-        "correctAnswers": ["Réduction des niveaux de LDL-cholestérol et augmentation des HDL-cholestérol"],
-        "explanation": "L'entraînement combiné améliore le profil lipidique en réduisant le LDL et en augmentant le HDL. Les autres effets (triglycérides/VLDL, taille des LDL, HMG-CoA réductase) ne sont pas les principaux mécanismes ou ne sont pas confirmés.",
+        "correctAnswers": ["Diminution de la pression artérielle au repos"],
+        "explanation": "L'entraînement en endurance améliore la compliance artérielle et réduit la résistance périphérique, entraînant une baisse de la pression artérielle au repos.",
         "multiple": false
     },
     {
-        "question": "Quels sont les effets de l'entraînement en apnée (ex : méthode Wim Hof) sur le système immunitaire, selon les études cliniques récentes ? (2 bonnes réponses)",
+        "question": "Quels sont les effets d'un entraînement plyométrique sur la puissance musculaire (2 bonnes réponses)",
         "options": [
-            "Réduction de la réponse inflammatoire systémique (diminution de l'IL-6 et du TNF-α)",
-            "Augmentation de la production de cytokines anti-inflammatoires (ex : IL-10)",
-            "Stimulation de la prolifération des lymphocytes T cytotoxiques (CD8⁺)",
-            "Inhibition de la phagocytose par les macrophages alvéolaires",
-            "Diminution de la concentration sérique d'immunoglobulines A (IgA)"
+            "Augmentation de la force explosive",
+            "Réduction de la raideur tendineuse",
+            "Amélioration du cycle étirement-raccourcissement",
+            "Diminution de la coordination intermusculaire",
+            "Augmentation de la fatigue centrale"
         ],
         "correctAnswers": [
-            "Réduction de la réponse inflammatoire systémique (diminution de l'IL-6 et du TNF-α)",
-            "Augmentation de la production de cytokines anti-inflammatoires (ex : IL-10)"
+            "Augmentation de la force explosive",
+            "Amélioration du cycle étirement-raccourcissement"
         ],
-        "explanation": "L'entraînement en apnée réduit l'inflammation (IL-6, TNF-α) et augmente les cytokines anti-inflammatoires (IL-10). Les autres effets (lymphocytes CD8⁺, phagocytose, IgA) ne sont pas confirmés ou sont opposés aux bénéfices observés.",
+        "explanation": "L'entraînement plyométrique (sauts, bonds) améliore la force explosive et optimise le cycle étirement-raccourcissement, essentiel pour les mouvements rapides et puissants.",
         "multiple": true
     },
     {
-        "question": "Quel est le protocole d'entraînement recommandé pour un patient souffrant de Parkinson idiopathique (stade Hoehn & Yahr II), selon les recommandations de l'American Academy of Neurology ?",
+        "question": "Quel est le rôle de la marche afghane dans la récupération active",
         "options": [
-            "Exercices d'équilibre et de marche (ex : tai-chi, marche nordique) à raison de 3 séances de 45-60 minutes par semaine, avec emphasis sur les mouvements amples et la coordination",
-            "Entraînement en résistance (musculation) à haute intensité (80% de 1RM), 3 fois/semaine",
-            "Exercices aérobies de haute intensité (HIIT), 2 fois/semaine pendant 20 minutes",
-            "Repos strict avec évitement de tout effort physique pour limiter la fatigue"
+            "Augmenter la lactatémie",
+            "Optimiser l'oxygénation et la circulation de retour",
+            "Réduire la fréquence cardiaque maximale",
+            "Inhiber la respiration diaphragmatique"
         ],
-        "correctAnswers": ["Exercices d'équilibre et de marche (ex : tai-chi, marche nordique) à raison de 3 séances de 45-60 minutes par semaine, avec emphasis sur les mouvements amples et la coordination"],
-        "explanation": "Pour Parkinson stade II, les exercices d'équilibre et de marche (tai-chi, marche nordique) sont recommandés, 3 fois/semaine, avec des mouvements amples. Les autres protocoles (résistance haute intensité, HIIT, repos strict) sont soit trop intenses, soit inadaptés.",
+        "correctAnswers": ["Optimiser l'oxygénation et la circulation de retour"],
+        "explanation": "La marche afghane (synchronisation respiration/pas) améliore l'oxygénation, active la circulation veineuse et lymphatique, et favorise l'élimination des métabolites post-effort.",
         "multiple": false
     },
     {
-        "question": "Quels sont les mécanismes par lesquels l'exercice physique régulier réduit le risque de cancer colorectal ? (2 bonnes réponses)",
+        "question": "Quel est l'effet d'un entraînement en apnée sur la capacité pulmonaire",
         "options": [
-            "Accélération du transit intestinal et réduction du temps de contact des carcinogènes avec la muqueuse colique",
-            "Augmentation de la concentration sérique de butyrate (acide gras à chaîne courte produit par le microbiote)",
-            "Inhibition de la prolifération des cellules épithéliales coliques via la réduction des niveaux d'IGF-1",
-            "Stimulation de l'apoptose des cellules tumorales par l'élévation de la température corporelle centrale",
-            "Réduction de l'inflammation locale (diminution de l'IL-6 dans la muqueuse colique)"
+            "Diminution du volume résiduel",
+            "Augmentation de la capacité vitale et de la tolérance à l'hypoxie",
+            "Réduction de la compliance thoracique",
+            "Stimulation de la bronchoconstriction"
         ],
-        "correctAnswers": [
-            "Accélération du transit intestinal et réduction du temps de contact des carcinogènes avec la muqueuse colique",
-            "Réduction de l'inflammation locale (diminution de l'IL-6 dans la muqueuse colique)"
-        ],
-        "explanation": "L'exercice réduit le risque de cancer colorectal en accélérant le transit (moins de contact avec les carcinogènes) et en réduisant l'inflammation locale (IL-6). Les autres mécanismes (butyrate, IGF-1, apoptose par chaleur) ne sont pas les principaux impliqués.",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle de l'entraînement en endurance (60-70% VO₂ max) dans la prévention des maladies neurodégénératives (ex : Alzheimer, Parkinson) ?",
-        "options": [
-            "Stimulation de la neurogenèse hippocampique via l'augmentation des niveaux de BDNF",
-            "Réduction de l'accumulation de protéines mal repliées (ex : α-synucléine, tau) par activation de la voie ubiquitine-protéasome",
-            "Amélioration de la perfusion cérébrale dans les régions corticales et sous-corticales",
-            "Inhibition de la microglie activée via la réduction de la production de cytokines pro-inflammatoires"
-        ],
-        "correctAnswers": ["Stimulation de la neurogenèse hippocampique via l'augmentation des niveaux de BDNF"],
-        "explanation": "L'endurance stimule la neurogenèse via le BDNF, ce qui contribue à la prévention des maladies neurodégénératives. Les autres mécanismes (protéines mal repliées, perfusion cérébrale, microglie) sont des hypothèses ou effets secondaires.",
+        "correctAnswers": ["Augmentation de la capacité vitale et de la tolérance à l'hypoxie"],
+        "explanation": "L'entraînement en apnée améliore la capacité vitale (volume d'air mobilisable) et la tolérance à l'hypoxie en stimulant l'efficacité des échanges gazeux et la vasoconstriction pulmonaire.",
         "multiple": false
     },
     {
-        "question": "Quels sont les critères de prescription d'un programme d'activité physique pour un patient souffrant de sclérose en plaques (SEP) avec un score EDSS de 4,0 ? (3 bonnes réponses)",
+        "question": "Quelle est la contre-indication absolue à un entraînement en résistance pour un sujet présentant une hernie discale lombaire non opérée",
         "options": [
-            "Privilégier les exercices en endurance modérée (ex : vélo, natation) à 50-60% de la fréquence cardiaque maximale",
-            "Inclure des exercices d'équilibre et de coordination (ex : yoga, tai-chi) pour réduire le risque de chutes",
-            "Éviter les environnements chauds ou humides (risque d'aggravation des symptômes par le phénomène d'Uhthoff)",
-            "Recommander des séances de 60 minutes minimum, 5 fois par semaine",
-            "Associer systématiquement l'activité physique à une supplémentation en vitamine D3"
+            "Exercices de squat lourd",
+            "Exercices de gainage abdominal hypopressif",
+            "Étirements passifs des ischio-jambiers",
+            "Marche en terrain plat"
         ],
-        "correctAnswers": [
-            "Privilégier les exercices en endurance modérée (ex : vélo, natation) à 50-60% de la fréquence cardiaque maximale",
-            "Inclure des exercices d'équilibre et de coordination (ex : yoga, tai-chi) pour réduire le risque de chutes",
-            "Éviter les environnements chauds ou humides (risque d'aggravation des symptômes par le phénomène d'Uhthoff)"
-        ],
-        "explanation": "Pour un patient SEP (EDSS 4,0), il faut privilégier l'endurance modérée (50-60% FCmax), inclure des exercices d'équilibre, et éviter la chaleur/humidité (Uhthoff). Les séances de 60 min 5 fois/semaine sont trop intenses, et la vitamine D3 est recommandée mais pas systématique dans la prescription d'activité physique.",
-        "multiple": true
-    },
-    {
-        "question": "Quel est l'impact d'un entraînement en résistance progressive sur la densité minérale osseuse (DMO) chez les femmes post-ménopausées ostéopéniques ?",
-        "options": [
-            "Augmentation de la DMO au niveau de la hanche et de la colonne lombaire via les contraintes mécaniques sur le périoste",
-            "Réduction de la résorption osseuse par inhibition de l'activité des ostéoclastes",
-            "Stimulation de la sécrétion de parathormone (PTH) par les glandes parathyroïdes",
-            "Amélioration de la microarchitecture osseuse trabéculaire via l'augmentation de l'expression de l'ostéocalcine"
-        ],
-        "correctAnswers": ["Augmentation de la DMO au niveau de la hanche et de la colonne lombaire via les contraintes mécaniques sur le périoste"],
-        "explanation": "La résistance progressive augmente la DMO (hanche, colonne lombaire) via les contraintes mécaniques. Les autres effets (résorption, PTH, ostéocalcine) sont secondaires ou non confirmés.",
+        "correctAnswers": ["Exercices de squat lourd"],
+        "explanation": "Les exercices de squat lourd augmentent la pression intradiscale et le risque d'aggravation de la hernie discale. Le gainage hypopressif est préférable pour stabiliser la colonne.",
         "multiple": false
     },
     {
-        "question": "Quels sont les effets de la pratique du qi gong sur la fonction respiratoire chez les patients souffrant de BPCO (stade GOLD II) ? (2 bonnes réponses)",
+        "question": "Quel est le mécanisme par lequel l'exercice physique réduit le risque de diabète de type 2",
         "options": [
-            "Amélioration de la capacité vitale forcée (CVF) et du volume expiratoire maximal par seconde (VEMS)",
-            "Réduction de la dyspnée (essoufflement) via l'optimisation du recrutement des muscles respiratoires accessoires",
-            "Augmentation de la pression partielle en CO₂ (PaCO₂) dans le sang artériel",
-            "Diminution de la fréquence respiratoire au repos",
-            "Stimulation de la sécrétion de surfactant pulmonaire par les pneumocytes de type II"
+            "Inhibition de la sécrétion d'insuline",
+            "Augmentation de l'expression des transporteurs GLUT4",
+            "Diminution de la sensibilité à la leptine",
+            "Stimulation de la gluconéogenèse"
+        ],
+        "correctAnswers": ["Augmentation de l'expression des transporteurs GLUT4"],
+        "explanation": "L'exercice stimule la translocation des transporteurs GLUT4 vers la membrane cellulaire, améliorant la captation du glucose par les muscles et réduisant la résistance à l'insuline.",
+        "multiple": false
+    },
+    {
+        "question": "Quels sont les effets d'un entraînement en HIIT sur le métabolisme (2 bonnes réponses)",
+        "options": [
+            "Augmentation de la consommation maximale d'O2 (VO2 max)",
+            "Diminution de la capacité oxydative mitochondriale",
+            "Stimulation de la lipolyse post-effort",
+            "Réduction de la glycogénolyse",
+            "Augmentation de la lactatémie à l'effort"
         ],
         "correctAnswers": [
-            "Amélioration de la capacité vitale forcée (CVF) et du volume expiratoire maximal par seconde (VEMS)",
-            "Réduction de la dyspnée (essoufflement) via l'optimisation du recrutement des muscles respiratoires accessoires"
+            "Augmentation de la consommation maximale d'O2 (VO2 max)",
+            "Stimulation de la lipolyse post-effort"
         ],
-        "explanation": "Le qi gong améliore la CVF/VEMS et réduit la dyspnée (meilleur recrutement musculaire). Les autres effets (PaCO₂, fréquence respiratoire, surfactant) ne sont pas confirmés ou sont opposés aux bénéfices.",
+        "explanation": "Le HIIT améliore la VO2 max et stimule la lipolyse pendant la phase de récupération (effet 'afterburn'), favorisant ainsi la perte de graisse.",
         "multiple": true
     },
     {
-        "question": "Quel est le protocole d'entraînement recommandé pour un patient souffrant de syndrome métabolique avec résistance à l'insuline, selon les guidelines de l'IDF ?",
+        "question": "Quel est l'impact d'un entraînement en altitude sur la production de globules rouges",
         "options": [
-            "Combinaison d'endurance modérée (ex : marche rapide, 60-70% FCmax) et de résistance (ex : musculation, 60-70% 1RM), 3-5 fois/semaine, avec un volume total ≥ 150 minutes/semaine",
-            "Entraînement en endurance exclusive (ex : vélo) à 80-90% FCmax, 3 fois/semaine pendant 30 minutes",
-            "Exercices de haute intensité (HIIT) 3 fois/semaine, avec des intervalles de 30 secondes à 95% FCmax",
-            "Repos strict avec évitement de tout effort physique pour limiter le stress oxydatif"
+            "Diminution de l'érythropoïèse",
+            "Augmentation de la sécrétion d'EPO et de la masse globulaire",
+            "Aucun effet sur l'hématocrite",
+            "Réduction de la saturation en O2 de l'hémoglobine"
         ],
-        "correctAnswers": ["Combinaison d'endurance modérée (ex : marche rapide, 60-70% FCmax) et de résistance (ex : musculation, 60-70% 1RM), 3-5 fois/semaine, avec un volume total ≥ 150 minutes/semaine"],
-        "explanation": "Pour le syndrome métabolique, l'IDF recommande une combinaison d'endurance modérée et de résistance, 3-5 fois/semaine, pour un volume ≥150 min/semaine. Les autres protocoles (endurance exclusive à haute intensité, HIIT, repos) sont soit trop intenses, soit inadaptés.",
+        "correctAnswers": ["Augmentation de la sécrétion d'EPO et de la masse globulaire"],
+        "explanation": "L'hypoxie en altitude stimule la sécrétion d'EPO, hormone qui augmente la production de globules rouges et l'hématocrite, améliorant ainsi le transport de l'O2.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le rôle des exercices de mobilité articulaire dans la prévention des blessures",
+        "options": [
+            "Réduction de l'amplitude articulaire",
+            "Amélioration de la proprioception et de la lubrification synoviale",
+            "Augmentation de la raideur musculaire",
+            "Inhibition de la synthèse de collagène"
+        ],
+        "correctAnswers": ["Amélioration de la proprioception et de la lubrification synoviale"],
+        "explanation": "Les exercices de mobilité articulaire stimulent la production de liquide synovial, améliorent la proprioception et réduisent les risques de blessures liées aux mouvements brusques.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est l'effet d'un entraînement en endurance sur la variabilité cardiaque",
+        "options": [
+            "Diminution de la variabilité cardiaque",
+            "Augmentation de la variabilité cardiaque (marqueur de santé autonome)",
+            "Aucun effet sur le système nerveux autonome",
+            "Stimulation exclusive du système sympathique"
+        ],
+        "correctAnswers": ["Augmentation de la variabilité cardiaque (marqueur de santé autonome)"],
+        "explanation": "L'entraînement en endurance améliore l'équilibre entre système sympathique et parasympathique, augmentant ainsi la variabilité cardiaque, un indicateur de bonne santé cardiovasculaire.",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la stratégie nutritionnelle optimale pour un effort d'endurance de 2 heures",
+        "options": [
+            "Apport exclusif de protéines avant l'effort",
+            "Consommation de glucides à IG bas avant et pendant l'effort",
+            "Jeûne hydrique",
+            "Apport lipidique unique"
+        ],
+        "correctAnswers": ["Consommation de glucides à IG bas avant et pendant l'effort"],
+        "explanation": "Pour un effort d'endurance, les glucides à IG bas (ex : flocons d'avoine, banane) maintiennent une glycémie stable, tandis qu'un apport pendant l'effort (ex : boisson isotonique) retarde la fatigue.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le mécanisme par lequel le Qi Gong améliore la santé respiratoire",
+        "options": [
+            "Augmentation de la fréquence respiratoire",
+            "Optimisation de la ventilation diaphragmatique et de l'oxygénation",
+            "Réduction de la capacité vitale",
+            "Stimulation de l'hyperventilation"
+        ],
+        "correctAnswers": ["Optimisation de la ventilation diaphragmatique et de l'oxygénation"],
+        "explanation": "Le Qi Gong, par ses mouvements lents et sa respiration profonde, améliore la mobilité diaphragmatique, la capacité pulmonaire et l'efficacité des échanges gazeux.",
+        "multiple": false
+    },
+    {
+        "question": "Quels sont les effets d'un entraînement en musculation sur le métabolisme glucidique (2 bonnes réponses)",
+        "options": [
+            "Augmentation de la sensibilité à l'insuline",
+            "Diminution de la capacité de stockage du glycogène",
+            "Stimulation de la glycolyse anaérobie",
+            "Réduction de la synthèse de glucose hépatique",
+            "Augmentation de la gluconéogenèse"
+        ],
+        "correctAnswers": [
+            "Augmentation de la sensibilité à l'insuline",
+            "Stimulation de la glycolyse anaérobie"
+        ],
+        "explanation": "La musculation améliore la sensibilité à l'insuline (meilleure captation du glucose) et stimule la glycolyse anaérobie lors d'efforts intenses, augmentant ainsi la capacité à métaboliser les glucides.",
+        "multiple": true
+    },
+    {
+        "question": "Quel est l'impact d'un entraînement en apnée sur la pression partielle de CO2",
+        "options": [
+            "Diminution de la PCO2",
+            "Augmentation de la tolérance à l'hypercapnie",
+            "Aucun effet sur la PCO2",
+            "Stimulation de l'hypocapnie"
+        ],
+        "correctAnswers": ["Augmentation de la tolérance à l'hypercapnie"],
+        "explanation": "L'entraînement en apnée habitue l'organisme à une élévation de la PCO2 (hypercapnie), améliorant ainsi la tolérance et réduisant le réflexe de ventilation excessive.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le rôle des exercices de gainage dans la prévention des lombalgies",
+        "options": [
+            "Affaiblissement des muscles profonds du tronc",
+            "Renforcement des muscles stabilisateurs du rachis et réduction des contraintes discales",
+            "Augmentation de la lordose lombaire",
+            "Inhibition de la proprioception"
+        ],
+        "correctAnswers": ["Renforcement des muscles stabilisateurs du rachis et réduction des contraintes discales"],
+        "explanation": "Le gainage renforce les muscles profonds (transverse, multifides) qui stabilisent la colonne lombaire, réduisant ainsi les risques de lombalgies mécaniques.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est l'effet d'un entraînement en hypoxie intermittente sur la performance aérobie",
+        "options": [
+            "Diminution de la VO2 max",
+            "Amélioration de l'efficacité mitochondriale et de la capacité de transport de l'O2",
+            "Augmentation de la lactatémie",
+            "Réduction de la densité capillaire musculaire"
+        ],
+        "correctAnswers": ["Amélioration de l'efficacité mitochondriale et de la capacité de transport de l'O2"],
+        "explanation": "L'hypoxie intermittente stimule la biogenèse mitochondriale et la production d'EPO, améliorant ainsi la capacité aérobie et l'endurance.",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la contre-indication relative à un entraînement plyométrique pour un sujet présentant une tendinopathie achilléenne",
+        "options": [
+            "Exercices de sauts sur surface dure",
+            "Étirements passifs du mollet",
+            "Renforcement excentrique du triceps sural",
+            "Marche en montée"
+        ],
+        "correctAnswers": ["Exercices de sauts sur surface dure"],
+        "explanation": "Les sauts plyométriques sur surface dure augmentent les contraintes sur le tendon d'Achille et risquent d'aggraver la tendinopathie. Le renforcement excentrique est préférable pour la rééducation.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le mécanisme par lequel l'exercice physique réduit l'inflammation chronique",
+        "options": [
+            "Augmentation de la production de cytokines pro-inflammatoires",
+            "Stimulation de la sécrétion d'IL-6 anti-inflammatoire par les muscles",
+            "Inhibition de la phagocytose",
+            "Réduction de la production de cortisol"
+        ],
+        "correctAnswers": ["Stimulation de la sécrétion d'IL-6 anti-inflammatoire par les muscles"],
+        "explanation": "L'exercice musculaire libère de l'IL-6, qui inhibe la production de TNF-α et d'IL-1β, réduisant ainsi l'inflammation systémique.",
+        "multiple": false
+    },
+    {
+        "question": "Quels sont les effets d'un entraînement en résistance sur le métabolisme osseux chez la femme ménopausée (2 bonnes réponses)",
+        "options": [
+            "Augmentation de la résorption osseuse",
+            "Stimulation de la formation osseuse via l'ostéoblastogenèse",
+            "Réduction du risque de fractures ostéoporotiques",
+            "Diminution de la densité minérale",
+            "Inhibition de la vitamine D"
+        ],
+        "correctAnswers": [
+            "Stimulation de la formation osseuse via l'ostéoblastogenèse",
+            "Réduction du risque de fractures ostéoporotiques"
+        ],
+        "explanation": "L'entraînement en résistance stimule l'ostéoblastogenèse et augmente la densité minérale osseuse, réduisant ainsi le risque de fractures liées à l'ostéoporose post-ménopausique.",
+        "multiple": true
+    },
+    {
+        "question": "Quel est l'impact d'un entraînement en endurance sur la santé cognitive",
+        "options": [
+            "Diminution de la neurogenèse hippocampique",
+            "Augmentation de la production de BDNF et amélioration des fonctions exécutives",
+            "Réduction de la plasticité synaptique",
+            "Inhibition de la mémoire à long terme"
+        ],
+        "correctAnswers": ["Augmentation de la production de BDNF et amélioration des fonctions exécutives"],
+        "explanation": "L'exercice aérobie stimule la production de BDNF, favorise la neurogenèse dans l'hippocampe et améliore les fonctions cognitives (mémoire, attention).",
+        "multiple": false
+    },
+    {
+        "question": "Quel type d'exercice est le plus adapté pour un sujet de tempérament 'nerveux' avec hypertonie musculaire",
+        "options": [
+            "HIIT",
+            "Pilates ou étirements dynamiques",
+            "Musculation intensive",
+            "Course à pied en dénivelé"
+        ],
+        "correctAnswers": ["Pilates ou étirements dynamiques"],
+        "explanation": "Les sujets 'nerveux' (hypertonie, stress) bénéficient d'activités douces et contrôlées comme le Pilates ou les étirements, qui réduisent les tensions musculaires et apaisent le système nerveux.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le rôle de la récupération active dans la prévention des courbatures",
+        "options": [
+            "Augmentation de la lactatémie",
+            "Amélioration de la circulation sanguine et de l'élimination des métabolites",
+            "Réduction de la synthèse protéique",
+            "Inhibition de la réparation musculaire"
+        ],
+        "correctAnswers": ["Amélioration de la circulation sanguine et de l'élimination des métabolites"],
+        "explanation": "La récupération active (ex : marche, étirements) maintient une circulation sanguine optimale, favorisant l'élimination des déchets métaboliques (lactate) et réduisant les douleurs musculaires retardées.",
         "multiple": false
     }
 ]

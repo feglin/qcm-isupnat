@@ -1,469 +1,471 @@
-const questionsHydrologie = [
+const questionsHydrologie =
+[
     {
-        "question": "Quel est le mécanisme physiologique principal par lequel un bain chaud (38-40°C) réduit les douleurs musculaires et articulaires chez les patients souffrant de fibromyalgie ?",
+        "question": "Quel est le mécanisme physiologique principal par lequel un bain hypercalorique à 43°C réduit les douleurs articulaires",
         "options": [
-            "Augmentation de la circulation sanguine locale via la vasodilatation et inhibition des récepteurs nociceptifs TRPV1",
-            "Stimulation de la sécrétion d'endorphines par l'hypothalamus via l'activation des thermorécepteurs cutanés",
-            "Réduction de la viscosité du liquide synovial et amélioration de la mobilité articulaire",
-            "Inhibition de la production de cytokines pro-inflammatoires (IL-6, TNF-α) par les macrophages"
+            "Inhibition de la production de prostaglandines",
+            "Vasodilatation cutanée et musculaire avec augmentation de la circulation locale",
+            "Stimulation de la sécrétion d'adrénaline",
+            "Diminution de la température corporelle centrale"
         ],
-        "correctAnswers": ["Augmentation de la circulation sanguine locale via la vasodilatation et inhibition des récepteurs nociceptifs TRPV1"],
-        "explanation": "Un bain chaud (38-40°C) soulage les douleurs musculaires et articulaires en augmentant la circulation sanguine locale (vasodilatation) et en inhibant les récepteurs TRPV1 (impliqués dans la transmission de la douleur). La sécrétion d'endorphines est un effet secondaire, et les autres mécanismes (liquide synovial, cytokines) ne sont pas les principaux impliqués.",
+        "correctAnswers": ["Vasodilatation cutanée et musculaire avec augmentation de la circulation locale"],
+        "explanation": "Un bain hypercalorique provoque une vasodilatation des vaisseaux cutanés et musculaires, ce qui augmente la circulation sanguine locale, réduit les spasmes musculaires et favorise l'élimination des métabolites inflammatoires responsables des douleurs articulaires.",
         "multiple": false
     },
     {
-        "question": "Quels sont les critères de qualité d'une eau thermale sulfureuse (ex : Saint-Gervais-les-Bains) pour une utilisation en cure de balnéothérapie dans le traitement des dermatoses (psoriasis, eczéma) ? (3 bonnes réponses)",
+        "question": "Quels sont les effets physiologiques d'une douche écossaise (alternance chaud/froid) sur le système cardiovasculaire (2 bonnes réponses)",
         "options": [
-            "Concentration en hydrogène sulfuré (H₂S) ≥ 1 mg/L",
-            "pH légèrement acide (6,0-6,5) pour préserver l'intégrité du film hydrolipidique cutané",
-            "Température à la source ≥ 35°C pour une action vasodilatatrice optimale",
-            "Présence de bactéries sulfuro-réductrices (ex : Desulfovibrio) en concentration < 10 UFC/mL",
-            "Teneur en sels minéraux (Na⁺, K⁺) ≤ 500 mg/L pour éviter les irritations"
+            "Amélioration de la variabilité cardiaque",
+            "Augmentation de la pression artérielle diastolique",
+            "Stimulation de la circulation capillaire",
+            "Diminution du débit cardiaque",
+            "Réduction de la fréquence cardiaque au repos"
         ],
         "correctAnswers": [
-            "Concentration en hydrogène sulfuré (H₂S) ≥ 1 mg/L",
-            "pH légèrement acide (6,0-6,5) pour préserver l'intégrité du film hydrolipidique cutané",
-            "Température à la source ≥ 35°C pour une action vasodilatatrice optimale"
+            "Amélioration de la variabilité cardiaque",
+            "Stimulation de la circulation capillaire"
         ],
-        "explanation": "Une eau thermale sulfureuse de qualité doit contenir ≥1 mg/L de H₂S (effet kératolytique et anti-inflammatoire), avoir un pH légèrement acide (6,0-6,5) pour préserver la barrière cutanée, et une température ≥35°C pour une vasodilatation optimale. Les bactéries sulfuro-réductrices doivent être absentes (risque d'infection), et la teneur en sels minéraux n'est pas un critère principal pour les dermatoses.",
+        "explanation": "L'alternance chaud/froid stimule la vasomotricité, améliore la variabilité cardiaque (marqueur de santé cardiovasculaire) et active la circulation capillaire en favorisant l'ouverture et la fermeture successive des vaisseaux.",
         "multiple": true
     },
     {
-        "question": "Quel est le protocole d'application des enveloppements humides chauds (cataplasmes) dans le traitement des contractures musculaires post-traumatiques, selon les principes de l'hydrologie médicale ?",
+        "question": "Quel est le protocole recommandé pour un sauna en cure de détoxification chez un adulte en bonne santé",
         "options": [
-            "Application de compresses imbibées d'eau à 45°C pendant 20 minutes, renouvelée 3 fois avec un intervalle de 10 minutes, suivie d'un massage doux",
-            "Utilisation de compresses à 60°C pendant 10 minutes, une seule fois par jour, sans rinçage",
-            "Alternance de compresses chaudes (40°C) et froides (15°C) toutes les 5 minutes pendant 30 minutes",
-            "Application de compresses à 37°C pendant 1 heure, associées à des huiles essentielles de gaulthérie"
+            "3 séances de 20 minutes à 90°C avec 5 minutes de repos entre chaque",
+            "1 séance de 10 minutes à 70°C sans repos",
+            "2 séances de 15 minutes à 80°C avec une douche froide entre les deux",
+            "1 séance de 30 minutes à 60°C avec hydratation pendant la séance"
         ],
-        "correctAnswers": ["Application de compresses imbibées d'eau à 45°C pendant 20 minutes, renouvelée 3 fois avec un intervalle de 10 minutes, suivie d'un massage doux"],
-        "explanation": "Pour les contractures musculaires, le protocole standard est l'application de compresses à 45°C pendant 20 minutes, renouvelée 3 fois avec un intervalle de 10 minutes, suivie d'un massage pour potentialiser l'effet décontracturant. Les autres protocoles sont soit trop agressifs (60°C), soit inefficaces (alternance chaude/froide pour les contractures), ou trop longs (1 heure).",
+        "correctAnswers": ["3 séances de 20 minutes à 90°C avec 5 minutes de repos entre chaque"],
+        "explanation": "Pour une détoxification optimale, le protocole standard est de 3 séances de 20 minutes à 90°C, entrecoupées de 5 minutes de repos pour permettre l'évacuation des toxines par la transpiration et éviter la surchauffe.",
         "multiple": false
     },
     {
-        "question": "Quels sont les effets physiologiques d'une douche écossaise (alternance eau chaude/froide) sur le système cardiovasculaire chez un sujet sain ? (3 bonnes réponses)",
+        "question": "Quel est l'effet d'un enveloppement froid local sur une entorse aiguë",
         "options": [
-            "Amélioration de la variabilité du rythme cardiaque (VRC) via la stimulation du nerf vague",
-            "Augmentation de la pression artérielle diastolique par vasoconstriction périphérique",
-            "Stimulation de la circulation collatérale via l'effet de 'pompe musculaire'",
-            "Réduction de la fréquence cardiaque au repos (bradycardie relative)",
-            "Diminution de la compliance artérielle (raideur vasculaire)"
+            "Augmentation de l'œdème",
+            "Réduction de l'inflammation et de la douleur par vasoconstriction",
+            "Stimulation de la circulation lymphatique",
+            "Augmentation de la température locale"
         ],
-        "correctAnswers": [
-            "Amélioration de la variabilité du rythme cardiaque (VRC) via la stimulation du nerf vague",
-            "Stimulation de la circulation collatérale via l'effet de 'pompe musculaire'",
-            "Réduction de la fréquence cardiaque au repos (bradycardie relative)"
-        ],
-        "explanation": "La douche écossaise améliore la VRC (effet parasympathique), stimule la circulation collatérale (vasodilatation/vasoconstriction alternée), et réduit la fréquence cardiaque au repos (adaptation à long terme). Elle ne augmente pas la pression diastolique (effet transitoire sur la systolique), ni ne réduit la compliance artérielle (au contraire, elle l'améliore).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le mécanisme d'action des bains de vapeur (hamam, sauna humide) dans la détoxification cutanée et la stimulation immunitaire ?",
-        "options": [
-            "Ouverture des pores sudoripares et augmentation de l'excrétion de xénobiotiques lipophiles (ex : PCB, pesticides)",
-            "Stimulation de la production de β-défensines par les kératinocytes via l'élévation de la température cutanée",
-            "Inhibition de la prolifération de Staphylococcus aureus par acidification du pH cutané",
-            "Augmentation de la circulation lymphatique sous-cutanée via la vasodilatation thermique"
-        ],
-        "correctAnswers": ["Stimulation de la production de β-défensines par les kératinocytes via l'élévation de la température cutanée"],
-        "explanation": "Les bains de vapeur stimulent la production de β-défensines (peptides antimicrobiens) par les kératinocytes via l'élévation de la température cutanée (>40°C). Ils n'augmentent pas significativement l'excrétion de xénobiotiques (trop lipophiles pour la sueur), n'acidifient pas le pH cutané, et n'ont pas d'effet direct sur la circulation lymphatique.",
+        "correctAnswers": ["Réduction de l'inflammation et de la douleur par vasoconstriction"],
+        "explanation": "L'application de froid provoque une vasoconstriction locale, réduisant ainsi l'afflux sanguin, l'œdème, l'inflammation et la douleur dans les 48 premières heures suivant une entorse.",
         "multiple": false
     },
     {
-        "question": "Quels sont les critères de contre-indication absolue à l'utilisation de bains hyperthermiques (>40°C) chez un patient ? (3 bonnes réponses)",
+        "question": "Quelle est la contre-indication absolue à un bain froid total",
         "options": [
-            "Insuffisance cardiaque congestive (classe NYHA III-IV)",
-            "Antécédent d'accident vasculaire cérébral (AVC) ischémique récent (< 6 mois)",
-            "Hypotension orthostatique non contrôlée",
-            "Dermatite atopique sévère avec lésions suintantes",
-            "Traitement par bêta-bloquants (ex : métoprolol)"
+            "Hypertension artérielle",
+            "Insuffisance cardiaque décompensée",
+            "Diabète de type 2",
+            "Ostéoporose"
         ],
-        "correctAnswers": [
-            "Insuffisance cardiaque congestive (classe NYHA III-IV)",
-            "Antécédent d'accident vasculaire cérébral (AVC) ischémique récent (< 6 mois)",
-            "Hypotension orthostatique non contrôlée"
-        ],
-        "explanation": "Les bains hyperthermiques sont contre-indiqués en cas d'insuffisance cardiaque sévère (risque de décompensation), d'AVC récent (risque d'ischémie cérébrale), et d'hypotension orthostatique non contrôlée (risque de syncope). La dermatite atopique et les bêta-bloquants sont des contre-indications relatives (à évaluer au cas par cas).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le protocole d'hydratation optimale pour un sportif en période de compétition (marathon), combinant eau minérale et boisson isotonique, selon les recommandations de l'EFSA ?",
-        "options": [
-            "500 mL d'eau riche en bicarbonates (ex : Vichy Célestins) 2 heures avant l'effort, puis 150 mL de boisson isotonique (6% glucides, 500 mg/L Na⁺) toutes les 20 minutes pendant l'effort",
-            "1 L d'eau faiblement minéralisée (résidu sec < 50 mg/L) 1 heure avant l'effort, puis 250 mL d'eau pure toutes les 30 minutes",
-            "300 mL de boisson hypotonique (2% glucides, 200 mg/L Na⁺) 30 minutes avant l'effort, puis 100 mL toutes les 15 minutes",
-            "750 mL d'eau riche en magnésium (ex : Hépar) la veille de l'effort, puis 50 mL de boisson hypertonique (10% glucides) par heure"
-        ],
-        "correctAnswers": ["500 mL d'eau riche en bicarbonates (ex : Vichy Célestins) 2 heures avant l'effort, puis 150 mL de boisson isotonique (6% glucides, 500 mg/L Na⁺) toutes les 20 minutes pendant l'effort"],
-        "explanation": "Le protocole optimal pour un marathonien est de 500 mL d'eau bicarbonatée 2h avant (tampon acido-basique) et 150 mL de boisson isotonique (6% glucides, 500 mg/L Na⁺) toutes les 20 minutes (apport énergétique et électrolytique). Les autres protocoles sont soit déséquilibrés (hypo/hypertonique), soit insuffisants en glucides/électrolytes.",
+        "correctAnswers": ["Insuffisance cardiaque décompensée"],
+        "explanation": "Un bain froid total est contre-indiqué en cas d'insuffisance cardiaque décompensée, car le choc thermique peut entraîner une vasoconstriction massive et une surcharge cardiaque.",
         "multiple": false
     },
     {
-        "question": "Quels sont les effets physiologiques d'une cure thermale en eau sulfureuse (ex : Dax, Balaruc-les-Bains) sur le métabolisme osseux chez les patients souffrant d'ostéoporose post-ménopausique ? (2 bonnes réponses)",
+        "question": "Quel est le mécanisme d'action d'un lavement intestinal dans le cadre d'une cure de détoxification",
         "options": [
-            "Stimulation de la différenciation des ostéoblastes via l'augmentation de la production de TGF-β (Transforming Growth Factor-β)",
-            "Inhibition de l'activité des ostéoclastes par réduction de la sécrétion de RANKL (Receptor Activator of Nuclear factor κB Ligand)",
-            "Augmentation de l'absorption intestinale du calcium via la stimulation de la vitamine D cutanée",
-            "Réduction de la calcitonine sérique par feedback négatif sur les cellules C thyroïdiennes",
-            "Amélioration de la microarchitecture osseuse trabéculaire via l'augmentation de l'expression de l'ostéocalcine"
+            "Stimulation de la motilité intestinale et élimination des toxines accumulées",
+            "Augmentation de l'absorption des nutriments",
+            "Réduction de la flore bactérienne bénéfique",
+            "Stimulation de la sécrétion de bile"
         ],
-        "correctAnswers": [
-            "Stimulation de la différenciation des ostéoblastes via l'augmentation de la production de TGF-β (Transforming Growth Factor-β)",
-            "Inhibition de l'activité des ostéoclastes par réduction de la sécrétion de RANKL (Receptor Activator of Nuclear factor κB Ligand)"
-        ],
-        "explanation": "Les cures thermales sulfureuses stimulent la différenciation des ostéoblastes (via TGF-β) et inhibent les ostéoclastes (réduction du RANKL), améliorant ainsi le métabolisme osseux. Elles n'affectent pas directement l'absorption du calcium, la calcitonine, ou l'ostéocalcine.",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le mécanisme d'action des affusions froides (10-15°C) dans la récupération musculaire post-effort chez les athlètes ?",
-        "options": [
-            "Réduction de l'inflammation locale via la vasoconstriction et la diminution de la perméabilité capillaire",
-            "Stimulation de la clairance des lactates par augmentation du débit sanguin musculaire",
-            "Inhibition de la production de radicaux libres (ROS) par les mitochondries via l'activation de la voie Nrf2",
-            "Augmentation de la synthèse de collagène dans les tendons via la stimulation des fibroblastes"
-        ],
-        "correctAnswers": ["Réduction de l'inflammation locale via la vasoconstriction et la diminution de la perméabilité capillaire"],
-        "explanation": "Les affusions froides réduisent l'inflammation post-effort en provoquant une vasoconstriction et une diminution de la perméabilité capillaire (limitant l'œdème et l'infiltration leucocytaire). Elles ne stimulent pas la clairance des lactates (au contraire, elles la réduisent temporairement), n'activent pas Nrf2, et n'affectent pas la synthèse de collagène.",
+        "correctAnswers": ["Stimulation de la motilité intestinale et élimination des toxines accumulées"],
+        "explanation": "Le lavement intestinal stimule mécaniquement le péristaltisme et permet l'évacuation des matières fécales et des toxines accumulées dans le côlon, réduisant ainsi la charge toxémique.",
         "multiple": false
     },
     {
-        "question": "Quels sont les critères de choix entre une eau oligominérale (résidu sec < 50 mg/L) et une eau riche en magnésium (ex : Hépar, Rozana) pour un patient souffrant de syndrome de fatigue chronique (SFC) avec intolérance au stress ? (2 bonnes réponses)",
+        "question": "Quels sont les bienfaits d'un bain de siège froid (bain dérivatif) en cas de congestion pelvienne (2 bonnes réponses)",
         "options": [
-            "Préférer une eau oligominérale en cas de terrain acidifiant (pH urinaire < 6)",
-            "Choisir une eau riche en magnésium si le patient présente des crampes musculaires ou des troubles du sommeil",
-            "Opter pour une eau oligominérale en association avec un régime cétogène",
-            "Privilégier une eau riche en magnésium en cas d'hypertension artérielle (effet vasodilatateur)",
-            "Éviter les eaux riches en magnésium en cas de traitement par inhibiteurs de la pompe à protons (IPP)"
+            "Réduction de la congestion veineuse pelvienne",
+            "Stimulation de la circulation lymphatique",
+            "Augmentation de la température locale",
+            "Inhibition de la motilité intestinale",
+            "Diminution de la pression artérielle"
         ],
         "correctAnswers": [
-            "Préférer une eau oligominérale en cas de terrain acidifiant (pH urinaire < 6)",
-            "Choisir une eau riche en magnésium si le patient présente des crampes musculaires ou des troubles du sommeil"
+            "Réduction de la congestion veineuse pelvienne",
+            "Stimulation de la circulation lymphatique"
         ],
-        "explanation": "Une eau oligominérale est indiquée en cas de terrain acidifiant (pour éviter la surcharge minérale), tandis qu'une eau riche en magnésium est bénéfique pour les crampes ou les troubles du sommeil (effet relaxant musculaire et neurologique). Les autres critères ne sont pas pertinents (cétogène, hypertension, IPP).",
+        "explanation": "Le bain de siège froid réduit la congestion veineuse pelvienne en provoquant une vasoconstriction locale et stimule la circulation lymphatique, favorisant ainsi le drainage des fluides.",
         "multiple": true
     },
     {
-        "question": "Quel est le protocole d'application des compresses froides (cryothérapie locale) dans le traitement aigu d'une entorse de cheville (grade II), selon les recommandations de la SOFMER ?",
+        "question": "Quel est l'objectif principal d'un enveloppement chaud aux huiles essentielles en hydrologie",
         "options": [
-            "Application de glace pilée enveloppée dans un linge humide pendant 15 minutes, renouvelée toutes les 2 heures pendant les 48 premières heures",
-            "Immersion du pied dans un bain d'eau glacée (0-4°C) pendant 10 minutes, 3 fois par jour pendant 3 jours",
-            "Utilisation de packs de gel froid appliqués directement sur la peau pendant 20 minutes, 1 fois par jour pendant 1 semaine",
-            "Alternance de compresses froides (5 min) et chaudes (2 min) toutes les 30 minutes pendant les 24 premières heures"
+            "Provoquer une sudation intense",
+            "Favoriser la relaxation musculaire et la pénétration des principes actifs",
+            "Stimuler la sécrétion d'adrénaline",
+            "Réduire la température corporelle"
         ],
-        "correctAnswers": ["Application de glace pilée enveloppée dans un linge humide pendant 15 minutes, renouvelée toutes les 2 heures pendant les 48 premières heures"],
-        "explanation": "Le protocole recommandé pour une entorse grade II est l'application de glace pilée (enveloppée) pendant 15 min, renouvelée toutes les 2h pendant 48h (phase aiguë). Les autres protocoles sont soit trop agressifs (immersion glacée), soit inefficaces (gel direct, alternance chaude/froide).",
+        "correctAnswers": ["Favoriser la relaxation musculaire et la pénétration des principes actifs"],
+        "explanation": "L'enveloppement chaud dilate les pores cutanés, favorise la relaxation musculaire et permet une meilleure pénétration des huiles essentielles, optimisant ainsi leurs effets thérapeutiques (anti-inflammatoires, antispasmodiques, etc.).",
         "multiple": false
     },
     {
-        "question": "Quels sont les effets d'une cure de boisson d'eau thermale bicarbonatée (ex : Vichy Saint-Yorre) sur la digestion chez les patients souffrant de reflux gastro-œsophagien (RGO) ? (2 bonnes réponses)",
+        "question": "Quelle est la température idéale pour un bain tiède en hydrologie",
         "options": [
-            "Neutralisation de l'acidité gastrique par tamponnage des ions H⁺",
-            "Stimulation de la sécrétion de mucines gastriques et amélioration de la barrière muqueuse",
-            "Inhibition de la motricité œsophagienne et réduction des épisodes de relaxation transitoire du sphincter inférieur de l'œsophage (RTSI)",
-            "Augmentation de la pression du sphincter œsophagien inférieur (SOI) via l'activation des récepteurs à la cholécystokinine (CCK)",
-            "Réduction de la production de gastrine par les cellules G de l'antre gastrique"
+            "28-32°C",
+            "34-36°C",
+            "38-40°C",
+            "42-44°C"
         ],
-        "correctAnswers": [
-            "Neutralisation de l'acidité gastrique par tamponnage des ions H⁺",
-            "Stimulation de la sécrétion de mucines gastriques et amélioration de la barrière muqueuse"
-        ],
-        "explanation": "Les eaux bicarbonatées neutralisent l'acidité gastrique (tamponnage des H⁺) et stimulent la sécrétion de mucines (protection de la muqueuse). Elles n'affectent pas directement la motricité œsophagienne, la pression du SOI, ou la production de gastrine.",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le mécanisme par lequel les bains de boue thermale (peloidothérapie) améliorent la fonction articulaire chez les patients souffrant d'arthrose ?",
-        "options": [
-            "Augmentation de la température intra-articulaire et réduction de la viscosité du liquide synovial",
-            "Stimulation de la production de collagène de type II par les chondrocytes via l'activation des récepteurs TLR4",
-            "Inhibition de la production d'IL-1β et de TNF-α par les synoviocytes",
-            "Amélioration de la microcirculation péri-articulaire via la libération de NO (monoxyde d'azote)"
-        ],
-        "correctAnswers": ["Inhibition de la production d'IL-1β et de TNF-α par les synoviocytes"],
-        "explanation": "Les bains de boue thermale améliorent la fonction articulaire en inhibant la production de cytokines pro-inflammatoires (IL-1β, TNF-α) par les synoviocytes, réduisant ainsi l'inflammation. Les autres mécanismes (température synoviale, collagène, microcirculation) ne sont pas les principaux impliqués.",
+        "correctAnswers": ["34-36°C"],
+        "explanation": "Un bain tiède se situe entre 34 et 36°C, une température proche de celle du corps, favorisant la détente sans déclencher de réaction thermique intense.",
         "multiple": false
     },
     {
-        "question": "Quels sont les critères de sécurité pour l'utilisation de saunas infrarouges chez un patient cardiaque (antécédent d'infarctus du myocarde) ? (3 bonnes réponses)",
+        "question": "Quel est le rôle de la peau dans l'élimination des toxines en hydrologie",
         "options": [
-            "Limitation de la température à 50°C (vs 70-90°C pour un sauna traditionnel)",
-            "Durée maximale de 15 minutes par séance, avec surveillance de la fréquence cardiaque",
-            "Hydratation préalable (500 mL d'eau) et réhydratation post-séance (minéraux : Na⁺, K⁺, Mg²⁺)",
-            "Contre-indication absolue en cas de traitement par bêta-bloquants (risque de bradycardie sévère)",
-            "Utilisation d'un sauna infrarouge à spectre lointain (8-12 µm) pour une pénétration tissulaire optimale"
+            "Élimination exclusive par les glandes sudoripares",
+            "Triple action d'épuration via la couche basale, les glandes sudoripares et sébacées",
+            "Absorption exclusive des toxines sans élimination",
+            "Ne joue aucun rôle dans la détoxification"
         ],
-        "correctAnswers": [
-            "Limitation de la température à 50°C (vs 70-90°C pour un sauna traditionnel)",
-            "Durée maximale de 15 minutes par séance, avec surveillance de la fréquence cardiaque",
-            "Hydratation préalable (500 mL d'eau) et réhydratation post-séance (minéraux : Na⁺, K⁺, Mg²⁺)"
-        ],
-        "explanation": "Pour un patient cardiaque, les critères de sécurité sont : température ≤50°C, durée ≤15 min avec surveillance cardiaque, et hydratation/minéralisation adéquate. Les bêta-bloquants ne sont pas une contre-indication absolue (mais nécessitent une surveillance), et le spectre infrarouge n'est pas un critère de sécurité en soi.",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le protocole d'hydratation intraveineuse recommandé pour un sportif après un effort intense en environnement chaud (marathon en climat désertique), selon les guidelines de l'ACSM ?",
-        "options": [
-            "1000 mL de sérum physiologique (NaCl 0,9%) + 20 mEq de KCl + 10 mEq de MgSO₄, perfusé en 1 heure",
-            "500 mL de solution de Ringer lactate + 10 g de glucose, perfusé en 30 minutes",
-            "1500 mL de solution hypotonique (NaCl 0,45%) + 50 mEq de NaHCO₃, perfusé en 2 heures",
-            "250 mL de solution hypertonique (NaCl 3%) + 5 g d'albumine, perfusé en 15 minutes"
-        ],
-        "correctAnswers": ["1000 mL de sérum physiologique (NaCl 0,9%) + 20 mEq de KCl + 10 mEq de MgSO₄, perfusé en 1 heure"],
-        "explanation": "Le protocole recommandé est 1000 mL de sérum physiologique (réhydratation isotonique) avec KCl (équilibre électrolytique) et MgSO₄ (prévention des crampes), perfusé en 1h pour éviter la surcharge volumique. Les autres protocoles sont soit trop rapides (30 min), soit hypo/hypertoniques (inadaptés), ou trop concentrés (albumine).",
+        "correctAnswers": ["Triple action d'épuration via la couche basale, les glandes sudoripares et sébacées"],
+        "explanation": "La peau élimine les toxines par trois voies : la couche basale (désquamation), les glandes sudoripares (transpiration) et les glandes sébacées (sébum), ce qui en fait un émonctoire majeur en naturopathie.",
         "multiple": false
     },
     {
-        "question": "Quels sont les effets d'une cure de boisson d'eau thermale sodique (ex : Saint-Gervais-les-Bains) sur la fonction biliaire chez les patients souffrant de dyskinésie biliaire ? (2 bonnes réponses)",
+        "question": "Quelle est la durée maximale recommandée pour un bain hypercalorique chez un adulte sans pathologie cardiaque",
         "options": [
-            "Stimulation de la sécrétion de cholécystokinine (CCK) par les cellules I de la muqueuse duodénale",
-            "Augmentation de la fluidité de la bile via la réduction de la concentration en cholestérol",
-            "Inhibition de la contraction de la vésicule biliaire par blocage des récepteurs CCK-A",
-            "Amélioration de la motricité des voies biliaires via l'activation des récepteurs 5-HT₄",
-            "Réduction de la synthèse des acides biliaires secondaires par le microbiote intestinal"
+            "10 minutes",
+            "20 minutes",
+            "30 minutes",
+            "40 minutes"
         ],
-        "correctAnswers": [
-            "Stimulation de la sécrétion de cholécystokinine (CCK) par les cellules I de la muqueuse duodénale",
-            "Augmentation de la fluidité de la bile via la réduction de la concentration en cholestérol"
-        ],
-        "explanation": "Les eaux sodiques stimulent la sécrétion de CCK (cholécystokinine), favorisant la contraction de la vésicule biliaire, et réduisent la concentration en cholestérol de la bile (amélioration de la fluidité). Elles n'inhibent pas les récepteurs CCK-A, n'activent pas les 5-HT₄, et n'affectent pas directement la synthèse des acides biliaires secondaires.",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le mécanisme d'action des enveloppements humides froids (compresses à 10-15°C) dans le traitement des œdèmes post-traumatiques ou post-opératoires ?",
-        "options": [
-            "Réduction de la perméabilité capillaire via la vasoconstriction et l'inhibition de la bradykinine",
-            "Stimulation du drainage lymphatique par activation des contractions des lymphangions",
-            "Inhibition de la production de prostaglandines E2 (PGE2) par les macrophages",
-            "Augmentation de la pression oncotique interstitielle via la réduction de la température locale"
-        ],
-        "correctAnswers": ["Réduction de la perméabilité capillaire via la vasoconstriction et l'inhibition de la bradykinine"],
-        "explanation": "Les enveloppements froids réduisent l'œdème en provoquant une vasoconstriction (diminution de la perméabilité capillaire) et en inhibant la bradykinine (médiateur de l'inflammation). Ils n'activent pas directement le drainage lymphatique, n'inhibent pas spécifiquement les PGE2, et n'augmentent pas la pression oncotique.",
+        "correctAnswers": ["20 minutes"],
+        "explanation": "La durée maximale recommandée pour un bain hypercalorique est de 20 minutes, afin d'éviter une surchauffe et une fatigue cardiaque, tout en permettant une transpiration et une élimination toxique optimales.",
         "multiple": false
     },
     {
-        "question": "Quels sont les critères de contre-indication relative à l'utilisation de bains de vapeur (hamam) chez un patient souffrant d'asthme sévère ? (2 bonnes réponses)",
+        "question": "Quels sont les signes cliniques d'une bonne adaptation au froid lors d'une douche écossaise (2 bonnes réponses)",
         "options": [
-            "Humidité relative > 80% (risque de bronchoconstriction)",
-            "Température > 50°C (risque d'hyperréactivité bronchique)",
-            "Présence de chloramine dans l'eau (irritation des voies respiratoires)",
-            "Durée de séance > 15 minutes (risque d'hypoxémie)",
-            "Utilisation d'huiles essentielles (ex : eucalyptus) en diffusion"
+            "Rougeur cutanée (réaction hyperémique)",
+            "Frissons persistants",
+            "Sensation de chaleur après la phase froide",
+            "Pâleur cutanée prolongée",
+            "Augmentation de la fréquence cardiaque"
         ],
         "correctAnswers": [
-            "Humidité relative > 80% (risque de bronchoconstriction)",
-            "Température > 50°C (risque d'hyperréactivité bronchique)"
+            "Rougeur cutanée (réaction hyperémique)",
+            "Sensation de chaleur après la phase froide"
         ],
-        "explanation": "Pour un asthmatique sévère, les contre-indications relatives sont une humidité >80% (risque de bronchoconstriction) et une température >50°C (hyperréactivité). Les chloramines et les huiles essentielles sont des contre-indications absolues, et la durée >15 min est un critère de prudence mais pas une contre-indication relative spécifique.",
+        "explanation": "Une bonne adaptation au froid se manifeste par une rougeur cutanée (réaction hyperémique réflexe) et une sensation de chaleur après la phase froide, indiquant une vasodilatation compensatrice et une activation de la circulation.",
         "multiple": true
     },
     {
-        "question": "Quel est le protocole d'application des jets sous-marins (hydromassage) dans la rééducation des séquelles de fracture du fémur, selon les principes de la kinésithérapie en milieu aquatique ?",
+        "question": "Quel est l'effet d'une compresse froide locale sur une migraine",
         "options": [
-            "Température de l'eau à 34-36°C, pression des jets à 2-3 bars, séance de 20 minutes avec mobilisations actives assistées",
-            "Température de l'eau à 28-30°C, pression des jets à 4 bars, séance de 30 minutes avec étirements passifs",
-            "Alternance de jets chauds (40°C) et froids (15°C) pendant 10 minutes, suivie d'exercices de renforcement",
-            "Utilisation de jets à pression variable (1-5 bars) en ciblant les groupes musculaires antagonistes, pendant 45 minutes"
+            "Augmentation de la vasodilatation cérébrale",
+            "Réduction de la vasodilatation et de l'inflammation des vaisseaux crâniens",
+            "Stimulation de la sécrétion de sérotonine",
+            "Diminution de la pression intraoculaire"
         ],
-        "correctAnswers": ["Température de l'eau à 34-36°C, pression des jets à 2-3 bars, séance de 20 minutes avec mobilisations actives assistées"],
-        "explanation": "Pour les séquelles de fracture du fémur, le protocole optimal est une température de 34-36°C (détente musculaire), une pression de 2-3 bars (effet massant sans agressivité), et une durée de 20 min avec mobilisations actives assistées. Les autres protocoles sont soit trop froids/longs (28-30°C/30-45 min), soit trop agressifs (jets à 4 bars, alternance chaude/froide).",
+        "correctAnswers": ["Réduction de la vasodilatation et de l'inflammation des vaisseaux crâniens"],
+        "explanation": "La compresse froide provoque une vasoconstriction locale, réduisant ainsi la dilatation des vaisseaux sanguins crâniens et l'inflammation associée à la migraine.",
         "multiple": false
     },
     {
-        "question": "Quels sont les effets d'une cure thermale en eau bicarbonatée (ex : Vittel) sur la fonction rénale chez les patients souffrant de lithiase urinaire (calculs de calcium) ? (2 bonnes réponses)",
+        "question": "Quelle est la principale indication d'un lavement vaginal en hydrologie",
         "options": [
-            "Augmentation du pH urinaire et réduction de la sursaturation en oxalate de calcium",
-            "Stimulation de la diurèse par inhibition de l'hormone antidiurétique (ADH)",
-            "Réduction de l'excrétion urinaire de citrate (facteur inhibiteur de la cristallisation)",
-            "Diminution de la calciurie par augmentation de la réabsorption tubulaire du calcium",
-            "Inhibition de la nucléation des cristaux d'acide urique"
+            "Traitement des infections urinaires",
+            "Rééquilibrage de la flore vaginale en cas de mycose",
+            "Stimulation de la fertilité",
+            "Préparation à une chirurgie abdominale"
         ],
-        "correctAnswers": [
-            "Augmentation du pH urinaire et réduction de la sursaturation en oxalate de calcium",
-            "Stimulation de la diurèse par inhibition de l'hormone antidiurétique (ADH)"
-        ],
-        "explanation": "Les eaux bicarbonatées augmentent le pH urinaire (réduction de la sursaturation en oxalate de calcium) et stimulent la diurèse (inhibition de l'ADH), favorisant l'élimination des calculs. Elles n'affectent pas l'excrétion de citrate, la calciurie, ou la nucléation de l'acide urique.",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le mécanisme par lequel les bains de gaz carbonique (CO₂) améliorent la microcirculation cutanée chez les patients souffrant d'artérite des membres inférieurs ?",
-        "options": [
-            "Vasodilatation artériolaire via l'activation des canaux KATP (ATP-sensitive potassium channels) dans les cellules musculaires lisses",
-            "Inhibition de l'agrégation plaquettaire par augmentation de la production de NO (monoxyde d'azote)",
-            "Stimulation de l'angiogenèse via l'augmentation de l'expression du VEGF (Vascular Endothelial Growth Factor)",
-            "Réduction de la viscosité sanguine par hydratation des globules rouges"
-        ],
-        "correctAnswers": ["Vasodilatation artériolaire via l'activation des canaux KATP (ATP-sensitive potassium channels) dans les cellules musculaires lisses"],
-        "explanation": "Les bains de CO₂ améliorent la microcirculation par vasodilatation artériolaire, via l'activation des canaux KATP dans les cellules musculaires lisses (hyperpolarisation). Ils n'affectent pas directement l'agrégation plaquettaire, l'angiogenèse, ou la viscosité sanguine.",
+        "correctAnswers": ["Rééquilibrage de la flore vaginale en cas de mycose"],
+        "explanation": "Le lavement vaginal est principalement indiqué pour rééquilibrer la flore vaginale en cas de déséquilibre (mycose, vaginose bactérienne), en utilisant des solutions adaptées (ex : infusion de thym).",
         "multiple": false
     },
     {
-        "question": "Quels sont les critères de qualité d'une eau thermale ferrugineuse (ex : La Bourboule) pour une utilisation en cure de boisson dans le traitement des anémies ferriprives ? (3 bonnes réponses)",
+        "question": "Quel est le protocole d'un bain dérivatif pédiluve-maniluve",
         "options": [
-            "Concentration en fer ferreux (Fe²⁺) ≥ 5 mg/L",
-            "pH < 6,5 pour favoriser l'absorption intestinale du fer",
-            "Présence de vitamines du groupe B (B9, B12) en traces",
-            "Température à la source ≤ 20°C pour préserver la stabilité du fer",
-            "Absence de sulfates (SO₄²⁻) pour éviter les interactions avec le fer"
+            "Immersion des pieds et des mains dans de l'eau à 15°C pendant 5 minutes",
+            "Immersion des pieds dans de l'eau à 40°C et des mains dans de l'eau à 15°C pendant 10 minutes",
+            "Alternance de bain chaud et froid pour les pieds et les mains",
+            "Immersion des pieds et des mains dans de l'eau à 37°C pendant 20 minutes"
         ],
-        "correctAnswers": [
-            "Concentration en fer ferreux (Fe²⁺) ≥ 5 mg/L",
-            "pH < 6,5 pour favoriser l'absorption intestinale du fer",
-            "Absence de sulfates (SO₄²⁻) pour éviter les interactions avec le fer"
-        ],
-        "explanation": "Une eau ferrugineuse de qualité doit contenir ≥5 mg/L de Fe²⁺ (forme absorbable), avoir un pH <6,5 (optimisation de l'absorption), et être exempte de sulfates (qui précipitent le fer). La température n'affecte pas la stabilité du fer, et les vitamines B ne sont pas un critère principal.",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le protocole d'application des cataplasmes d'argile verte dans le traitement des tendinites chroniques (ex : épicondylite), selon les principes de l'argilothérapie ?",
-        "options": [
-            "Application d'une couche de 2-3 cm d'argile mélangée à de l'eau tiède (30°C), pendant 2 heures, renouvelée 3 fois par semaine",
-            "Utilisation d'argile chauffée à 50°C en enveloppement serré, pendant 30 minutes quotidiennement",
-            "Alternance de cataplasmes chauds (45°C) et froids (10°C) toutes les 15 minutes pendant 1 heure",
-            "Application d'argile diluée dans de l'huile essentielle de gaulthérie, pendant 10 minutes 2 fois par jour"
-        ],
-        "correctAnswers": ["Application d'une couche de 2-3 cm d'argile mélangée à de l'eau tiède (30°C), pendant 2 heures, renouvelée 3 fois par semaine"],
-        "explanation": "Pour les tendinites chroniques, le protocole standard est une couche de 2-3 cm d'argile tiède (30°C) pendant 2h, 3 fois/semaine (effet anti-inflammatoire et drainant). Les autres protocoles sont soit trop agressifs (50°C, alternance chaude/froide), soit trop courts (10 min).",
+        "correctAnswers": ["Immersion des pieds dans de l'eau à 40°C et des mains dans de l'eau à 15°C pendant 10 minutes"],
+        "explanation": "Le bain dérivatif pédiluve-maniluve consiste à immerger les pieds dans de l'eau chaude (40°C) et les mains dans de l'eau froide (15°C) pendant 10 minutes, afin de créer un appel sanguin vers les extrémités et de décongestionner les organes centraux.",
         "multiple": false
     },
     {
-        "question": "Quels sont les effets d'une cure thermale en eau sulfureuse (ex : Ussat-les-Bains) sur la fonction respiratoire chez les patients souffrant de bronchite chronique ? (2 bonnes réponses)",
+        "question": "Quel est l'effet d'un hammam sur le système respiratoire",
         "options": [
-            "Réduction de la viscosité des sécrétions bronchiques via la rupture des ponts disulfures des mucines",
-            "Stimulation de la clairance mucociliaire par augmentation de la fréquence de battement des cils vibrants",
-            "Inhibition de la prolifération des fibroblastes dans la paroi bronchique (effet antifibrotique)",
-            "Augmentation de la production de surfactant pulmonaire par les pneumocytes de type II",
-            "Diminution de la réponse inflammatoire via la réduction de l'expression de l'IL-8"
+            "Assèchement des muqueuses",
+            "Fluidification des sécrétions bronchiques et amélioration de la capacité vitale",
+            "Augmentation de la fréquence respiratoire",
+            "Diminution de l'oxygénation sanguine"
         ],
-        "correctAnswers": [
-            "Réduction de la viscosité des sécrétions bronchiques via la rupture des ponts disulfures des mucines",
-            "Stimulation de la clairance mucociliaire par augmentation de la fréquence de battement des cils vibrants"
-        ],
-        "explanation": "Les eaux sulfureuses réduisent la viscosité des sécrétions (rupture des ponts disulfures des mucines) et stimulent la clairance mucociliaire (augmentation du battement ciliaire). Elles n'ont pas d'effet antifibrotique direct, ne stimulent pas la production de surfactant, et ne réduisent pas spécifiquement l'IL-8.",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le mécanisme par lequel les bains de contraste (alternance eau chaude/froide) améliorent la récupération musculaire après un effort intense ?",
-        "options": [
-            "Augmentation du débit sanguin musculaire via la vasodilatation/vasoconstriction alternée (effet de pompe)",
-            "Réduction de la production de lactates par inhibition de la glycolyse anaérobie",
-            "Stimulation de la synthèse de protéines musculaires via l'activation de la voie mTOR",
-            "Inhibition de la perméabilité capillaire et réduction de l'œdème interstitiel"
-        ],
-        "correctAnswers": ["Augmentation du débit sanguin musculaire via la vasodilatation/vasoconstriction alternée (effet de pompe)"],
-        "explanation": "Les bains de contraste améliorent la récupération en augmentant le débit sanguin musculaire (vasodilatation/vasoconstriction alternée, effet de pompe), favorisant l'élimination des métabolites. Ils ne réduisent pas la production de lactates, ne stimulent pas mTOR, et n'inhibent pas la perméabilité capillaire (au contraire, ils l'augmentent temporairement).",
+        "correctAnswers": ["Fluidification des sécrétions bronchiques et amélioration de la capacité vitale"],
+        "explanation": "L'humidité et la chaleur du hammam fluidifient les sécrétions bronchiques, améliorent la clairance mucociliaire et augmentent la capacité vitale, ce qui est bénéfique en cas d'affections respiratoires chroniques.",
         "multiple": false
     },
     {
-        "question": "Quels sont les critères de contre-indication à l'utilisation de saunas secs (température > 80°C) chez un patient souffrant de sclérose en plaques (SEP) ? (3 bonnes réponses)",
+        "question": "Quelle est la contre-indication relative à un enveloppement chaud du thorax",
         "options": [
-            "Risque d'aggravation des symptômes neurologiques par élévation de la température corporelle centrale (phénomène d'Uhthoff)",
-            "Déshydratation cellulaire et augmentation de la concentration sérique de sodium (hypernatrémie)",
-            "Hypotension orthostatique sévère due à la vasodilatation périphérique",
-            "Augmentation de la perméabilité de la barrière hémato-encéphalique (BHE) et risque de poussée inflammatoire",
-            "Inhibition de la myélinisation par réduction de la production de BDNF (Brain-Derived Neurotrophic Factor)"
+            "Hypertension artérielle",
+            "Insuffisance respiratoire sévère",
+            "Diabète de type 1",
+            "Ostéoporose"
         ],
-        "correctAnswers": [
-            "Risque d'aggravation des symptômes neurologiques par élévation de la température corporelle centrale (phénomène d'Uhthoff)",
-            "Déshydratation cellulaire et augmentation de la concentration sérique de sodium (hypernatrémie)",
-            "Hypotension orthostatique sévère due à la vasodilatation périphérique"
-        ],
-        "explanation": "Les saunas secs sont contre-indiqués chez les patients SEP en raison du risque d'Uhthoff (aggravation des symptômes par la chaleur), de déshydratation/hypernatrémie, et d'hypotension orthostatique. La perméabilité de la BHE et la myélinisation ne sont pas des contre-indications directes.",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le protocole d'hydratation optimale pour un patient souffrant de lithiase rénale (calculs d'oxalate de calcium) en prévention des récidives, selon les recommandations de l'AUA ?",
-        "options": [
-            "Apport hydrique total de 2,5 à 3 L/jour, réparti tout au long de la journée, avec une diurèse > 2 L/24h",
-            "Consommation de 1 L d'eau oligominérale (résidu sec < 50 mg/L) le matin à jeun, suivie de 1 L d'eau bicarbonatée (HCO₃⁻ > 1500 mg/L) l'après-midi",
-            "Boisson de 500 mL d'eau riche en calcium (Ca²⁺ > 300 mg/L) au coucher pour réduire l'oxalurie nocturne",
-            "Alternance de 250 mL d'eau toutes les 2 heures, avec ajout de jus de citron (10 mL/L) pour acidifier les urines"
-        ],
-        "correctAnswers": ["Apport hydrique total de 2,5 à 3 L/jour, réparti tout au long de la journée, avec une diurèse > 2 L/24h"],
-        "explanation": "Pour prévenir les récidives de lithiase oxalocalcique, l'apport hydrique doit être de 2,5-3 L/jour (diurèse >2 L/24h) pour diluer les urines. Les autres protocoles sont soit déséquilibrés (eau bicarbonatée le soir), soit inefficaces (calcium au coucher, acidification par citron).",
+        "correctAnswers": ["Insuffisance respiratoire sévère"],
+        "explanation": "Un enveloppement chaud du thorax est contre-indiqué en cas d'insuffisance respiratoire sévère, car la chaleur peut augmenter la demande en oxygène et aggraver la dyspnée.",
         "multiple": false
     },
     {
-        "question": "Quels sont les effets d'une cure thermale en eau chlorurée sodique (ex : Salies-de-Béarn) sur la fonction articulaire chez les patients souffrant de polyarthrite rhumatoïde ? (2 bonnes réponses)",
+        "question": "Quel est le rôle d'une affusion dans le cadre d'une cure de revitalisation",
         "options": [
-            "Réduction de la concentration en cytokines pro-inflammatoires (IL-1β, TNF-α) dans le liquide synovial",
-            "Stimulation de la synthèse de protéoglycanes par les chondrocytes via l'activation des récepteurs au sodium (ENaC)",
-            "Inhibition de la différenciation des ostéoclastes par blocage des récepteurs RANK",
-            "Amélioration de la lubrification articulaire via l'augmentation de la production d'acide hyaluronique",
-            "Diminution de la douleur par inhibition des fibres nerveuses C via les canaux TRPV1"
+            "Provoquer un choc thermique pour stimuler les défenses immunitaires",
+            "Induire une sudation intense",
+            "Réduire la circulation sanguine périphérique",
+            "Augmenter la rétention hydrique"
         ],
-        "correctAnswers": [
-            "Réduction de la concentration en cytokines pro-inflammatoires (IL-1β, TNF-α) dans le liquide synovial",
-            "Amélioration de la lubrification articulaire via l'augmentation de la production d'acide hyaluronique"
-        ],
-        "explanation": "Les eaux chlorurées sodiques réduisent les cytokines pro-inflammatoires (IL-1β, TNF-α) dans le liquide synovial et améliorent la lubrification articulaire (acide hyaluronique). Elles n'affectent pas directement la synthèse de protéoglycanes, la différenciation des ostéoclastes, ou les fibres C.",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le mécanisme par lequel les bains de boue thermale (peloidothérapie) améliorent la fonction cutanée chez les patients souffrant de psoriasis ?",
-        "options": [
-            "Inhibition de la prolifération des kératinocytes via la réduction de l'expression de l'IL-17",
-            "Stimulation de la différenciation terminale des kératinocytes par augmentation de la concentration en calcium intracellulaire",
-            "Réduction de l'infiltration lymphocytaire T CD8⁺ dans le derme par modulation de l'expression de CXCL10",
-            "Augmentation de l'hydratation de la couche corneée via la formation d'un film lipidique occlusif"
-        ],
-        "correctAnswers": ["Inhibition de la prolifération des kératinocytes via la réduction de l'expression de l'IL-17"],
-        "explanation": "Les bains de boue thermale améliorent le psoriasis en inhibant la prolifération des kératinocytes via la réduction de l'IL-17 (cytokine clé dans la pathogénie). Les autres mécanismes (différenciation des kératinocytes, infiltration lymphocytaire, hydratation) ne sont pas les principaux impliqués.",
+        "correctAnswers": ["Provoquer un choc thermique pour stimuler les défenses immunitaires"],
+        "explanation": "L'affusion (jet d'eau froide sur le corps) provoque un choc thermique qui stimule le système nerveux sympathique, active la circulation et renforce les défenses immunitaires.",
         "multiple": false
     },
     {
-        "question": "Quels sont les critères de sécurité pour l'utilisation de bains de gaz carbonique (CO₂) chez un patient souffrant d'insuffisance veineuse chronique (IVC) avec ulcères variqueux ? (3 bonnes réponses)",
+        "question": "Quels sont les effets d'un bain de boue thermale sur les articulations (2 bonnes réponses)",
         "options": [
-            "Température de l'eau ≤ 34°C pour éviter la vasodilatation excessive",
-            "Durée de la séance limitée à 10 minutes pour prévenir l'hypoxie tissulaire locale",
-            "Surveillance de la pression artérielle avant et après la séance (risque d'hypotension)",
-            "Utilisation d'une eau enrichie en CO₂ à une concentration ≤ 1000 mg/L",
-            "Application préalable d'un pansement compressif sur les ulcères pour éviter l'infection"
+            "Réduction de la raideur articulaire",
+            "Augmentation de la production de liquide synovial",
+            "Amélioration de la microcirculation locale",
+            "Diminution de la densité minérale osseuse",
+            "Stimulation de la sécrétion de cortisol"
         ],
         "correctAnswers": [
-            "Température de l'eau ≤ 34°C pour éviter la vasodilatation excessive",
-            "Durée de la séance limitée à 10 minutes pour prévenir l'hypoxie tissulaire locale",
-            "Surveillance de la pression artérielle avant et après la séance (risque d'hypotension)"
+            "Réduction de la raideur articulaire",
+            "Amélioration de la microcirculation locale"
         ],
-        "explanation": "Pour un patient IVC avec ulcères, les critères de sécurité sont : température ≤34°C (éviter la vasodilatation), durée ≤10 min (hypoxie), et surveillance de la PA (hypotension). La concentration en CO₂ ≤1000 mg/L est standard, et le pansement compressif n'est pas spécifique aux bains de CO₂.",
+        "explanation": "Les bains de boue thermale réduisent la raideur articulaire grâce à leur effet anti-inflammatoire et améliorent la microcirculation locale, favorisant ainsi la nutrition des tissus articulaires.",
         "multiple": true
     },
     {
-        "question": "Quel est le protocole d'application des affusions locales froides (10-15°C) dans le traitement des entorses aiguës de la cheville, selon le protocole RICE modifié ?",
+        "question": "Quel est l'objectif d'une cure d'eau de Quinton en hydrologie interne",
         "options": [
-            "Application d'un jet d'eau froide pendant 10-15 minutes, renouvelée toutes les 2 heures pendant les 48 premières heures, associée à une compression élastique",
-            "Immersion du pied dans un bain d'eau glacée (0-4°C) pendant 5 minutes, 3 fois par jour pendant 3 jours",
-            "Alternance de compresses froides (5 min) et chaudes (2 min) toutes les 30 minutes pendant les 24 premières heures",
-            "Application de glace pilée en enveloppement serré pendant 20 minutes, 1 fois par jour pendant 1 semaine"
+            "Réhydratation intracellulaire",
+            "Rééquilibrage du terrain minéral et stimulation des échanges cellulaires",
+            "Augmentation de la diurèse",
+            "Diminution de la pression osmotique plasmatique"
         ],
-        "correctAnswers": ["Application d'un jet d'eau froide pendant 10-15 minutes, renouvelée toutes les 2 heures pendant les 48 premières heures, associée à une compression élastique"],
-        "explanation": "Le protocole RICE modifié recommande des affusions froides (10-15°C) pendant 10-15 min, renouvelées toutes les 2h pendant 48h, avec compression. Les autres protocoles sont soit trop agressifs (0-4°C), soit inefficaces (alternance chaude/froide, 1 fois/jour).",
+        "correctAnswers": ["Rééquilibrage du terrain minéral et stimulation des échanges cellulaires"],
+        "explanation": "La cure d'eau de Quinton (plasma marin isotonique) vise à rééquilibrer le terrain minéral, restaurer l'équilibre acido-basique et stimuler les échanges cellulaires grâce à sa richesse en oligoéléments biodisponibles.",
         "multiple": false
     },
     {
-        "question": "Quels sont les effets d'une cure de boisson d'eau thermale calcique (ex : Contrex) sur le métabolisme osseux chez les patients souffrant d'ostéoporose post-ménopausique ? (2 bonnes réponses)",
+        "question": "Quelle est la température idéale pour une compresse chaude en cas de douleurs abdominales",
         "options": [
-            "Augmentation de l'absorption intestinale du calcium via l'activation des canaux TRPV6",
-            "Réduction de la résorption osseuse par inhibition de l'activité des ostéoclastes",
-            "Stimulation de la sécrétion de parathormone (PTH) par les glandes parathyroïdes",
-            "Amélioration de la fixation du calcium sur la matrice osseuse via l'augmentation de l'expression de l'ostéocalcine",
-            "Diminution de l'excrétion urinaire de calcium par augmentation de sa réabsorption tubulaire"
+            "30-35°C",
+            "38-40°C",
+            "42-45°C",
+            "50-55°C"
+        ],
+        "correctAnswers": ["38-40°C"],
+        "explanation": "Une compresse chaude à 38-40°C est idéale pour détendre les muscles abdomaux, améliorer la circulation locale et réduire les spasmes, sans risque de brûlure.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le mécanisme d'action d'un demi-bain froid sur la circulation veineuse",
+        "options": [
+            "Dilatation des veines superficielles",
+            "Stimulation du retour veineux par vasoconstriction et augmentation du tonus veineux",
+            "Réduction du débit cardiaque",
+            "Augmentation de la pression artérielle"
+        ],
+        "correctAnswers": ["Stimulation du retour veineux par vasoconstriction et augmentation du tonus veineux"],
+        "explanation": "Le demi-bain froid provoque une vasoconstriction des veines superficielles, ce qui améliore le retour veineux vers le cœur et réduit la stase veineuse dans les membres inférieurs.",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la principale indication d'un enveloppement froid de la nuque",
+        "options": [
+            "Traitement de l'hypotension orthostatique",
+            "Réduction des céphalées vasculaires",
+            "Stimulation de la thyroïde",
+            "Amélioration de la mémoire"
+        ],
+        "correctAnswers": ["Réduction des céphalées vasculaires"],
+        "explanation": "Un enveloppement froid de la nuque réduit la vasodilatation des vaisseaux crâniens et cervicales, soulageant ainsi les céphalées d'origine vasculaire ou tensionnelle.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est l'effet d'un bain de pieds chaud sur le sommeil",
+        "options": [
+            "Stimulation de l'éveil",
+            "Favorisation de l'endormissement par vasodilatation périphérique",
+            "Augmentation de la température corporelle centrale",
+            "Réduction de la production de mélatonine"
+        ],
+        "correctAnswers": ["Favorisation de l'endormissement par vasodilatation périphérique"],
+        "explanation": "Un bain de pieds chaud provoque une vasodilatation périphérique, ce qui réduit la température centrale et favorise l'endormissement en activant le système parasympathique.",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la contre-indication à un jacuzzi en hydrologie",
+        "options": [
+            "Hypertension artérielle contrôlée",
+            "Insuffisance veineuse chronique",
+            "Grossesse au premier trimestre",
+            "Diabète de type 2"
+        ],
+        "correctAnswers": ["Grossesse au premier trimestre"],
+        "explanation": "Le jacuzzi est contre-indiqué au premier trimestre de grossesse en raison du risque d'hyperthermie, qui peut nuire au développement fœtal.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le rôle d'une purge yogique dans le cadre d'une cure d'hydrologie interne",
+        "options": [
+            "Stimulation de la motilité intestinale et élimination des toxines",
+            "Augmentation de l'absorption des nutriments",
+            "Réduction de la flore bactérienne intestinale",
+            "Stimulation de la sécrétion de bile"
+        ],
+        "correctAnswers": ["Stimulation de la motilité intestinale et élimination des toxines"],
+        "explanation": "La purge yogique (eau salée tiède) stimule le péristaltisme intestinal et favorise l'évacuation des matières fécales et des toxines accumulées, dans le cadre d'une détoxification.",
+        "multiple": false
+    },
+    {
+        "question": "Quels sont les effets d'une douche écossaise sur le système immunitaire (2 bonnes réponses)",
+        "options": [
+            "Augmentation de la production de lymphocytes",
+            "Stimulation de la circulation lymphatique",
+            "Réduction de la réponse inflammatoire",
+            "Diminution de l'activité des cellules NK",
+            "Amélioration de la réponse aux infections"
         ],
         "correctAnswers": [
-            "Augmentation de l'absorption intestinale du calcium via l'activation des canaux TRPV6",
-            "Réduction de la résorption osseuse par inhibition de l'activité des ostéoclastes"
+            "Stimulation de la circulation lymphatique",
+            "Amélioration de la réponse aux infections"
         ],
-        "explanation": "Les eaux calciques augmentent l'absorption intestinale du calcium (via TRPV6) et réduisent la résorption osseuse (inhibition des ostéoclastes). Elles n'affectent pas directement la PTH, l'ostéocalcine, ou l'excrétion urinaire de calcium.",
+        "explanation": "La douche écossaise active la circulation lymphatique, favorisant ainsi le drainage des toxines et l'immunosurveillance, et améliore la réponse immunitaire aux infections grâce à l'alternance chaud/froid.",
         "multiple": true
     },
     {
-        "question": "Quel est le mécanisme par lequel les enveloppements humides chauds (40-45°C) soulagent les douleurs menstruelles (dysménorrhée primaire) ?",
+        "question": "Quel est le protocole d'un enveloppement chaud du ventre en cas de constipation",
         "options": [
-            "Relaxation des fibres musculaires lisses utérines via l'inhibition des récepteurs à l'ocytocine",
-            "Augmentation de la circulation sanguine pelvienne et réduction de l'ischémie locale",
-            "Inhibition de la production de prostaglandines F2α (PGF2α) par l'endomètre",
-            "Stimulation de la sécrétion d'endorphines par l'hypothalamus via les thermorécepteurs cutanés"
+            "Application d'une bouillotte à 45°C pendant 30 minutes",
+            "Enveloppement avec une serviette humide à 40°C pendant 15-20 minutes",
+            "Alternance de chaud et froid toutes les 5 minutes",
+            "Application de glace pendant 10 minutes"
         ],
-        "correctAnswers": ["Augmentation de la circulation sanguine pelvienne et réduction de l'ischémie locale"],
-        "explanation": "Les enveloppements chauds soulagent la dysménorrhée en augmentant la circulation pelvienne (réduction de l'ischémie utérine). Ils n'inhibent pas directement les récepteurs à l'ocytocine, les PGF2α, ou ne stimulent pas les endorphines (effet secondaire possible mais non principal).",
+        "correctAnswers": ["Enveloppement avec une serviette humide à 40°C pendant 15-20 minutes"],
+        "explanation": "Un enveloppement chaud du ventre à 40°C pendant 15-20 minutes détend les muscles lisses intestinaux, stimule le péristaltisme et favorise l'évacuation des selles en cas de constipation.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est l'effet d'un bain froid total sur la thermorégulation",
+        "options": [
+            "Diminution de la production de chaleur métabolique",
+            "Stimulation de la production de chaleur par activation du tissu adipeux brun",
+            "Inhibition de la transpiration",
+            "Augmentation de la température corporelle centrale"
+        ],
+        "correctAnswers": ["Stimulation de la production de chaleur par activation du tissu adipeux brun"],
+        "explanation": "Un bain froid total active le tissu adipeux brun (thermogénèse sans frisson), augmentant ainsi la production de chaleur métabolique pour maintenir la température centrale.",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la principale indication d'un lavement de la zone ORL",
+        "options": [
+            "Traitement des sinusites chroniques",
+            "Prévention des caries dentaires",
+            "Stimulation de la mémoire",
+            "Réduction de l'acidité gastrique"
+        ],
+        "correctAnswers": ["Traitement des sinusites chroniques"],
+        "explanation": "Le lavement de la zone ORL (lavage nasal) est indiqué pour traiter les sinusites chroniques en éliminant les mucosités et les pathogènes des cavités nasales et sinusiennes.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le mécanisme d'action d'un drap ruisselant en hydrologie",
+        "options": [
+            "Réduction de la transpiration",
+            "Stimulation de la circulation capillaire par effet mécanique et thermique",
+            "Augmentation de la rétention hydrique",
+            "Inhibition de la vasodilatation"
+        ],
+        "correctAnswers": ["Stimulation de la circulation capillaire par effet mécanique et thermique"],
+        "explanation": "Le drap ruisselant (application d'eau froide en filet continu) stimule la circulation capillaire par un effet mécanique (pression de l'eau) et thermique (vasoconstriction/vasodilatation réflexe).",
+        "multiple": false
+    },
+    {
+        "question": "Quels sont les effets d'un bain de siège chaud en cas de cystite (2 bonnes réponses)",
+        "options": [
+            "Réduction des spasmes vésicaux",
+            "Augmentation de la diurèse",
+            "Stimulation de la circulation pelvienne",
+            "Diminution de la température locale",
+            "Inhibition de la réponse immunitaire"
+        ],
+        "correctAnswers": [
+            "Réduction des spasmes vésicaux",
+            "Stimulation de la circulation pelvienne"
+        ],
+        "explanation": "Un bain de siège chaud réduit les spasmes vésicaux par détente musculaire et améliore la circulation pelvienne, favorisant ainsi la résolution de la cystite.",
+        "multiple": true
+    },
+    {
+        "question": "Quel est l'objectif d'une cure de déshydratation-rehydratation type Schroth",
+        "options": [
+            "Stimulation de la diurèse et élimination des sels rénaux",
+            "Augmentation de la rétention hydrique",
+            "Réduction de la filtration glomérulaire",
+            "Diminution de la pression osmotique plasmatique"
+        ],
+        "correctAnswers": ["Stimulation de la diurèse et élimination des sels rénaux"],
+        "explanation": "La cure Schroth (jeûne hydrique suivi d'une réhydratation rapide) stimule la diurèse et favorise l'élimination des sels et cristaux rénaux, réduisant ainsi le risque de lithiase.",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la température idéale pour un enveloppement froid local en cas d'entorse",
+        "options": [
+            "0-5°C",
+            "10-15°C",
+            "20-25°C",
+            "30-35°C"
+        ],
+        "correctAnswers": ["10-15°C"],
+        "explanation": "Un enveloppement froid local à 10-15°C est idéal pour réduire l'inflammation et l'œdème sans risque de gelure, tout en permettant une vasoconstriction efficace.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le rôle d'un bain de boue en balnéothérapie",
+        "options": [
+            "Stimulation de la sudation",
+            "Action anti-inflammatoire et reminéralisante",
+            "Augmentation de la pression artérielle",
+            "Réduction de la circulation lymphatique"
+        ],
+        "correctAnswers": ["Action anti-inflammatoire et reminéralisante"],
+        "explanation": "Les bains de boue agissent par leurs propriétés anti-inflammatoires (riches en minéraux et oligoéléments) et reminéralisantes, utiles en rhumatologie et dermatologie.",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la contre-indication d'un enveloppement chaud du thorax en cas de bronchite aiguë",
+        "options": [
+            "Risque d'aggravation de la congestion bronchique",
+            "Diminution de la toux",
+            "Augmentation de la sécrétion de mucus",
+            "Stimulation de la respiration"
+        ],
+        "correctAnswers": ["Risque d'aggravation de la congestion bronchique"],
+        "explanation": "Un enveloppement chaud du thorax est contre-indiqué en phase aiguë de bronchite, car la chaleur peut aggraver la congestion bronchique et la dyspnée.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est l'effet d'une affusion froide sur la récupération musculaire après un effort intense",
+        "options": [
+            "Augmentation de la production de lactates",
+            "Réduction de l'inflammation et des courbatures",
+            "Stimulation de la glycogénèse",
+            "Diminution de la circulation sanguine locale"
+        ],
+        "correctAnswers": ["Réduction de l'inflammation et des courbatures"],
+        "explanation": "L'affusion froide réduit la vasodilatation post-effort, limite l'œdème inflammatoire et les micro-lésions musculaires, accélérant ainsi la récupération.",
         "multiple": false
     }
 ]

@@ -1,502 +1,539 @@
-const questionsEmonctoires = [
+const questionsEmonctoires = 
+[
     {
-        "question": "Selon le livret ISUPNAT, quel est le rôle principal des émonctoires dans le maintien de l'homéostasie, et quel est le pourcentage approximatif des liquides corporels (humeurs) qu'ils permettent de purifier ?",
+        "question": "Quel est le rôle principal du foie dans le processus de détoxification des xénobiotiques",
         "options": [
-            "Les émonctoires éliminent les déchets métaboliques pour préserver l'équilibre des humeurs, qui représentent environ 70% du poids corporel.",
-            "Les émonctoires synthétisent des hormones pour réguler le métabolisme, représentant 50% des liquides corporels.",
-            "Les émonctoires stockent les nutriments essentiels et libèrent des enzymes digestives, couvrant 30% des besoins énergétiques.",
-            "Les émonctoires produisent des anticorps pour renforcer l'immunité, agissant sur 90% des pathogènes circulants."
+            "Filtration mécanique des particules",
+            "Transformation des toxines liposolubles en métabolites hydrosolubles via les cytochrome P450",
+            "Stockage des métaux lourds",
+            "Sécrétion directe des toxines dans l'urine"
         ],
-        "correctAnswers": ["Les émonctoires éliminent les déchets métaboliques pour préserver l'équilibre des humeurs, qui représentent environ 70% du poids corporel."],
-        "explanation": "Le livret souligne que les émonctoires sont essentiels pour éliminer les déchets et maintenir l'équilibre des humeurs, qui constituent 70% du poids corporel (p. 3, 7).",
+        "correctAnswers": ["Transformation des toxines liposolubles en métabolites hydrosolubles via les cytochrome P450"],
+        "explanation": "Le foie métabolise les xénobiotiques (médicaments, polluants) en deux phases : la phase I (oxydation par les cytochrome P450) rend les toxines plus polaires, puis la phase II (conjugaison) les transforme en métabolites hydrosolubles éliminables par les reins ou la bile.",
         "multiple": false
     },
     {
-        "question": "Quels sont les quatre émonctoires principaux cités dans le livret ISUPNAT ? (4 bonnes réponses)",
+        "question": "Quels sont les signes cliniques d'une surcharge hépatique avec dérivation émonctorielle vers la peau (2 bonnes réponses)",
         "options": [
-            "Foie (avec vésicule biliaire et intestins)",
-            "Reins (avec vessie)",
-            "Poumons (avec bronches)",
-            "Peau (avec glandes sudoripares et sébacées)",
-            "Rate",
-            "Pancréas",
-            "Cœur"
+            "Eczéma suintant",
+            "Urticaire chronique",
+            "Calculs biliaires",
+            "Hypertension artérielle",
+            "Diarrhée osmotique"
         ],
         "correctAnswers": [
-            "Foie (avec vésicule biliaire et intestins)",
-            "Reins (avec vessie)",
-            "Poumons (avec bronches)",
-            "Peau (avec glandes sudoripares et sébacées)"
+            "Eczéma suintant",
+            "Urticaire chronique"
         ],
-        "explanation": "Le livret liste ces quatre émonctoires comme principaux (p. 3).",
+        "explanation": "Une surcharge hépatique peut entraîner une dérivation des toxines vers la peau, provoquant des manifestations cutanées comme l'eczéma suintant (colles) ou l'urticaire (histamine libérée par le foie congestionné).",
         "multiple": true
     },
     {
-        "question": "Quel est le rôle spécifique du foie dans le processus de détoxification, selon le livret ?",
+        "question": "Quel est le mécanisme physiologique par lequel les reins éliminent les cristaux (acide urique, oxalates)",
         "options": [
-            "Le foie filtre les toxines du sang, transforme les déchets en composés solubles dans l'eau ou les graisses, et les achemine vers les reins ou la bile.",
-            "Le foie synthétise la bile pour digérer les glucides et produit des anticorps contre les pathogènes intestinaux.",
-            "Le foie stocke les vitamines liposolubles et régule la glycémie via la gluconéogenèse.",
-            "Le foie métabolise les hormones stéroïdiennes et élimine les métaux lourds par la transpiration."
+            "Filtration glomérulaire suivie de réabsorption tubulaire sélective",
+            "Sécrétion active dans les tubules proximaux",
+            "Excrétion passive par diffusion",
+            "Métabolisation hépatique préalable"
         ],
-        "correctAnswers": ["Le foie filtre les toxines du sang, transforme les déchets en composés solubles dans l'eau ou les graisses, et les achemine vers les reins ou la bile."],
-        "explanation": "Le livret décrit le foie comme un organe de détoxification qui transforme les toxines en déchets solubles, éliminés via la bile ou les reins (p. 4).",
+        "correctAnswers": ["Filtration glomérulaire suivie de réabsorption tubulaire sélective"],
+        "explanation": "Les reins filtrent les cristaux (acide urique, oxalates) au niveau du glomérule, puis réabsorbent sélectivement les substances utiles dans les tubules, tandis que les déchets sont excrétés dans l'urine.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois types de déchets éliminés par les émonctoires, selon le livret ? (3 bonnes réponses)",
+        "question": "Quelle technique naturopathique est spécifique pour stimuler l'émonctoire utérin en cas de règles douloureuses",
         "options": [
-            "Acides",
-            "Cristaux",
-            "Mucosités (colles)",
-            "Gaz",
-            "Métaux lourds",
-            "Radicaux libres"
+            "Cataplasme d'argile sur le bas-ventre",
+            "Massage réflexe plantaire de la zone utérine avec HE de sauge sclarée",
+            "Bain de siège froid",
+            "Jeûne hydrique de 48h"
         ],
-        "correctAnswers": ["Acides", "Cristaux", "Mucosités (colles)"],
-        "explanation": "Le livret mentionne que les déchets peuvent être acides, cristalloïdaux (cristaux), ou colloïdaux (mucosités/colles) (p. 7).",
+        "correctAnswers": ["Massage réflexe plantaire de la zone utérine avec HE de sauge sclarée"],
+        "explanation": "Le massage réflexe plantaire de la zone utérine (milieu de la voûte plantaire) avec de l'huile essentielle de sauge sclarée stimule la circulation pelvienne et réduit les spasmes utérins, tout en équilibrant le terrain hormonal.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est l'effet d'une cure d'hydroxydase sur la détoxification rénale",
+        "options": [
+            "Augmentation de la rétention hydrique",
+            "Stimulation de la diurèse et élimination des cristaux par pression osmotique",
+            "Inhibition de la filtration glomérulaire",
+            "Alcalinisation du pH urinaire"
+        ],
+        "correctAnswers": ["Stimulation de la diurèse et élimination des cristaux par pression osmotique"],
+        "explanation": "L'hydroxydase (eau distillée) exerce une pression osmotique sur les cristaux accumulés dans le sang, favorisant leur élimination par les reins et réduisant ainsi la charge toxémique.",
+        "multiple": false
+    },
+    {
+        "question": "Quels sont les émonctoires secondaires sollicités en cas de saturation du foie (2 bonnes réponses)",
+        "options": [
+            "Poumons",
+            "Peau",
+            "Cœur",
+            "Pancréas",
+            "Rate"
+        ],
+        "correctAnswers": [
+            "Poumons",
+            "Peau"
+        ],
+        "explanation": "En cas de saturation hépatique, les toxines sont dérivées vers les émonctoires secondaires : les poumons (expectoration) et la peau (transpiration, sébum), selon le principe de la dérivation émonctorielle.",
         "multiple": true
     },
     {
-        "question": "Quel est le mécanisme de la 'dérivation émonctorielle' expliqué dans le livret ?",
+        "question": "Quel est le rôle des glandes sudoripares dans l'élimination des déchets colloïdaux",
         "options": [
-            "Lorsqu'un émonctoire est surchargé, il redirige une partie des déchets vers un émonctoire secondaire (ex : peau ou poumons si le foie est saturé).",
-            "La dérivation émonctorielle consiste à bloquer temporairement un émonctoire pour forcer l'élimination par un autre.",
-            "C'est un processus pathologique où les déchets s'accumulent dans les tissus en cas de défaillance de tous les émonctoires.",
-            "Elle implique l'utilisation de plantes médicinales pour stimuler artificiellement un émonctoire spécifique."
+            "Élimination exclusive des cristaux",
+            "Excrétion des toxines liposolubles via le sébum",
+            "Régulation de la température corporelle uniquement",
+            "Production d'anticorps"
         ],
-        "correctAnswers": ["Lorsqu'un émonctoire est surchargé, il redirige une partie des déchets vers un émonctoire secondaire (ex : peau ou poumons si le foie est saturé)."],
-        "explanation": "Le livret explique que la dérivation émonctorielle permet de soulager un émonctoire saturé en utilisant un émonctoire de secours (p. 8).",
+        "correctAnswers": ["Excrétion des toxines liposolubles via le sébum"],
+        "explanation": "Les glandes sudoripares (transpiration) et sébacées (sébum) éliminent les déchets colloïdaux (toxines liposolubles, métabolites hormonaux) lorsque le foie ou les intestins sont saturés.",
         "multiple": false
     },
     {
-        "question": "Quels sont les signes cliniques d'un foie surchargé, selon le livret ? (3 bonnes réponses)",
+        "question": "Quelle plante est spécifiquement indiquée pour drainer l'émonctoire rénal en cas de rétention d'eau",
         "options": [
-            "Mauvaise haleine",
-            "Digestion lente",
-            "Vertiges",
-            "Hypertension artérielle",
+            "Pissenlit (Taraxacum officinale)",
+            "Ortie (Urtica dioica)",
+            "Genévrier (Juniperus communis)",
+            "Boldo (Peumus boldus)"
+        ],
+        "correctAnswers": ["Genévrier (Juniperus communis)"],
+        "explanation": "Le genévrier est un diurétique puissant qui stimule la filtration glomérulaire et réduit la rétention hydrique, tout en favorisant l'élimination des cristaux (acide urique).",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le mécanisme d'action d'un cataplasme de chou sur les reins congestifs",
+        "options": [
+            "Réduction de l'inflammation par inhibition de la cyclooxygénase",
+            "Effet révulsif et anti-inflammatoire par activation de la circulation locale",
+            "Stimulation de la sécrétion de rénine",
+            "Augmentation de la pression artérielle"
+        ],
+        "correctAnswers": ["Effet révulsif et anti-inflammatoire par activation de la circulation locale"],
+        "explanation": "Le cataplasme de chou exerce un effet révulsif (détourne la congestion vers la peau) et anti-inflammatoire en activant la microcirculation locale, réduisant ainsi l'œdème et la douleur rénale.",
+        "multiple": false
+    },
+    {
+        "question": "Quelle technique permet de stimuler l'émonctoire pulmonaire en cas de bronchite chronique",
+        "options": [
+            "Inhalation sèche d'HE d'eucalyptus radié",
+            "Bain de vapeur au romarin",
+            "Compresse froide sur la poitrine",
+            "Jeûne sec de 24h"
+        ],
+        "correctAnswers": ["Inhalation sèche d'HE d'eucalyptus radié"],
+        "explanation": "L'inhalation sèche d'HE d'eucalyptus radié (1,8-cinéole) fluidifie les sécrétions bronchiques, stimule le mucus et favorise l'expectoration, décongestionnant ainsi les poumons.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est l'effet d'un bain dérivatif pédiluve-maniluve sur la congestion pelvienne",
+        "options": [
+            "Augmentation de la pression veineuse pelvienne",
+            "Dérivation du sang vers les extrémités et réduction de la stase pelvienne",
+            "Stimulation de la sécrétion d'aldostérone",
+            "Inhibition du retour veineux"
+        ],
+        "correctAnswers": ["Dérivation du sang vers les extrémités et réduction de la stase pelvienne"],
+        "explanation": "Le bain dérivatif (pieds dans l'eau chaude, mains dans l'eau froide) crée un appel sanguin vers les extrémités, réduisant ainsi la congestion pelvienne et stimulant la circulation lymphatique.",
+        "multiple": false
+    },
+    {
+        "question": "Quels sont les signes d'une surcharge de l'émonctoire intestinal (2 bonnes réponses)",
+        "options": [
+            "Ballonnements et flatulences",
+            "Selles décolorées",
             "Hyperglycémie",
-            "Douleurs articulaires"
+            "Tachycardie",
+            "Dermographisme"
         ],
-        "correctAnswers": ["Mauvaise haleine", "Digestion lente", "Vertiges"],
-        "explanation": "Le livret cite ces signes comme indicateurs d'un foie surchargé (p. 7).",
+        "correctAnswers": [
+            "Ballonnements et flatulences",
+            "Selles décolorées"
+        ],
+        "explanation": "Une surcharge intestinale se manifeste par des ballonnements (fermentation), des flatulences (gaz), et des selles décolorées (défaut de bile ou dysbiose).",
         "multiple": true
     },
     {
-        "question": "Quel est le rôle des reins dans l'élimination des déchets, selon le livret ?",
+        "question": "Quel est le rôle de la réflexologie endo-nasale dans le drainage des poumons",
         "options": [
-            "Les reins filtrent le sang pour éliminer les déchets cristalloïdaux via l'urine et produisent des hormones (ex : érythropoïétine).",
-            "Les reins métabolisent les acides gras et régulent la température corporelle.",
-            "Les reins stockent les minéraux et libèrent des enzymes pour dégrader les protéines.",
-            "Les reins synthétisent la vitamine D et éliminent les toxines par la transpiration."
+            "Stimulation des points réflexes nasaux pour décongestionner les sinus",
+            "Inhibition de la sécrétion de mucus",
+            "Augmentation de la pression artérielle pulmonaire",
+            "Réduction de la capacité vitale"
         ],
-        "correctAnswers": ["Les reins filtrent le sang pour éliminer les déchets cristalloïdaux via l'urine et produisent des hormones (ex : érythropoïétine)."],
-        "explanation": "Le livret décrit les reins comme des filtres éliminant les cristaux et produisant des hormones (p. 4).",
+        "correctAnswers": ["Stimulation des points réflexes nasaux pour décongestionner les sinus"],
+        "explanation": "La réflexologie endo-nasale active les points réflexes liés aux poumons et aux sinus, favorisant le drainage des mucosités et la décongestion des voies respiratoires supérieures.",
         "multiple": false
     },
     {
-        "question": "Quels sont les signes d'un déséquilibre des reins, selon le livret ? (3 bonnes réponses)",
+        "question": "Quelle est la technique naturopathique recommandée pour détoxifier la peau en cas de psoriasis",
         "options": [
-            "Infections urinaires",
-            "Mycoses",
-            "Rétention d'eau",
+            "Bain hyperthermique avec HE de térébenthine",
+            "Application de cataplasme d'argile verte",
+            "Sauna sec quotidien",
+            "Jeûne sec de 72h"
+        ],
+        "correctAnswers": ["Application de cataplasme d'argile verte"],
+        "explanation": "L'argile verte, riche en silice et oligoéléments, absorbe les toxines cutanées, réduit l'inflammation et favorise la régénération épidermique en cas de psoriasis.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le mécanisme d'action des ions négatifs sur la fonction pulmonaire",
+        "options": [
+            "Neutralisation des radicaux libres et amélioration de l'oxygénation",
+            "Inhibition de la sécrétion de surfactant",
+            "Augmentation de la viscosité du mucus",
+            "Stimulation de la bronchoconstriction"
+        ],
+        "correctAnswers": ["Neutralisation des radicaux libres et amélioration de l'oxygénation"],
+        "explanation": "Les ions négatifs (présents près des cascades, en forêt) captent les radicaux libres, réduisent l'inflammation pulmonaire et améliorent la capacité d'oxygénation des alvéoles.",
+        "multiple": false
+    },
+    {
+        "question": "Quels sont les effets d'une cure de chlorure de magnésium sur l'émonctoire intestinal (2 bonnes réponses)",
+        "options": [
+            "Stimulation du péristaltisme",
+            "Réduction de la perméabilité intestinale",
+            "Augmentation de la flore pathogène",
+            "Diminution de l'absorption du magnésium",
+            "Effet laxatif doux"
+        ],
+        "correctAnswers": [
+            "Stimulation du péristaltisme",
+            "Effet laxatif doux"
+        ],
+        "explanation": "Le chlorure de magnésium stimule le péristaltisme intestinal et exerce un effet laxatif osmotique, favorisant l'élimination des toxines sans irriter la muqueuse.",
+        "multiple": true
+    },
+    {
+        "question": "Quel est l'effet d'un massage roulé sur la peau en cas de cellulite",
+        "options": [
+            "Augmentation de la rétention hydrique",
+            "Stimulation de la circulation lymphatique et réduction des adhérences",
+            "Inhibition de la lipolyse",
+            "Diminution de la température locale"
+        ],
+        "correctAnswers": ["Stimulation de la circulation lymphatique et réduction des adhérences"],
+        "explanation": "Le massage roulé (palper-rouler) décolle les adhérences du tissu conjonctif, active la circulation lymphatique et favorise l'élimination des toxines responsables de la cellulite.",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la technique de drainage lymphatique manuel la plus efficace pour décongestionner les membres inférieurs",
+        "options": [
+            "Méthode Vodder (mouvements circulaires doux)",
+            "Pétrissage profond des muscles",
+            "Application de glace",
+            "Ventouses sèches"
+        ],
+        "correctAnswers": ["Méthode Vodder (mouvements circulaires doux)"],
+        "explanation": "La méthode Vodder, par ses mouvements circulaires et légers, stimule spécifiquement la circulation lymphatique, réduisant ainsi les œdèmes et la stase veineuse.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le rôle de l'utérus comme émonctoire cyclique",
+        "options": [
+            "Élimination exclusive des cristaux",
+            "Évacuation des colles via les leucorrhées et des déchets métaboliques via les règles",
+            "Production d'hormones stéroïdiennes uniquement",
+            "Stockage des métaux lourds"
+        ],
+        "correctAnswers": ["Évacuation des colles via les leucorrhées et des déchets métaboliques via les règles"],
+        "explanation": "L'utérus élimine les colles (leucorrhées) et les déchets métaboliques (endomètre) lors des règles, jouant ainsi un rôle clé dans la détoxification cyclique chez la femme.",
+        "multiple": false
+    },
+    {
+        "question": "Quels sont les signes d'une dérivation émonctorielle vers les poumons en cas de surcharge hépatique (2 bonnes réponses)",
+        "options": [
+            "Toux grasse chronique",
+            "Sinusite récidivante",
+            "Eczéma sec",
+            "Bronchite à répétition",
+            "Calculs rénaux"
+        ],
+        "correctAnswers": [
+            "Toux grasse chronique",
+            "Bronchite à répétition"
+        ],
+        "explanation": "Une surcharge hépatique peut entraîner une dérivation des colles vers les poumons, provoquant une toux grasse (mucosités) ou des bronchites récidivantes (inflammation chronique).",
+        "multiple": true
+    },
+    {
+        "question": "Quel est l'effet d'un bol d'air Jacquier sur l'oxygénation cellulaire",
+        "options": [
+            "Hyperoxygénation directe des tissus",
+            "Stimulation de l'oxygénation cellulaire par activation des oléorésines de pin",
+            "Inhibition de la respiration mitochondriale",
+            "Augmentation de la production de CO2"
+        ],
+        "correctAnswers": ["Stimulation de l'oxygénation cellulaire par activation des oléorésines de pin"],
+        "explanation": "Le bol d'air Jacquier utilise des oléorésines de pin peroxydées qui stimulent l'oxygénation cellulaire de manière équilibrée, sans risque d'hyperoxie, en activant les échanges gazeux alvéolaires.",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la technique recommandée pour stimuler l'émonctoire cutané en cas d'acné hormonale",
+        "options": [
+            "Bain de vapeur au romarin",
+            "Application de vinaigre de cidre dilué en compresse",
+            "Sauna sec quotidien",
+            "Jeûne hydrique de 48h"
+        ],
+        "correctAnswers": ["Application de vinaigre de cidre dilué en compresse"],
+        "explanation": "Le vinaigre de cidre (acide acétique) rééquilibre le pH cutané, réduit l'excès de sébum et limite la prolifération bactérienne (Cutibacterium acnes) responsable de l'acné.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le mécanisme d'action des ventouses sur la détoxification cutanée",
+        "options": [
+            "Inhibition de la circulation capillaire",
+            "Création d'un effet révulsif et décongestionnant par succion",
+            "Augmentation de la rétention lymphatique",
+            "Réduction de la température locale"
+        ],
+        "correctAnswers": ["Création d'un effet révulsif et décongestionnant par succion"],
+        "explanation": "Les ventouses créent une dépression locale qui active la circulation sanguine et lymphatique, favorisant l'élimination des toxines accumulées dans le tissu conjonctif (effet révulsif).",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la plante la plus adaptée pour drainer l'émonctoire hépatique en cas de stéatose",
+        "options": [
+            "Artichaut (Cynara scolymus)",
+            "Chardon-Marie (Silybum marianum)",
+            "Romarin (Rosmarinus officinalis)",
+            "Boldo (Peumus boldus)"
+        ],
+        "correctAnswers": ["Chardon-Marie (Silybum marianum)"],
+        "explanation": "Le Chardon-Marie (silymarine) protège les hépatocytes, stimule la régénération hépatique et favorise l'élimination des lipides intra-hépatiques en cas de stéatose.",
+        "multiple": false
+    },
+    {
+        "question": "Quels sont les effets d'une cure de jus verts sur les émonctoires (2 bonnes réponses)",
+        "options": [
+            "Stimulation de la bile et détoxification hépatique",
+            "Augmentation de la rétention rénale",
+            "Alcalinisation du terrain et réduction de l'acidité",
+            "Inhibition du péristaltisme intestinal",
+            "Diminution de la diurèse"
+        ],
+        "correctAnswers": [
+            "Stimulation de la bile et détoxification hépatique",
+            "Alcalinisation du terrain et réduction de l'acidité"
+        ],
+        "explanation": "Les jus verts (chlorophylle) stimulent la production de bile, soutiennent la détoxification hépatique et alcalinisent le terrain, réduisant ainsi la charge acide sur les reins.",
+        "multiple": true
+    },
+    {
+        "question": "Quel est le rôle des postures inversées en yoga sur le drainage des émonctoires",
+        "options": [
+            "Réduction de la circulation lymphatique",
+            "Stimulation du retour veineux et lymphatique vers le cœur",
+            "Augmentation de la pression intracrânienne",
+            "Inhibition de la respiration diaphragmatique"
+        ],
+        "correctAnswers": ["Stimulation du retour veineux et lymphatique vers le cœur"],
+        "explanation": "Les postures inversées (ex : Sarvangasana) favorisent le retour veineux et lymphatique des membres inférieurs vers le cœur, décongestionnant ainsi les émonctoires pelviens et abdomaux.",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la technique naturopathique pour réduire une dérivation émonctorielle vers la peau en cas de saturation rénale",
+        "options": [
+            "Augmentation de l'apport en protéines",
+            "Stimulation de la transpiration par sauna",
+            "Réduction de l'apport en eau",
+            "Drainage lymphatique manuel des membres inférieurs"
+        ],
+        "correctAnswers": ["Drainage lymphatique manuel des membres inférieurs"],
+        "explanation": "Le drainage lymphatique manuel réduit la charge sur la peau en activant les voies lymphatiques alternatives, permettant ainsi aux reins de retrouver leur fonction sans surcharge cutanée.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est l'effet d'un jeûne intermittent sur la détoxification des émonctoires",
+        "options": [
+            "Augmentation de la rétention toxique",
+            "Stimulation de l'autophagie et réduction de la charge hépatique",
+            "Inhibition de la filtration glomérulaire",
+            "Diminution de la sudation"
+        ],
+        "correctAnswers": ["Stimulation de l'autophagie et réduction de la charge hépatique"],
+        "explanation": "Le jeûne intermittent active l'autophagie (dégradation des cellules endommagées), réduit la charge hépatique et favorise l'élimination des toxines par les émonctoires secondaires (peau, poumons).",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la technique recommandée pour décongestionner le foie en cas de migraines liées à la toxémie",
+        "options": [
+            "Compresse chaude sur le foie avec HE de romarin",
+            "Bain de pieds froid",
+            "Application de glace sur la nuque",
+            "Jeûne sec de 72h"
+        ],
+        "correctAnswers": ["Compresse chaude sur le foie avec HE de romarin"],
+        "explanation": "Une compresse chaude avec de l'HE de romarin (1,8-cinéole) stimule la circulation hépatique, favorise l'élimination des toxines et réduit les migraines liées à la congestion hépatique.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le mécanisme d'action de l'urtication sur la détoxification cutanée",
+        "options": [
+            "Inhibition de la circulation capillaire",
+            "Stimulation de la microcirculation et libération d'histamine",
+            "Réduction de la perméabilité vasculaire",
+            "Augmentation de la rétention hydrique"
+        ],
+        "correctAnswers": ["Stimulation de la microcirculation et libération d'histamine"],
+        "explanation": "L'urtication (fouettement avec des orties) libère de l'histamine, ce qui stimule la microcirculation cutanée et favorise l'élimination des toxines par les glandes sudoripares et sébacées.",
+        "multiple": false
+    },
+    {
+        "question": "Quels sont les signes d'une surcharge de l'émonctoire pulmonaire (2 bonnes réponses)",
+        "options": [
+            "Toux sèche persistante",
+            "Expectoration muqueuse chronique",
             "Hypertension artérielle",
-            "Diarrhée chronique",
-            "Dermatite atopique"
+            "Dermatite atopique",
+            "Sinusite récidivante"
         ],
-        "correctAnswers": ["Infections urinaires", "Mycoses", "Rétention d'eau"],
-        "explanation": "Le livret associe ces signes à un déséquilibre rénal (p. 7).",
+        "correctAnswers": [
+            "Expectoration muqueuse chronique",
+            "Sinusite récidivante"
+        ],
+        "explanation": "Une surcharge pulmonaire se manifeste par une expectoration muqueuse (colles) ou des sinusites récidivantes (dérivation des toxines vers les voies respiratoires supérieures).",
         "multiple": true
     },
     {
-        "question": "Quel est le rôle des poumons dans la détoxification, selon le livret ?",
+        "question": "Quel est l'effet d'un cataplasme de feuilles de chou sur les seins congestifs",
         "options": [
-            "Les poumons éliminent les déchets colloïdaux (colles) et les sels toxiques par l'expectoration, et régulent l'équilibre acido-basique.",
-            "Les poumons filtrent les métaux lourds et les éliminent via la toux.",
-            "Les poumons synthétisent des anticorps et métabolisent les hormones stéroïdiennes.",
-            "Les poumons stockent les vitamines hydrosolubles et régulent la pression artérielle."
+            "Augmentation de la température locale",
+            "Effet anti-inflammatoire et décongestionnant",
+            "Stimulation de la lactation",
+            "Inhibition de la circulation lymphatique"
         ],
-        "correctAnswers": ["Les poumons éliminent les déchets colloïdaux (colles) et les sels toxiques par l'expectoration, et régulent l'équilibre acido-basique."],
-        "explanation": "Le livret décrit les poumons comme éliminant les colles et régulant l'équilibre acido-basique (p. 4).",
+        "correctAnswers": ["Effet anti-inflammatoire et décongestionnant"],
+        "explanation": "Le cataplasme de chou exerce un effet anti-inflammatoire (flavonoïdes) et décongestionnant en activant la circulation locale, réduisant ainsi l'œdème et la douleur mammaire.",
         "multiple": false
     },
     {
-        "question": "Quels sont les signes d'un déséquilibre pulmonaire, selon le livret ? (3 bonnes réponses)",
+        "question": "Quelle est la technique naturopathique pour stimuler l'émonctoire intestinal en cas de constipation chronique",
         "options": [
-            "Sinusites",
-            "Bronchites",
-            "Allergies saisonnières",
-            "Constipation",
-            "Hypoglycémie",
-            "Ostéoporose"
+            "Lavement intestinal quotidien",
+            "Cure de pruneaux réhydratés et psyllium",
+            "Jeûne sec de 48h",
+            "Bain hyperthermique"
         ],
-        "correctAnswers": ["Sinusites", "Bronchites", "Allergies saisonnières"],
-        "explanation": "Le livret associe ces signes à un déséquilibre pulmonaire (p. 7).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle de la peau comme émonctoire, selon le livret ?",
-        "options": [
-            "La peau élimine les déchets cristalloïdaux (via la sueur) et colloïdaux (via le sébum), et prend le relais des reins en cas de saturation.",
-            "La peau synthétise la vitamine D et régule la glycémie.",
-            "La peau stocke les graisses et libère des hormones stéroïdiennes.",
-            "La peau filtre les toxines sanguines et produit des anticorps."
-        ],
-        "correctAnswers": ["La peau élimine les déchets cristalloïdaux (via la sueur) et colloïdaux (via le sébum), et prend le relais des reins en cas de saturation."],
-        "explanation": "Le livret décrit la peau comme un émonctoire mixte éliminant cristaux et colles (p. 4).",
+        "correctAnswers": ["Cure de pruneaux réhydratés et psyllium"],
+        "explanation": "Les pruneaux (fibres et sorbitol) et le psyllium (mucilages) stimulent le péristaltisme, augmentent le volume des selles et restaurent un transit régulier sans irritation.",
         "multiple": false
     },
     {
-        "question": "Quels sont les signes d'un déséquilibre cutané, selon le livret ? (3 bonnes réponses)",
+        "question": "Quel est le rôle des ions négatifs dans la détoxification pulmonaire",
         "options": [
-            "Acné",
-            "Eczéma",
-            "Furonculose",
-            "Hypertension",
-            "Diabète",
-            "Arthrite"
+            "Neutralisation des radicaux libres et amélioration de la clairance mucociliaire",
+            "Inhibition de la sécrétion de surfactant",
+            "Augmentation de la viscosité du mucus",
+            "Stimulation de la bronchoconstriction"
         ],
-        "correctAnswers": ["Acné", "Eczéma", "Furonculose"],
-        "explanation": "Le livret associe ces signes à un déséquilibre de la peau (p. 7).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle de l'utérus comme émonctoire chez la femme, selon le livret ?",
-        "options": [
-            "L'utérus élimine les colles via les leucorrhées et s'auto-nettoie lors des menstruations.",
-            "L'utérus filtre les métaux lourds et les élimine via le mucus cervical.",
-            "L'utérus synthétise des hormones et régule la glycémie.",
-            "L'utérus stocke les minéraux et libère des enzymes digestives."
-        ],
-        "correctAnswers": ["L'utérus élimine les colles via les leucorrhées et s'auto-nettoie lors des menstruations."],
-        "explanation": "Le livret décrit l'utérus comme un émonctoire cyclique éliminant les colles (p. 4).",
+        "correctAnswers": ["Neutralisation des radicaux libres et amélioration de la clairance mucociliaire"],
+        "explanation": "Les ions négatifs (présents en forêt, près des cascades) neutralisent les radicaux libres, réduisent l'inflammation pulmonaire et améliorent l'efficacité de la clairance mucociliaire.",
         "multiple": false
     },
     {
-        "question": "Quels sont les facteurs de ralentissement de la circulation des humeurs, selon le livret ? (3 bonnes réponses)",
+        "question": "Quelle est la technique recommandée pour réduire une dérivation émonctorielle vers les poumons en cas de saturation hépatique",
         "options": [
-            "Sédentarité",
-            "Viscosité du sang et de la lymphe",
-            "Sous-oxygénation",
-            "Excès de vitamines hydrosolubles",
-            "Déshydratation chronique",
-            "Surconsommation de protéines"
+            "Augmentation de l'apport en graisses saturées",
+            "Drainage hépatique par infusion de romarin et artichaut",
+            "Réduction de l'apport hydrique",
+            "Application de ventouses sur les bronches"
         ],
-        "correctAnswers": ["Sédentarité", "Viscosité du sang et de la lymphe", "Sous-oxygénation"],
-        "explanation": "Le livret cite ces facteurs comme causes de stagnation des humeurs (p. 8).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est l'impact de la sédentarité sur les émonctoires, selon le livret ?",
-        "options": [
-            "La sédentarité ralentit la circulation sanguine et lymphatique, favorisant l'accumulation de déchets dans les tissus.",
-            "La sédentarité stimule la production de bile et accélère le transit intestinal.",
-            "La sédentarité augmente la filtration rénale et réduit la rétention d'eau.",
-            "La sédentarité améliore l'oxygénation des cellules et réduit la viscosité des humeurs."
-        ],
-        "correctAnswers": ["La sédentarité ralentit la circulation sanguine et lymphatique, favorisant l'accumulation de déchets dans les tissus."],
-        "explanation": "Le livret explique que la sédentarité ralentit la circulation et favorise la stagnation des déchets (p. 8).",
+        "correctAnswers": ["Drainage hépatique par infusion de romarin et artichaut"],
+        "explanation": "Le drainage hépatique (romarin : cholérétique, artichaut : cholagogue) réduit la congestion hépatique et limite la dérivation des toxines vers les poumons, restaurant ainsi l'équilibre émonctoriel.",
         "multiple": false
     },
     {
-        "question": "Quelles sont les conséquences d'une viscosité accrue des humeurs, selon le livret ? (2 bonnes réponses)",
+        "question": "Quel est l'effet d'un bain de vapeur au romarin sur la détoxification cutanée",
         "options": [
-            "Dépôt de déchets dans les tissus (ex : cholestérol, acide urique)",
-            "Formation de stases et de pathologies chroniques",
-            "Augmentation de la production d'anticorps",
-            "Stimulation de la synthèse hormonale",
+            "Inhibition de la transpiration",
+            "Stimulation de la sudation et élimination des toxines liposolubles",
+            "Augmentation de la rétention hydrique",
             "Réduction de la température corporelle"
         ],
-        "correctAnswers": [
-            "Dépôt de déchets dans les tissus (ex : cholestérol, acide urique)",
-            "Formation de stases et de pathologies chroniques"
-        ],
-        "explanation": "Le livret associe la viscosité des humeurs à l'accumulation de déchets et aux pathologies chroniques (p. 8).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle de l'activité physique dans la stimulation des émonctoires, selon le livret ?",
-        "options": [
-            "L'activité physique stimule la transpiration (peau), la respiration (poumons), et les mouvements abdominaux (foie/intestins).",
-            "L'activité physique inhibe la production de bile et réduit l'absorption intestinale.",
-            "L'activité physique augmente la rétention d'eau et réduit la filtration rénale.",
-            "L'activité physique bloque la sudation et favorise la constipation."
-        ],
-        "correctAnswers": ["L'activité physique stimule la transpiration (peau), la respiration (poumons), et les mouvements abdominaux (foie/intestins)."],
-        "explanation": "Le livret souligne que l'activité physique ouvre les émonctoires peau, poumons, foie et intestins (p. 9).",
+        "correctAnswers": ["Stimulation de la sudation et élimination des toxines liposolubles"],
+        "explanation": "Le bain de vapeur au romarin (1,8-cinéole) ouvre les pores, stimule la sudation et favorise l'élimination des toxines liposolubles via les glandes sudoripares et sébacées.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois piliers d'une hygiène émonctorielle quotidienne, selon le livret ? (3 bonnes réponses)",
+        "question": "Quels sont les effets d'une cure de sève de bouleau sur les émonctoires (2 bonnes réponses)",
         "options": [
-            "Alimentation hypotoxique et biologique",
-            "Jeûne ou monodiète occasionnelle",
-            "Activité physique régulière",
-            "Supplémentation en vitamines synthétiques",
-            "Consommation quotidienne de produits laitiers",
-            "Exposition prolongée aux écrans"
+            "Stimulation de la diurèse et détoxification rénale",
+            "Augmentation de la rétention des cristaux",
+            "Réduction de l'acidité urinaire",
+            "Inhibition de la filtration glomérulaire",
+            "Diminution de la sudation"
         ],
         "correctAnswers": [
-            "Alimentation hypotoxique et biologique",
-            "Jeûne ou monodiète occasionnelle",
-            "Activité physique régulière"
+            "Stimulation de la diurèse et détoxification rénale",
+            "Réduction de l'acidité urinaire"
         ],
-        "explanation": "Le livret recommande ces pratiques pour maintenir les émonctoires en bon état (p. 9).",
+        "explanation": "La sève de bouleau (riche en sels minéraux et flavonoïdes) stimule la diurèse, favorise l'élimination des cristaux et alcalinise l'urine, réduisant ainsi le risque de lithiase.",
         "multiple": true
     },
     {
-        "question": "Quel est le lien entre la toxémie et les émonctoires, selon le livret ?",
+        "question": "Quel est le mécanisme d'action de la réflexologie plantaire sur l'émonctoire rénal",
         "options": [
-            "La toxémie est l'encrassement des humeurs par des déchets métaboliques ou externes, que les émonctoires doivent éliminer pour maintenir l'homéostasie.",
-            "La toxémie est une carence en vitamines et minéraux, compensée par la supplémentation en compléments alimentaires.",
-            "La toxémie est une infection bactérienne traitée par les émonctoires via la production d'anticorps.",
-            "La toxémie est un déséquilibre hormonal régulé par les émonctoires via la sécrétion d'enzymes."
+            "Inhibition de la filtration glomérulaire",
+            "Stimulation des points réflexes rénaux pour améliorer la circulation et la fonction",
+            "Augmentation de la rétention sodique",
+            "Réduction de la pression artérielle"
         ],
-        "correctAnswers": ["La toxémie est l'encrassement des humeurs par des déchets métaboliques ou externes, que les émonctoires doivent éliminer pour maintenir l'homéostasie."],
-        "explanation": "Le livret définit la toxémie comme un encrassement des humeurs, éliminé par les émonctoires (p. 7).",
+        "correctAnswers": ["Stimulation des points réflexes rénaux pour améliorer la circulation et la fonction"],
+        "explanation": "La réflexologie plantaire active les zones réflexes des reins (milieu de la voûte plantaire), améliorant ainsi la circulation rénale et la filtration glomérulaire.",
         "multiple": false
     },
     {
-        "question": "Quels sont les signes d'un déséquilibre intestinal, selon le livret ? (3 bonnes réponses)",
+        "question": "Quelle est la technique naturopathique pour réduire une dérivation émonctorielle vers l'utérus en cas de saturation intestinale",
         "options": [
-            "Ballonnements",
-            "Alternance diarrhée/constipation",
-            "Douleurs abdominales",
-            "Hypertension artérielle",
-            "Tachycardie",
-            "Insomnie"
+            "Lavement intestinal",
+            "Application de ventouses sur le bas-ventre",
+            "Cure de charbon végétal",
+            "Bain de siège chaud"
         ],
-        "correctAnswers": ["Ballonnements", "Alternance diarrhée/constipation", "Douleurs abdominales"],
-        "explanation": "Le livret associe ces signes à un déséquilibre intestinal (p. 7).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle du système lymphatique dans la détoxification, selon le livret ?",
-        "options": [
-            "Le système lymphatique transporte la lymphe chargée de déchets depuis les tissus vers le sang, et participe à la défense immunitaire.",
-            "Le système lymphatique filtre les toxines hépatiques et les élimine via la bile.",
-            "Le système lymphatique régule la glycémie et stocke les vitamines liposolubles.",
-            "Le système lymphatique produit des hormones et métabolise les acides gras."
-        ],
-        "correctAnswers": ["Le système lymphatique transporte la lymphe chargée de déchets depuis les tissus vers le sang, et participe à la défense immunitaire."],
-        "explanation": "Le livret décrit le système lymphatique comme un transporteur de déchets et un acteur de l'immunité (p. 14).",
+        "correctAnswers": ["Lavement intestinal"],
+        "explanation": "Un lavement intestinal décongestionne le côlon, réduit la pression sur les organes pelviens et limite la dérivation des toxines vers l'utérus (leucorrhées, règles douloureuses).",
         "multiple": false
     },
     {
-        "question": "Quelles sont les techniques citées dans le livret pour solliciter la peau comme émonctoire ? (3 bonnes réponses)",
+        "question": "Quel est l'effet d'un enveloppement froid des chevilles sur la circulation lymphatique",
         "options": [
-            "Bains de sudation (sauna, hammam)",
-            "Frictions sèches avec un gant de crin",
-            "Cataplasmes d'argile ou de plantes",
-            "Injections intramusculaires de vitamines",
-            "Consommation de compléments alimentaires synthétiques",
-            "Exposition aux écrans lumineux"
+            "Augmentation de la stase lymphatique",
+            "Stimulation du retour lymphatique par vasoconstriction réflexe",
+            "Inhibition de la diurèse",
+            "Réduction de la température centrale"
         ],
-        "correctAnswers": [
-            "Bains de sudation (sauna, hammam)",
-            "Frictions sèches avec un gant de crin",
-            "Cataplasmes d'argile ou de plantes"
-        ],
-        "explanation": "Le livret mentionne ces techniques pour stimuler la peau (p. 9).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle des plantes sudorifiques et diaphorétiques, selon le livret ?",
-        "options": [
-            "Elles stimulent la transpiration pour éliminer les déchets via la peau (ex : bardane, sauge, genévrier).",
-            "Elles inhibent la production de sébum et réduisent l'acné.",
-            "Elles bloquent la filtration rénale et augmentent la rétention d'eau.",
-            "Elles métabolisent les hormones stéroïdiennes et régulent la glycémie."
-        ],
-        "correctAnswers": ["Elles stimulent la transpiration pour éliminer les déchets via la peau (ex : bardane, sauge, genévrier)."],
-        "explanation": "Le livret cite ces plantes pour leur effet sudorifique (p. 9).",
+        "correctAnswers": ["Stimulation du retour lymphatique par vasoconstriction réflexe"],
+        "explanation": "L'enveloppement froid des chevilles provoque une vasoconstriction locale, ce qui active le retour lymphatique vers les ganglions inguinaux et réduit la stase dans les membres inférieurs.",
         "multiple": false
     },
     {
-        "question": "Quels sont les signes d'une dérivation émonctorielle vers la peau, selon le livret ? (2 bonnes réponses)",
+        "question": "Quelle est la technique recommandée pour stimuler l'émonctoire cutané en cas de psoriasis",
         "options": [
-            "Eczéma sec (élimination de cristaux)",
-            "Acné suintante (élimination de colles)",
-            "Hypertension artérielle",
-            "Diabète de type 2",
-            "Ostéoporose"
+            "Bain hyperthermique avec HE de térébenthine",
+            "Application de cataplasme d'argile verte et HE de lavande",
+            "Sauna sec quotidien",
+            "Jeûne hydrique de 48h"
         ],
-        "correctAnswers": [
-            "Eczéma sec (élimination de cristaux)",
-            "Acné suintante (élimination de colles)"
-        ],
-        "explanation": "Le livret associe ces signes cutanés à une dérivation émonctorielle (p. 8).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le principe d'une 'crise curative' en naturopathie, selon le livret ?",
-        "options": [
-            "Une crise curative est une réaction temporaire de l'organisme lors d'une détox trop intense, due à la libération massive de toxines.",
-            "C'est une infection bactérienne déclenchée par la supplémentation en probiotiques.",
-            "C'est une carence en vitamines due à une alimentation restrictive.",
-            "C'est une réaction allergique aux plantes médicinales utilisées en drainage."
-        ],
-        "correctAnswers": ["Une crise curative est une réaction temporaire de l'organisme lors d'une détox trop intense, due à la libération massive de toxines."],
-        "explanation": "Le livret explique que les crises curatives surviennent lors d'une détox mal adaptée (p. 9).",
+        "correctAnswers": ["Application de cataplasme d'argile verte et HE de lavande"],
+        "explanation": "L'argile verte absorbe les toxines et la lavande (linalol) apaise l'inflammation cutanée, réduisant ainsi les plaques de psoriasis et favorisant la régénération épidermique.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois aliments toxiques cités dans le livret comme encrassant les humeurs ? (3 bonnes réponses)",
+        "question": "Quel est le rôle des huiles essentielles de genévrier et de cèdre de l'Atlas dans le drainage rénal",
         "options": [
-            "Acides gras trans",
-            "Farines raffinées",
-            "Sucre blanc raffiné",
-            "Légumes verts",
-            "Fruits frais",
-            "Eau minérale"
+            "Inhibition de la diurèse",
+            "Stimulation de la filtration glomérulaire et élimination des cristaux",
+            "Augmentation de la rétention hydrique",
+            "Réduction de la pression artérielle"
         ],
-        "correctAnswers": [
-            "Acides gras trans",
-            "Farines raffinées",
-            "Sucre blanc raffiné"
-        ],
-        "explanation": "Le livret liste ces aliments comme toxiques pour les humeurs (p. 9).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle de l'équilibre acido-basique dans le fonctionnement des émonctoires, selon le livret ?",
-        "options": [
-            "Un équilibre acido-basique optimal permet aux émonctoires de filtrer efficacement les déchets et de maintenir l'homéostasie.",
-            "L'équilibre acido-basique régule uniquement la température corporelle.",
-            "Un déséquilibre acido-basique stimule la production de bile.",
-            "L'équilibre acido-basique est sans lien avec les émonctoires, car il est régulé uniquement par les poumons."
-        ],
-        "correctAnswers": ["Un équilibre acido-basique optimal permet aux émonctoires de filtrer efficacement les déchets et de maintenir l'homéostasie."],
-        "explanation": "Le livret souligne l'importance de l'équilibre acido-basique pour les émonctoires (p. 9, 14).",
+        "correctAnswers": ["Stimulation de la filtration glomérulaire et élimination des cristaux"],
+        "explanation": "Le genévrier et le cèdre de l'Atlas sont des diurétiques puissants qui augmentent la filtration glomérulaire et favorisent l'élimination des cristaux (oxalates, urates) via l'urine.",
         "multiple": false
-    },
-    {
-        "question": "Quels sont les deux exemples de techniques pour solliciter les poumons comme émonctoire, selon le livret ? (2 bonnes réponses)",
-        "options": [
-            "Respiration profonde et exercices de soufflerie",
-            "Utilisation d'huiles essentielles expectorantes (ex : eucalyptus)",
-            "Consommation de compléments alimentaires riches en iode",
-            "Exposition aux écrans lumineux",
-            "Injections de vitamines intramusculaires"
-        ],
-        "correctAnswers": [
-            "Respiration profonde et exercices de soufflerie",
-            "Utilisation d'huiles essentielles expectorantes (ex : eucalyptus)"
-        ],
-        "explanation": "Le livret mentionne ces techniques pour stimuler les poumons (p. 9).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est l'impact d'une sous-oxygénation sur les émonctoires, selon le livret ?",
-        "options": [
-            "La sous-oxygénation ralentit la circulation sanguine et lymphatique, réduisant l'efficacité de filtration des émonctoires.",
-            "La sous-oxygénation stimule la production de bile et accélère le transit intestinal.",
-            "La sous-oxygénation augmente la rétention d'eau et réduit la sudation.",
-            "La sous-oxygénation bloque la synthèse des hormones thyroïdiennes."
-        ],
-        "correctAnswers": ["La sous-oxygénation ralentit la circulation sanguine et lymphatique, réduisant l'efficacité de filtration des émonctoires."],
-        "explanation": "Le livret explique que l'oxygénation est cruciale pour la circulation et le fonctionnement des émonctoires (p. 8).",
-        "multiple": false
-    },
-    {
-        "question": "Quels sont les trois exemples de 'dérivation émonctorielle' cités dans le livret ? (3 bonnes réponses)",
-        "options": [
-            "Élimination de cristaux par la peau (eczéma sec) en cas de saturation rénale",
-            "Élimination de colles par les poumons (toux grasse) en cas de surcharge hépatique",
-            "Élimination de colles par l'utérus (leucorrhées) en cas de congestion intestinale",
-            "Élimination d'acides par les reins en cas de surcharge cutanée",
-            "Élimination de gaz par les intestins en cas de surcharge pulmonaire",
-            "Élimination de métaux lourds par la transpiration en cas de surcharge hépatique"
-        ],
-        "correctAnswers": [
-            "Élimination de cristaux par la peau (eczéma sec) en cas de saturation rénale",
-            "Élimination de colles par les poumons (toux grasse) en cas de surcharge hépatique",
-            "Élimination de colles par l'utérus (leucorrhées) en cas de congestion intestinale"
-        ],
-        "explanation": "Le livret donne ces exemples de dérivation émonctorielle (p. 8).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle des ventouses en naturopathie, selon le livret ?",
-        "options": [
-            "Les ventouses décongestionnent les tissus sous-jacents en stimulant la circulation sanguine et lymphatique (effet de 'révulsion').",
-            "Les ventouses bloquent la transpiration et réduisent la sudation.",
-            "Les ventouses inhibent la production de bile et ralentissent le transit intestinal.",
-            "Les ventouses métabolisent les hormones stéroïdiennes et régulent la glycémie."
-        ],
-        "correctAnswers": ["Les ventouses décongestionnent les tissus sous-jacents en stimulant la circulation sanguine et lymphatique (effet de 'révulsion')."],
-        "explanation": "Le livret décrit l'effet des ventouses comme une stimulation circulatoire (p. 9).",
-        "multiple": false
-    },
-    {
-        "question": "Quels sont les signes d'une dérivation émonctorielle vers les poumons, selon le livret ? (2 bonnes réponses)",
-        "options": [
-            "Toux grasse (expectoration de colles)",
-            "Sinusites chroniques",
-            "Hypertension artérielle",
-            "Diabète de type 2",
-            "Ostéoporose"
-        ],
-        "correctAnswers": [
-            "Toux grasse (expectoration de colles)",
-            "Sinusites chroniques"
-        ],
-        "explanation": "Le livret associe ces signes à une dérivation vers les poumons (p. 8).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle des cataplasmes d'argile dans la stimulation des émonctoires, selon le livret ?",
-        "options": [
-            "Les cataplasmes d'argile absorbent les toxines cutanées et stimulent la circulation locale pour favoriser l'élimination.",
-            "Les cataplasmes d'argile bloquent la transpiration et inhibent la détoxification.",
-            "Les cataplasmes d'argile augmentent la rétention d'eau et réduisent la filtration rénale.",
-            "Les cataplasmes d'argile métabolisent les hormones et régulent la glycémie."
-        ],
-        "correctAnswers": ["Les cataplasmes d'argile absorbent les toxines cutanées et stimulent la circulation locale pour favoriser l'élimination."],
-        "explanation": "Le livret décrit l'effet absorbant et circulatoire des cataplasmes d'argile (p. 9).",
-        "multiple": false
-    },
-    {
-        "question": "Quels sont les trois exemples de plantes utilisées pour stimuler la sudation, selon le livret ? (3 bonnes réponses)",
-        "options": [
-            "Bardane",
-            "Noyer",
-            "Plantain",
-            "Valériane",
-            "Millepertuis",
-            "Ginkgo biloba"
-        ],
-        "correctAnswers": ["Bardane", "Noyer", "Plantain"],
-        "explanation": "Le livret cite ces plantes comme sudorifiques (p. 9).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est l'objectif d'une cure de détox en naturopathie, selon le livret ?",
-        "options": [
-            "Une cure de détox vise à 'décrasser' les émonctoires pour restaurer leur fonctionnement optimal et réduire la toxémie.",
-            "Une cure de détox consiste à supprimer tous les aliments pour forcer l'organisme à puiser dans ses réserves.",
-            "Une cure de détox utilise des médicaments pour éliminer les pathogènes intestinaux.",
-            "Une cure de détox stimule la production d'anticorps pour renforcer l'immunité."
-        ],
-        "correctAnswers": ["Une cure de détox vise à 'décrasser' les émonctoires pour restaurer leur fonctionnement optimal et réduire la toxémie."],
-        "explanation": "Le livret définit la cure de détox comme un nettoyage des émonctoires (p. 3, 9).",
-        "multiple": false
-    },
-    {
-        "question": "Quels sont les deux exemples de techniques pour stimuler l'utérus comme émonctoire, selon le livret ? (2 bonnes réponses)",
-        "options": [
-            "Massage du bas-ventre avec des huiles essentielles (ex : sauge sclarée)",
-            "Décoction de prêle pour réduire les saignements abondants",
-            "Consommation de compléments alimentaires riches en fer",
-            "Exposition aux écrans lumineux",
-            "Injections de vitamines intramusculaires"
-        ],
-        "correctAnswers": [
-            "Massage du bas-ventre avec des huiles essentielles (ex : sauge sclarée)",
-            "Décoction de prêle pour réduire les saignements abondants"
-        ],
-        "explanation": "Le livret mentionne ces techniques pour l'utérus (p. 9).",
-        "multiple": true
     }
 ]

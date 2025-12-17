@@ -1,583 +1,479 @@
-const questionsBiodietetique = [
+const questionsBiodietetique =
+[
     {
-        "question": "Selon le livret ISUPNAT, quelle est la différence fondamentale entre la nutrition et la diététique en naturopathie ?",
+        "question": "Quel est le mécanisme biochimique principal de l'autolyse lors d'un jeûne prolongé",
         "options": [
-            "La nutrition vise à apporter les conditions optimales pour le fonctionnement de l'organisme avec un minimum d'encrassement, tandis que la diététique réduit l'alimentation en dessous des besoins nutritifs pour induire une autolyse et éliminer les toxines via les émonctoires.",
-            "La nutrition se concentre sur la supplémentation en vitamines et minéraux, tandis que la diététique utilise des médicaments naturels pour traiter les carences.",
-            "La nutrition est une approche thérapeutique pour soigner les maladies, tandis que la diététique est une hygiène de vie préventive.",
-            "La nutrition et la diététique sont des synonymes en naturopathie, toutes deux visant à équilibrer les apports en macronutriments."
+            "Oxydation directe des protéines musculaires",
+            "Utilisation des réserves lipidiques et production de corps cétoniques via la β-oxydation",
+            "Synthèse de glycogène à partir des acides aminés",
+            "Inhibition de la lipolyse"
         ],
-        "correctAnswers": ["La nutrition vise à apporter les conditions optimales pour le fonctionnement de l'organisme avec un minimum d'encrassement, tandis que la diététique réduit l'alimentation en dessous des besoins nutritifs pour induire une autolyse et éliminer les toxines via les émonctoires."],
-        "explanation": "Le livret distingue clairement la nutrition (optimisation de la santé) de la diététique (réduction alimentaire pour déclencher l'autolyse et la détoxification) (p. 3).",
+        "correctAnswers": ["Utilisation des réserves lipidiques et production de corps cétoniques via la β-oxydation"],
+        "explanation": "Lors d'un jeûne, après épuisement du glycogène (24-48h), le foie active la β-oxydation des acides gras, produisant des corps cétoniques (acétone, acétoacétate, β-hydroxybutyrate) utilisés comme source d'énergie par les tissus, épargnant ainsi les protéines musculaires.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois types de déchets mis en mouvement par l'autolyse, selon le livret ? (3 bonnes réponses)",
+        "question": "Quels sont les signes cliniques d'une crise curative lors d'un jeûne (2 bonnes réponses)",
         "options": [
-            "Déchets circulants (ex : cholestérol, urée, acide urique)",
-            "Déchets stagnants (ex : acide lactique)",
-            "Déchets accumulés (ex : kystes, fibromes, cellulite)",
-            "Déchets gazeux (ex : CO2, méthane)",
-            "Déchets minéraux (ex : calcium, magnésium)",
-            "Déchets protéiques (ex : acides aminés excédentaires)"
-        ],
-        "correctAnswers": [
-            "Déchets circulants (ex : cholestérol, urée, acide urique)",
-            "Déchets stagnants (ex : acide lactique)",
-            "Déchets accumulés (ex : kystes, fibromes, cellulite)"
-        ],
-        "explanation": "Le livret liste ces trois catégories de déchets mobilisés par l'autolyse (p. 3).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le mécanisme de l'autolyse pendant un jeûne, selon le livret ?",
-        "options": [
-            "L'organisme puise d'abord dans le glucose sanguin, puis dans les réserves de glycogène hépatique, avant de synthétiser du glucose à partir des protéines (néoglucogenèse) et enfin de produire des corps cétoniques à partir des triglycérides.",
-            "L'autolyse consiste à brûler exclusivement les graisses dès les premières heures, sans toucher aux protéines musculaires.",
-            "Le corps utilise directement les acides aminés des muscles comme source d'énergie principale, sans passer par la néoglucogenèse.",
-            "L'autolyse bloque la production de corps cétoniques pour préserver le cerveau, qui ne peut utiliser que du glucose."
-        ],
-        "correctAnswers": ["L'organisme puise d'abord dans le glucose sanguin, puis dans les réserves de glycogène hépatique, avant de synthétiser du glucose à partir des protéines (néoglucogenèse) et enfin de produire des corps cétoniques à partir des triglycérides."],
-        "explanation": "Le livret décrit précisément les étapes métaboliques de l'autolyse (p. 3).",
-        "multiple": false
-    },
-    {
-        "question": "Quels sont les deux avantages principaux des régimes restrictifs en biodiététique, selon le livret ? (2 bonnes réponses)",
-        "options": [
-            "Économie d'énergie nerveuse et glandulaire",
-            "Meilleure assimilation des aliments",
-            "Stimulation de la production de bile",
-            "Augmentation de la synthèse des hormones thyroïdiennes",
-            "Réduction de la production de déchets métaboliques",
-            "Suppression des fermentations intestinales"
-        ],
-        "correctAnswers": [
-            "Économie d'énergie nerveuse et glandulaire",
-            "Réduction de la production de déchets métaboliques"
-        ],
-        "explanation": "Le livret souligne ces deux avantages des régimes restrictifs (p. 5).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le principe d'une monodiète en biodiététique, selon le livret ?",
-        "options": [
-            "Consommer un seul aliment pendant au moins 24 heures, choisi en fonction du type d'encrassement (colloïdal ou cristalloïdal) et de la vitalité du sujet.",
-            "Alterner chaque jour un aliment différent pour varier les apports nutritionnels.",
-            "Supprimer tous les glucides pendant une semaine pour forcer le corps à utiliser les graisses.",
-            "Consommer uniquement des jus de fruits et légumes pendant 10 jours pour détoxifier le foie."
-        ],
-        "correctAnswers": ["Consommer un seul aliment pendant au moins 24 heures, choisi en fonction du type d'encrassement (colloïdal ou cristalloïdal) et de la vitalité du sujet."],
-        "explanation": "Le livret définit la monodiète comme une consommation exclusive d'un aliment adapté au terrain (p. 6).",
-        "multiple": false
-    },
-    {
-        "question": "Quels sont les trois critères à prendre en compte pour adapter une technique de biodiététique, selon le livret ? (3 bonnes réponses)",
-        "options": [
-            "Énergie vitale du sujet",
-            "État des émonctoires",
-            "Tempérament et antécédents du client",
-            "Niveau de stress professionnel",
-            "Préférences alimentaires culturelles",
-            "Disponibilité financière"
-        ],
-        "correctAnswers": [
-            "Énergie vitale du sujet",
-            "État des émonctoires",
-            "Tempérament et antécédents du client"
-        ],
-        "explanation": "Le livret insiste sur ces trois critères pour adapter une cure (p. 4).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est l'objectif d'une cure de raisins en biodiététique, selon le livret ?",
-        "options": [
-            "Désintoxication profonde avec un drainage hépatique et rénal non agressif, tout en apportant des nutriments complets similaires au lait maternel.",
-            "Stimulation de la production de bile pour digérer les graisses accumulées.",
-            "Suppression totale des glucides pour induire une cétose rapide.",
-            "Augmentation de la masse musculaire grâce aux protéines du raisin."
-        ],
-        "correctAnswers": ["Désintoxication profonde avec un drainage hépatique et rénal non agressif, tout en apportant des nutriments complets similaires au lait maternel."],
-        "explanation": "Le livret décrit la cure de raisins comme une désintoxication douce et nutritive (p. 6).",
-        "multiple": false
-    },
-    {
-        "question": "Quels sont les trois aliments souvent privilégiés dans les monodiètes, selon le livret, et pourquoi ? (3 bonnes réponses)",
-        "options": [
-            "Fruits et légumes, car ils sont peu encrassants et riches en eau vitale, vitamines, et enzymes.",
-            "Viandes rouges, car elles apportent des protéines complètes et du fer héminique.",
-            "Céréales complètes, car elles sont riches en fibres et en glucides complexes.",
-            "Produits laitiers, car ils sont une source de calcium et de vitamine D.",
-            "Poissons gras, car ils sont riches en oméga-3 et en vitamine B12."
-        ],
-        "correctAnswers": [
-            "Fruits et légumes, car ils sont peu encrassants et riches en eau vitale, vitamines, et enzymes."
-        ],
-        "explanation": "Le livret explique que les fruits et légumes sont privilégiés pour leur faible production de déchets et leur richesse nutritionnelle (p. 6).",
-        "multiple": false
-    },
-    {
-        "question": "Quels sont les signes indiquant qu'une autolyse est réussie, selon le livret ? (3 bonnes réponses)",
-        "options": [
-            "Réapparition de la faim",
-            "Langue rose",
-            "Retour des forces",
-            "Perte de poids rapide",
-            "Augmentation de la température corporelle",
-            "Diminution du rythme cardiaque"
-        ],
-        "correctAnswers": [
-            "Réapparition de la faim",
-            "Langue rose",
-            "Retour des forces"
-        ],
-        "explanation": "Le livret cite ces signes comme indicateurs de réussite de l'autolyse (p. 20).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle des corps cétoniques pendant un jeûne, selon le livret ?",
-        "options": [
-            "Les corps cétoniques deviennent une source d'énergie alternative pour le cerveau et les muscles, remplaçant le glucose après 3-4 jours de jeûne.",
-            "Ils bloquent la production d'insuline pour accélérer la combustion des graisses.",
-            "Ils stimulent la production de bile pour digérer les graisses stockées.",
-            "Ils inhibent la néoglucogenèse pour préserver les protéines musculaires."
-        ],
-        "correctAnswers": ["Les corps cétoniques deviennent une source d'énergie alternative pour le cerveau et les muscles, remplaçant le glucose après 3-4 jours de jeûne."],
-        "explanation": "Le livret explique que les corps cétoniques sont utilisés comme carburant pendant le jeûne (p. 3, 19).",
-        "multiple": false
-    },
-    {
-        "question": "Quels sont les trois facteurs clés d'une autolyse réussie, selon le livret ? (3 bonnes réponses)",
-        "options": [
-            "Vitalité disponible",
-            "État des tissus de réserve",
-            "Niveau de déchets dans l'organisme",
-            "Âge du sujet",
-            "Niveau d'activité physique",
-            "Consommation d'eau minérale"
-        ],
-        "correctAnswers": [
-            "Vitalité disponible",
-            "État des tissus de réserve",
-            "Niveau de déchets dans l'organisme"
-        ],
-        "explanation": "Le livret liste ces facteurs comme déterminants pour une autolyse réussie (p. 20).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est l'objectif d'une cure de bouillon de légumes en biodiététique, selon le livret ?",
-        "options": [
-            "Apporter des nutriments facilement assimilables tout en mettant le système digestif au repos, avec une action détoxifiante douce.",
-            "Stimuler la production de bile pour éliminer les graisses accumulées.",
-            "Induire une cétose rapide pour brûler les graisses.",
-            "Augmenter la masse musculaire grâce aux protéines végétales."
-        ],
-        "correctAnswers": ["Apporter des nutriments facilement assimilables tout en mettant le système digestif au repos, avec une action détoxifiante douce."],
-        "explanation": "Le livret décrit cette cure comme une détoxification douce et nutritive (p. 6).",
-        "multiple": false
-    },
-    {
-        "question": "Quels sont les deux types de jeûne décrits dans le livret, et leurs indications respectives ? (2 bonnes réponses)",
-        "options": [
-            "Jeûne hydrique : indiqué pour les déséquilibres à cristaux (substances solubles).",
-            "Jeûne sec : indiqué pour assécher les déchets colloïdaux (substances non solubles).",
-            "Jeûne protéiné : indiqué pour préserver la masse musculaire.",
-            "Jeûne glucidique : indiqué pour stimuler la production d'insuline."
-        ],
-        "correctAnswers": [
-            "Jeûne hydrique : indiqué pour les déséquilibres à cristaux (substances solubles).",
-            "Jeûne sec : indiqué pour assécher les déchets colloïdaux (substances non solubles)."
-        ],
-        "explanation": "Le livret distingue ces deux types de jeûne et leurs indications (p. 11).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le principe du jeûne sec, selon le livret ?",
-        "options": [
-            "Le jeûne sec assèche les déchets colloïdaux et fait remonter les toxines des tissus profonds vers le sang, tout en continuant à éliminer via la peau, les reins et le foie.",
-            "Il consiste à boire uniquement de l'eau pour éliminer les cristaux via les reins.",
-            "Il bloque toute élimination pour forcer le corps à brûler les graisses.",
-            "Il stimule la production de bile pour digérer les graisses stockées."
-        ],
-        "correctAnswers": ["Le jeûne sec assèche les déchets colloïdaux et fait remonter les toxines des tissus profonds vers le sang, tout en continuant à éliminer via la peau, les reins et le foie."],
-        "explanation": "Le livret explique le mécanisme spécifique du jeûne sec (p. 11).",
-        "multiple": false
-    },
-    {
-        "question": "Quels sont les trois signes d'une crise d'acidose pendant un jeûne, selon le livret ? (3 bonnes réponses)",
-        "options": [
-            "Nausées",
             "Maux de tête",
-            "Langue blanchâtre",
-            "Fièvre élevée",
-            "Douleurs articulaires",
-            "Hypertension artérielle"
+            "Éruptions cutanées transitoires",
+            "Hyperglycémie",
+            "Augmentation de la pression artérielle",
+            "Diarrhée osmotique"
         ],
         "correctAnswers": [
-            "Nausées",
             "Maux de tête",
-            "Langue blanchâtre"
+            "Éruptions cutanées transitoires"
         ],
-        "explanation": "Le livret associe ces signes à la crise d'acidose (p. 19).",
+        "explanation": "Les crises curatives (ou crises d'élimination) se manifestent par des symptômes transitoires comme des maux de tête (détoxification hépatique) ou des éruptions cutanées (élimination des toxines via la peau), signe d'une activation des émonctoires.",
         "multiple": true
     },
     {
-        "question": "Quel est le rôle de la langue comme 'miroir magique' pendant un jeûne, selon le livret ?",
+        "question": "Quel est le rôle de la langue dans le suivi d'un jeûne",
         "options": [
-            "La langue reflète l'état de détoxification : une langue blanchâtre indique une crise d'acidose, tandis qu'une langue rose signale la fin de l'autolyse.",
-            "Elle indique le niveau de glycémie pendant le jeûne.",
-            "Elle montre l'état de la flore intestinale.",
-            "Elle permet de diagnostiquer les carences en vitamines."
+            "Indicateur de l'état d'autolyse : langue blanchâtre = crise d'acidose, langue rose = fin de l'autolyse",
+            "Mesure de la glycémie",
+            "Évaluation de la fonction rénale",
+            "Détection des carences en vitamines"
         ],
-        "correctAnswers": ["La langue reflète l'état de détoxification : une langue blanchâtre indique une crise d'acidose, tandis qu'une langue rose signale la fin de l'autolyse."],
-        "explanation": "Le livret utilise la langue comme indicateur clé pendant le jeûne (p. 19-20).",
+        "correctAnswers": ["Indicateur de l'état d'autolyse : langue blanchâtre = crise d'acidose, langue rose = fin de l'autolyse"],
+        "explanation": "En naturopathie, la langue reflète l'état de détoxification : une langue blanchâtre indique une crise d'acidose (élimination des toxines), tandis qu'une langue rose signale la fin de l'autolyse et la réharmonisation du terrain.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois aliments à éviter absolument pendant une cure de biodiététique, selon le livret ? (3 bonnes réponses)",
+        "question": "Quel est le protocole de sortie de jeûne recommandé pour éviter une crise de réalimentation",
         "options": [
-            "Sodas",
-            "Café",
-            "Alcool",
-            "Eau plate",
-            "Légumes verts",
-            "Fruits frais"
+            "Reprise immédiate d'une alimentation normale",
+            "Réintroduction progressive : J1 légumes cuits + probiotiques, J2 légumes crus + oléagineux, J3 céréales, etc.",
+            "Jeûne sec de 24h après le jeûne hydrique",
+            "Consommation exclusive de protéines animales"
         ],
-        "correctAnswers": [
-            "Sodas",
-            "Café",
-            "Alcool"
-        ],
-        "explanation": "Le livret classe ces aliments comme des 'faux aliments' à supprimer (p. 5).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est l'objectif d'une cure de jus de citron en biodiététique, selon le livret ?",
-        "options": [
-            "Basifier le terrain, surtout pour les tempéraments sanguins, grâce aux carbonates de calcium et de potassium issus de l'oxydation de l'acide citrique.",
-            "Stimuler la production de bile pour éliminer les graisses.",
-            "Induire une cétose rapide pour brûler les graisses.",
-            "Augmenter la masse musculaire grâce aux protéines du citron."
-        ],
-        "correctAnswers": ["Basifier le terrain, surtout pour les tempéraments sanguins, grâce aux carbonates de calcium et de potassium issus de l'oxydation de l'acide citrique."],
-        "explanation": "Le livret décrit cette cure comme un moyen de basifier le terrain (p. 7).",
+        "correctAnswers": ["Réintroduction progressive : J1 légumes cuits + probiotiques, J2 légumes crus + oléagineux, J3 céréales, etc."],
+        "explanation": "La sortie de jeûne doit être progressive pour éviter un choc métabolique : J1 légumes cuits et probiotiques (réensemencement du microbiote), J2 légumes crus et oléagineux, J3 céréales, etc., en respectant la capacité digestive.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois bienfaits de la cure Breuss, selon le livret ? (3 bonnes réponses)",
+        "question": "Quelle est la contre-indication absolue au jeûne",
         "options": [
-            "Diurétique et drainante",
-            "Reminéralisante et revitalisante",
-            "Anti-inflammatoire",
-            "Stimulante pour la thyroïde",
-            "Riche en protéines animales",
-            "Efficace contre les infections bactériennes"
-        ],
-        "correctAnswers": [
-            "Diurétique et drainante",
-            "Reminéralisante et revitalisante",
-            "Anti-inflammatoire"
-        ],
-        "explanation": "Le livret liste ces bienfaits pour la cure Breuss (p. 7).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le principe de la cure de sève de bouleau, selon le livret ?",
-        "options": [
-            "La sève de bouleau est riche en minéraux, oligo-éléments, et acides aminés, avec des vertus diurétiques, drainantes et reminéralisantes, idéale pour accompagner les cures de détoxification.",
-            "Elle stimule la production de bile pour éliminer les graisses.",
-            "Elle bloque la production d'insuline pour accélérer la combustion des graisses.",
-            "Elle augmente la masse musculaire grâce aux protéines végétales."
-        ],
-        "correctAnswers": ["La sève de bouleau est riche en minéraux, oligo-éléments, et acides aminés, avec des vertus diurétiques, drainantes et reminéralisantes, idéale pour accompagner les cures de détoxification."],
-        "explanation": "Le livret décrit les propriétés de la sève de bouleau (p. 7).",
-        "multiple": false
-    },
-    {
-        "question": "Quels sont les trois signes indiquant qu'un jeûne doit être arrêté, selon le livret ? (3 bonnes réponses)",
-        "options": [
-            "Réapparition de la faim",
-            "Langue rose",
-            "Retour des forces",
-            "Perte de poids rapide",
-            "Augmentation de la température corporelle",
-            "Diminution du rythme cardiaque"
-        ],
-        "correctAnswers": [
-            "Réapparition de la faim",
-            "Langue rose",
-            "Retour des forces"
-        ],
-        "explanation": "Le livret indique que ces signes marquent la fin de l'autolyse (p. 20).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle des cinq phases du jeûne, selon le livret ?",
-        "options": [
-            "Les cinq phases du jeûne correspondent à des étapes métaboliques distinctes : phase protéique, crise d'acidose, phase d'équilibre, rupture du jeûne, et réalimentation progressive.",
-            "Elles décrivent les étapes de la digestion des aliments pendant le jeûne.",
-            "Elles indiquent les niveaux de glycémie à atteindre pour une autolyse optimale.",
-            "Elles classent les aliments autorisés selon leur indice glycémique."
-        ],
-        "correctAnswers": ["Les cinq phases du jeûne correspondent à des étapes métaboliques distinctes : phase protéique, crise d'acidose, phase d'équilibre, rupture du jeûne, et réalimentation progressive."],
-        "explanation": "Le livret détaille ces cinq phases comme des étapes clés du jeûne (p. 19).",
-        "multiple": false
-    },
-    {
-        "question": "Quels sont les trois aliments à privilégier pour une monodiète en cas d'encrassement colloïdal, selon le livret ? (3 bonnes réponses)",
-        "options": [
-            "Légumes",
-            "Fruits cuits",
-            "Fruits crus",
-            "Viandes rouges",
-            "Produits laitiers",
-            "Céréales complètes"
-        ],
-        "correctAnswers": [
-            "Légumes",
-            "Fruits cuits",
-            "Fruits crus"
-        ],
-        "explanation": "Le livret recommande ces aliments pour les encrassements colloïdaux (p. 6).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est l'objectif d'une cure de pommes douces en biodiététique, selon le livret ?",
-        "options": [
-            "Mettre l'organisme au repos sans l'acidifier, avec des effets antirhumatismaux, diurétiques, et hypocholestérolémiants.",
-            "Stimuler la production de bile pour éliminer les graisses.",
-            "Induire une cétose rapide pour brûler les graisses.",
-            "Augmenter la masse musculaire grâce aux protéines des pommes."
-        ],
-        "correctAnswers": ["Mettre l'organisme au repos sans l'acidifier, avec des effets antirhumatismaux, diurétiques, et hypocholestérolémiants."],
-        "explanation": "Le livret décrit les bienfaits spécifiques de la cure de pommes douces (p. 6).",
-        "multiple": false
-    },
-    {
-        "question": "Quels sont les trois facteurs à surveiller pendant un jeûne, selon le livret ? (3 bonnes réponses)",
-        "options": [
-            "Éliminations (urines, selles, transpiration)",
-            "Couleur de la langue",
-            "Niveau d'énergie",
-            "Température corporelle",
-            "Rythme cardiaque",
-            "Pression artérielle"
-        ],
-        "correctAnswers": [
-            "Éliminations (urines, selles, transpiration)",
-            "Couleur de la langue",
-            "Niveau d'énergie"
-        ],
-        "explanation": "Le livret insiste sur la surveillance de ces facteurs pendant le jeûne (p. 19-20).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le principe de la réalimentation après un jeûne, selon le livret ?",
-        "options": [
-            "La réalimentation doit être progressive, en commençant par des aliments faciles à digérer (légumes cuits, huiles, produits lactofermentés) pour relancer le transit et réensemencer la flore intestinale.",
-            "Elle consiste à reprendre immédiatement une alimentation normale pour éviter les carences.",
-            "Elle implique une supplémentation en vitamines et minéraux pour compenser les pertes.",
-            "Elle nécessite un jeûne intermittent pour maintenir les bénéfices."
-        ],
-        "correctAnswers": ["La réalimentation doit être progressive, en commençant par des aliments faciles à digérer (légumes cuits, huiles, produits lactofermentés) pour relancer le transit et réensemencer la flore intestinale."],
-        "explanation": "Le livret détaille le protocole de réalimentation progressive (p. 20).",
-        "multiple": false
-    },
-    {
-        "question": "Quels sont les trois contre-indications pathologiques au jeûne, selon le livret ? (3 bonnes réponses)",
-        "options": [
-            "Diabète insulinodépendant",
+            "Diabète de type 2 contrôlé",
             "Insuffisance rénale sévère",
-            "Maladies cardiovasculaires non stabilisées",
-            "Hypertension artérielle légère",
-            "Ostéoporose",
-            "Migraines chroniques"
-        ],
-        "correctAnswers": [
-            "Diabète insulinodépendant",
-            "Insuffisance rénale sévère",
-            "Maladies cardiovasculaires non stabilisées"
-        ],
-        "explanation": "Le livret mentionne ces contre-indications pathologiques (p. 21).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle des plantes sudorifiques en biodiététique, selon le livret ?",
-        "options": [
-            "Elles stimulent la transpiration pour éliminer les toxines via la peau, comme la bardane ou le genévrier.",
-            "Elles bloquent la production de sueur pour préserver les minéraux.",
-            "Elles augmentent la rétention d'eau pour diluer les toxines.",
-            "Elles inhibent la détoxification hépatique."
-        ],
-        "correctAnswers": ["Elles stimulent la transpiration pour éliminer les toxines via la peau, comme la bardane ou le genévrier."],
-        "explanation": "Le livret cite l'usage des plantes sudorifiques pour la détoxification (p. 9).",
-        "multiple": false
-    },
-    {
-        "question": "Quels sont les trois bienfaits d'une cure de détoxification en biodiététique, selon le livret ? (3 bonnes réponses)",
-        "options": [
-            "Renforcement du péristaltisme intestinal",
-            "Stimulation des enzymes digestives",
-            "Amélioration des systèmes nerveux et glandulaire",
-            "Augmentation de la masse musculaire",
-            "Stimulation de la production d'insuline",
-            "Réduction de la température corporelle"
-        ],
-        "correctAnswers": [
-            "Renforcement du péristaltisme intestinal",
-            "Stimulation des enzymes digestives",
-            "Amélioration des systèmes nerveux et glandulaire"
-        ],
-        "explanation": "Le livret liste ces bienfaits des cures de détoxification (p. 21).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est l'objectif d'une préparation avant un jeûne, selon le livret ?",
-        "options": [
-            "Préparer le système digestif en éliminant les résidus alimentaires et en soutenant les émonctoires (foie, reins, intestins, peau) pour éviter une crise curative trop intense.",
-            "Induire une cétose rapide pour brûler les graisses dès le premier jour.",
-            "Stimuler la production de bile pour éliminer les toxines hépatiques.",
-            "Augmenter la masse musculaire pour résister au jeûne."
-        ],
-        "correctAnswers": ["Préparer le système digestif en éliminant les résidus alimentaires et en soutenant les émonctoires (foie, reins, intestins, peau) pour éviter une crise curative trop intense."],
-        "explanation": "Le livret insiste sur l'importance de la préparation avant le jeûne (p. 11).",
-        "multiple": false
-    },
-    {
-        "question": "Quels sont les trois aliments à privilégier pour une monodiète en cas d'encrassement cristalloïdal, selon le livret ? (3 bonnes réponses)",
-        "options": [
-            "Riz",
-            "Pomme de terre",
-            "Légumes cuits",
-            "Viandes rouges",
-            "Produits laitiers",
-            "Fruits acides"
-        ],
-        "correctAnswers": [
-            "Riz",
-            "Pomme de terre",
-            "Légumes cuits"
-        ],
-        "explanation": "Le livret recommande ces aliments pour les encrassements cristalloïdaux (p. 6).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le principe d'une cure de céréales en biodiététique, selon le livret ?",
-        "options": [
-            "Elle convient aux sujets neuro-arthritiques, à condition que les céréales soient bien digérées, et permet une désintoxication douce avec un apport en fibres et glucides complexes.",
-            "Elle stimule la production de bile pour éliminer les graisses.",
-            "Elle induit une cétose rapide pour brûler les graisses.",
-            "Elle augmente la masse musculaire grâce aux protéines végétales."
-        ],
-        "correctAnswers": ["Elle convient aux sujets neuro-arthritiques, à condition que les céréales soient bien digérées, et permet une désintoxication douce avec un apport en fibres et glucides complexes."],
-        "explanation": "Le livret décrit les bienfaits de la cure de céréales (p. 6).",
-        "multiple": false
-    },
-    {
-        "question": "Quels sont les trois signes d'une crise curative pendant un jeûne, selon le livret ? (3 bonnes réponses)",
-        "options": [
-            "Maux de tête",
-            "Nausées",
-            "Douleurs articulaires",
-            "Fièvre élevée",
             "Hypertension artérielle",
-            "Insomnie"
+            "Ostéoporose"
         ],
-        "correctAnswers": [
-            "Maux de tête",
-            "Nausées",
-            "Douleurs articulaires"
-        ],
-        "explanation": "Le livret associe ces signes aux crises curatives (p. 19, 23).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle des lavements rectaux dans la préparation d'un jeûne, selon le livret ?",
-        "options": [
-            "Ils permettent de vider complètement l'intestin avant le jeûne, pour éviter une surcharge toxique lors de la mise en route de l'autolyse.",
-            "Ils stimulent la production de bile pour éliminer les graisses.",
-            "Ils bloquent l'absorption des nutriments pour accélérer la cétose.",
-            "Ils augmentent la masse musculaire en préservant les protéines."
-        ],
-        "correctAnswers": ["Ils permettent de vider complètement l'intestin avant le jeûne, pour éviter une surcharge toxique lors de la mise en route de l'autolyse."],
-        "explanation": "Le livret recommande les lavements pour préparer le jeûne (p. 11).",
+        "correctAnswers": ["Insuffisance rénale sévère"],
+        "explanation": "Le jeûne est contre-indiqué en cas d'insuffisance rénale sévère, car les reins ne peuvent éliminer les déchets métaboliques (urée, acide urique) libérés lors de l'autolyse, risquant une acidose métabolique.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois facteurs à évaluer avant de proposer une cure de biodiététique, selon le livret ? (3 bonnes réponses)",
+        "question": "Quel est l'effet du jeûne sur la sécrétion d'hormones thyroïdiennes (T3, T4)",
         "options": [
-            "Énergie vitale du sujet",
-            "État des émonctoires",
-            "Pollutions endogènes et exogènes",
-            "Niveau de stress professionnel",
-            "Préférences alimentaires culturelles",
-            "Disponibilité financière"
+            "Augmentation de la T3 et T4",
+            "Diminution de la T3 et T4 (ralentissement du métabolisme de base)",
+            "Aucun effet sur la thyroïde",
+            "Stimulation de la calcitonine"
         ],
-        "correctAnswers": [
-            "Énergie vitale du sujet",
-            "État des émonctoires",
-            "Pollutions endogènes et exogènes"
-        ],
-        "explanation": "Le livret insiste sur l'évaluation de ces facteurs (p. 4).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le principe de la méthode d'Arnold Ehret en biodiététique, selon le livret ?",
-        "options": [
-            "Alterner des périodes d'alimentation sans mucus (fruits et légumes sans amidon) et des périodes de jeûne pour régénérer l'organisme et éliminer les toxines accumulées.",
-            "Consommer exclusivement des protéines animales pour renforcer les muscles.",
-            "Supprimer tous les glucides pour induire une cétose permanente.",
-            "Utiliser des compléments alimentaires pour compenser les carences."
-        ],
-        "correctAnswers": ["Alterner des périodes d'alimentation sans mucus (fruits et légumes sans amidon) et des périodes de jeûne pour régénérer l'organisme et éliminer les toxines accumulées."],
-        "explanation": "Le livret décrit la méthode d'Ehret comme une alternance entre alimentation sans mucus et jeûne (p. 23).",
+        "correctAnswers": ["Diminution de la T3 et T4 (ralentissement du métabolisme de base)"],
+        "explanation": "Le jeûne réduit la sécrétion de T3 et T4, ralentissant le métabolisme de base pour économiser l'énergie et favoriser l'autolyse, sans altérer la fonction thyroïdienne à long terme.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois signes indiquant une élimination efficace des toxines pendant un jeûne, selon le livret ? (3 bonnes réponses)",
+        "question": "Quels sont les bienfaits du jeûne sur le système immunitaire (2 bonnes réponses)",
         "options": [
-            "Urine bien colorée",
-            "Transpiration abondante",
-            "Langue qui se décharge",
-            "Fièvre élevée",
-            "Douleurs musculaires",
-            "Insomnie"
+            "Augmentation de la production de lymphocytes T",
+            "Réduction de l'inflammation chronique",
+            "Stimulation de la réponse auto-immune",
+            "Diminution de la phagocytose",
+            "Rééquilibrage du microbiote intestinal"
         ],
         "correctAnswers": [
-            "Urine bien colorée",
-            "Transpiration abondante",
-            "Langue qui se décharge"
+            "Réduction de l'inflammation chronique",
+            "Rééquilibrage du microbiote intestinal"
         ],
-        "explanation": "Le livret associe ces signes à une élimination efficace (p. 19, 23).",
+        "explanation": "Le jeûne réduit l'inflammation (baisse du TNF-α, IL-6) et favorise un microbiote équilibré (augmentation des bactéries bénéfiques comme les Lactobacillus), renforçant ainsi l'immunité.",
         "multiple": true
     },
     {
-        "question": "Quel est le rôle des bains de sudation en biodiététique, selon le livret ?",
+        "question": "Quel est le mécanisme par lequel le jeûne améliore la sensibilité à l'insuline",
         "options": [
-            "Ils stimulent l'élimination des toxines via la peau en ouvrant les pores et en accélérant la circulation sanguine.",
-            "Ils bloquent la transpiration pour préserver les minéraux.",
-            "Ils augmentent la rétention d'eau pour diluer les toxines.",
-            "Ils inhibent la détoxification hépatique."
+            "Augmentation de la sécrétion d'insuline",
+            "Réduction de la résistance à l'insuline via l'activation de l'AMPK et la diminution des triglycérides intra-hépatiques",
+            "Inhibition des récepteurs à l'insuline",
+            "Stimulation de la gluconéogenèse"
         ],
-        "correctAnswers": ["Ils stimulent l'élimination des toxines via la peau en ouvrant les pores et en accélérant la circulation sanguine."],
-        "explanation": "Le livret mentionne les bains de sudation comme technique d'élimination (p. 9).",
+        "correctAnswers": ["Réduction de la résistance à l'insuline via l'activation de l'AMPK et la diminution des triglycérides intra-hépatiques"],
+        "explanation": "Le jeûne active l'AMPK, réduit les triglycérides hépatiques et améliore la signalisation de l'insuline, diminuant ainsi la résistance à l'insuline et le risque de diabète de type 2.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois aliments à éviter pendant une cure de biodiététique pour les sujets neuro-arthritiques, selon le livret ? (3 bonnes réponses)",
+        "question": "Quelle monodiète est recommandée pour un terrain inflammatoire avec congestion hépatique",
         "options": [
-            "Fruits acides",
-            "Aliments riches en purines (viandes, charcuteries)",
-            "Produits laitiers",
-            "Légumes verts",
-            "Céréales complètes",
-            "Huiles végétales"
+            "Monodiète de pomme (riche en pectine et antioxydants)",
+            "Monodiète de riz (énergie douce)",
+            "Monodiète de banane (riche en potassium)",
+            "Monodiète de carotte (laxative et cicatrisante)"
+        ],
+        "correctAnswers": ["Monodiète de pomme (riche en pectine et antioxydants)"],
+        "explanation": "La pomme, riche en pectine (chélation des métaux lourds) et en antioxydants (quercétine), soutient la détoxification hépatique et réduit l'inflammation, tout en étant facilement digestible.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est l'effet d'un jeûne intermittent (16/8) sur le métabolisme",
+        "options": [
+            "Augmentation de la masse grasse",
+            "Stimulation de l'autophagie et amélioration de la flexibilité métabolique",
+            "Inhibition de la lipolyse",
+            "Diminution de la production de corps cétoniques"
+        ],
+        "correctAnswers": ["Stimulation de l'autophagie et amélioration de la flexibilité métabolique"],
+        "explanation": "Le jeûne intermittent active l'autophagie (dégradation des cellules endommagées) et améliore la flexibilité métabolique (passage glucides/lipides), optimisant ainsi la santé cellulaire et la longévité.",
+        "multiple": false
+    },
+    {
+        "question": "Quels sont les signes d'une autolyse réussie (2 bonnes réponses)",
+        "options": [
+            "Réapparition de la faim physiologique",
+            "Langue rose et retour de l'énergie",
+            "Prise de poids",
+            "Augmentation de la fréquence cardiaque",
+            "Hyperthermie"
         ],
         "correctAnswers": [
-            "Fruits acides",
-            "Aliments riches en purines (viandes, charcuteries)",
-            "Produits laitiers"
+            "Réapparition de la faim physiologique",
+            "Langue rose et retour de l'énergie"
         ],
-        "explanation": "Le livret recommande d'éviter ces aliments pour les sujets neuro-arthritiques (p. 6).",
+        "explanation": "Une autolyse réussie se manifeste par la réapparition de la faim (neuropeptide Y), une langue rose (fin de l'élimination des toxines) et un regain d'énergie, signes de réharmonisation du terrain.",
         "multiple": true
+    },
+    {
+        "question": "Quel est le rôle des probiotiques lors de la sortie de jeûne",
+        "options": [
+            "Stimulation de la sécrétion gastrique",
+            "Réensemencement du microbiote intestinal et prévention des troubles digestifs",
+            "Inhibition de l'absorption des nutriments",
+            "Augmentation de la perméabilité intestinale"
+        ],
+        "correctAnswers": ["Réensemencement du microbiote intestinal et prévention des troubles digestifs"],
+        "explanation": "Les probiotiques (lactofermentés, kéfir) réensemencent le microbiote intestinal après le jeûne, prévenant ainsi les déséquilibres (ballonnements, diarrhée) et optimisant la digestion.",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la durée maximale recommandée pour un jeûne sec (sans eau) chez un adulte en bonne santé",
+        "options": [
+            "24 heures",
+            "36 heures",
+            "48 heures",
+            "72 heures"
+        ],
+        "correctAnswers": ["24 heures"],
+        "explanation": "Un jeûne sec ne doit pas dépasser 24 heures chez un adulte en bonne santé, car le risque de déshydratation et d'acidose métabolique devient significatif au-delà.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est l'effet du jeûne sur la production de cortisol",
+        "options": [
+            "Diminution du cortisol",
+            "Augmentation initiale du cortisol (stress adaptatif) suivie d'une normalisation",
+            "Aucun effet sur le cortisol",
+            "Inhibition de l'axe HPA"
+        ],
+        "correctAnswers": ["Augmentation initiale du cortisol (stress adaptatif) suivie d'une normalisation"],
+        "explanation": "Le jeûne induit une augmentation transitoire du cortisol (réponse au stress métabolique), qui se normalise ensuite, favorisant l'adaptation et la mobilisation des réserves énergétiques.",
+        "multiple": false
+    },
+    {
+        "question": "Quels sont les aliments à privilégier pour accompagner une monodiète de pomme (2 bonnes réponses)",
+        "options": [
+            "Eau tiède avec jus de citron",
+            "Infusion de romarin (cholérétique)",
+            "Café noir",
+            "Bouillon d'os",
+            "Tisane de boldo (draineur hépatique)"
+        ],
+        "correctAnswers": [
+            "Eau tiède avec jus de citron",
+            "Tisane de boldo (draineur hépatique)"
+        ],
+        "explanation": "L'eau tiède avec jus de citron (alcalinisant) et la tisane de boldo (stimulation de la bile) soutiennent la détoxification hépatique et l'élimination des toxines pendant une monodiète de pomme.",
+        "multiple": true
+    },
+    {
+        "question": "Quel est le mécanisme d'action de la pectine de pomme sur la détoxification",
+        "options": [
+            "Stimulation de la sécrétion biliaire",
+            "Chélation des métaux lourds et des toxines dans le tube digestif",
+            "Inhibition de la motilité intestinale",
+            "Augmentation de la perméabilité intestinale"
+        ],
+        "correctAnswers": ["Chélation des métaux lourds et des toxines dans le tube digestif"],
+        "explanation": "La pectine, fibre soluble de la pomme, lie les métaux lourds (plomb, cadmium) et les toxines dans le tube digestif, facilitant leur élimination fécale et réduisant la charge hépatique.",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la contre-indication relative à une monodiète de raisin",
+        "options": [
+            "Diabète de type 1",
+            "Candidose intestinale",
+            "Hypertension artérielle",
+            "Ostéoporose"
+        ],
+        "correctAnswers": ["Candidose intestinale"],
+        "explanation": "Le raisin, riche en sucres fermentescibles, peut aggraver une candidose intestinale en favorisant la prolifération de Candida albicans. Une monodiète de légumes serait préférable.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est l'effet d'un jeûne sur la pression artérielle",
+        "options": [
+            "Augmentation de la pression systolique",
+            "Diminution de la pression artérielle (effet natriurétique et vasodilatation)",
+            "Aucun effet sur la pression artérielle",
+            "Stimulation de la rénine"
+        ],
+        "correctAnswers": ["Diminution de la pression artérielle (effet natriurétique et vasodilatation)"],
+        "explanation": "Le jeûne réduit la pression artérielle via un effet natriurétique (élimination du sodium) et une vasodilatation (augmentation du NO), sans altérer la fonction cardiaque.",
+        "multiple": false
+    },
+    {
+        "question": "Quels sont les effets du jeûne sur le système nerveux central (2 bonnes réponses)",
+        "options": [
+            "Augmentation de la production de BDNF (Brain-Derived Neurotrophic Factor)",
+            "Diminution de la neurogenèse hippocampique",
+            "Amélioration de la plasticité synaptique",
+            "Inhibition de la dopamine",
+            "Réduction de la clarté mentale"
+        ],
+        "correctAnswers": [
+            "Augmentation de la production de BDNF (Brain-Derived Neurotrophic Factor)",
+            "Amélioration de la plasticité synaptique"
+        ],
+        "explanation": "Le jeûne stimule la production de BDNF (favorisant la neurogenèse) et améliore la plasticité synaptique, optimisant ainsi les fonctions cognitives et la résilience neuronale.",
+        "multiple": true
+    },
+    {
+        "question": "Quel est le protocole d'accompagnement d'un jeûne en cas de maux de tête",
+        "options": [
+            "Prise d'anti-inflammatoires non stéroïdiens",
+            "Hydratation + marche + HE de menthe poivrée sur les tempes",
+            "Consommation de café",
+            "Jeûne sec immédiat"
+        ],
+        "correctAnswers": ["Hydratation + marche + HE de menthe poivrée sur les tempes"],
+        "explanation": "Les maux de tête lors d'un jeûne sont souvent liés à la détoxification. L'hydratation, la marche (stimulation circulatoire) et l'HE de menthe poivrée (vasodilatation locale) soulagent ces symptômes sans interrompre le processus.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le rôle de l'huile de ricin dans la préparation à un jeûne",
+        "options": [
+            "Stimulation de la sécrétion gastrique",
+            "Drainage lymphatique et purification intestinale",
+            "Inhibition de l'autolyse",
+            "Augmentation de la rétention hydrique"
+        ],
+        "correctAnswers": ["Drainage lymphatique et purification intestinale"],
+        "explanation": "L'huile de ricin (acide ricinoléique) stimule le péristaltisme, draine le système lymphatique et purifie l'intestin, préparant ainsi le terrain pour une autolyse optimale.",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la durée minimale recommandée pour observer les effets métaboliques d'un jeûne intermittent (16/8)",
+        "options": [
+            "3 jours",
+            "1 semaine",
+            "2 semaines",
+            "1 mois"
+        ],
+        "correctAnswers": ["2 semaines"],
+        "explanation": "Les effets métaboliques significatifs (amélioration de la sensibilité à l'insuline, autophagie) du jeûne intermittent (16/8) apparaissent généralement après 2 semaines de pratique régulière.",
+        "multiple": false
+    },
+    {
+        "question": "Quels sont les effets d'un jeûne sur la libido (2 bonnes réponses)",
+        "options": [
+            "Diminution temporaire de la libido (baisse des hormones sexuelles)",
+            "Augmentation de la testostérone",
+            "Rééquilibrage hormonal post-jeûne",
+            "Stimulation de la prolactine",
+            "Inhibition définitive de la fertilité"
+        ],
+        "correctAnswers": [
+            "Diminution temporaire de la libido (baisse des hormones sexuelles)",
+            "Rééquilibrage hormonal post-jeûne"
+        ],
+        "explanation": "Le jeûne entraîne une baisse temporaire de la libido (diminution des stéroïdes sexuels), suivie d'un rééquilibrage hormonal post-jeûne, sans effet durable sur la fertilité.",
+        "multiple": true
+    },
+    {
+        "question": "Quel est l'effet d'une monodiète de riz sur un tempérament 'frileux' et dévitalisé",
+        "options": [
+            "Agravation de la fatigue",
+            "Apport d'énergie douce et rééquilibrage du terrain",
+            "Stimulation de la thyroïde",
+            "Augmentation de l'inflammation"
+        ],
+        "correctAnswers": ["Apport d'énergie douce et rééquilibrage du terrain"],
+        "explanation": "Le riz (semi-complet) fournit une énergie douce (glucides complexes), soutient la fonction surrénalienne et rééquilibre le terrain des sujets frileux ou dévitalisés, sans surcharger la digestion.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le mécanisme par lequel le jeûne réduit les douleurs articulaires",
+        "options": [
+            "Augmentation de la production d'acide urique",
+            "Diminution de l'inflammation systémique et des cytokines pro-inflammatoires",
+            "Stimulation de la synthèse de collagène",
+            "Inhibition de la circulation lymphatique"
+        ],
+        "correctAnswers": ["Diminution de l'inflammation systémique et des cytokines pro-inflammatoires"],
+        "explanation": "Le jeûne réduit les douleurs articulaires en diminuant la production de cytokines pro-inflammatoires (IL-1β, TNF-α) et en activant l'autophagie, limitant ainsi l'inflammation chronique.",
+        "multiple": false
+    },
+    {
+        "question": "Quels sont les signes d'une contre-indication à poursuivre un jeûne (2 bonnes réponses)",
+        "options": [
+            "Fatigue extrême persistante",
+            "Vertiges et hypotension orthostatique",
+            "Augmentation de l'appétit",
+            "Langue rose",
+            "Sommeil réparateur"
+        ],
+        "correctAnswers": [
+            "Fatigue extrême persistante",
+            "Vertiges et hypotension orthostatique"
+        ],
+        "explanation": "Une fatigue extrême ou des vertiges/hypotension orthostatique peuvent indiquer une hypovolémie ou une carence énergétique sévère, nécessitant l'arrêt du jeûne pour éviter des complications.",
+        "multiple": true
+    },
+    {
+        "question": "Quel est le rôle des corps cétoniques dans l'énergie cérébrale pendant un jeûne",
+        "options": [
+            "Inhibition de la fonction neuronale",
+            "Source d'énergie alternative pour le cerveau (remplace le glucose)",
+            "Stimulation de la sécrétion de sérotonine",
+            "Augmentation de la perméabilité de la barrière hémato-encéphalique"
+        ],
+        "correctAnswers": ["Source d'énergie alternative pour le cerveau (remplace le glucose)"],
+        "explanation": "Les corps cétoniques (β-hydroxybutyrate) deviennent la principale source d'énergie pour le cerveau après 48h de jeûne, préservant ainsi les fonctions cognitives malgré l'hypoglycémie.",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la technique recommandée pour gérer les nausées lors d'un jeûne",
+        "options": [
+            "Prise d'antiémétiques",
+            "Tisane de romarin + bouillotte chaude sur le foie",
+            "Consommation de jus de fruits",
+            "Jeûne sec immédiat"
+        ],
+        "correctAnswers": ["Tisane de romarin + bouillotte chaude sur le foie"],
+        "explanation": "Les nausées lors d'un jeûne sont souvent liées à la congestion hépatique. La tisane de romarin (cholérétique) et une bouillotte chaude stimulent la bile et soulagent les symptômes sans interrompre l'autolyse.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est l'effet d'un jeûne sur la production de GH (hormone de croissance)",
+        "options": [
+            "Diminution de la GH",
+            "Augmentation de la GH (stimulation de la lipolyse et de la régénération cellulaire)",
+            "Aucun effet sur la GH",
+            "Inhibition de l'IGF-1"
+        ],
+        "correctAnswers": ["Augmentation de la GH (stimulation de la lipolyse et de la régénération cellulaire)"],
+        "explanation": "Le jeûne stimule la sécrétion de GH, qui favorise la lipolyse, la préservation de la masse musculaire et la régénération cellulaire, notamment via l'activation de la voie mTOR.",
+        "multiple": false
+    },
+    {
+        "question": "Quels sont les aliments à éviter absolument pendant une monodiète",
+        "options": [
+            "Aliments transformés et excitants (café, alcool, sucre raffiné)",
+            "Légumes bio cuits à la vapeur",
+            "Eau plate",
+            "Infusions de plantes"
+        ],
+        "correctAnswers": ["Aliments transformés et excitants (café, alcool, sucre raffiné)"],
+        "explanation": "Les aliments transformés, le café, l'alcool et le sucre raffiné surchargent les émonctoires (foie, reins) et perturbent l'autolyse, annulant les bénéfices de la monodiète.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le mécanisme par lequel le jeûne améliore la clarté mentale",
+        "options": [
+            "Augmentation de la production de lactate",
+            "Stimulation de la neurogenèse et de la production de BDNF",
+            "Inhibition de la dopamine",
+            "Diminution de l'oxygénation cérébrale"
+        ],
+        "correctAnswers": ["Stimulation de la neurogenèse et de la production de BDNF"],
+        "explanation": "Le jeûne augmente la production de BDNF (Brain-Derived Neurotrophic Factor), favorise la neurogenèse dans l'hippocampe et améliore la plasticité synaptique, optimisant ainsi la clarté mentale et la mémoire.",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la durée maximale recommandée pour une monodiète sans suivi naturopathique",
+        "options": [
+            "3 jours",
+            "5 jours",
+            "7 jours",
+            "10 jours"
+        ],
+        "correctAnswers": ["3 jours"],
+        "explanation": "Une monodiète de plus de 3 jours sans suivi naturopathique peut entraîner des déséquilibres (carences, crises curatives mal gérées), surtout chez les sujets fragiles ou intoxiqués.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est l'effet d'un jeûne sur la flore intestinale",
+        "options": [
+            "Déséquilibre durable du microbiote",
+            "Rééquilibrage du microbiote (augmentation des bactéries bénéfiques comme les Lactobacillus)",
+            "Stimulation de la croissance de Candida albicans",
+            "Inhibition de la fermentation colique"
+        ],
+        "correctAnswers": ["Rééquilibrage du microbiote (augmentation des bactéries bénéfiques comme les Lactobacillus)"],
+        "explanation": "Le jeûne réduit la charge alimentaire, limitant la prolifération des bactéries pathogènes et favorisant les souches bénéfiques (Lactobacillus, Bifidobacterium), restaurant ainsi l'équilibre du microbiote.",
+        "multiple": false
+    },
+    {
+        "question": "Quels sont les effets d'un jeûne sur le système cardiovasculaire (2 bonnes réponses)",
+        "options": [
+            "Amélioration de la variabilité cardiaque",
+            "Réduction de la pression artérielle",
+            "Augmentation du LDL-cholestérol",
+            "Stimulation de l'arythmie",
+            "Diminution de la capacité d'effort"
+        ],
+        "correctAnswers": [
+            "Amélioration de la variabilité cardiaque",
+            "Réduction de la pression artérielle"
+        ],
+        "explanation": "Le jeûne améliore la variabilité cardiaque (marqueur de santé autonome) et réduit la pression artérielle (effet natriurétique et vasodilatation), sans altérer la fonction cardiaque.",
+        "multiple": true
+    },
+    {
+        "question": "Quel est le protocole d'hydratation pendant un jeûne hydrique",
+        "options": [
+            "1 L d'eau par jour",
+            "2 à 3 L d'eau plate ou tisanes non sucrées",
+            "5 L d'eau minérale gazeuse",
+            "Eau uniquement en cas de soif"
+        ],
+        "correctAnswers": ["2 à 3 L d'eau plate ou tisanes non sucrées"],
+        "explanation": "Une hydratation de 2 à 3 L/jour (eau plate ou tisanes drainantes) est essentielle pour soutenir l'élimination des toxines et prévenir la déshydratation, sans surcharger les reins.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le rôle de la marche pendant un jeûne",
+        "options": [
+            "Augmentation de la dépense énergétique",
+            "Stimulation de la circulation lymphatique et de l'élimination des toxines",
+            "Inhibition de l'autolyse",
+            "Réduction de la transpiration"
+        ],
+        "correctAnswers": ["Stimulation de la circulation lymphatique et de l'élimination des toxines"],
+        "explanation": "La marche douce active la circulation lymphatique, favorise l'élimination des toxines via les émonctoires (peau, reins) et soutient le processus d'autolyse sans épuisement.",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la technique recommandée pour gérer les courbatures lors d'un jeûne",
+        "options": [
+            "Prise d'anti-inflammatoires",
+            "Bain chaud aux sels d'Epsom + étirements",
+            "Consommation de protéines en poudre",
+            "Jeûne sec immédiat"
+        ],
+        "correctAnswers": ["Bain chaud aux sels d'Epsom + étirements"],
+        "explanation": "Les courbatures (élimination de l'acide lactique) sont soulagées par un bain chaud aux sels d'Epsom (magnésium) et des étirements, qui activent la circulation et la détente musculaire.",
+        "multiple": false
     }
 ]
