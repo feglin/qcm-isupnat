@@ -1,483 +1,407 @@
-const questionsDereglementsDigestifs = [
+const questionsDereglementsDigestifs = 
+[
     {
-        "question": "Selon le document ISUPNAT, quel est le rôle principal du système digestif dans la physiologie humaine ?",
+        "question": "Quel est le rôle principal de la sérotonine dans le tube digestif selon l'approche naturopathique des dérèglements digestifs",
         "options": [
-            "Le système digestif transforme les aliments en nutriments, vitamines, minéraux et oligo-éléments, assurant ainsi l'énergie et les matériaux nécessaires au fonctionnement cellulaire, tout en éliminant les déchets non assimilables.",
-            "Le système digestif produit des hormones pour réguler le métabolisme.",
-            "Le système digestif filtre les toxines sanguines et produit des anticorps.",
-            "Le système digestif contrôle exclusivement la température corporelle."
+            "Stimulation de la motilité intestinale et régulation de la sensibilité viscerale",
+            "Inhibition de la sécrétion gastrique",
+            "Augmentation de la perméabilité intestinale",
+            "Réduction de l'absorption des nutriments"
         ],
-        "correctAnswers": ["Le système digestif transforme les aliments en nutriments, vitamines, minéraux et oligo-éléments, assurant ainsi l'énergie et les matériaux nécessaires au fonctionnement cellulaire, tout en éliminant les déchets non assimilables."],
-        "explanation": "Le document décrit le système digestif comme un ensemble d'organes assurant la transformation des aliments et l'élimination des déchets (p. 3).",
+        "correctAnswers": ["Stimulation de la motilité intestinale et régulation de la sensibilité viscerale"],
+        "explanation": "La sérotonine, produite à 90% dans l'intestin, régule la motilité intestinale et la sensibilité viscerale. Un déséquilibre (excès ou carence) est souvent associé aux troubles comme le SII ou la constipation.",
         "multiple": false
     },
     {
-        "question": "Quels sont les quatre organes clés du système digestif et leur fonction principale, selon le document ? (4 bonnes réponses)",
+        "question": "Quels sont les deux leviers prioritaires à étudier en naturopathie pour traiter une constipation chronique (2 bonnes réponses)",
         "options": [
-            "Bouche : mastication, sécrétion de salive, déglutition",
-            "Estomac : digestion des protéines, amidons, lipides",
-            "Intestin grêle : digestion (avec pancréas, foie, vésicule biliaire) et absorption des nutriments",
-            "Côlon : élimination des résidus non digérés",
-            "Rate : filtration des toxines sanguines",
-            "Poumons : oxygénation du sang"
+            "Apport suffisant en fibres et en eau",
+            "Activité physique régulière",
+            "Supplémentation en fer",
+            "Consommation exclusive de protéines animales",
+            "Augmentation des graisses saturées"
         ],
         "correctAnswers": [
-            "Bouche : mastication, sécrétion de salive, déglutition",
-            "Estomac : digestion des protéines, amidons, lipides",
-            "Intestin grêle : digestion (avec pancréas, foie, vésicule biliaire) et absorption des nutriments",
-            "Côlon : élimination des résidus non digérés"
+            "Apport suffisant en fibres et en eau",
+            "Activité physique régulière"
         ],
-        "explanation": "Le document liste ces organes et leurs fonctions dans le processus digestif (p. 3).",
+        "explanation": "La constipation chronique est souvent liée à un manque de fibres, d'eau et de mouvement. L'activité physique stimule le péristaltisme, et les fibres + eau augmentent le volume des selles.",
         "multiple": true
     },
     {
-        "question": "Quel est le lien entre le système digestif et les autres systèmes de l'organisme, selon le document ?",
+        "question": "Quel est le mécanisme d'action des graines de lin ou de psyllium dans la gestion de la constipation",
         "options": [
-            "Le système digestif est en interdépendance avec les autres systèmes (nerveux, endocrinien, immunitaire, etc.) : son déséquilibre affecte la globalité de l'organisme et vice versa.",
-            "Le système digestif fonctionne de manière indépendante des autres systèmes.",
-            "Le système digestif ne communique qu'avec le système respiratoire.",
-            "Le système digestif est uniquement influencé par l'alimentation."
+            "Inhibition de la motilité intestinale",
+            "Augmentation du volume des selles et stimulation du péristaltisme grâce aux mucilages",
+            "Réduction de l'hydratation des selles",
+            "Stimulation de la sécrétion de bile"
         ],
-        "correctAnswers": ["Le système digestif est en interdépendance avec les autres systèmes (nerveux, endocrinien, immunitaire, etc.) : son déséquilibre affecte la globalité de l'organisme et vice versa."],
-        "explanation": "Le document souligne l'interdépendance entre le système digestif et les autres systèmes (p. 3).",
+        "correctAnswers": ["Augmentation du volume des selles et stimulation du péristaltisme grâce aux mucilages"],
+        "explanation": "Les graines de lin et le psyllium, riches en mucilages, augmentent le volume des selles et stimulent mécaniquement le péristaltisme, facilitant ainsi l'évacuation.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois signes précoces d'un déséquilibre digestif, selon le document ? (3 bonnes réponses)",
+        "question": "Quelle est la technique naturopathique recommandée pour débloquer une constipation terminale (selles accumulées dans le rectum)",
         "options": [
-            "Lourdeurs postprandiales",
-            "Flatulences",
-            "Ballonnements",
-            "Hypertension artérielle",
-            "Diabète de type 2",
-            "Ostéoporose"
+            "Jeûne sec de 48h",
+            "Lavement rectal avec de l'eau tiède",
+            "Consommation exclusive de produits laitiers",
+            "Application de ventouses sur l'abdomen"
+        ],
+        "correctAnswers": ["Lavement rectal avec de l'eau tiède"],
+        "explanation": "En cas de constipation terminale (selles bloquées dans le rectum), un lavement rectal avec de l'eau tiède permet de débloquer mécaniquement l'obstruction et de rétablir un transit normal.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le rôle des massages abdominaux dans la gestion de la constipation",
+        "options": [
+            "Inhibition du péristaltisme",
+            "Stimulation de la motilité intestinale dans le sens de la circulation du chyme (côlon ascendant → transverse → descendant → sigmoïde)",
+            "Augmentation de la rétention d'eau dans le côlon",
+            "Réduction de la sensibilité viscerale"
+        ],
+        "correctAnswers": ["Stimulation de la motilité intestinale dans le sens de la circulation du chyme (côlon ascendant → transverse → descendant → sigmoïde)"],
+        "explanation": "Les massages abdominaux, effectués dans le sens du transit (côlon ascendant → sigmoïde), stimulent la motilité intestinale et aident à évacuer les selles stagnantes.",
+        "multiple": false
+    },
+    {
+        "question": "Quelles sont les deux causes principales de diarrhée aiguë selon l'approche naturopathique (2 bonnes réponses)",
+        "options": [
+            "Intoxication alimentaire",
+            "Stress ou choc émotionnel",
+            "Excès de fibres",
+            "Carence en vitamine D",
+            "Consommation exclusive de protéines"
         ],
         "correctAnswers": [
-            "Lourdeurs postprandiales",
-            "Flatulences",
-            "Ballonnements"
+            "Intoxication alimentaire",
+            "Stress ou choc émotionnel"
         ],
-        "explanation": "Le document cite ces signes comme des alertes précoces d'un déséquilibre digestif (p. 4).",
+        "explanation": "La diarrhée aiguë est souvent déclenchée par une intoxication alimentaire (pathogènes) ou un stress/choc émotionnel (activation du système nerveux entérique et libération de sérotonine).",
         "multiple": true
     },
     {
-        "question": "Quel est le rôle de l'alimentation dans les pathologies digestives, selon le document ?",
+        "question": "Quel est le protocole naturopathique pour gérer une diarrhée aiguë sans la bloquer",
         "options": [
-            "L'alimentation inadaptée (dénaturée, toxique, carencée) est la première cause des pathologies digestives, car elle génère des déchets, des carences et perturbe la flore intestinale.",
-            "L'alimentation n'a aucun impact sur les pathologies digestives.",
-            "L'alimentation influence uniquement le poids corporel.",
-            "L'alimentation ne concerne que le système digestif."
+            "Prise d'antidiarrhéiques synthétiques",
+            "Hydratation, rééquilibrage du microbiote (probiotiques) et alimentation légère (riz, carotte)",
+            "Jeûne sec de 24h",
+            "Consommation exclusive de produits laitiers"
         ],
-        "correctAnswers": ["L'alimentation inadaptée (dénaturée, toxique, carencée) est la première cause des pathologies digestives, car elle génère des déchets, des carences et perturbe la flore intestinale."],
-        "explanation": "Le document identifie l'alimentation comme la cause principale des déséquilibres digestifs (p. 4).",
+        "correctAnswers": ["Hydratation, rééquilibrage du microbiote (probiotiques) et alimentation légère (riz, carotte)"],
+        "explanation": "En naturopathie, on ne bloque pas une diarrhée aiguë (mécanisme d'élimination), mais on hydrate, on rééquilibre le microbiote (probiotiques) et on adopte une alimentation légère (riz, carotte) pour apaiser l'intestin.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois facteurs aggravants des pathologies digestives, selon le document ? (3 bonnes réponses)",
+        "question": "Quel est le rôle de la carotte dans le traitement naturopathique de la diarrhée",
         "options": [
-            "Stress chronique",
-            "Sédentarité",
-            "Polluants environnementaux (pesticides, médicaments)",
-            "Manque de sommeil",
-            "Excès d'exercice physique",
-            "Carence en vitamines"
+            "Stimulation de la motilité intestinale",
+            "Absorption des toxines et des excès d'eau grâce à ses pectines",
+            "Augmentation de la perméabilité intestinale",
+            "Inhibition de la flore bénéfique"
+        ],
+        "correctAnswers": ["Absorption des toxines et des excès d'eau grâce à ses pectines"],
+        "explanation": "La carotte, riche en pectines, absorbe les toxines et l'excès d'eau dans le tube digestif, réduisant ainsi la fréquence et la liquidité des selles en cas de diarrhée.",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la cause principale du syndrome de l'intestin irritable (SII) selon l'approche naturopathique",
+        "options": [
+            "Carence en fer",
+            "Déséquilibre du microbiote intestinal et hypersensibilité viscerale",
+            "Excès de fibres",
+            "Manque d'activité physique"
+        ],
+        "correctAnswers": ["Déséquilibre du microbiote intestinal et hypersensibilité viscerale"],
+        "explanation": "Le SII est principalement lié à un déséquilibre du microbiote (dysbiose) et à une hypersensibilité viscerale (réaction excessive aux stimuli intestinaux), souvent aggravée par le stress.",
+        "multiple": false
+    },
+    {
+        "question": "Quels sont les deux remèdes naturels les plus efficaces pour soulager les ballonnements (2 bonnes réponses)",
+        "options": [
+            "Huile essentielle de basilic",
+            "Huile essentielle d'estragon",
+            "Charbon végétal",
+            "Jus de citron",
+            "Lait de vache"
         ],
         "correctAnswers": [
-            "Stress chronique",
-            "Sédentarité",
-            "Polluants environnementaux (pesticides, médicaments)"
+            "Huile essentielle de basilic",
+            "Huile essentielle d'estragon"
         ],
-        "explanation": "Le document mentionne ces facteurs comme aggravants des troubles digestifs (p. 5).",
+        "explanation": "Les HE de basilic et d'estragon sont carminatives : elles réduisent les spasmes intestinaux et favorisent l'élimination des gaz, soulageant ainsi les ballonnements.",
         "multiple": true
     },
     {
-        "question": "Quel est le rôle du stress dans les dérèglements digestifs, selon le document ?",
+        "question": "Quel est le mécanisme d'action de l'argile en cas de reflux gastrique",
         "options": [
-            "Le stress perturbe la motricité intestinale via le système nerveux autonome (sympathique/parasympathique) et déséquilibre la production de sérotonine, affectant ainsi la digestion et l'humeur.",
-            "Le stress n'a aucun impact sur la digestion.",
-            "Le stress stimule la production d'enzymes digestives.",
-            "Le stress améliore l'absorption des nutriments."
+            "Stimulation de la sécrétion d'acide chlorhydrique",
+            "Absorption des excès d'acidité et protection de la muqueuse œsophagienne",
+            "Inhibition de la motilité gastrique",
+            "Augmentation de la pression intra-abdominale"
         ],
-        "correctAnswers": ["Le stress perturbe la motricité intestinale via le système nerveux autonome (sympathique/parasympathique) et déséquilibre la production de sérotonine, affectant ainsi la digestion et l'humeur."],
-        "explanation": "Le document explique le lien entre stress, système nerveux et digestion (p. 5).",
+        "correctAnswers": ["Absorption des excès d'acidité et protection de la muqueuse œsophagienne"],
+        "explanation": "L'argile, par son pouvoir absorbant et tampon, neutralise l'excès d'acidité gastrique et protège la muqueuse œsophagienne des brûlures liées au reflux.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois principes fondamentaux de l'approche naturopathique des déséquilibres digestifs ? (3 bonnes réponses)",
+        "question": "Quelle est la technique naturopathique pour réduire un reflux gastro-œsophagien (RGO)",
         "options": [
-            "Réforme de l'hygiène de vie (alimentation, sommeil, activité physique)",
-            "Individualisation des conseils (tempérament, énergie vitale, terrain)",
-            "Stimulation de la force vitale et des émonctoires",
-            "Prescription systématique de médicaments",
-            "Utilisation exclusive de techniques invasives",
-            "Diagnostic médical des pathologies"
+            "Consommation de repas copieux le soir",
+            "Surélévation de la tête du lit et fractionnement des repas",
+            "Port de vêtements serrés",
+            "Allongement immédiat après les repas"
+        ],
+        "correctAnswers": ["Surélévation de la tête du lit et fractionnement des repas"],
+        "explanation": "La surélévation de la tête du lit (10-15 cm) et le fractionnement des repas réduisent la pression sur le sphincter œsophagien inférieur, limitant ainsi les remontées acides.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le rôle du jus de pruneau dans le traitement de la constipation occasionnelle",
+        "options": [
+            "Inhibition du péristaltisme",
+            "Stimulation de la motilité intestinale grâce à ses fibres et sorbitol",
+            "Augmentation de la rétention d'eau dans le côlon",
+            "Réduction de la sensibilité viscerale"
+        ],
+        "correctAnswers": ["Stimulation de la motilité intestinale grâce à ses fibres et sorbitol"],
+        "explanation": "Le jus de pruneau, riche en fibres et en sorbitol (un sucre-alcool laxatif), stimule la motilité intestinale et ramollit les selles, facilitant leur évacuation.",
+        "multiple": false
+    },
+    {
+        "question": "Quelles sont les deux causes principales de dysbiose intestinale (2 bonnes réponses)",
+        "options": [
+            "Alimentation riche en sucres raffinés et en additifs",
+            "Prise répétée d'antibiotiques",
+            "Consommation exclusive de légumes",
+            "Activité physique régulière",
+            "Hydratation excessive"
         ],
         "correctAnswers": [
-            "Réforme de l'hygiène de vie (alimentation, sommeil, activité physique)",
-            "Individualisation des conseils (tempérament, énergie vitale, terrain)",
-            "Stimulation de la force vitale et des émonctoires"
+            "Alimentation riche en sucres raffinés et en additifs",
+            "Prise répétée d'antibiotiques"
         ],
-        "explanation": "Le document insiste sur ces principes pour une approche globale et personnalisée (p. 8).",
+        "explanation": "La dysbiose est souvent causée par une alimentation déséquilibrée (sucres, additifs) et la prise d'antibiotiques, qui perturbent l'équilibre du microbiote intestinal.",
         "multiple": true
     },
     {
-        "question": "Quel est le rôle des légumes dans l'hygiène alimentaire digestive, selon le document ?",
+        "question": "Quel est le protocole naturopathique pour rééquilibrer un microbiote intestinal après une antibiothérapie",
         "options": [
-            "Les légumes ( crus ou cuits) apportent fibres, vitamines et minéraux, facilitent le transit, nettoient les parois intestinales et évitent la constipation, à condition d'être consommés de manière adaptée (ex : cuits en cas d'inflammation).",
-            "Les légumes bloquent la production d'enzymes digestives.",
-            "Les légumes augmentent la production de mucus intestinal.",
-            "Les légumes n'ont aucun rôle dans la digestion."
-        ],
-        "correctAnswers": ["Les légumes ( crus ou cuits) apportent fibres, vitamines et minéraux, facilitent le transit, nettoient les parois intestinales et évitent la constipation, à condition d'être consommés de manière adaptée (ex : cuits en cas d'inflammation)."],
-        "explanation": "Le document détaille le rôle clé des légumes dans l'équilibre digestif (p. 9).",
-        "multiple": false
-    },
-    {
-        "question": "Quels sont les trois critères pour une alimentation biologique humaine, selon le document ? (3 bonnes réponses)",
-        "options": [
-            "Aliments de saison",
-            "Aliments locaux et issus de l'agriculture biologique",
-            "Aliments consommés rapidement après récolte",
-            "Aliments transformés industriellement",
-            "Aliments riches en additifs",
-            "Aliments importés de loin"
-        ],
-        "correctAnswers": [
-            "Aliments de saison",
-            "Aliments locaux et issus de l'agriculture biologique",
-            "Aliments consommés rapidement après récolte"
-        ],
-        "explanation": "Le document recommande ces critères pour une alimentation optimale (p. 9).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle du jeûne intermittent dans les déséquilibres digestifs, selon le document ?",
-        "options": [
-            "Le jeûne intermittent (16h) permet de reposer le système digestif, de recharger l'énergie vitale et de réduire les symptômes de lourdeur, ballonnements ou spasmes, à condition que les repas restants soient équilibrés.",
-            "Le jeûne intermittent bloque la production d'enzymes digestives.",
-            "Le jeûne intermittent stimule la production de mucus intestinal.",
-            "Le jeûne intermittent n'a aucun effet sur la digestion."
-        ],
-        "correctAnswers": ["Le jeûne intermittent (16h) permet de reposer le système digestif, de recharger l'énergie vitale et de réduire les symptômes de lourdeur, ballonnements ou spasmes, à condition que les repas restants soient équilibrés."],
-        "explanation": "Le document décrit les bienfaits du jeûne intermittent pour la digestion (p. 9).",
-        "multiple": false
-    },
-    {
-        "question": "Quels sont les trois aliments couramment utilisés en monodiète digestive, selon le document ? (3 bonnes réponses)",
-        "options": [
-            "Pomme (dépurative, antioxydante)",
-            "Riz (énergétique, facile à digérer)",
-            "Carotte (laxative, cicatrisante)",
-            "Viande rouge",
-            "Produits laitiers",
-            "Sucres raffinés"
-        ],
-        "correctAnswers": [
-            "Pomme (dépurative, antioxydante)",
-            "Riz (énergétique, facile à digérer)",
-            "Carotte (laxative, cicatrisante)"
-        ],
-        "explanation": "Le document cite ces aliments comme adaptés aux monodiètes digestives (p. 10).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle de la monodiète dans les troubles digestifs, selon le document ?",
-        "options": [
-            "La monodiète place le corps en autolyse, économise l'énergie digestive, permet la réparation des organes et l'élimination des déchets, tout en étant adaptée au terrain et à la vitalité du consultant.",
-            "La monodiète bloque la production d'enzymes digestives.",
-            "La monodiète stimule la production de mucus intestinal.",
-            "La monodiète n'a aucun effet sur la digestion."
-        ],
-        "correctAnswers": ["La monodiète place le corps en autolyse, économise l'énergie digestive, permet la réparation des organes et l'élimination des déchets, tout en étant adaptée au terrain et à la vitalité du consultant."],
-        "explanation": "Le document explique le principe et les bienfaits de la monodiète (p. 10).",
-        "multiple": false
-    },
-    {
-        "question": "Quels sont les trois remèdes naturels à utiliser avec parcimonie en naturopathie digestive, selon le document ? (3 bonnes réponses)",
-        "options": [
-            "Argile (pour les reflux gastriques)",
-            "Huiles essentielles de basilic ou estragon (ballonnements)",
-            "Graines de lin ou psyllium (constipation)",
-            "Antibiotiques",
-            "Corticoïdes",
-            "Anti-inflammatoires non stéroïdiens"
-        ],
-        "correctAnswers": [
-            "Argile (pour les reflux gastriques)",
-            "Huiles essentielles de basilic ou estragon (ballonnements)",
-            "Graines de lin ou psyllium (constipation)"
-        ],
-        "explanation": "Le document mentionne ces remèdes comme des outils complémentaires, à utiliser avec intelligence (p. 13).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle des probiotiques dans la dysbiose intestinale, selon le document ?",
-        "options": [
-            "Les probiotiques aident à rétablir l'équilibre du microbiote intestinal, mais leur usage prolongé peut déséquilibrer la flore en favorisant certaines bactéries ; ils doivent être associés à une réforme alimentaire et une gestion du stress.",
-            "Les probiotiques bloquent la production d'enzymes digestives.",
-            "Les probiotiques stimulent la production de mucus intestinal.",
-            "Les probiotiques n'ont aucun rôle dans la dysbiose."
-        ],
-        "correctAnswers": ["Les probiotiques aident à rétablir l'équilibre du microbiote intestinal, mais leur usage prolongé peut déséquilibrer la flore en favorisant certaines bactéries ; ils doivent être associés à une réforme alimentaire et une gestion du stress."],
-        "explanation": "Le document souligne l'importance d'une utilisation judicieuse des probiotiques (p. 13).",
-        "multiple": false
-    },
-    {
-        "question": "Quels sont les trois symptômes d'une dysbiose intestinale, selon le document ? (3 bonnes réponses)",
-        "options": [
-            "RGO (reflux gastro-œsophagien)",
-            "Mauvaise haleine",
-            "Fatigue chronique",
-            "Hypertension artérielle",
-            "Diabète de type 2",
-            "Ostéoporose"
-        ],
-        "correctAnswers": [
-            "RGO (reflux gastro-œsophagien)",
-            "Mauvaise haleine",
-            "Fatigue chronique"
-        ],
-        "explanation": "Le document liste ces symptômes comme associés à la dysbiose (p. 14).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle de l'extrait de pépins de pamplemousse dans les déséquilibres digestifs, selon le document ?",
-        "options": [
-            "L'extrait de pépins de pamplemousse est un antibactérien naturel puissant, efficace contre les radicaux libres, les infections buccales (aphtes, gingivite) et les bactéries pathogènes intestinales comme Helicobacter pylori.",
-            "L'extrait de pépins de pamplemousse bloque la production d'enzymes digestives.",
-            "L'extrait de pépins de pamplemousse stimule la production de mucus intestinal.",
-            "L'extrait de pépins de pamplemousse n'a aucun effet sur la digestion."
-        ],
-        "correctAnswers": ["L'extrait de pépins de pamplemousse est un antibactérien naturel puissant, efficace contre les radicaux libres, les infections buccales (aphtes, gingivite) et les bactéries pathogènes intestinales comme Helicobacter pylori."],
-        "explanation": "Le document décrit les propriétés de l'extrait de pépins de pamplemousse (p. 13).",
-        "multiple": false
-    },
-    {
-        "question": "Quels sont les trois facteurs déclenchants d'un SIBO (Small Intestinal Bacterial Overgrowth), selon le document ? (3 bonnes réponses)",
-        "options": [
-            "Hypochlorhydrie gastrique (défaut d'acidité)",
-            "Altération de la valve iléo-caecale",
-            "Faiblesse du péristaltisme intestinal",
-            "Excès de fibres alimentaires",
-            "Carence en vitamines",
-            "Manque de sommeil"
-        ],
-        "correctAnswers": [
-            "Hypochlorhydrie gastrique (défaut d'acidité)",
-            "Altération de la valve iléo-caecale",
-            "Faiblesse du péristaltisme intestinal"
-        ],
-        "explanation": "Le document explique ces causes du SIBO (p. 14).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le mécanisme de la maladie cœliaque, selon le document ?",
-        "options": [
-            "La maladie cœliaque est une réaction immunitaire anormale au gluten (gliadine), provoquant une inflammation de l'intestin grêle, une destruction des villosités et une malabsorption des nutriments.",
-            "La maladie cœliaque est causée par une carence en enzymes digestives.",
-            "La maladie cœliaque est due à une surproduction de mucus intestinal.",
-            "La maladie cœliaque n'a aucun lien avec l'alimentation."
-        ],
-        "correctAnswers": ["La maladie cœliaque est une réaction immunitaire anormale au gluten (gliadine), provoquant une inflammation de l'intestin grêle, une destruction des villosités et une malabsorption des nutriments."],
-        "explanation": "Le document décrit ce mécanisme pour la maladie cœliaque (p. 14).",
-        "multiple": false
-    },
-    {
-        "question": "Quels sont les trois symptômes de la maladie cœliaque, selon le document ? (3 bonnes réponses)",
-        "options": [
-            "Ballonnements",
-            "Diarrhée chronique",
-            "Amaigrissement",
-            "Hypertension artérielle",
-            "Diabète de type 2",
-            "Ostéoporose"
-        ],
-        "correctAnswers": [
-            "Ballonnements",
-            "Diarrhée chronique",
-            "Amaigrissement"
-        ],
-        "explanation": "Le document cite ces symptômes comme associés à la maladie cœliaque (p. 14).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le protocole naturopathique pour la maladie cœliaque, selon le document ?",
-        "options": [
-            "Suppression totale du gluten, réforme de l'hygiène alimentaire (alimentation biologique humaine) et accompagnement psychologique pour gérer le changement.",
-            "Prescription d'antibiotiques pour traiter l'inflammation.",
-            "Utilisation de corticoïdes pour réduire les symptômes.",
-            "Supplémentation en vitamines synthétiques."
-        ],
-        "correctAnswers": ["Suppression totale du gluten, réforme de l'hygiène alimentaire (alimentation biologique humaine) et accompagnement psychologique pour gérer le changement."],
-        "explanation": "Le document détaille ce protocole pour la maladie cœliaque (p. 14).",
-        "multiple": false
-    },
-    {
-        "question": "Quels sont les trois outils naturopathiques pour accompagner un SII (Syndrome de l'Intestin Irritable), selon le document ? (3 bonnes réponses)",
-        "options": [
-            "Réforme alimentaire (suppression des aliments pro-inflammatoires)",
-            "Gestion du stress (techniques de relaxation, cohérence cardiaque)",
-            "Régulation de la sérotonine intestinale (plantes adaptogènes)",
-            "Prescription d'antibiotiques",
-            "Utilisation de corticoïdes",
-            "Chirurgie intestinale"
-        ],
-        "correctAnswers": [
-            "Réforme alimentaire (suppression des aliments pro-inflammatoires)",
-            "Gestion du stress (techniques de relaxation, cohérence cardiaque)",
-            "Régulation de la sérotonine intestinale (plantes adaptogènes)"
-        ],
-        "explanation": "Le document recommande ces outils pour le SII (p. 14).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle de la constipation dans les déséquilibres digestifs, selon le document ?",
-        "options": [
-            "La constipation est définie par un retard ou une difficulté à évacuer les selles (durabilité > 24h, selles dures), et peut être de transit (côlon) ou terminale (rectum), avec des causes multiples (alimentation, sédentarité, déséquilibres hormonaux).",
-            "La constipation n'a aucun impact sur la santé digestive.",
-            "La constipation stimule la production d'enzymes digestives.",
-            "La constipation améliore l'absorption des nutriments."
-        ],
-        "correctAnswers": ["La constipation est définie par un retard ou une difficulté à évacuer les selles (durabilité > 24h, selles dures), et peut être de transit (côlon) ou terminale (rectum), avec des causes multiples (alimentation, sédentarité, déséquilibres hormonaux)."],
-        "explanation": "Le document définit la constipation et ses causes (p. 15).",
-        "multiple": false
-    },
-    {
-        "question": "Quels sont les trois outils naturopathiques pour traiter la constipation, selon le document ? (3 bonnes réponses)",
-        "options": [
-            "Réforme alimentaire (fibres, hydratation)",
-            "Exercices physiques (renforcement de la sangle abdominale)",
-            "Massages intestinaux (dans le sens du transit)",
-            "Prescription de laxatifs chimiques",
-            "Utilisation de lavements quotidiens",
+            "Consommation exclusive de produits laitiers",
+            "Cure de probiotiques (Lactobacillus, Bifidobacterium) et prébiotiques (inuline, FOS)",
+            "Jeûne sec de 3 jours",
             "Supplémentation en fer"
         ],
-        "correctAnswers": [
-            "Réforme alimentaire (fibres, hydratation)",
-            "Exercices physiques (renforcement de la sangle abdominale)",
-            "Massages intestinaux (dans le sens du transit)"
-        ],
-        "explanation": "Le document recommande ces outils pour la constipation (p. 15).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle de la diarrhée dans les déséquilibres digestifs, selon le document ?",
-        "options": [
-            "La diarrhée est un mécanisme d'élimination du corps pour expulser des substances toxiques ou pathogènes ; elle ne doit pas être stoppée brutalement, mais surveillée et contrôlée par une hygiène alimentaire adaptée.",
-            "La diarrhée n'a aucun impact sur la santé digestive.",
-            "La diarrhée stimule la production d'enzymes digestives.",
-            "La diarrhée améliore l'absorption des nutriments."
-        ],
-        "correctAnswers": ["La diarrhée est un mécanisme d'élimination du corps pour expulser des substances toxiques ou pathogènes ; elle ne doit pas être stoppée brutalement, mais surveillée et contrôlée par une hygiène alimentaire adaptée."],
-        "explanation": "Le document explique le rôle de la diarrhée comme mécanisme de défense (p. 15).",
+        "correctAnswers": ["Cure de probiotiques (Lactobacillus, Bifidobacterium) et prébiotiques (inuline, FOS)"],
+        "explanation": "Après une antibiothérapie, une cure de probiotiques (souches bénéfiques) et de prébiotiques (nourriture des bactéries) permet de restaurer l'équilibre du microbiote intestinal.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois outils naturopathiques pour accompagner une diarrhée chronique, selon le document ? (3 bonnes réponses)",
+        "question": "Quel est le rôle du charbon végétal activé dans les troubles digestifs",
         "options": [
-            "Réforme alimentaire (identification des aliments déclencheurs)",
-            "Gestion de l'inflammation intestinale (plantes anti-inflammatoires)",
-            "Restauration de la flore (probiotiques, prébiotiques)",
-            "Prescription d'antibiotiques",
-            "Utilisation de corticoïdes",
+            "Stimulation de la motilité intestinale",
+            "Absorption des gaz et des toxines intestinales",
+            "Augmentation de la perméabilité intestinale",
+            "Inhibition de la flore bénéfique"
+        ],
+        "correctAnswers": ["Absorption des gaz et des toxines intestinales"],
+        "explanation": "Le charbon végétal activé, grâce à sa porosité, absorbe les gaz et les toxines présentes dans le tube digestif, soulageant ainsi les ballonnements et les inconforts.",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la plante la plus indiquée pour apaiser une muqueuse gastrique irritée",
+        "options": [
+            "Réglisse (DGL)",
+            "Gingembre",
+            "Cannelle",
+            "Piment"
+        ],
+        "correctAnswers": ["Réglisse (DGL)"],
+        "explanation": "La réglisse DGL (déglycyrrhizinée) apaise et protège la muqueuse gastrique grâce à ses composés anti-inflammatoires et cicatrisants, sans effet sur la pression artérielle.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le mécanisme d'action de la menthe poivrée sur les troubles digestifs",
+        "options": [
+            "Stimulation de la sécrétion gastrique",
+            "Relaxation des muscles lisses intestinaux et action carminative",
+            "Augmentation de la perméabilité intestinale",
+            "Inhibition de la motilité intestinale"
+        ],
+        "correctAnswers": ["Relaxation des muscles lisses intestinaux et action carminative"],
+        "explanation": "La menthe poivrée (HE ou infusion) relaxe les muscles lisses intestinaux (antispasmodique) et exerce une action carminative, réduisant ainsi les douleurs et les gaz.",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la technique naturopathique pour gérer un épisode de diarrhée chronique liée à une dysbiose",
+        "options": [
+            "Jeûne sec de 48h",
+            "Rééquilibrage du microbiote (probiotiques, alimentation anti-inflammatoire) et recherche des causes (intolérances, stress)",
+            "Consommation exclusive de fibres insolubles",
+            "Supplémentation en lactose"
+        ],
+        "correctAnswers": ["Rééquilibrage du microbiote (probiotiques, alimentation anti-inflammatoire) et recherche des causes (intolérances, stress)"],
+        "explanation": "La diarrhée chronique liée à une dysbiose nécessite un rééquilibrage du microbiote (probiotiques, alimentation) et une recherche des causes sous-jacentes (intolérances, stress chronique).",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le rôle de l'hydratation dans la prévention de la constipation",
+        "options": [
+            "Augmentation de la rétention des selles",
+            "Ramollissement des selles et facilitation du transit",
+            "Stimulation de la sécrétion biliaire",
+            "Inhibition de la motilité intestinale"
+        ],
+        "correctAnswers": ["Ramollissement des selles et facilitation du transit"],
+        "explanation": "Une hydratation suffisante (1,5 à 2 L/jour) ramollit les selles et facilite leur progression dans le côlon, prévenant ainsi la constipation.",
+        "multiple": false
+    },
+    {
+        "question": "Quelles sont les deux plantes les plus efficaces pour soulager une crise de foie (2 bonnes réponses)",
+        "options": [
+            "Romarin",
+            "Artichaut",
+            "Menthe poivrée",
+            "Camomille",
+            "Thym"
+        ],
+        "correctAnswers": [
+            "Romarin",
+            "Artichaut"
+        ],
+        "explanation": "Le romarin et l'artichaut sont des cholérétiques et cholagogues : ils stimulent la production et l'évacuation de la bile, soulageant ainsi les crises hépatiques et les digestions lentes.",
+        "multiple": true
+    },
+    {
+        "question": "Quel est le protocole naturopathique pour accompagner un reflux gastro-œsophagien (RGO) lié au stress",
+        "options": [
+            "Consommation de café et d'alcool",
+            "Gestion du stress (cohérence cardiaque, phytothérapie sédative) et rééquilibrage de l'acidité gastrique (argile, réglisse DGL)",
+            "Jeûne intermittent strict",
+            "Application de glace sur l'estomac"
+        ],
+        "correctAnswers": ["Gestion du stress (cohérence cardiaque, phytothérapie sédative) et rééquilibrage de l'acidité gastrique (argile, réglisse DGL)"],
+        "explanation": "Le RGO lié au stress nécessite une gestion du stress (cohérence cardiaque, plantes sédatives) et un rééquilibrage de l'acidité (argile, réglisse DGL) pour protéger la muqueuse et réduire les remontées.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le rôle de la cohérence cardiaque dans la gestion des troubles digestifs liés au stress",
+        "options": [
+            "Augmentation de la sécrétion d'acide chlorhydrique",
+            "Réduction du cortisol et activation du système parasympathique",
+            "Stimulation de la motilité intestinale",
+            "Inhibition de la flore bénéfique"
+        ],
+        "correctAnswers": ["Réduction du cortisol et activation du système parasympathique"],
+        "explanation": "La cohérence cardiaque réduit le cortisol (hormone du stress) et active le système parasympathique, favorisant ainsi la digestion et réduisant les symptômes digestifs liés au stress.",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la cause principale des ballonnements selon l'approche naturopathique",
+        "options": [
+            "Manque de fibres",
+            "Fermentation anormale des aliments due à un déséquilibre du microbiote ou à une mauvaise mastication",
+            "Excès de protéines",
+            "Carence en vitamine D"
+        ],
+        "correctAnswers": ["Fermentation anormale des aliments due à un déséquilibre du microbiote ou à une mauvaise mastication"],
+        "explanation": "Les ballonnements sont souvent causés par une fermentation excessive des aliments dans l'intestin, liée à un déséquilibre du microbiote, une mauvaise mastication ou une alimentation inadaptée.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le protocole naturopathique pour accompagner une intolérance au lactose",
+        "options": [
+            "Consommation quotidienne de produits laitiers",
+            "Suppression du lactose, réensemencement du microbiote (probiotiques) et apport en enzymes lactases si nécessaire",
+            "Jeûne sec de 3 jours",
             "Supplémentation en fer"
         ],
-        "correctAnswers": [
-            "Réforme alimentaire (identification des aliments déclencheurs)",
-            "Gestion de l'inflammation intestinale (plantes anti-inflammatoires)",
-            "Restauration de la flore (probiotiques, prébiotiques)"
-        ],
-        "explanation": "Le document recommande ces outils pour la diarrhée chronique (p. 15).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le mécanisme du méga-côlon et du dolicho-côlon, selon le document ?",
-        "options": [
-            "Le méga-côlon (augmentation du diamètre) et le dolicho-côlon (augmentation de la longueur) sont des anomalies structurelles du côlon, souvent associées à une constipation chronique, des fermentations et une perte de puissance digestive.",
-            "Le méga-côlon et le dolicho-côlon sont des maladies génétiques sans lien avec l'alimentation.",
-            "Le méga-côlon et le dolicho-côlon stimulent la production d'enzymes digestives.",
-            "Le méga-côlon et le dolicho-côlon n'ont aucun impact sur la digestion."
-        ],
-        "correctAnswers": ["Le méga-côlon (augmentation du diamètre) et le dolicho-côlon (augmentation de la longueur) sont des anomalies structurelles du côlon, souvent associées à une constipation chronique, des fermentations et une perte de puissance digestive."],
-        "explanation": "Le document décrit ces mécanismes pour le méga-côlon et le dolicho-côlon (p. 15).",
+        "correctAnswers": ["Suppression du lactose, réensemencement du microbiote (probiotiques) et apport en enzymes lactases si nécessaire"],
+        "explanation": "L'intolérance au lactose nécessite la suppression des produits laitiers, un réensemencement du microbiote (probiotiques) et, si besoin, un apport en lactases pour digérer les résidus de lactose.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois outils naturopathiques pour prévenir les hernies, selon le document ? (3 bonnes réponses)",
+        "question": "Quel est le rôle de la camomille dans les troubles digestifs",
         "options": [
-            "Renforcement de la sangle abdominale (exercices physiques)",
-            "Réforme alimentaire (éviter gaz et constipation)",
-            "Gestion des efforts (éviter le port de charges lourdes)",
-            "Prescription d'antibiotiques",
-            "Utilisation de corticoïdes",
-            "Chirurgie préventive"
+            "Stimulation de la motilité intestinale",
+            "Action antispasmodique et apaisante sur les muqueuses digestives",
+            "Augmentation de la sécrétion gastrique",
+            "Inhibition de la flore bénéfique"
         ],
-        "correctAnswers": [
-            "Renforcement de la sangle abdominale (exercices physiques)",
-            "Réforme alimentaire (éviter gaz et constipation)",
-            "Gestion des efforts (éviter le port de charges lourdes)"
-        ],
-        "explanation": "Le document recommande ces outils pour prévenir les hernies (p. 15).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle de la dysbiose intestinale dans les déséquilibres digestifs, selon le document ?",
-        "options": [
-            "La dysbiose est un déséquilibre du microbiote intestinal, favorisé par une alimentation inadaptée, des médicaments (antibiotiques) ou le stress, et se manifeste par des symptômes variés (RGO, allergies, fatigue, troubles psychiques).",
-            "La dysbiose n'a aucun impact sur la santé digestive.",
-            "La dysbiose stimule la production d'enzymes digestives.",
-            "La dysbiose améliore l'absorption des nutriments."
-        ],
-        "correctAnswers": ["La dysbiose est un déséquilibre du microbiote intestinal, favorisé par une alimentation inadaptée, des médicaments (antibiotiques) ou le stress, et se manifeste par des symptômes variés (RGO, allergies, fatigue, troubles psychiques)."],
-        "explanation": "Le document décrit la dysbiose et ses causes (p. 14).",
+        "correctAnswers": ["Action antispasmodique et apaisante sur les muqueuses digestives"],
+        "explanation": "La camomille, grâce à ses composés (apigénine, bisabolol), exerce une action antispasmodique et anti-inflammatoire, apaisant les douleurs et les irritations digestives.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois outils naturopathiques pour rétablir la symbiose intestinale, selon le document ? (3 bonnes réponses)",
+        "question": "Quelle est la technique naturopathique pour accompagner une gastrite",
         "options": [
-            "Réforme alimentaire stricte (suppression des aliments pro-inflammatoires)",
-            "Gestion du stress (techniques de relaxation)",
-            "Utilisation ciblée de probiotiques (en complément)",
-            "Prescription d'antibiotiques",
-            "Utilisation de corticoïdes",
-            "Supplémentation en fer"
+            "Consommation de repas épicés",
+            "Alimentation anti-inflammatoire (bouillon d'os, légumes cuits) et plantes cicatrisantes (réglisse DGL, guimauve)",
+            "Jeûne sec de 48h",
+            "Supplémentation en acide chlorhydrique"
         ],
-        "correctAnswers": [
-            "Réforme alimentaire stricte (suppression des aliments pro-inflammatoires)",
-            "Gestion du stress (techniques de relaxation)",
-            "Utilisation ciblée de probiotiques (en complément)"
-        ],
-        "explanation": "Le document recommande ces outils pour rétablir la symbiose (p. 14).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le mécanisme des polypes intestinaux, selon le document ?",
-        "options": [
-            "Les polypes sont des excroissances bénignes sur la muqueuse colique, souvent liées à un terrain surchargé et à une incapacité des émonctoires à éliminer les déchets, avec un risque de dégénérescence cancéreuse.",
-            "Les polypes sont des infections bactériennes sans lien avec l'alimentation.",
-            "Les polypes stimulent la production d'enzymes digestives.",
-            "Les polypes n'ont aucun impact sur la digestion."
-        ],
-        "correctAnswers": ["Les polypes sont des excroissances bénignes sur la muqueuse colique, souvent liées à un terrain surchargé et à une incapacité des émonctoires à éliminer les déchets, avec un risque de dégénérescence cancéreuse."],
-        "explanation": "Le document explique ce mécanisme pour les polypes (p. 16).",
+        "correctAnswers": ["Alimentation anti-inflammatoire (bouillon d'os, légumes cuits) et plantes cicatrisantes (réglisse DGL, guimauve)"],
+        "explanation": "Une gastrite nécessite une alimentation anti-inflammatoire (bouillon d'os, légumes cuits) et des plantes cicatrisantes (réglisse DGL, guimauve) pour apaiser et réparer la muqueuse gastrique.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois outils naturopathiques pour accompagner les polypes intestinaux, selon le document ? (3 bonnes réponses)",
+        "question": "Quel est le rôle de la badiane (anis étoilé) dans les troubles digestifs",
         "options": [
-            "Réforme alimentaire (alimentation biologique humaine)",
-            "Stimulation des émonctoires (foie, peau, reins)",
-            "Dérivation des déchets (plantes drainantes, hydrothérapie)",
-            "Prescription d'antibiotiques",
-            "Utilisation de corticoïdes",
-            "Chirurgie préventive"
+            "Inhibition de la motilité intestinale",
+            "Action carminative et antispasmodique",
+            "Augmentation de la perméabilité intestinale",
+            "Stimulation de la sécrétion biliaire"
         ],
-        "correctAnswers": [
-            "Réforme alimentaire (alimentation biologique humaine)",
-            "Stimulation des émonctoires (foie, peau, reins)",
-            "Dérivation des déchets (plantes drainantes, hydrothérapie)"
+        "correctAnswers": ["Action carminative et antispasmodique"],
+        "explanation": "La badiane (anis étoilé) est utilisée pour ses propriétés carminatives (élimination des gaz) et antispasmodiques, soulageant ainsi les ballonnements et les douleurs abdominales.",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la cause principale de la constipation de transit (selles stagnant dans le côlon)",
+        "options": [
+            "Excès de fibres solubles",
+            "Manque de fibres, déshydratation et sédentarité",
+            "Consommation exclusive de protéines",
+            "Carence en vitamine C"
         ],
-        "explanation": "Le document recommande ces outils pour les polypes (p. 16).",
-        "multiple": true
+        "correctAnswers": ["Manque de fibres, déshydratation et sédentarité"],
+        "explanation": "La constipation de transit est principalement due à un manque de fibres (volume des selles), une déshydratation (selles dures) et la sédentarité (ralentissement du péristaltisme).",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le protocole naturopathique pour accompagner un syndrome de l'intestin irritable (SII) avec alternance diarrhée/constipation",
+        "options": [
+            "Consommation exclusive de produits laitiers",
+            "Rééquilibrage du microbiote (probiotiques), gestion du stress (cohérence cardiaque) et alimentation pauvre en FODMAPs",
+            "Jeûne sec de 5 jours",
+            "Supplémentation en gluten"
+        ],
+        "correctAnswers": ["Rééquilibrage du microbiote (probiotiques), gestion du stress (cohérence cardiaque) et alimentation pauvre en FODMAPs"],
+        "explanation": "Le SII avec alternance nécessite un rééquilibrage du microbiote (probiotiques), une gestion du stress (cohérence cardiaque) et une alimentation pauvre en FODMAPs (fermentescibles) pour réduire les symptômes.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le rôle de la mélisse dans les troubles digestifs liés au stress",
+        "options": [
+            "Stimulation de la sécrétion gastrique",
+            "Action sédative sur le système nerveux entérique et antispasmodique",
+            "Augmentation de la perméabilité intestinale",
+            "Inhibition de la flore bénéfique"
+        ],
+        "correctAnswers": ["Action sédative sur le système nerveux entérique et antispasmodique"],
+        "explanation": "La mélisse, grâce à ses composés (rosmarinique acid), apaise le système nerveux entérique et exerce une action antispasmodique, réduisant ainsi les douleurs et les troubles digestifs liés au stress.",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la technique naturopathique pour accompagner une diarrhée du voyageur",
+        "options": [
+            "Consommation d'eau non traitée",
+            "Hydratation, probiotiques (Saccharomyces boulardii) et alimentation astringente (riz, banane)",
+            "Jeûne sec de 24h",
+            "Supplémentation en lactose"
+        ],
+        "correctAnswers": ["Hydratation, probiotiques (Saccharomyces boulardii) et alimentation astringente (riz, banane)"],
+        "explanation": "La diarrhée du voyageur nécessite une hydratation, des probiotiques (S. boulardii) pour rééquilibrer le microbiote, et une alimentation astringente (riz, banane) pour ralentir le transit.",
+        "multiple": false
     }
 ]

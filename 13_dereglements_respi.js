@@ -1,511 +1,483 @@
-const questionsDereglementsRespiratoires = [
+const questionsDereglementsRespiratoires = 
+[
     {
-        "question": "Selon le document ISUPNAT, quel est le rôle principal du système respiratoire dans la physiologie humaine ?",
+        "question": "Quel est le rôle principal du desmodium dans l'accompagnement naturopathique de l'asthme",
         "options": [
-            "Le système respiratoire assure les échanges gazeux (O₂ et CO₂), maintient le pH sanguin, favorise la circulation sanguine, fixe l'énergie vitale et joue un rôle émonctoire en éliminant les colles.",
-            "Le système respiratoire produit des hormones pour réguler le métabolisme.",
-            "Le système respiratoire filtre les toxines sanguines et produit des anticorps.",
-            "Le système respiratoire contrôle exclusivement la température corporelle."
+            "Stimulation de la sécrétion de mucus",
+            "Action bronchodilatatrice et soutien de la fonction hépatique",
+            "Inhibition de la clairance mucociliaire",
+            "Augmentation de la perméabilité capillaire"
         ],
-        "correctAnswers": ["Le système respiratoire assure les échanges gazeux (O₂ et CO₂), maintient le pH sanguin, favorise la circulation sanguine, fixe l'énergie vitale et joue un rôle émonctoire en éliminant les colles."],
-        "explanation": "Le document décrit ces cinq fonctions principales du système respiratoire (p. 3).",
+        "correctAnswers": ["Action bronchodilatatrice et soutien de la fonction hépatique"],
+        "explanation": "Le desmodium est utilisé en naturopathie pour son effet bronchodilatateur et son action sur le foie, aidant ainsi à réduire les crises d'asthme et à soutenir la détoxification hépatique.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois mécanismes de la respiration externe, selon le document ? (3 bonnes réponses)",
+        "question": "Quels sont les deux leviers alimentaires prioritaires pour réduire les sécrétions muqueuses en cas de sinusite (2 bonnes réponses)",
         "options": [
-            "Échange d'O₂ et de CO₂ entre l'air alvéolaire et le sang",
-            "Transport des gaz respiratoires via la circulation sanguine",
-            "Échange d'O₂ et de CO₂ entre le sang et les cellules",
-            "Production d'anticorps pour défendre l'organisme",
-            "Filtrage des toxines sanguines",
-            "Régulation de la glycémie"
+            "Suppression des produits laitiers",
+            "Réduction des sucres industriels",
+            "Augmentation des graisses saturées",
+            "Consommation exclusive de céréales raffinées",
+            "Supplémentation en gluten"
         ],
         "correctAnswers": [
-            "Échange d'O₂ et de CO₂ entre l'air alvéolaire et le sang",
-            "Transport des gaz respiratoires via la circulation sanguine",
-            "Échange d'O₂ et de CO₂ entre le sang et les cellules"
+            "Suppression des produits laitiers",
+            "Réduction des sucres industriels"
         ],
-        "explanation": "Le document distingue ces trois mécanismes comme centraux dans la respiration (p. 3).",
+        "explanation": "La suppression des produits laitiers et la réduction des sucres industriels sont essentielles pour limiter la production de mucus et l'inflammation des muqueuses en cas de sinusite.",
         "multiple": true
     },
     {
-        "question": "Quel est le rôle du diaphragme dans la mécanique respiratoire, selon le document ?",
+        "question": "Quel est le mécanisme d'action des plantes béchiques expectorantes comme l'aunée ou le lierre terrestre",
         "options": [
-            "Le diaphragme est le muscle principal de l'inspiration, responsable de 75% du déplacement de l'air dans les poumons, et son amplitude influence la circulation des humeurs.",
-            "Le diaphragme filtre les toxines sanguines et produit des anticorps.",
-            "Le diaphragme régule la glycémie et la pression artérielle.",
-            "Le diaphragme contrôle la température corporelle."
+            "Inhibition de la toux",
+            "Fluidification des sécrétions bronchiques et stimulation de l'expectoration",
+            "Stimulation de la production de mucus",
+            "Réduction de la motilité ciliaire"
         ],
-        "correctAnswers": ["Le diaphragme est le muscle principal de l'inspiration, responsable de 75% du déplacement de l'air dans les poumons, et son amplitude influence la circulation des humeurs."],
-        "explanation": "Le document souligne le rôle central du diaphragme dans la ventilation pulmonaire (p. 4).",
+        "correctAnswers": ["Fluidification des sécrétions bronchiques et stimulation de l'expectoration"],
+        "explanation": "Les plantes béchiques expectorantes comme l'aunée ou le lierre terrestre fluidifient les sécrétions bronchiques et stimulent l'expectoration, facilitant ainsi l'élimination des mucosités.",
         "multiple": false
     },
     {
-        "question": "Quels sont les deux effets du vieillissement sur le système respiratoire, selon le document ? (2 bonnes réponses)",
+        "question": "Quelle est la technique naturopathique recommandée pour décongestionner les voies respiratoires en urgence lors d'une crise d'asthme",
         "options": [
-            "Perte d'élasticité des voies respiratoires et de la paroi thoracique",
-            "Réduction de la capacité pulmonaire (jusqu'à 35% à 70 ans)",
+            "Application de glace sur la poitrine",
+            "Immersion des avant-bras dans l'eau chaude",
+            "Consommation de produits laitiers",
+            "Respiration rapide et superficielle"
+        ],
+        "correctAnswers": ["Immersion des avant-bras dans l'eau chaude"],
+        "explanation": "L'immersion des avant-bras dans l'eau chaude permet une dérivation sanguine et une décongestion des voies respiratoires, soulageant ainsi les symptômes aigus de l'asthme.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le rôle de la dissociation alimentaire dans l'accompagnement des dérèglements respiratoires",
+        "options": [
             "Augmentation de la production de mucus",
-            "Stimulation de la production d'anticorps",
-            "Amélioration de la circulation sanguine",
+            "Réduction des toxines et des fermentations intestinales",
+            "Stimulation de la sécrétion d'histamine",
+            "Inhibition de la clairance mucociliaire"
+        ],
+        "correctAnswers": ["Réduction des toxines et des fermentations intestinales"],
+        "explanation": "La dissociation alimentaire limite les combinaisons alimentaires génératrices de toxines et de fermentations, réduisant ainsi la charge toxique et l'inflammation des muqueuses respiratoires.",
+        "multiple": false
+    },
+    {
+        "question": "Quelles sont les plantes béchiques émollientes utilisées pour apaiser l'inflammation des muqueuses respiratoires (2 bonnes réponses)",
+        "options": [
+            "Bouillon blanc",
+            "Guimauve",
+            "Eucalyptus",
+            "Thym",
+            "Menthe poivrée"
+        ],
+        "correctAnswers": [
+            "Bouillon blanc",
+            "Guimauve"
+        ],
+        "explanation": "Le bouillon blanc et la guimauve sont des plantes béchiques émollientes, riches en mucilages, qui apaisent l'inflammation et protègent les muqueuses respiratoires irritées.",
+        "multiple": true
+    },
+    {
+        "question": "Quel est le protocole naturopathique pour accompagner une bronchite chronique",
+        "options": [
+            "Supplémentation exclusive en vitamine C",
+            "Drainage hépatique, rééducation respiratoire et utilisation de plantes antiseptiques comme le thym",
+            "Jeûne sec de 72h",
+            "Application de ventouses sur le visage"
+        ],
+        "correctAnswers": ["Drainage hépatique, rééducation respiratoire et utilisation de plantes antiseptiques comme le thym"],
+        "explanation": "Le drainage hépatique réduit la charge toxique, la rééducation respiratoire améliore la capacité pulmonaire, et les plantes antiseptiques comme le thym limitent les surinfections dans la bronchite chronique.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est l'effet des bains chauds et du sauna dans l'accompagnement des pathologies respiratoires",
+        "options": [
+            "Augmentation de la rétention des toxines",
+            "Stimulation de la transpiration et renforcement de la fièvre pour éliminer les toxines",
+            "Inhibition de la circulation sanguine",
             "Réduction de la température corporelle"
         ],
-        "correctAnswers": [
-            "Perte d'élasticité des voies respiratoires et de la paroi thoracique",
-            "Réduction de la capacité pulmonaire (jusqu'à 35% à 70 ans)"
-        ],
-        "explanation": "Le document mentionne ces effets du vieillissement sur la respiration (p. 4).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le lien entre la sédentarité et la capacité respiratoire, selon le document ?",
-        "options": [
-            "La sédentarité réduit l'amplitude du diaphragme et la capacité thoracique, limitant l'oxygénation et favorisant l'accumulation de déchets dans les poumons.",
-            "La sédentarité stimule la production de mucus pour protéger les poumons.",
-            "La sédentarité améliore la circulation sanguine et l'oxygénation.",
-            "La sédentarité bloque la production de CO₂ pour réguler le pH sanguin."
-        ],
-        "correctAnswers": ["La sédentarité réduit l'amplitude du diaphragme et la capacité thoracique, limitant l'oxygénation et favorisant l'accumulation de déchets dans les poumons."],
-        "explanation": "Le document explique que la sédentarité affecte négativement la capacité respiratoire (p. 4).",
+        "correctAnswers": ["Stimulation de la transpiration et renforcement de la fièvre pour éliminer les toxines"],
+        "explanation": "Les bains chauds et le sauna stimulent la transpiration et la fièvre, favorisant ainsi l'élimination des toxines et le renforcement des défenses immunitaires.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois phases de dégradation du terrain respiratoire, selon le document ? (3 bonnes réponses)",
+        "question": "Quelle est la plante adaptogène recommandée pour renforcer la résistance au froid et réduire l'inflammation respiratoire",
         "options": [
-            "Phase aiguë (crise de nettoyage)",
-            "Phase chronique (insuffisance fonctionnelle réversible)",
-            "Phase lésionnelle (dégâts irréversibles)",
-            "Phase de guérison spontanée",
-            "Phase de stabilisation",
-            "Phase de prévention"
+            "Ginseng",
+            "Échinacée",
+            "Valériane",
+            "Millepertuis"
         ],
-        "correctAnswers": [
-            "Phase aiguë (crise de nettoyage)",
-            "Phase chronique (insuffisance fonctionnelle réversible)",
-            "Phase lésionnelle (dégâts irréversibles)"
-        ],
-        "explanation": "Le document détaille ces trois phases de dégradation (p. 5).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle de l'iridologie dans l'évaluation des dérèglements respiratoires, selon le document ?",
-        "options": [
-            "L'iridologie permet d'évaluer la vitalité, la minéralisation, les surcharges, les inflammations, le niveau de stress et de toxémie, en identifiant les déficiences émonctorielles et la baisse de la force vitale.",
-            "L'iridologie diagnostique les maladies pulmonaires avec précision.",
-            "L'iridologie mesure le taux d'O₂ et de CO₂ dans le sang.",
-            "L'iridologie évalue la capacité cardiaque."
-        ],
-        "correctAnswers": ["L'iridologie permet d'évaluer la vitalité, la minéralisation, les surcharges, les inflammations, le niveau de stress et de toxémie, en identifiant les déficiences émonctorielles et la baisse de la force vitale."],
-        "explanation": "Le document décrit l'iridologie comme un outil d'évaluation globale (p. 5).",
+        "correctAnswers": ["Ginseng"],
+        "explanation": "Le ginseng est une plante adaptogène qui renforce la résistance au froid et réduit l'inflammation, soutenant ainsi la vitalité et l'immunité respiratoire.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois principes fondamentaux de l'accompagnement naturopathique des dérèglements respiratoires, selon le document ? (3 bonnes réponses)",
+        "question": "Quel est le rôle des exercices respiratoires avec rétention de souffle dans la rééducation pulmonaire",
         "options": [
-            "Supprimer les surcharges (alimentation, toxines)",
-            "Ouvrir les émonctoires (foie, intestins, peau, reins)",
-            "Renforcer les énergies (minéraux, vitamines, probiotiques)",
-            "Prescrire des antibiotiques",
-            "Utiliser la chirurgie",
-            "Bloquer les symptômes avec des médicaments"
+            "Diminution de la capacité vitale",
+            "Amélioration de l'oxygénation du sang et décarbonisation",
+            "Stimulation de la production de mucus",
+            "Inhibition de la motilité ciliaire"
         ],
-        "correctAnswers": [
-            "Supprimer les surcharges (alimentation, toxines)",
-            "Ouvrir les émonctoires (foie, intestins, peau, reins)",
-            "Renforcer les énergies (minéraux, vitamines, probiotiques)"
-        ],
-        "explanation": "Le document liste ces principes comme centraux dans l'accompagnement naturopathique (p. 6).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle des produits laitiers dans les dérèglements respiratoires, selon le document ?",
-        "options": [
-            "Les produits laitiers génèrent des déchets colloïdaux (mucus) qui encombrent les voies respiratoires et aggravent les symptômes inflammatoires.",
-            "Les produits laitiers stimulent la production d'anticorps pour renforcer l'immunité.",
-            "Les produits laitiers améliorent la circulation sanguine et l'oxygénation.",
-            "Les produits laitiers bloquent la production de CO₂ pour réguler le pH sanguin."
-        ],
-        "correctAnswers": ["Les produits laitiers génèrent des déchets colloïdaux (mucus) qui encombrent les voies respiratoires et aggravent les symptômes inflammatoires."],
-        "explanation": "Le document souligne l'impact négatif des produits laitiers sur la respiration (p. 6).",
+        "correctAnswers": ["Amélioration de l'oxygénation du sang et décarbonisation"],
+        "explanation": "Les exercices respiratoires avec rétention de souffle améliorent l'oxygénation du sang (à poumons pleins) et favorisent la décarbonisation (à poumons vides), optimisant ainsi la fonction respiratoire.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois outils naturopathiques pour ouvrir les émonctoires en cas de dérèglements respiratoires ? (3 bonnes réponses)",
+        "question": "Quelles sont les causes possibles de la sinusite selon l'approche naturopathique (2 bonnes réponses)",
         "options": [
-            "Lavements intestinaux",
-            "Plantes cholagogues (artichaut, romarin)",
-            "Bains chauds et frictions cutanées",
-            "Supplémentation en vitamines synthétiques",
-            "Utilisation de corticoïdes",
-            "Chirurgie des sinus"
+            "Présence de déchets colloïdaux (foie/intestins)",
+            "Infection dentaire",
+            "Excès de vitamine D",
+            "Consommation exclusive d'aliments crus",
+            "Surhydratation"
         ],
         "correctAnswers": [
-            "Lavements intestinaux",
-            "Plantes cholagogues (artichaut, romarin)",
-            "Bains chauds et frictions cutanées"
+            "Présence de déchets colloïdaux (foie/intestins)",
+            "Infection dentaire"
         ],
-        "explanation": "Le document recommande ces outils pour stimuler les émonctoires (p. 6).",
+        "explanation": "La sinusite peut être causée par une accumulation de déchets colloïdaux (foie/intestins) ou une infection dentaire, reflétant un encrassement du terrain ou un foyer infectieux local.",
         "multiple": true
     },
     {
-        "question": "Quel est le rôle des huiles essentielles dans l'accompagnement des dérèglements respiratoires, selon le document ?",
+        "question": "Quel est le rôle de l'artichaut dans le drainage hépatique pour les dérèglements respiratoires",
         "options": [
-            "Les huiles essentielles (Eucalyptus, Thym, Pin sylvestre) fluidifient les sécrétions, décongestionnent les muqueuses et agissent comme antiviraux ou antibactériens, en inhalation ou diffusion.",
-            "Les huiles essentielles bloquent la production de mucus.",
-            "Les huiles essentielles stimulent la production d'anticorps.",
-            "Les huiles essentielles régulent la glycémie."
+            "Stimulation de la production de mucus",
+            "Soutien de la fonction biliaire et détoxification hépatique",
+            "Inhibition de la clairance mucociliaire",
+            "Augmentation de la perméabilité capillaire"
         ],
-        "correctAnswers": ["Les huiles essentielles (Eucalyptus, Thym, Pin sylvestre) fluidifient les sécrétions, décongestionnent les muqueuses et agissent comme antiviraux ou antibactériens, en inhalation ou diffusion."],
-        "explanation": "Le document décrit l'usage des huiles essentielles pour les troubles respiratoires (p. 6-7).",
+        "correctAnswers": ["Soutien de la fonction biliaire et détoxification hépatique"],
+        "explanation": "L'artichaut stimule la production et l'écoulement de la bile, soutenant ainsi la détoxification hépatique et réduisant la charge toxique sur les poumons.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois types de plantes béchiques utilisées pour calmer la toux, selon le document ? (3 bonnes réponses)",
+        "question": "Quelle est la technique manuelle recommandée pour ouvrir la cage thoracique en cas de dérèglements respiratoires",
         "options": [
-            "Béchiques expectorants (Aunée, Lierre terrestre)",
-            "Béchiques émollients (Bouillon blanc, Guimauve)",
-            "Béchiques balsamiques (Millepertuis)",
-            "Plantes stimulantes (Café, Thé)",
-            "Plantes diurétiques (Queue de cerise)",
-            "Plantes hypnotiques (Pavot)"
+            "Massage suédois",
+            "Réflexologie plantaire",
+            "Ostéopathie viscérale",
+            "Acupuncture sans aiguilles"
+        ],
+        "correctAnswers": ["Réflexologie plantaire"],
+        "explanation": "La réflexologie plantaire, en stimulant les zones réflexes liées aux poumons et au diaphragme, favorise l'ouverture de la cage thoracique et améliore la fonction respiratoire.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est l'effet de la galéopsis sur les bronches après une maladie respiratoire",
+        "options": [
+            "Affaiblissement de la muqueuse bronchique",
+            "Renforcement des bronches et prévention des récidives",
+            "Stimulation de la production de mucus",
+            "Inhibition de la clairance mucociliaire"
+        ],
+        "correctAnswers": ["Renforcement des bronches et prévention des récidives"],
+        "explanation": "La galéopsis est utilisée en naturopathie pour renforcer les bronches après une maladie respiratoire, réduisant ainsi le risque de récidives et améliorant la résilience du terrain.",
+        "multiple": false
+    },
+    {
+        "question": "Quelles sont les plantes antiseptiques respiratoires utilisées pour prévenir les infections (2 bonnes réponses)",
+        "options": [
+            "Eucalyptus",
+            "Pin sylvestre",
+            "Mauve",
+            "Bouillon blanc",
+            "Guimauve"
         ],
         "correctAnswers": [
-            "Béchiques expectorants (Aunée, Lierre terrestre)",
-            "Béchiques émollients (Bouillon blanc, Guimauve)",
-            "Béchiques balsamiques (Millepertuis)"
+            "Eucalyptus",
+            "Pin sylvestre"
         ],
-        "explanation": "Le document classe ces plantes selon leur action sur la toux (p. 8).",
+        "explanation": "L'eucalyptus et le pin sylvestre sont des plantes antiseptiques respiratoires, riches en composés volatils (eucalyptol, pinène) qui désinfectent les voies aériennes et préviennent les surinfections.",
         "multiple": true
     },
     {
-        "question": "Quel est le mécanisme de la dyspnée, selon le document ?",
+        "question": "Quel est le rôle du romarin dans le drainage hépatique pour les dérèglements respiratoires",
         "options": [
-            "La dyspnée est une sensation subjective de gêne respiratoire, pouvant être inspiratoire ou expiratoire, aiguë ou chronique, souvent liée à une obstruction des voies aériennes ou à un trouble du système nerveux.",
-            "La dyspnée est causée par une surproduction d'anticorps.",
-            "La dyspnée est un symptôme exclusif d'une carence en fer.",
-            "La dyspnée est toujours due à une infection bactérienne."
+            "Inhibition de la sécrétion biliaire",
+            "Stimulation de la production et de l'écoulement de la bile",
+            "Augmentation de la viscosité du mucus",
+            "Réduction de la motilité ciliaire"
         ],
-        "correctAnswers": ["La dyspnée est une sensation subjective de gêne respiratoire, pouvant être inspiratoire ou expiratoire, aiguë ou chronique, souvent liée à une obstruction des voies aériennes ou à un trouble du système nerveux."],
-        "explanation": "Le document définit la dyspnée comme un symptôme multifactoriel (p. 7).",
+        "correctAnswers": ["Stimulation de la production et de l'écoulement de la bile"],
+        "explanation": "Le romarin est un cholérétique et cholagogue, stimulant la production et l'écoulement de la bile, ce qui soutient la détoxification hépatique et réduit la charge toxique sur les poumons.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois facteurs aggravants de l'asthme, selon le document ? (3 bonnes réponses)",
+        "question": "Quelle est la technique recommandée pour fluidifier les mucosités en cas de bronchite chez l'enfant",
         "options": [
-            "Hyperréactivité des bronches",
-            "Inflammation chronique des muqueuses",
-            "Bronchoconstriction et épaississement des parois",
-            "Carence en vitamine D",
-            "Excès de vitamine C",
-            "Déséquilibre hormonal"
+            "Application de cataplasmes froids",
+            "Utilisation de cataplasmes chauds et d'enveloppements",
+            "Consommation de produits laitiers",
+            "Respiration rapide et superficielle"
+        ],
+        "correctAnswers": ["Utilisation de cataplasmes chauds et d'enveloppements"],
+        "explanation": "Les cataplasmes chauds et les enveloppements favorisent la fluidification des mucosités et leur élimination, soulageant ainsi la congestion bronchique chez l'enfant.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le mécanisme d'action des plantes béchiques balsamiques comme le millepertuis",
+        "options": [
+            "Stimulation de la production de mucus",
+            "Apaisement des muqueuses enflammées et réduction de l'irritation",
+            "Inhibition de la clairance mucociliaire",
+            "Augmentation de la perméabilité capillaire"
+        ],
+        "correctAnswers": ["Apaisement des muqueuses enflammées et réduction de l'irritation"],
+        "explanation": "Les plantes béchiques balsamiques comme le millepertuis calment les muqueuses enflammées et réduisent l'irritation, grâce à leurs composés anti-inflammatoires et cicatrisants.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le rôle de la propolis dans l'accompagnement des infections respiratoires",
+        "options": [
+            "Stimulation de la production de mucus",
+            "Action antibactérienne et anti-inflammatoire sur les muqueuses respiratoires",
+            "Inhibition de la clairance mucociliaire",
+            "Augmentation de la perméabilité capillaire"
+        ],
+        "correctAnswers": ["Action antibactérienne et anti-inflammatoire sur les muqueuses respiratoires"],
+        "explanation": "La propolis, grâce à ses flavonoïdes et composés phénoliques, exerce une action antibactérienne et anti-inflammatoire, protégeant ainsi les muqueuses respiratoires des infections.",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la technique naturopathique pour vider les bronches le matin au réveil",
+        "options": [
+            "Respiration en position déclive",
+            "Consommation de produits laitiers",
+            "Application de glace sur la poitrine",
+            "Respiration rapide et superficielle"
+        ],
+        "correctAnswers": ["Respiration en position déclive"],
+        "explanation": "La respiration en position déclive (tête plus basse que les pieds) favorise le drainage des sécrétions bronchiques par gravité, aidant ainsi à vider les bronches au réveil.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est l'effet des exercices en déclive sur la fonction respiratoire",
+        "options": [
+            "Diminution de la capacité vitale",
+            "Amélioration du drainage des sécrétions bronchiques",
+            "Stimulation de la production de mucus",
+            "Inhibition de la motilité ciliaire"
+        ],
+        "correctAnswers": ["Amélioration du drainage des sécrétions bronchiques"],
+        "explanation": "Les exercices en déclive (tête plus basse que les pieds) facilitent le drainage des sécrétions bronchiques par gravité, optimisant ainsi la fonction respiratoire.",
+        "multiple": false
+    },
+    {
+        "question": "Quelles sont les plantes utilisées pour calmer l'inflammation des muqueuses respiratoires (2 bonnes réponses)",
+        "options": [
+            "Pimprenelle",
+            "Coquelicot",
+            "Eucalyptus",
+            "Thym",
+            "Menthe poivrée"
         ],
         "correctAnswers": [
-            "Hyperréactivité des bronches",
-            "Inflammation chronique des muqueuses",
-            "Bronchoconstriction et épaississement des parois"
+            "Pimprenelle",
+            "Coquelicot"
         ],
-        "explanation": "Le document liste ces facteurs comme centraux dans l'asthme (p. 7).",
+        "explanation": "La pimprenelle et le coquelicot sont des plantes anti-inflammatoires qui apaisent les muqueuses respiratoires irritées, réduisant ainsi la toux et l'inconfort.",
         "multiple": true
     },
     {
-        "question": "Quel est le protocole naturopathique pour une crise d'asthme, selon le document ?",
+        "question": "Quel est le rôle de la vitamine D dans l'accompagnement des dérèglements respiratoires",
         "options": [
-            "En urgence : immerger les avant-bras dans l'eau chaude pour décongestionner les voies respiratoires, appliquer une bouillotte sur le foie, et faire un lavement. À long terme : supprimer les allergènes alimentaires, assainir le foie et les intestins, et gérer le stress.",
-            "Prescrire des corticoïdes en inhalation.",
-            "Utiliser des antibiotiques pour traiter l'infection.",
-            "Bloquer la toux avec des antitussifs."
+            "Stimulation de la production de mucus",
+            "Modulation de la réponse immunitaire et réduction de l'inflammation",
+            "Inhibition de la clairance mucociliaire",
+            "Augmentation de la perméabilité capillaire"
         ],
-        "correctAnswers": ["En urgence : immerger les avant-bras dans l'eau chaude pour décongestionner les voies respiratoires, appliquer une bouillotte sur le foie, et faire un lavement. À long terme : supprimer les allergènes alimentaires, assainir le foie et les intestins, et gérer le stress."],
-        "explanation": "Le document détaille ce protocole pour l'asthme (p. 7-8).",
+        "correctAnswers": ["Modulation de la réponse immunitaire et réduction de l'inflammation"],
+        "explanation": "La vitamine D module la réponse immunitaire (stimulation des peptides antimicrobiens) et réduit l'inflammation des voies respiratoires, soutenant ainsi la résilience face aux infections.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois outils pour rééduquer la fonction respiratoire, selon le document ? (3 bonnes réponses)",
+        "question": "Quelle est la technique naturopathique pour renforcer la peau en cas de carence respiratoire pulmonaire",
         "options": [
-            "Respirations localisées ou complètes",
-            "Exercices avec rétention de souffle (à poumons pleins ou vides)",
-            "Techniques manuelles (massage, réflexologie)",
-            "Supplémentation en oméga-3",
-            "Utilisation de bronchodilatateurs",
-            "Chirurgie des bronches"
+            "Application de crèmes hydratantes",
+            "Bains d'air et de soleil, frictions et massages",
+            "Consommation exclusive de produits laitiers",
+            "Respiration rapide et superficielle"
         ],
-        "correctAnswers": [
-            "Respirations localisées ou complètes",
-            "Exercices avec rétention de souffle (à poumons pleins ou vides)",
-            "Techniques manuelles (massage, réflexologie)"
-        ],
-        "explanation": "Le document recommande ces outils pour améliorer la respiration (p. 6).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle du Bol d'air Jacquier dans les dérèglements respiratoires, selon le document ?",
-        "options": [
-            "Le Bol d'air Jacquier assainit les voies respiratoires, renforce les défenses immunitaires, et optimise les fonctions cardio-pulmonaires grâce aux oxydes terpéniques qui fluidifient les sécrétions.",
-            "Le Bol d'air Jacquier bloque la production de mucus.",
-            "Le Bol d'air Jacquier stimule la production d'anticorps.",
-            "Le Bol d'air Jacquier régule la glycémie."
-        ],
-        "correctAnswers": ["Le Bol d'air Jacquier assainit les voies respiratoires, renforce les défenses immunitaires, et optimise les fonctions cardio-pulmonaires grâce aux oxydes terpéniques qui fluidifient les sécrétions."],
-        "explanation": "Le document décrit les bienfaits du Bol d'air Jacquier (p. 8).",
+        "correctAnswers": ["Bains d'air et de soleil, frictions et massages"],
+        "explanation": "Les bains d'air et de soleil, les frictions et les massages stimulent la circulation et renforcent la fonction émonctorielle de la peau, compensant ainsi une carence respiratoire pulmonaire.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois signes cliniques d'une bronchite, selon le document ? (3 bonnes réponses)",
+        "question": "Quel est le rôle de l'huile végétale de nigelle dans l'accompagnement des dérèglements respiratoires",
         "options": [
-            "Toux sèche avec brûlure",
-            "Fièvre",
-            "Expectoration avec crachats blancs ou purulents",
-            "Hypertension artérielle",
-            "Diabète",
-            "Ostéoporose"
+            "Stimulation de la production de mucus",
+            "Action anti-inflammatoire et immunomodulatrice",
+            "Inhibition de la clairance mucociliaire",
+            "Augmentation de la perméabilité capillaire"
         ],
-        "correctAnswers": [
-            "Toux sèche avec brûlure",
-            "Fièvre",
-            "Expectoration avec crachats blancs ou purulents"
-        ],
-        "explanation": "Le document liste ces signes comme caractéristiques de la bronchite (p. 8).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le protocole naturopathique pour une bronchite virale, selon le document ?",
-        "options": [
-            "Humidifier l'air, utiliser des huiles essentielles antivirales (Ravintsara, Eucalyptus radié), hydrater le mucus, et appliquer des cataplasmes chauds (oignon, lin) ou des sinapismes pour décongestionner.",
-            "Prescrire des antibiotiques pour traiter l'infection.",
-            "Utiliser des corticoïdes pour réduire l'inflammation.",
-            "Bloquer la toux avec des antitussifs."
-        ],
-        "correctAnswers": ["Humidifier l'air, utiliser des huiles essentielles antivirales (Ravintsara, Eucalyptus radié), hydrater le mucus, et appliquer des cataplasmes chauds (oignon, lin) ou des sinapismes pour décongestionner."],
-        "explanation": "Le document détaille ce protocole pour la bronchite virale (p. 8).",
+        "correctAnswers": ["Action anti-inflammatoire et immunomodulatrice"],
+        "explanation": "L'huile végétale de nigelle, riche en thymoquinone, exerce une action anti-inflammatoire et immunomodulatrice, soutenant ainsi la fonction respiratoire et réduisant les symptômes d'asthme ou de bronchite.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois outils pour accompagner une sinusite en naturopathie, selon le document ? (3 bonnes réponses)",
+        "question": "Quelle est la technique recommandée pour accompagner une pneumonie en naturopathie",
         "options": [
-            "Suppression des produits laitiers",
-            "Drainage hépatique (romarin, chardon-marie)",
-            "Lavage nasal (Jala Neti) avec de l'eau salée",
-            "Prescription d'antibiotiques",
-            "Utilisation de corticoïdes",
-            "Chirurgie des sinus"
+            "Traitement exclusif par les plantes",
+            "Accompagnement complémentaire à l'allopathie avec soutien de la force vitale et hygiène de vie",
+            "Jeûne sec de 5 jours",
+            "Application de ventouses sur le visage"
         ],
-        "correctAnswers": [
-            "Suppression des produits laitiers",
-            "Drainage hépatique (romarin, chardon-marie)",
-            "Lavage nasal (Jala Neti) avec de l'eau salée"
-        ],
-        "explanation": "Le document recommande ces outils pour la sinusite (p. 7).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle des plantes antiseptiques respiratoires, selon le document ?",
-        "options": [
-            "Les plantes antiseptiques (Eucalyptus, Thym, Pin sylvestre) empêchent les surinfections et fluidifient les sécrétions, en association avec des plantes béchiques expectorantes et émollientes.",
-            "Les plantes antiseptiques bloquent la production de mucus.",
-            "Les plantes antiseptiques stimulent la production d'anticorps.",
-            "Les plantes antiseptiques régulent la glycémie."
-        ],
-        "correctAnswers": ["Les plantes antiseptiques (Eucalyptus, Thym, Pin sylvestre) empêchent les surinfections et fluidifient les sécrétions, en association avec des plantes béchiques expectorantes et émollientes."],
-        "explanation": "Le document décrit l'usage des plantes antiseptiques pour les voies respiratoires (p. 8).",
+        "correctAnswers": ["Accompagnement complémentaire à l'allopathie avec soutien de la force vitale et hygiène de vie"],
+        "explanation": "La pneumonie, pathologie organique profonde, nécessite un accompagnement médical. La naturopathie intervient en complément pour soutenir la force vitale et l'hygiène de vie, sans remplacer le traitement allopathique.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois facteurs déclenchants d'une crise d'asthme, selon le document ? (3 bonnes réponses)",
+        "question": "Quel est le rôle des frictions et du massage dans l'accompagnement des dérèglements respiratoires",
         "options": [
-            "Allergènes environnementaux (pollens, poussière)",
-            "Stress émotionnel (angoisse, pleurs refoulés)",
+            "Augmentation de la rétention des toxines",
+            "Stimulation de la circulation et activation des émonctoires cutanés",
+            "Inhibition de la transpiration",
+            "Réduction de la température corporelle"
+        ],
+        "correctAnswers": ["Stimulation de la circulation et activation des émonctoires cutanés"],
+        "explanation": "Les frictions et le massage activent la circulation sanguine et lymphatique, stimulant ainsi les émonctoires cutanés et favorisant l'élimination des toxines.",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la plante utilisée pour son action bronchodilatatrice et son soutien hépatique dans l'asthme",
+        "options": [
+            "Artichaut",
+            "Desmodium",
+            "Romarin",
+            "Échinacée"
+        ],
+        "correctAnswers": ["Desmodium"],
+        "explanation": "Le desmodium est spécifiquement utilisé pour son effet bronchodilatateur et son action sur le foie, aidant ainsi à réduire les crises d'asthme et à soutenir la détoxification.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est l'effet des exercices de rétention de souffle à poumons vides",
+        "options": [
+            "Augmentation de la production de CO2",
+            "Décarbonisation du sang et amélioration de l'élimination du CO2",
+            "Stimulation de la production de mucus",
+            "Inhibition de la motilité ciliaire"
+        ],
+        "correctAnswers": ["Décarbonisation du sang et amélioration de l'élimination du CO2"],
+        "explanation": "Les exercices de rétention de souffle à poumons vides favorisent la décarbonisation du sang, améliorant ainsi l'élimination du CO2 et l'efficacité respiratoire.",
+        "multiple": false
+    },
+    {
+        "question": "Quelles sont les causes possibles de l'inflammation des muqueuses respiratoires (2 bonnes réponses)",
+        "options": [
             "Reflux gastro-œsophagien",
-            "Carence en vitamine D",
-            "Excès de vitamine C",
-            "Déséquilibre hormonal"
-        ],
-        "correctAnswers": [
             "Allergènes environnementaux (pollens, poussière)",
-            "Stress émotionnel (angoisse, pleurs refoulés)",
-            "Reflux gastro-œsophagien"
+            "Excès de vitamine C",
+            "Consommation exclusive d'eau",
+            "Surhydratation"
         ],
-        "explanation": "Le document mentionne ces facteurs comme déclencheurs de l'asthme (p. 7-8).",
+        "correctAnswers": [
+            "Reflux gastro-œsophagien",
+            "Allergènes environnementaux (pollens, poussière)"
+        ],
+        "explanation": "Le reflux gastro-œsophagien et les allergènes environnementaux (pollens, poussière) sont des causes fréquentes d'inflammation des muqueuses respiratoires, nécessitant une prise en charge spécifique.",
         "multiple": true
     },
     {
-        "question": "Quel est le rôle de la cohérence cardiaque dans les dérèglements respiratoires, selon le document ?",
+        "question": "Quel est le rôle de la réflexologie plantaire dans l'accompagnement des dérèglements respiratoires",
         "options": [
-            "La cohérence cardiaque réduit le stress, améliore l'oxygénation et renforce la résilience du système respiratoire en synchronisant le rythme cardiaque et respiratoire.",
-            "La cohérence cardiaque bloque la production de mucus.",
-            "La cohérence cardiaque stimule la production d'anticorps.",
-            "La cohérence cardiaque régule la glycémie."
+            "Stimulation exclusive des zones réflexes digestives",
+            "Activation des zones réflexes liées aux poumons et au diaphragme pour améliorer la fonction respiratoire",
+            "Inhibition de la circulation lymphatique",
+            "Augmentation de la rétention des toxines"
         ],
-        "correctAnswers": ["La cohérence cardiaque réduit le stress, améliore l'oxygénation et renforce la résilience du système respiratoire en synchronisant le rythme cardiaque et respiratoire."],
-        "explanation": "Le document souligne l'importance de la cohérence cardiaque pour la gestion du stress et la respiration (p. 8).",
+        "correctAnswers": ["Activation des zones réflexes liées aux poumons et au diaphragme pour améliorer la fonction respiratoire"],
+        "explanation": "La réflexologie plantaire, en stimulant les zones réflexes des poumons et du diaphragme, améliore la fonction respiratoire et soutient la décongestion des voies aériennes.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois outils pour accompagner une BPCO en naturopathie, selon le document ? (3 bonnes réponses)",
+        "question": "Quel est le protocole naturopathique pour accompagner une pharyngite",
         "options": [
-            "Limiter l'encrassement (alimentation, toxines)",
-            "Gérer l'immunité (vitamine D, oméga-3)",
-            "Réduire l'inflammation chronique (équilibre acido-basique)",
-            "Prescrire des antibiotiques",
-            "Utiliser des corticoïdes",
-            "Chirurgie pulmonaire"
+            "Consommation exclusive de produits laitiers",
+            "Suppression des produits laitiers, drainage hépatique et utilisation de plantes anti-inflammatoires comme la mauve",
+            "Jeûne sec de 3 jours",
+            "Application de cataplasmes froids sur la gorge"
         ],
-        "correctAnswers": [
-            "Limiter l'encrassement (alimentation, toxines)",
-            "Gérer l'immunité (vitamine D, oméga-3)",
-            "Réduire l'inflammation chronique (équilibre acido-basique)"
-        ],
-        "explanation": "Le document liste ces outils pour la BPCO (p. 8).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le mécanisme de l'emphysème, selon le document ?",
-        "options": [
-            "L'emphysème est une dilatation permanente des alvéoles pulmonaires, réduisant la surface d'échange gazeux et entraînant une insuffisance respiratoire chronique par perte d'élasticité des tissus.",
-            "L'emphysème est causé par une surproduction d'anticorps.",
-            "L'emphysème est un symptôme exclusif d'une carence en fer.",
-            "L'emphysème est toujours dû à une infection bactérienne."
-        ],
-        "correctAnswers": ["L'emphysème est une dilatation permanente des alvéoles pulmonaires, réduisant la surface d'échange gazeux et entraînant une insuffisance respiratoire chronique par perte d'élasticité des tissus."],
-        "explanation": "Le document décrit ce mécanisme pour l'emphysème (p. 8).",
+        "correctAnswers": ["Suppression des produits laitiers, drainage hépatique et utilisation de plantes anti-inflammatoires comme la mauve"],
+        "explanation": "La suppression des produits laitiers réduit la production de mucus, le drainage hépatique limite la charge toxique, et les plantes comme la mauve apaisent l'inflammation de la pharyngite.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois outils pour prévenir l'aggravation d'une BPCO, selon le document ? (3 bonnes réponses)",
+        "question": "Quel est le rôle de la mauve dans l'accompagnement des dérèglements respiratoires",
         "options": [
-            "Prévenir les surinfections (hygiène de vie, immunité)",
-            "Gérer l'inflammation bas grade (alimentation, oméga-3)",
-            "Stimuler la peau comme émonctoire de secours (bains alternés, massages)",
-            "Prescrire des antibiotiques",
-            "Utiliser des corticoïdes",
-            "Chirurgie pulmonaire"
+            "Stimulation de la production de mucus",
+            "Action émolliente et anti-inflammatoire sur les muqueuses irritées",
+            "Inhibition de la clairance mucociliaire",
+            "Augmentation de la perméabilité capillaire"
         ],
-        "correctAnswers": [
-            "Prévenir les surinfections (hygiène de vie, immunité)",
-            "Gérer l'inflammation bas grade (alimentation, oméga-3)",
-            "Stimuler la peau comme émonctoire de secours (bains alternés, massages)"
-        ],
-        "explanation": "Le document recommande ces outils pour la BPCO (p. 8).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle des cataplasmes dans les dérèglements respiratoires, selon le document ?",
-        "options": [
-            "Les cataplasmes (farine de lin, oignon, pomme de terre) apaisent la toux, fluidifient les mucus et réduisent l'inflammation locale grâce à leurs propriétés antalgiques et anti-inflammatoires.",
-            "Les cataplasmes bloquent la production de mucus.",
-            "Les cataplasmes stimulent la production d'anticorps.",
-            "Les cataplasmes régulent la glycémie."
-        ],
-        "correctAnswers": ["Les cataplasmes (farine de lin, oignon, pomme de terre) apaisent la toux, fluidifient les mucus et réduisent l'inflammation locale grâce à leurs propriétés antalgiques et anti-inflammatoires."],
-        "explanation": "Le document décrit l'usage des cataplasmes pour les troubles respiratoires (p. 8).",
+        "correctAnswers": ["Action émolliente et anti-inflammatoire sur les muqueuses irritées"],
+        "explanation": "La mauve, riche en mucilages, exerce une action émolliente et anti-inflammatoire, apaisant ainsi les muqueuses respiratoires irritées et réduisant la toux.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois signes d'une pneumonie, selon le document ? (3 bonnes réponses)",
+        "question": "Quelle est la technique naturopathique pour accompagner une laryngite",
         "options": [
-            "Fièvre élevée",
-            "Toux productive avec expectorations purulentes",
-            "Douleurs thoraciques",
-            "Hypertension artérielle",
-            "Diabète",
-            "Ostéoporose"
+            "Consommation de boissons glacées",
+            "Gargarismes avec des feuilles de sauge ou de ronce, et suppression des produits laitiers",
+            "Jeûne sec de 48h",
+            "Application de ventouses sur le cou"
         ],
-        "correctAnswers": [
-            "Fièvre élevée",
-            "Toux productive avec expectorations purulentes",
-            "Douleurs thoraciques"
-        ],
-        "explanation": "Le document associe ces signes à la pneumonie (p. 8).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le protocole naturopathique pour une pneumonie, selon le document ?",
-        "options": [
-            "En complément de la médecine allopathique, soutenir la force vitale par une hygiène de vie (repos, hydratation, alimentation légère), utiliser des plantes immunostimulantes (échinacée, propolis) et antiseptiques (thym, eucalyptus), et appliquer des cataplasmes chauds pour décongestionner.",
-            "Prescrire des antibiotiques pour traiter l'infection.",
-            "Utiliser des corticoïdes pour réduire l'inflammation.",
-            "Bloquer la toux avec des antitussifs."
-        ],
-        "correctAnswers": ["En complément de la médecine allopathique, soutenir la force vitale par une hygiène de vie (repos, hydratation, alimentation légère), utiliser des plantes immunostimulantes (échinacée, propolis) et antiseptiques (thym, eucalyptus), et appliquer des cataplasmes chauds pour décongestionner."],
-        "explanation": "Le document détaille ce protocole pour la pneumonie (p. 8).",
+        "correctAnswers": ["Gargarismes avec des feuilles de sauge ou de ronce, et suppression des produits laitiers"],
+        "explanation": "Les gargarismes avec des plantes astringentes (sauge, ronce) réduisent l'inflammation locale, et la suppression des produits laitiers limite la production de mucus, soulageant ainsi la laryngite.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois outils pour accompagner une apnée du sommeil en naturopathie, selon le document ? (3 bonnes réponses)",
+        "question": "Quel est l'effet des exercices respiratoires localisés sur une zone des poumons",
         "options": [
-            "Perte de poids (si surcharge pondérale)",
-            "Hygiène nasale (lavage, humidification)",
-            "Exercices de respiration et posture",
-            "Prescription d'antibiotiques",
-            "Utilisation de corticoïdes",
-            "Chirurgie des amygdales"
+            "Diminution de la capacité vitale",
+            "Amélioration de la ventilation et de l'oxygénation de la zone ciblée",
+            "Stimulation de la production de mucus",
+            "Inhibition de la motilité ciliaire"
         ],
-        "correctAnswers": [
-            "Perte de poids (si surcharge pondérale)",
-            "Hygiène nasale (lavage, humidification)",
-            "Exercices de respiration et posture"
-        ],
-        "explanation": "Le document recommande ces outils pour l'apnée du sommeil (p. 8).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle des ventouses dans les dérèglements respiratoires, selon le document ?",
-        "options": [
-            "Les ventouses décongestionnent les voies respiratoires en stimulant la circulation locale et en attirant les toxines vers la peau, soulageant ainsi les poumons et les bronches.",
-            "Les ventouses bloquent la production de mucus.",
-            "Les ventouses stimulent la production d'anticorps.",
-            "Les ventouses régulent la glycémie."
-        ],
-        "correctAnswers": ["Les ventouses décongestionnent les voies respiratoires en stimulant la circulation locale et en attirant les toxines vers la peau, soulageant ainsi les poumons et les bronches."],
-        "explanation": "Le document décrit l'usage des ventouses pour les troubles respiratoires (p. 8).",
+        "correctAnswers": ["Amélioration de la ventilation et de l'oxygénation de la zone ciblée"],
+        "explanation": "Les exercices respiratoires localisés améliorent la ventilation et l'oxygénation de la zone pulmonaire ciblée, optimisant ainsi la fonction respiratoire et la récupération.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois outils pour renforcer le système immunitaire dans les dérèglements respiratoires, selon le document ? (3 bonnes réponses)",
+        "question": "Quelle est la plante utilisée pour son action expectorante et fluidifiante en début de toux",
         "options": [
-            "Correction des carences (vitamines C, D, minéraux)",
-            "Régénération de la flore intestinale (probiotiques)",
-            "Nettoyage des fosses nasales (Jala Neti)",
-            "Prescription d'antibiotiques",
-            "Utilisation de corticoïdes",
-            "Chirurgie des amygdales"
+            "Primevère",
+            "Saponère",
+            "Lichen d'Islande",
+            "Tussilage"
         ],
-        "correctAnswers": [
-            "Correction des carences (vitamines C, D, minéraux)",
-            "Régénération de la flore intestinale (probiotiques)",
-            "Nettoyage des fosses nasales (Jala Neti)"
-        ],
-        "explanation": "Le document recommande ces outils pour renforcer l'immunité (p. 7).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle de la dissociation alimentaire dans les dérèglements respiratoires, selon le document ?",
-        "options": [
-            "La dissociation alimentaire évite les combinaisons d'aliments générant des toxines et des fermentations intestinales, réduisant ainsi la production de mucus et l'inflammation des voies respiratoires.",
-            "La dissociation alimentaire bloque la production d'anticorps.",
-            "La dissociation alimentaire stimule la production de mucus.",
-            "La dissociation alimentaire régule la glycémie."
-        ],
-        "correctAnswers": ["La dissociation alimentaire évite les combinaisons d'aliments générant des toxines et des fermentations intestinales, réduisant ainsi la production de mucus et l'inflammation des voies respiratoires."],
-        "explanation": "Le document souligne l'importance de la dissociation alimentaire pour réduire les surcharges (p. 6).",
+        "correctAnswers": ["Primevère"],
+        "explanation": "La primevère est utilisée en début de toux pour ses propriétés expectorantes et fluidifiantes, aidant ainsi à évacuer les sécrétions bronchiques.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois outils pour accompagner une rhinopharyngite en naturopathie, selon le document ? (3 bonnes réponses)",
+        "question": "Quel est le rôle de la saponère dans l'accompagnement des toux productives",
         "options": [
-            "Suppression des produits laitiers",
-            "Gargarismes (eau salée, thym, citron)",
-            "Plantes anti-inflammatoires (ronce, plantain)",
-            "Prescription d'antibiotiques",
-            "Utilisation de corticoïdes",
-            "Chirurgie des amygdales"
+            "Inhibition de l'expectoration",
+            "Action expectorante et fluidifiante pour faciliter l'évacuation des mucosités",
+            "Stimulation de la production de mucus",
+            "Réduction de la motilité ciliaire"
         ],
-        "correctAnswers": [
-            "Suppression des produits laitiers",
-            "Gargarismes (eau salée, thym, citron)",
-            "Plantes anti-inflammatoires (ronce, plantain)"
+        "correctAnswers": ["Action expectorante et fluidifiante pour faciliter l'évacuation des mucosités"],
+        "explanation": "La saponère, riche en saponines, exerce une action expectorante et fluidifiante, facilitant ainsi l'évacuation des mucosités en cas de toux productive.",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la technique naturopathique pour renforcer les bronches après une infection respiratoire",
+        "options": [
+            "Consommation exclusive de sucres raffinés",
+            "Utilisation de galéopsis pour tonifier les bronches",
+            "Jeûne sec de 5 jours",
+            "Application de cataplasmes froids sur la poitrine"
         ],
-        "explanation": "Le document recommande ces outils pour la rhinopharyngite (p. 7).",
-        "multiple": true
+        "correctAnswers": ["Utilisation de galéopsis pour tonifier les bronches"],
+        "explanation": "La galéopsis est spécifiquement utilisée en naturopathie pour renforcer les bronches après une infection respiratoire, réduisant ainsi le risque de récidives.",
+        "multiple": false
     }
 ]

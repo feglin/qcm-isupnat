@@ -1,500 +1,484 @@
-const questionsDereglementsCardio = [
+const questionsDereglementsCardio = 
+[
     {
-        "question": "Selon le document ISUPNAT, quelles sont les trois grandes causes des désordres cardio-vasculaires ? (3 bonnes réponses)",
+        "question": "Quelles sont les trois grandes causes des déséquilibres cardio-vasculaires selon l'approche naturopathique (3 bonnes réponses)",
         "options": [
             "Surcharges du sang (déchets, toxines, métabolites non éliminés)",
             "Ralentissement de la circulation sanguine et lymphatique",
             "Origine psycho-émotionnelle et stress chronique",
-            "Infections bactériennes exclusives",
-            "Déséquilibres hormonaux isolés",
-            "Carences exclusives en vitamines"
+            "Carence en vitamine D",
+            "Excès de protéines animales"
         ],
         "correctAnswers": [
             "Surcharges du sang (déchets, toxines, métabolites non éliminés)",
             "Ralentissement de la circulation sanguine et lymphatique",
             "Origine psycho-émotionnelle et stress chronique"
         ],
-        "explanation": "Le document identifie ces trois causes majeures des troubles cardio-vasculaires (p. 3).",
+        "explanation": "Les trois causes majeures sont les surcharges du sang (toxines, déchets), le ralentissement de la circulation (sang épaissi, émonctoires saturés), et l'origine psycho-émotionnelle (stress, blocages énergétiques).",
         "multiple": true
     },
     {
-        "question": "Quel est le rôle du sang dans les déséquilibres cardio-vasculaires, selon le document ?",
+        "question": "Quel est le rôle de la respiration diaphragmatique dans l'amélioration de la circulation sanguine",
         "options": [
-            "Le sang, reflet de l'hygiène de vie, transporte nutriments et oxygène vers les organes et évacue les déchets ; son encrassement (surcharges, viscosité) est la première cause des pathologies cardio-vasculaires.",
-            "Le sang n'a aucun rôle dans les pathologies cardio-vasculaires.",
-            "Le sang est uniquement responsable de la coagulation.",
-            "Le sang ne transporte que les globules rouges."
+            "Augmentation de la pression artérielle",
+            "Stimulation de la pompe respiratoire (annexe de la pompe cardiaque) pour favoriser le retour veineux",
+            "Inhibition de la circulation lymphatique",
+            "Réduction de l'oxygénation du sang"
         ],
-        "correctAnswers": ["Le sang, reflet de l'hygiène de vie, transporte nutriments et oxygène vers les organes et évacue les déchets ; son encrassement (surcharges, viscosité) est la première cause des pathologies cardio-vasculaires."],
-        "explanation": "Le document souligne que la qualité du sang est centrale dans les déséquilibres cardio-vasculaires (p. 3).",
+        "correctAnswers": ["Stimulation de la pompe respiratoire (annexe de la pompe cardiaque) pour favoriser le retour veineux"],
+        "explanation": "La respiration diaphragmatique active la pompe respiratoire, améliorant ainsi le retour veineux et la circulation sanguine, surtout en cas de sédentarité ou d'insuffisance circulatoire.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois mécanismes par lesquels les surcharges sanguines affectent les vaisseaux, selon le document ? (3 bonnes réponses)",
+        "question": "Quelle est la première étape de l'approche naturopathique pour traiter les surcharges du sang",
         "options": [
-            "Épaississement du plasma (glucides, acides aminés, lipides non métabolisés)",
-            "Augmentation des composants sanguins (globules rouges, plaquettes)",
-            "Diminution des composants sanguins (anémie, hémorragies)",
-            "Production exclusive d'anticorps",
-            "Stimulation de la production de bile",
-            "Blocage de la circulation lymphatique"
+            "Prescription de médicaments allopathiques",
+            "Désintoxication individualisée et adaptée (nutrition, diététique, drainage des émonctoires)",
+            "Augmentation de la consommation de viandes rouges",
+            "Supplémentation en fer sans bilan"
         ],
-        "correctAnswers": [
-            "Épaississement du plasma (glucides, acides aminés, lipides non métabolisés)",
-            "Augmentation des composants sanguins (globules rouges, plaquettes)",
-            "Diminution des composants sanguins (anémie, hémorragies)"
-        ],
-        "explanation": "Le document détaille ces mécanismes liés aux surcharges sanguines (p. 3).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le lien entre l'altération de la paroi vasculaire et les pathologies cardio-vasculaires, selon le document ?",
-        "options": [
-            "L'altération de la paroi vasculaire (athérosclérose, artériosclérose, inflammation) réduit l'élasticité des vaisseaux, favorise les dépôts lipidiques et les thrombus, entraînant ischémie, infarctus ou AVC.",
-            "L'altération de la paroi vasculaire n'a aucun impact sur la circulation sanguine.",
-            "L'altération de la paroi vasculaire stimule la production d'anticorps.",
-            "L'altération de la paroi vasculaire améliore l'oxygénation des tissus."
-        ],
-        "correctAnswers": ["L'altération de la paroi vasculaire (athérosclérose, artériosclérose, inflammation) réduit l'élasticité des vaisseaux, favorise les dépôts lipidiques et les thrombus, entraînant ischémie, infarctus ou AVC."],
-        "explanation": "Le document explique ce lien entre l'état des vaisseaux et les pathologies (p. 3).",
+        "correctAnswers": ["Désintoxication individualisée et adaptée (nutrition, diététique, drainage des émonctoires)"],
+        "explanation": "La première étape consiste à désintoxiquer le sang en supprimant les sources de surcharges (alimentation, environnement) et en stimulant les émonctoires (foie, reins, peau, poumons).",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois facteurs de risque majeurs des pathologies cardio-vasculaires, selon le document ? (3 bonnes réponses)",
+        "question": "Quel est le rôle des plantes adaptogènes comme l'éleuthérocoque dans la prévention des troubles cardio-vasculaires",
         "options": [
-            "Sédentarité",
-            "Stress et problèmes psycho-émotionnels",
-            "Tabac",
-            "Excès de sommeil",
-            "Alimentation exclusive en fruits",
-            "Supplémentation en vitamines"
+            "Stimulation de la sécrétion d'adrénaline",
+            "Renforcement de la résistance au stress et soutien de la fonction surrénalienne",
+            "Inhibition de la circulation sanguine",
+            "Augmentation de la viscosité du sang"
         ],
-        "correctAnswers": [
-            "Sédentarité",
-            "Stress et problèmes psycho-émotionnels",
-            "Tabac"
-        ],
-        "explanation": "Le document liste ces facteurs comme majeurs dans les risques cardio-vasculaires (p. 7).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle du stress oxydatif dans les pathologies cardio-vasculaires, selon le document ?",
-        "options": [
-            "Le stress oxydatif, dû à un excès de radicaux libres (tabac, alcool, stress, sédentarité), endommage les parois cellulaires et vasculaires, favorisant athérosclérose et artériopathies.",
-            "Le stress oxydatif n'a aucun impact sur les vaisseaux.",
-            "Le stress oxydatif stimule la production d'anticorps.",
-            "Le stress oxydatif améliore la circulation sanguine."
-        ],
-        "correctAnswers": ["Le stress oxydatif, dû à un excès de radicaux libres (tabac, alcool, stress, sédentarité), endommage les parois cellulaires et vasculaires, favorisant athérosclérose et artériopathies."],
-        "explanation": "Le document décrit l'impact du stress oxydatif sur les vaisseaux (p. 7).",
+        "correctAnswers": ["Renforcement de la résistance au stress et soutien de la fonction surrénalienne"],
+        "explanation": "Les adaptogènes comme l'éleuthérocoque aident l'organisme à s'adapter au stress, réduisant ainsi l'impact du cortisol sur le système cardio-vasculaire et soutenant les surrénales.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois outils naturopathiques pour réduire les surcharges sanguines, selon le document ? (3 bonnes réponses)",
-        "options": [
-            "Désintoxication individualisée (adaptée à l'énergie vitale et aux émonctoires)",
-            "Dérivation des toxines vers la peau (transpiration, bains, sauna)",
-            "Réforme alimentaire hypotoxique (suppression des aliments raffinés, excès de graisses)",
-            "Prescription systématique de médicaments",
-            "Utilisation exclusive de techniques invasives",
-            "Supplémentation en fer sans évaluation"
-        ],
-        "correctAnswers": [
-            "Désintoxication individualisée (adaptée à l'énergie vitale et aux émonctoires)",
-            "Dérivation des toxines vers la peau (transpiration, bains, sauna)",
-            "Réforme alimentaire hypotoxique (suppression des aliments raffinés, excès de graisses)"
-        ],
-        "explanation": "Le document recommande ces outils pour réduire les surcharges (p. 3-4).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle de l'activité physique dans la prévention des troubles cardio-vasculaires, selon le document ?",
-        "options": [
-            "L'activité physique augmente le débit cardiaque (jusqu'à 30 L/min), améliore la circulation, nettoie les vaisseaux, réduit la viscosité sanguine et stimule les émonctoires (transpiration, retour veineux).",
-            "L'activité physique n'a aucun effet sur la circulation sanguine.",
-            "L'activité physique bloque la production d'enzymes digestives.",
-            "L'activité physique stimule exclusivement la production de mucus."
-        ],
-        "correctAnswers": ["L'activité physique augmente le débit cardiaque (jusqu'à 30 L/min), améliore la circulation, nettoie les vaisseaux, réduit la viscosité sanguine et stimule les émonctoires (transpiration, retour veineux)."],
-        "explanation": "Le document souligne les bienfaits de l'activité physique pour le système cardio-vasculaire (p. 4).",
-        "multiple": false
-    },
-    {
-        "question": "Quels sont les trois aliments à éviter pour prévenir les troubles cardio-vasculaires, selon le document ? (3 bonnes réponses)",
+        "question": "Quels sont les aliments à éviter en priorité pour réduire les surcharges du sang (2 bonnes réponses)",
         "options": [
             "Viandes rouges et charcuteries",
             "Céréales et sucres raffinés",
-            "Aliments transformés et levures",
-            "Fruits frais",
             "Légumes verts",
-            "Huiles végétales vierges"
+            "Fruits frais",
+            "Œufs bio"
         ],
         "correctAnswers": [
             "Viandes rouges et charcuteries",
-            "Céréales et sucres raffinés",
-            "Aliments transformés et levures"
+            "Céréales et sucres raffinés"
         ],
-        "explanation": "Le document cite ces aliments comme néfastes pour la santé cardio-vasculaire (p. 4).",
+        "explanation": "Les viandes rouges, charcuteries, céréales et sucres raffinés sont des pourvoyeurs majeurs de déchets colloïdaux et cristalloïdaux, encrassant le sang et les émonctoires.",
         "multiple": true
     },
     {
-        "question": "Quel est le rôle des oméga-3 dans la prévention des pathologies cardio-vasculaires, selon le document ?",
+        "question": "Quel est le mécanisme d'action de l'ail sur la santé cardio-vasculaire",
         "options": [
-            "Les oméga-3 (huiles de poisson, lin, noix) réduisent l'inflammation, améliorent l'élasticité vasculaire, augmentent le HDL et diminuent les triglycérides, protégeant ainsi le système cardio-vasculaire.",
-            "Les oméga-3 bloquent la production d'anticorps.",
-            "Les oméga-3 stimulent la production de mucus intestinal.",
-            "Les oméga-3 n'ont aucun effet sur la circulation sanguine."
+            "Augmentation de la pression artérielle",
+            "Effet fluidifiant du sang et réduction de l'agrégation plaquettaire",
+            "Stimulation de la sécrétion de cholestérol",
+            "Inhibition de la circulation lymphatique"
         ],
-        "correctAnswers": ["Les oméga-3 (huiles de poisson, lin, noix) réduisent l'inflammation, améliorent l'élasticité vasculaire, augmentent le HDL et diminuent les triglycérides, protégeant ainsi le système cardio-vasculaire."],
-        "explanation": "Le document décrit les bienfaits des oméga-3 pour le cœur et les vaisseaux (p. 14).",
+        "correctAnswers": ["Effet fluidifiant du sang et réduction de l'agrégation plaquettaire"],
+        "explanation": "L'ail, riche en allicine, fluidifie le sang et réduit l'agrégation plaquettaire, prévenant ainsi les thromboses et l'athérosclérose.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois outils naturopathiques pour soutenir les émonctoires dans les troubles cardio-vasculaires ? (3 bonnes réponses)",
+        "question": "Quelle est la technique naturopathique recommandée pour stimuler la circulation lymphatique",
         "options": [
-            "Bouillotte chaude sur les reins (stimulation de la diurèse)",
-            "Plantes hépatobiliaires (artichaut, romarin)",
-            "Respiration diaphragmatique (pompe respiratoire annexe)",
-            "Prescription d'antibiotiques",
-            "Utilisation de corticoïdes",
-            "Supplémentation en fer sans évaluation"
+            "Sédentarité prolongée",
+            "Marche active et exercices physiques doux (pompe musculaire)",
+            "Consommation exclusive de graisses saturées",
+            "Respiration thoracique superficielle"
+        ],
+        "correctAnswers": ["Marche active et exercices physiques doux (pompe musculaire)"],
+        "explanation": "La marche et les exercices physiques activent la pompe musculaire, favorisant ainsi la circulation sanguine et lymphatique, essentielle pour éliminer les toxines.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le rôle de l'huile essentielle de lavande dans la gestion du stress cardio-vasculaire",
+        "options": [
+            "Stimulation de la sécrétion d'adrénaline",
+            "Effet sédatif et régulateur du système nerveux autonome",
+            "Augmentation de la pression artérielle",
+            "Inhibition de la circulation sanguine"
+        ],
+        "correctAnswers": ["Effet sédatif et régulateur du système nerveux autonome"],
+        "explanation": "La lavande, par son action sur le système nerveux parasympathique, réduit le stress et l'hypertension, équilibrant ainsi la réponse cardio-vasculaire.",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la plante la plus indiquée pour soutenir la fonction cardiaque en cas d'insuffisance",
+        "options": [
+            "Aubépine (Crataegus)",
+            "Romarin",
+            "Thym",
+            "Menthe poivrée"
+        ],
+        "correctAnswers": ["Aubépine (Crataegus)"],
+        "explanation": "L'aubépine est une plante cardiotonique, améliorant la contractilité du myocarde et la circulation coronarienne, sans effet inotrope négatif.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le protocole naturopathique pour accompagner une hypertension artérielle (HTA)",
+        "options": [
+            "Augmentation de la consommation de sel",
+            "Alimentation hypotoxique, drainage des émonctoires, gestion du stress et exercices physiques doux",
+            "Prescription de diurétiques synthétiques",
+            "Consommation exclusive de viandes rouges"
+        ],
+        "correctAnswers": ["Alimentation hypotoxique, drainage des émonctoires, gestion du stress et exercices physiques doux"],
+        "explanation": "L'HTA est abordée en naturopathie par une alimentation hypotoxique (réduction des surcharges), un drainage des émonctoires, une gestion du stress et des exercices physiques pour améliorer la circulation.",
+        "multiple": false
+    },
+    {
+        "question": "Quels sont les deux facteurs de risque majeurs des troubles cardio-vasculaires (2 bonnes réponses)",
+        "options": [
+            "Tabagisme",
+            "Sédentarité",
+            "Consommation de légumes verts",
+            "Hydratation excessive",
+            "Pratique régulière de la méditation"
         ],
         "correctAnswers": [
-            "Bouillotte chaude sur les reins (stimulation de la diurèse)",
-            "Plantes hépatobiliaires (artichaut, romarin)",
-            "Respiration diaphragmatique (pompe respiratoire annexe)"
+            "Tabagisme",
+            "Sédentarité"
         ],
-        "explanation": "Le document recommande ces outils pour soutenir les émonctoires (p. 4).",
+        "explanation": "Le tabagisme et la sédentarité sont des facteurs majeurs de risque cardio-vasculaire, favorisant l'athérosclérose et l'hypertension.",
         "multiple": true
     },
     {
-        "question": "Quel est le mécanisme de l'hypertension artérielle (HTA) selon l'approche naturopathique, selon le document ?",
+        "question": "Quel est le rôle de la vitamine C dans la prévention de l'athérosclérose",
         "options": [
-            "L'HTA est causée par un encrassement du terrain (surcharges sanguines + insuffisance émonctorielle), entraînant une résistance périphérique accrue et une élévation de la pression pour compenser.",
-            "L'HTA est due à une surproduction d'anticorps.",
-            "L'HTA est causée par une carence exclusive en vitamines.",
-            "L'HTA n'a aucun lien avec l'alimentation."
+            "Stimulation de la production de cholestérol",
+            "Antioxydant, protection de l'endothélium vasculaire et synthèse du collagène",
+            "Augmentation de la pression artérielle",
+            "Inhibition de la circulation sanguine"
         ],
-        "correctAnswers": ["L'HTA est causée par un encrassement du terrain (surcharges sanguines + insuffisance émonctorielle), entraînant une résistance périphérique accrue et une élévation de la pression pour compenser."],
-        "explanation": "Le document explique ce mécanisme pour l'HTA (p. 8).",
+        "correctAnswers": ["Antioxydant, protection de l'endothélium vasculaire et synthèse du collagène"],
+        "explanation": "La vitamine C protège les vaisseaux de l'oxydation, soutient la synthèse du collagène et réduit l'inflammation endothéliale, prévenant ainsi l'athérosclérose.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois outils naturopathiques pour gérer l'hypertension artérielle, selon le document ? (3 bonnes réponses)",
+        "question": "Quelle est la technique naturopathique pour accompagner une hypotension artérielle",
         "options": [
-            "Réduction du sel et des aliments transformés",
-            "Augmentation des apports en potassium (fruits, légumes)",
-            "Dissociation protéines/amidons pour réduire les déchets",
-            "Prescription d'antihypertenseurs",
-            "Utilisation de diurétiques chimiques",
-            "Supplémentation en fer"
+            "Consommation exclusive de sucres raffinés",
+            "Stimulation de la circulation par des bains alternés chaud/froid et plantes toniques (romarin, ginseng)",
+            "Prescription de vasoconstricteurs synthétiques",
+            "Augmentation de la consommation de sel raffiné"
+        ],
+        "correctAnswers": ["Stimulation de la circulation par des bains alternés chaud/froid et plantes toniques (romarin, ginseng)"],
+        "explanation": "Les bains alternés et les plantes toniques (romarin, ginseng) stimulent la circulation et le tonus vasculaire, aidant ainsi à normaliser une hypotension.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le mécanisme d'action du ginkgo biloba sur la circulation cérébrale",
+        "options": [
+            "Réduction de l'oxygénation du cerveau",
+            "Amélioration de la microcirculation et protection neuronale",
+            "Augmentation de la viscosité du sang",
+            "Inhibition de la circulation lymphatique"
+        ],
+        "correctAnswers": ["Amélioration de la microcirculation et protection neuronale"],
+        "explanation": "Le ginkgo biloba améliore la fluidité sanguine et la microcirculation cérébrale, protégeant ainsi les neurones et prévenant les AVC ischémiques.",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la cause principale de l'athérosclérose selon l'approche naturopathique",
+        "options": [
+            "Carence en oméga-3",
+            "Dépôts de déchets lipidiques et inflammation chronique de la paroi vasculaire",
+            "Excès de vitamine C",
+            "Consommation exclusive de légumes"
+        ],
+        "correctAnswers": ["Dépôts de déchets lipidiques et inflammation chronique de la paroi vasculaire"],
+        "explanation": "L'athérosclérose résulte de l'accumulation de déchets lipidiques (LDL oxydé) et d'une inflammation chronique de l'endothélium, souvent liée à une alimentation déséquilibrée et au stress oxydatif.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le protocole naturopathique pour accompagner un AVC en phase de récupération",
+        "options": [
+            "Prescription de médicaments anticoagulants",
+            "Alimentation hypotoxique, exercices physiques progressifs et soutien de la vitalité (plantes adaptogènes, sommeil)",
+            "Jeûne sec de 7 jours",
+            "Consommation exclusive de produits laitiers"
+        ],
+        "correctAnswers": ["Alimentation hypotoxique, exercices physiques progressifs et soutien de la vitalité (plantes adaptogènes, sommeil)"],
+        "explanation": "Après un AVC, l'approche naturopathique vise à soutenir la récupération par une alimentation hypotoxique, des exercices adaptés et un renforcement de la vitalité (sommeil, plantes adaptogènes).",
+        "multiple": false
+    },
+    {
+        "question": "Quels sont les deux remèdes naturels les plus efficaces pour fluidifier le sang (2 bonnes réponses)",
+        "options": [
+            "Ail",
+            "Ginkgo biloba",
+            "Réglisse",
+            "Camomille",
+            "Menthe poivrée"
         ],
         "correctAnswers": [
-            "Réduction du sel et des aliments transformés",
-            "Augmentation des apports en potassium (fruits, légumes)",
-            "Dissociation protéines/amidons pour réduire les déchets"
+            "Ail",
+            "Ginkgo biloba"
         ],
-        "explanation": "Le document recommande ces outils pour l'HTA (p. 8).",
+        "explanation": "L'ail et le ginkgo biloba sont reconnus pour leurs effets fluidifiants sur le sang, réduisant ainsi les risques de thrombose et d'athérosclérose.",
         "multiple": true
     },
     {
-        "question": "Quel est le rôle de l'hypotension artérielle dans les déséquilibres cardio-vasculaires, selon le document ?",
+        "question": "Quel est le rôle de l'olivier dans la régulation de la pression artérielle",
         "options": [
-            "L'hypotension reflète souvent une faiblesse de la force vitale, une déminéralisation ou une insuffisance surrénalienne, et peut être améliorée par une revitalisation (alimentation riche, plantes adaptogènes, exercice modéré).",
-            "L'hypotension n'a aucun impact sur la santé cardio-vasculaire.",
-            "L'hypotension stimule la production d'anticorps.",
-            "L'hypotension est toujours due à une infection bactérienne."
+            "Augmentation de la pression artérielle",
+            "Effet hypotenseur et protection vasculaire grâce aux polyphénols",
+            "Stimulation de la sécrétion de cortisol",
+            "Inhibition de la circulation sanguine"
         ],
-        "correctAnswers": ["L'hypotension reflète souvent une faiblesse de la force vitale, une déminéralisation ou une insuffisance surrénalienne, et peut être améliorée par une revitalisation (alimentation riche, plantes adaptogènes, exercice modéré)."],
-        "explanation": "Le document décrit ce mécanisme pour l'hypotension (p. 9).",
+        "correctAnswers": ["Effet hypotenseur et protection vasculaire grâce aux polyphénols"],
+        "explanation": "Les feuilles d'olivier, riches en polyphénols, ont un effet hypotenseur et protègent les vaisseaux de l'oxydation, soutenant ainsi la santé cardio-vasculaire.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois outils naturopathiques pour accompagner une anémie, selon le document ? (3 bonnes réponses)",
+        "question": "Quelle est la technique naturopathique pour accompagner une insuffisance cardiaque",
         "options": [
-            "Alimentation riche en fer (légumineuses, épinards, viande rouge bio)",
-            "Plantes stimulantes de l'hématopoïèse (ortie, pissenlit)",
-            "Correction des carences en vitamine B12 et acide folique",
-            "Prescription de transfusions sanguines",
-            "Utilisation de corticoïdes",
-            "Supplémentation en calcium"
+            "Consommation exclusive de sel",
+            "Alimentation hypotoxique, drainage des émonctoires et soutien cardiaque (aubépine, coenzyme Q10)",
+            "Prescription de bêta-bloquants",
+            "Augmentation de la consommation de graisses saturées"
+        ],
+        "correctAnswers": ["Alimentation hypotoxique, drainage des émonctoires et soutien cardiaque (aubépine, coenzyme Q10)"],
+        "explanation": "L'insuffisance cardiaque nécessite une désintoxication (alimentation hypotoxique), un drainage des émonctoires et un soutien du muscle cardiaque (aubépine, coenzyme Q10).",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le mécanisme d'action de la coenzyme Q10 sur le cœur",
+        "options": [
+            "Inhibition de la contraction cardiaque",
+            "Soutien de la production d'énergie mitochondriale et protection contre le stress oxydatif",
+            "Augmentation de la viscosité du sang",
+            "Réduction de la circulation coronarienne"
+        ],
+        "correctAnswers": ["Soutien de la production d'énergie mitochondriale et protection contre le stress oxydatif"],
+        "explanation": "La coenzyme Q10 soutient la production d'ATP dans les mitochondries cardiaques et protège les cellules du stress oxydatif, améliorant ainsi la fonction cardiaque.",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la cause principale des varices selon l'approche naturopathique",
+        "options": [
+            "Carence en vitamine K",
+            "Stase veineuse et faiblesse de la paroi vasculaire due à un terrain encrassé",
+            "Excès de vitamine C",
+            "Consommation exclusive de fruits"
+        ],
+        "correctAnswers": ["Stase veineuse et faiblesse de la paroi vasculaire due à un terrain encrassé"],
+        "explanation": "Les varices résultent d'une stase veineuse et d'une faiblesse de la paroi vasculaire, souvent liée à un terrain encrassé (surcharges, sédentarité, déséquilibres hormonaux).",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le protocole naturopathique pour accompagner une artériopathie oblitérante des membres inférieurs",
+        "options": [
+            "Consommation exclusive de graisses saturées",
+            "Désintoxication, stimulation de la circulation (marche, bains alternés) et plantes vasodilatatrices (ginkgo biloba, ail)",
+            "Prescription de vasoconstricteurs",
+            "Augmentation de la consommation de sel"
+        ],
+        "correctAnswers": ["Désintoxication, stimulation de la circulation (marche, bains alternés) et plantes vasodilatatrices (ginkgo biloba, ail)"],
+        "explanation": "L'artériopathie oblitérante nécessite une désintoxication, une stimulation de la circulation (marche, bains alternés) et des plantes vasodilatatrices pour améliorer la perfusion des membres.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le rôle de l'hydrologie (bains chauds/froids) dans la prévention des troubles circulatoires",
+        "options": [
+            "Augmentation de la viscosité du sang",
+            "Stimulation de la circulation sanguine et lymphatique par vasodilatation/vasoconstriction alternée",
+            "Inhibition de la pompe cardiaque",
+            "Réduction de l'oxygénation des tissus"
+        ],
+        "correctAnswers": ["Stimulation de la circulation sanguine et lymphatique par vasodilatation/vasoconstriction alternée"],
+        "explanation": "Les bains alternés chaud/froid stimulent la circulation par un effet de pompe vasculaire, améliorant ainsi le retour veineux et lymphatique.",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la plante la plus indiquée pour soutenir la circulation veineuse en cas de varices",
+        "options": [
+            "Marron d'Inde (Aesculus hippocastanum)",
+            "Camomille",
+            "Menthe poivrée",
+            "Thym"
+        ],
+        "correctAnswers": ["Marron d'Inde (Aesculus hippocastanum)"],
+        "explanation": "Le marron d'Inde, riche en escine, renforce la paroi veineuse, réduit la perméabilité capillaire et améliore le retour veineux, soulageant ainsi les varices.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le mécanisme d'action de l'huile essentielle de cyprès sur la circulation veineuse",
+        "options": [
+            "Augmentation de la pression artérielle",
+            "Effet tonique veineux et réduction de la stase sanguine",
+            "Inhibition de la circulation lymphatique",
+            "Stimulation de la sécrétion d'adrénaline"
+        ],
+        "correctAnswers": ["Effet tonique veineux et réduction de la stase sanguine"],
+        "explanation": "Le cyprès, par son action sur la circulation veineuse, réduit la stase sanguine et renforce le tonus des parois veineuses, prévenant ainsi les varices et les hémorroïdes.",
+        "multiple": false
+    },
+    {
+        "question": "Quels sont les deux facteurs clés pour prévenir un AVC selon l'approche naturopathique (2 bonnes réponses)",
+        "options": [
+            "Contrôle de l'hypertension artérielle",
+            "Réduction du stress oxydatif et de l'inflammation vasculaire",
+            "Augmentation de la consommation de graisses saturées",
+            "Consommation exclusive de sucres raffinés",
+            "Sédentarité prolongée"
         ],
         "correctAnswers": [
-            "Alimentation riche en fer (légumineuses, épinards, viande rouge bio)",
-            "Plantes stimulantes de l'hématopoïèse (ortie, pissenlit)",
-            "Correction des carences en vitamine B12 et acide folique"
+            "Contrôle de l'hypertension artérielle",
+            "Réduction du stress oxydatif et de l'inflammation vasculaire"
         ],
-        "explanation": "Le document recommande ces outils pour l'anémie (p. 10).",
+        "explanation": "La prévention de l'AVC passe par le contrôle de l'HTA (facteur de risque majeur) et la réduction du stress oxydatif/inflammation, qui endommagent l'endothélium vasculaire.",
         "multiple": true
     },
     {
-        "question": "Quel est le mécanisme de l'athérosclérose, selon le document ?",
+        "question": "Quel est le rôle de la vitamine K2 dans la santé cardio-vasculaire",
         "options": [
-            "L'athérosclérose est due à des dépôts de lipides (athéromes) dans l'intima des artères, réduisant leur lumière et favorisant ischémie, infarctus ou AVC, selon la localisation.",
-            "L'athérosclérose est causée par une infection bactérienne exclusive.",
-            "L'athérosclérose stimule la production d'anticorps.",
-            "L'athérosclérose n'a aucun lien avec l'alimentation."
+            "Augmentation de la calcification vasculaire",
+            "Prévention de la calcification artérielle et soutien de l'élasticité vasculaire",
+            "Inhibition de la coagulation",
+            "Réduction de la pression artérielle"
         ],
-        "correctAnswers": ["L'athérosclérose est due à des dépôts de lipides (athéromes) dans l'intima des artères, réduisant leur lumière et favorisant ischémie, infarctus ou AVC, selon la localisation."],
-        "explanation": "Le document décrit ce mécanisme pour l'athérosclérose (p. 14).",
+        "correctAnswers": ["Prévention de la calcification artérielle et soutien de l'élasticité vasculaire"],
+        "explanation": "La vitamine K2 active la matrice GLA, empêchant le calcium de se déposer dans les parois artérielles et soutenant ainsi l'élasticité vasculaire.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois outils naturopathiques pour prévenir l'athérosclérose, selon le document ? (3 bonnes réponses)",
+        "question": "Quelle est la technique naturopathique pour accompagner une insuffisance veineuse chronique",
         "options": [
-            "Augmentation du HDL (oméga-3, activité physique)",
-            "Suppression des graisses saturées et aliments raffinés",
-            "Décongestion du foie (plantes cholérétiques)",
+            "Consommation exclusive de sel raffiné",
+            "Drainage lymphatique manuel, marche active et plantes toniques veineuses (marron d'Inde, cyprès)",
+            "Prescription de diurétiques synthétiques",
+            "Augmentation de la consommation de graisses trans"
+        ],
+        "correctAnswers": ["Drainage lymphatique manuel, marche active et plantes toniques veineuses (marron d'Inde, cyprès)"],
+        "explanation": "L'insuffisance veineuse chronique est accompagnée par un drainage lymphatique (réduction de la stase), la marche (pompe musculaire) et des plantes toniques veineuses (marron d'Inde, cyprès).",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le mécanisme d'action de l'oméga-3 (EPA/DHA) sur la santé cardio-vasculaire",
+        "options": [
+            "Augmentation de l'agrégation plaquettaire",
+            "Réduction de l'inflammation, de la triglycéridémie et amélioration de la fluidité membranaire",
+            "Stimulation de la sécrétion de cortisol",
+            "Inhibition de la circulation sanguine"
+        ],
+        "correctAnswers": ["Réduction de l'inflammation, de la triglycéridémie et amélioration de la fluidité membranaire"],
+        "explanation": "Les oméga-3 réduisent l'inflammation (via les résolvines), abaissent les triglycérides et améliorent la fluidité des membranes cellulaires, protégeant ainsi le système cardio-vasculaire.",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la cause principale des hémorroïdes selon l'approche naturopathique",
+        "options": [
+            "Carence en fibres",
+            "Stase veineuse et pression abdominale due à la constipation ou à la grossesse",
+            "Excès de vitamine C",
+            "Consommation exclusive de légumes"
+        ],
+        "correctAnswers": ["Stase veineuse et pression abdominale due à la constipation ou à la grossesse"],
+        "explanation": "Les hémorroïdes résultent d'une stase veineuse et d'une pression abdominale accrue (constipation, grossesse), entraînant une dilatation des veines hémorroïdaires.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le protocole naturopathique pour accompagner une artérite des membres inférieurs",
+        "options": [
+            "Consommation exclusive de graisses saturées",
+            "Désintoxication, stimulation de la circulation (marche, bains alternés) et plantes vasodilatatrices (ginkgo biloba)",
+            "Prescription de vasoconstricteurs",
+            "Augmentation de la consommation de sel"
+        ],
+        "correctAnswers": ["Désintoxication, stimulation de la circulation (marche, bains alternés) et plantes vasodilatatrices (ginkgo biloba)"],
+        "explanation": "L'artérite nécessite une désintoxication (réduction des dépôts lipidiques), une stimulation de la circulation (marche, bains alternés) et des plantes vasodilatatrices pour améliorer la perfusion.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le rôle de la mélisse dans la gestion du stress cardio-vasculaire",
+        "options": [
+            "Stimulation de la sécrétion d'adrénaline",
+            "Effet sédatif et régulateur du système nerveux autonome",
+            "Augmentation de la pression artérielle",
+            "Inhibition de la circulation sanguine"
+        ],
+        "correctAnswers": ["Effet sédatif et régulateur du système nerveux autonome"],
+        "explanation": "La mélisse, par son action sur le système nerveux parasympathique, réduit le stress et l'hypertension, équilibrant ainsi la réponse cardio-vasculaire.",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la technique naturopathique pour accompagner une insuffisance cardiaque en phase de récupération",
+        "options": [
+            "Consommation exclusive de sel",
+            "Alimentation hypotoxique, drainage des émonctoires et soutien cardiaque (aubépine, coenzyme Q10)",
+            "Prescription de bêta-bloquants",
+            "Augmentation de la consommation de graisses saturées"
+        ],
+        "correctAnswers": ["Alimentation hypotoxique, drainage des émonctoires et soutien cardiaque (aubépine, coenzyme Q10)"],
+        "explanation": "L'insuffisance cardiaque en récupération nécessite une désintoxication (alimentation hypotoxique), un drainage des émonctoires et un soutien du muscle cardiaque (aubépine, coenzyme Q10).",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le mécanisme d'action de l'extrait de pépins de raisin sur la santé vasculaire",
+        "options": [
+            "Augmentation de la perméabilité capillaire",
+            "Protection antioxydante des vaisseaux et amélioration de la microcirculation",
+            "Stimulation de la sécrétion de cortisol",
+            "Inhibition de la circulation sanguine"
+        ],
+        "correctAnswers": ["Protection antioxydante des vaisseaux et amélioration de la microcirculation"],
+        "explanation": "L'extrait de pépins de raisin, riche en OPC, protège les vaisseaux du stress oxydatif et améliore la microcirculation, prévenant ainsi l'athérosclérose.",
+        "multiple": false
+    },
+    {
+        "question": "Quels sont les deux aliments à privilégier pour soutenir la santé cardio-vasculaire (2 bonnes réponses)",
+        "options": [
+            "Poissons gras (saumon, maquereau)",
+            "Noix et graines de lin",
+            "Charcuterie",
+            "Sucres raffinés",
+            "Viandes rouges"
+        ],
+        "correctAnswers": [
+            "Poissons gras (saumon, maquereau)",
+            "Noix et graines de lin"
+        ],
+        "explanation": "Les poissons gras (oméga-3) et les noix/graines de lin (bonnes graisses, fibres) soutiennent la santé cardio-vasculaire en réduisant l'inflammation et en améliorant le profil lipidique.",
+        "multiple": true
+    },
+    {
+        "question": "Quel est le rôle de la marche active dans la prévention des troubles cardio-vasculaires",
+        "options": [
+            "Augmentation de la sédentarité",
+            "Stimulation de la pompe musculaire et amélioration du retour veineux",
+            "Inhibition de la circulation sanguine",
+            "Réduction de l'oxygénation des tissus"
+        ],
+        "correctAnswers": ["Stimulation de la pompe musculaire et amélioration du retour veineux"],
+        "explanation": "La marche active stimule la pompe musculaire, favorisant ainsi le retour veineux et la circulation lymphatique, essentiels pour prévenir les stases et les troubles circulatoires.",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la plante la plus indiquée pour soutenir la fonction cardiaque en cas d'arythmie",
+        "options": [
+            "Aubépine (Crataegus)",
+            "Romarin",
+            "Thym",
+            "Menthe poivrée"
+        ],
+        "correctAnswers": ["Aubépine (Crataegus)"],
+        "explanation": "L'aubépine régularise le rythme cardiaque, améliore la contractilité du myocarde et soutient la circulation coronarienne, sans effet pro-arythmique.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le protocole naturopathique pour accompagner une hypercholestérolémie",
+        "options": [
+            "Consommation exclusive de graisses saturées",
+            "Alimentation hypolipidique, plantes hypocholestérolémiantes (artichaut, levure de riz rouge) et exercices physiques",
             "Prescription de statines",
-            "Utilisation de corticoïdes",
-            "Supplémentation en fer"
+            "Augmentation de la consommation de sucres raffinés"
         ],
-        "correctAnswers": [
-            "Augmentation du HDL (oméga-3, activité physique)",
-            "Suppression des graisses saturées et aliments raffinés",
-            "Décongestion du foie (plantes cholérétiques)"
-        ],
-        "explanation": "Le document recommande ces outils pour l'athérosclérose (p. 14).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle de l'artériosclérose dans les pathologies cardio-vasculaires, selon le document ?",
-        "options": [
-            "L'artériosclérose est un durcissement et épaississement de la média des artères, réduisant leur élasticité et favorisant l'hypertension et les complications ischémiques.",
-            "L'artériosclérose n'a aucun impact sur la circulation sanguine.",
-            "L'artériosclérose stimule la production d'anticorps.",
-            "L'artériosclérose améliore l'oxygénation des tissus."
-        ],
-        "correctAnswers": ["L'artériosclérose est un durcissement et épaississement de la média des artères, réduisant leur élasticité et favorisant l'hypertension et les complications ischémiques."],
-        "explanation": "Le document explique ce mécanisme pour l'artériosclérose (p. 14).",
+        "correctAnswers": ["Alimentation hypolipidique, plantes hypocholestérolémiantes (artichaut, levure de riz rouge) et exercices physiques"],
+        "explanation": "L'hypercholestérolémie est abordée par une alimentation pauvre en graisses saturées, des plantes hypocholestérolémiantes (artichaut, levure de riz rouge) et des exercices pour stimuler le métabolisme lipidique.",
         "multiple": false
-    },
-    {
-        "question": "Quels sont les trois outils naturopathiques pour accompagner l'artériosclérose, selon le document ? (3 bonnes réponses)",
-        "options": [
-            "Nettoyage du foie et des intestins (plantes dépuratives)",
-            "Évacuation des acides et sels par les reins (eau peu minéralisée)",
-            "Cure d'eau distillée pour éviter les calculs",
-            "Prescription d'anticoagulants",
-            "Utilisation de corticoïdes",
-            "Supplémentation en calcium"
-        ],
-        "correctAnswers": [
-            "Nettoyage du foie et des intestins (plantes dépuratives)",
-            "Évacuation des acides et sels par les reins (eau peu minéralisée)",
-            "Cure d'eau distillée pour éviter les calculs"
-        ],
-        "explanation": "Le document recommande ces outils pour l'artériosclérose (p. 14).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le mécanisme de l'infarctus du myocarde, selon le document ?",
-        "options": [
-            "L'infarctus est une nécrose du muscle cardiaque due à l'obstruction d'une artère coronaire (athérosclérose, thrombose), entraînant une ischémie prolongée.",
-            "L'infarctus est causé par une infection virale exclusive.",
-            "L'infarctus stimule la production d'anticorps.",
-            "L'infarctus n'a aucun lien avec l'alimentation."
-        ],
-        "correctAnswers": ["L'infarctus est une nécrose du muscle cardiaque due à l'obstruction d'une artère coronaire (athérosclérose, thrombose), entraînant une ischémie prolongée."],
-        "explanation": "Le document décrit ce mécanisme pour l'infarctus (p. 22).",
-        "multiple": false
-    },
-    {
-        "question": "Quels sont les trois facteurs de risque de l'infarctus, selon le document ? (3 bonnes réponses)",
-        "options": [
-            "Athérosclérose des coronaires",
-            "Thrombose coronaire",
-            "Artériosclérose (durcissement des vaisseaux)",
-            "Carence en vitamine C",
-            "Excès de sommeil",
-            "Alimentation exclusive en légumes"
-        ],
-        "correctAnswers": [
-            "Athérosclérose des coronaires",
-            "Thrombose coronaire",
-            "Artériosclérose (durcissement des vaisseaux)"
-        ],
-        "explanation": "Le document liste ces facteurs comme majeurs dans le risque d'infarctus (p. 22).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle de l'AVC (accident vasculaire cérébral) dans les pathologies cardio-vasculaires, selon le document ?",
-        "options": [
-            "L'AVC est une interruption brutale de la circulation sanguine cérébrale, due à une obstruction (ischémique) ou une rupture (hémorragique) d'un vaisseau, entraînant des lésions neurologiques.",
-            "L'AVC n'a aucun lien avec la circulation sanguine.",
-            "L'AVC stimule la production d'anticorps.",
-            "L'AVC est toujours dû à une infection bactérienne."
-        ],
-        "correctAnswers": ["L'AVC est une interruption brutale de la circulation sanguine cérébrale, due à une obstruction (ischémique) ou une rupture (hémorragique) d'un vaisseau, entraînant des lésions neurologiques."],
-        "explanation": "Le document décrit ce mécanisme pour l'AVC (p. 22).",
-        "multiple": false
-    },
-    {
-        "question": "Quels sont les trois outils naturopathiques pour prévenir les AVC, selon le document ? (3 bonnes réponses)",
-        "options": [
-            "Contrôle de l'hypertension et de l'athérosclérose",
-            "Gestion du stress et de l'inflammation",
-            "Activité physique régulière et alimentation hypotoxique",
-            "Prescription d'anticoagulants",
-            "Utilisation de corticoïdes",
-            "Supplémentation en fer"
-        ],
-        "correctAnswers": [
-            "Contrôle de l'hypertension et de l'athérosclérose",
-            "Gestion du stress et de l'inflammation",
-            "Activité physique régulière et alimentation hypotoxique"
-        ],
-        "explanation": "Le document recommande ces outils pour prévenir les AVC (p. 22).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le mécanisme de l'insuffisance cardiaque, selon le document ?",
-        "options": [
-            "L'insuffisance cardiaque est due à une déficience du muscle cardiaque (ischémie, dégénérescence, troubles du rythme), entraînant une diminution du débit et une congestion pulmonaire ou systémique.",
-            "L'insuffisance cardiaque est causée par une infection virale exclusive.",
-            "L'insuffisance cardiaque stimule la production d'anticorps.",
-            "L'insuffisance cardiaque n'a aucun lien avec l'alimentation."
-        ],
-        "correctAnswers": ["L'insuffisance cardiaque est due à une déficience du muscle cardiaque (ischémie, dégénérescence, troubles du rythme), entraînant une diminution du débit et une congestion pulmonaire ou systémique."],
-        "explanation": "Le document explique ce mécanisme pour l'insuffisance cardiaque (p. 24).",
-        "multiple": false
-    },
-    {
-        "question": "Quels sont les trois outils naturopathiques pour accompagner l'insuffisance cardiaque, selon le document ? (3 bonnes réponses)",
-        "options": [
-            "Rééducation cardiaque (exercices adaptés)",
-            "Alimentation hypotoxique et riche en nutriments",
-            "Gestion du stress et du sommeil",
-            "Prescription de diurétiques",
-            "Utilisation de bêta-bloquants",
-            "Supplémentation en potassium"
-        ],
-        "correctAnswers": [
-            "Rééducation cardiaque (exercices adaptés)",
-            "Alimentation hypotoxique et riche en nutriments",
-            "Gestion du stress et du sommeil"
-        ],
-        "explanation": "Le document recommande ces outils pour l'insuffisance cardiaque (p. 24).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle des varices et hémorroïdes dans les déséquilibres cardio-vasculaires, selon le document ?",
-        "options": [
-            "Les varices et hémorroïdes sont dues à une dilatation et une perte d'élasticité des veines (insuffisance veineuse), favorisées par la sédentarité, la constipation et les pressions abdominales.",
-            "Les varices et hémorroïdes n'ont aucun lien avec la circulation sanguine.",
-            "Les varices et hémorroïdes stimulent la production d'anticorps.",
-            "Les varices et hémorroïdes sont toujours dues à une infection bactérienne."
-        ],
-        "correctAnswers": ["Les varices et hémorroïdes sont dues à une dilatation et une perte d'élasticité des veines (insuffisance veineuse), favorisées par la sédentarité, la constipation et les pressions abdominales."],
-        "explanation": "Le document décrit ce mécanisme pour les varices et hémorroïdes (p. 18).",
-        "multiple": false
-    },
-    {
-        "question": "Quels sont les trois outils naturopathiques pour prévenir les varices, selon le document ? (3 bonnes réponses)",
-        "options": [
-            "Activité physique (marche, natation)",
-            "Alimentation riche en fibres et hydratation",
-            "Plantes veinotoniques (marron d'Inde, vigne rouge)",
-            "Prescription d'anticoagulants",
-            "Utilisation de corticoïdes",
-            "Supplémentation en fer"
-        ],
-        "correctAnswers": [
-            "Activité physique (marche, natation)",
-            "Alimentation riche en fibres et hydratation",
-            "Plantes veinotoniques (marron d'Inde, vigne rouge)"
-        ],
-        "explanation": "Le document recommande ces outils pour les varices (p. 18).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le mécanisme de la cellulite dans les troubles de la circulation, selon le document ?",
-        "options": [
-            "La cellulite est une rétention d'eau et de toxines dans le tissu conjonctif, due à une mauvaise circulation sanguine et lymphatique, souvent liée à la sédentarité et aux déséquilibres hormonaux.",
-            "La cellulite n'a aucun lien avec la circulation.",
-            "La cellulite stimule la production d'anticorps.",
-            "La cellulite est toujours due à une infection bactérienne."
-        ],
-        "correctAnswers": ["La cellulite est une rétention d'eau et de toxines dans le tissu conjonctif, due à une mauvaise circulation sanguine et lymphatique, souvent liée à la sédentarité et aux déséquilibres hormonaux."],
-        "explanation": "Le document explique ce mécanisme pour la cellulite (p. 25).",
-        "multiple": false
-    },
-    {
-        "question": "Quels sont les trois outils naturopathiques pour réduire la cellulite, selon le document ? (3 bonnes réponses)",
-        "options": [
-            "Drainage lymphatique (massages, brossage à sec)",
-            "Alimentation hypotoxique et hydratation",
-            "Activité physique (marche, natation)",
-            "Prescription de diurétiques",
-            "Utilisation de corticoïdes",
-            "Supplémentation en calcium"
-        ],
-        "correctAnswers": [
-            "Drainage lymphatique (massages, brossage à sec)",
-            "Alimentation hypotoxique et hydratation",
-            "Activité physique (marche, natation)"
-        ],
-        "explanation": "Le document recommande ces outils pour la cellulite (p. 25).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle du magnésium dans la prévention des troubles cardio-vasculaires, selon le document ?",
-        "options": [
-            "Le magnésium est essentiel pour les fonctions musculaires et nerveuses, aide à maintenir le rythme cardiaque, dilate les artères et réduit la pression artérielle.",
-            "Le magnésium n'a aucun rôle dans la santé cardio-vasculaire.",
-            "Le magnésium stimule la production de mucus intestinal.",
-            "Le magnésium bloque la production d'anticorps."
-        ],
-        "correctAnswers": ["Le magnésium est essentiel pour les fonctions musculaires et nerveuses, aide à maintenir le rythme cardiaque, dilate les artères et réduit la pression artérielle."],
-        "explanation": "Le document souligne l'importance du magnésium pour le système cardio-vasculaire (p. 7).",
-        "multiple": false
-    },
-    {
-        "question": "Quels sont les trois outils naturopathiques pour gérer le stress oxydatif, selon le document ? (3 bonnes réponses)",
-        "options": [
-            "Alimentation riche en antioxydants (fruits, légumes, épices)",
-            "Supplémentation en vitamine C et E",
-            "Gestion du stress (méditation, cohérence cardiaque)",
-            "Prescription d'antioxydants synthétiques",
-            "Utilisation de corticoïdes",
-            "Supplémentation en fer"
-        ],
-        "correctAnswers": [
-            "Alimentation riche en antioxydants (fruits, légumes, épices)",
-            "Supplémentation en vitamine C et E",
-            "Gestion du stress (méditation, cohérence cardiaque)"
-        ],
-        "explanation": "Le document recommande ces outils pour le stress oxydatif (p. 7).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le mécanisme des œdèmes dans les troubles circulatoires, selon le document ?",
-        "options": [
-            "Les œdèmes sont dus à une rétention d'eau et de toxines dans les tissus, liée à une insuffisance veineuse ou lymphatique, souvent aggravée par la sédentarité et les carences en protéines.",
-            "Les œdèmes n'ont aucun lien avec la circulation.",
-            "Les œdèmes stimulent la production d'anticorps.",
-            "Les œdèmes sont toujours dus à une infection bactérienne."
-        ],
-        "correctAnswers": ["Les œdèmes sont dus à une rétention d'eau et de toxines dans les tissus, liée à une insuffisance veineuse ou lymphatique, souvent aggravée par la sédentarité et les carences en protéines."],
-        "explanation": "Le document décrit ce mécanisme pour les œdèmes (p. 25).",
-        "multiple": false
-    },
-    {
-        "question": "Quels sont les trois outils naturopathiques pour réduire les œdèmes, selon le document ? (3 bonnes réponses)",
-        "options": [
-            "Drainage lymphatique (massages, plantes drainantes)",
-            "Alimentation hypotoxique et riche en potassium",
-            "Activité physique (marche, natation)",
-            "Prescription de diurétiques",
-            "Utilisation de corticoïdes",
-            "Supplémentation en calcium"
-        ],
-        "correctAnswers": [
-            "Drainage lymphatique (massages, plantes drainantes)",
-            "Alimentation hypotoxique et riche en potassium",
-            "Activité physique (marche, natation)"
-        ],
-        "explanation": "Le document recommande ces outils pour les œdèmes (p. 25).",
-        "multiple": true
     }
 ]

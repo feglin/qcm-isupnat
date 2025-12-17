@@ -1,512 +1,476 @@
-const questionsPlus50Ans = [
+const questionsPlus50Ans = 
+[
     {
-        "question": "Selon le document ISUPNAT, quel est le principal facteur influençant le vieillissement après 50 ans ?",
+        "question": "Quel est le principal facteur influençant le vieillissement après 50 ans selon l'approche naturopathique",
         "options": [
-            "Le vieillissement après 50 ans est principalement influencé par l'accumulation d'erreurs de vie (alimentation, sédentarité, stress, encrassement du terrain) et seulement à 30% par la génétique. L'approche naturopathique vise à corriger ces erreurs pour un vieillissement réussi.",
-            "Le vieillissement est uniquement déterminé par la génétique.",
-            "Le vieillissement est causé exclusivement par des infections bactériennes.",
-            "Le vieillissement n'a aucun lien avec l'hygiène de vie."
+            "La génétique à 100%",
+            "L'accumulation d'erreurs de vie (alimentation, sédentarité, stress, encrassement du terrain) à 70%, contre 30% pour la génétique",
+            "Le manque de sommeil uniquement",
+            "L'excès de vitamines"
         ],
-        "correctAnswers": ["Le vieillissement après 50 ans est principalement influencé par l'accumulation d'erreurs de vie (alimentation, sédentarité, stress, encrassement du terrain) et seulement à 30% par la génétique. L'approche naturopathique vise à corriger ces erreurs pour un vieillissement réussi."],
-        "explanation": "Le document souligne que 70% du vieillissement dépend de l'hygiène de vie, contre 30% pour la génétique (p. 6).",
+        "correctAnswers": ["L'accumulation d'erreurs de vie (alimentation, sédentarité, stress, encrassement du terrain) à 70%, contre 30% pour la génétique"],
+        "explanation": "Selon l'approche naturopathique, 70% du vieillissement est lié à l'hygiène de vie (alimentation, activité physique, gestion du stress), contre 30% à la génétique.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois systèmes les plus impactés par le vieillissement après 50 ans, selon le document ? (3 bonnes réponses)",
+        "question": "Quels sont les trois systèmes les plus impactés par le vieillissement après 50 ans (3 bonnes réponses)",
         "options": [
             "Système nerveux (baisse des capacités cérébrales, sommeil, équilibre)",
             "Système ostéo-musculaire (perte de masse musculaire, arthrose, ostéoporose)",
-            "Système cardiovasculaire (hypertension, athérosclérose, troubles du rythme)",
-            "Système digestif (meilleure absorption des nutriments)",
-            "Système immunitaire (renforcement des défenses)",
-            "Système respiratoire (augmentation de la capacité pulmonaire)"
+            "Système cardiovasculaire (hypertension, athérosclérose)",
+            "Système digestif (augmentation de la motilité intestinale)",
+            "Système immunitaire (renforcement des défenses)"
         ],
         "correctAnswers": [
             "Système nerveux (baisse des capacités cérébrales, sommeil, équilibre)",
             "Système ostéo-musculaire (perte de masse musculaire, arthrose, ostéoporose)",
-            "Système cardiovasculaire (hypertension, athérosclérose, troubles du rythme)"
+            "Système cardiovasculaire (hypertension, athérosclérose)"
         ],
-        "explanation": "Le document liste ces systèmes comme particulièrement affectés par le vieillissement (p. 3-4).",
+        "explanation": "Le vieillissement après 50 ans affecte principalement le système nerveux (cognition, sommeil), ostéo-musculaire (sarcopénie, ostéoporose) et cardiovasculaire (hypertension, rigidité artérielle).",
         "multiple": true
     },
     {
-        "question": "Quel est le rôle de l'encrassement progressif du corps dans le vieillissement, selon le document ?",
+        "question": "Quel est le rôle de la vitamine D après 50 ans",
         "options": [
-            "L'encrassement du terrain (accumulation de déchets métaboliques, toxines, radicaux libres) altère les fonctions d'élimination (foie, reins, poumons) et accélère le vieillissement prématuré des organes, favorisant maladies chroniques et dégénératives.",
-            "L'encrassement du corps stimule la production d'anticorps.",
-            "L'encrassement du corps améliore l'absorption des nutriments.",
-            "L'encrassement du corps n'a aucun impact sur le vieillissement."
+            "Inhiber l'absorption du calcium",
+            "Soutenir la minéralisation osseuse, la fonction immunitaire et réduire les risques de chutes",
+            "Augmenter la pression artérielle",
+            "Stimuler la production de cortisol"
         ],
-        "correctAnswers": ["L'encrassement du terrain (accumulation de déchets métaboliques, toxines, radicaux libres) altère les fonctions d'élimination (foie, reins, poumons) et accélère le vieillissement prématuré des organes, favorisant maladies chroniques et dégénératives."],
-        "explanation": "Le document explique ce mécanisme d'encrassement et ses conséquences (p. 14).",
+        "correctAnswers": ["Soutenir la minéralisation osseuse, la fonction immunitaire et réduire les risques de chutes"],
+        "explanation": "La vitamine D est essentielle pour l'absorption du calcium, la santé osseuse, la modulation immunitaire et la prévention des chutes (via la force musculaire).",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois signes de fragilité chez les plus de 50 ans, selon le document ? (3 bonnes réponses)",
+        "question": "Quelle est la plante adaptogène la plus indiquée pour soutenir la vitalité après 50 ans",
         "options": [
-            "Perte de poids involontaire",
-            "Fatigue chronique",
-            "Réduction de la force musculaire",
-            "Augmentation de la masse musculaire",
-            "Amélioration de la mémoire",
-            "Baisse de la pression artérielle"
+            "Valériane",
+            "Ginseng (Panax ginseng)",
+            "Mélisse",
+            "Camomille"
         ],
-        "correctAnswers": [
-            "Perte de poids involontaire",
-            "Fatigue chronique",
-            "Réduction de la force musculaire"
-        ],
-        "explanation": "Le document cite ces signes comme indicateurs de fragilité (p. 5).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le mécanisme de la sarcopénie après 50 ans, selon le document ?",
-        "options": [
-            "La sarcopénie est une perte progressive de masse musculaire liée à l'âge, à la sédentarité et à un apport protéique insuffisant, entraînant une baisse de mobilité et un risque accru de dépendance.",
-            "La sarcopénie est causée par une infection bactérienne exclusive.",
-            "La sarcopénie stimule la production d'anticorps.",
-            "La sarcopénie n'a aucun lien avec l'alimentation."
-        ],
-        "correctAnswers": ["La sarcopénie est une perte progressive de masse musculaire liée à l'âge, à la sédentarité et à un apport protéique insuffisant, entraînant une baisse de mobilité et un risque accru de dépendance."],
-        "explanation": "Le document décrit ce mécanisme pour la sarcopénie (p. 17).",
+        "correctAnswers": ["Ginseng (Panax ginseng)"],
+        "explanation": "Le ginseng est un adaptogène majeur pour les plus de 50 ans, soutenant l'énergie, la cognition et la résistance au stress.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois outils naturopathiques pour prévenir la sarcopénie, selon le document ? (3 bonnes réponses)",
+        "question": "Quel est le protocole naturopathique pour prévenir l'ostéoporose après 50 ans",
         "options": [
-            "Apport protéique suffisant et de qualité (œufs, poissons, légumineuses)",
-            "Activité physique régulière (musculation douce, marche)",
-            "Alimentation alcalinisante (légumes, fruits, amandes)",
-            "Prescription de stéroïdes anabolisants",
-            "Utilisation de corticoïdes",
-            "Supplémentation en fer sans évaluation"
+            "Consommer exclusivement des produits laitiers",
+            "Apport en calcium (légumes verts, amandes), vitamine D (soleil, poissons gras), exercices portants (marche, musculation légère) et silice (prêle, bambou)",
+            "Éviter toute activité physique",
+            "Supplémenter en fer sans bilan"
         ],
-        "correctAnswers": [
-            "Apport protéique suffisant et de qualité (œufs, poissons, légumineuses)",
-            "Activité physique régulière (musculation douce, marche)",
-            "Alimentation alcalinisante (légumes, fruits, amandes)"
-        ],
-        "explanation": "Le document recommande ces outils pour prévenir la sarcopénie (p. 17).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle de l'activité physique après 50 ans, selon le document ?",
-        "options": [
-            "L'activité physique régulière (marche, natation, yoga) améliore la circulation sanguine, maintient la masse musculaire, réduit le stress, stimule la production de DHEA et favorise l'équilibre cérébral, prévenant ainsi les maladies liées à l'âge.",
-            "L'activité physique est contre-indiquée après 50 ans.",
-            "L'activité physique bloque la production d'hormones.",
-            "L'activité physique n'a aucun effet sur le vieillissement."
-        ],
-        "correctAnswers": ["L'activité physique régulière (marche, natation, yoga) améliore la circulation sanguine, maintient la masse musculaire, réduit le stress, stimule la production de DHEA et favorise l'équilibre cérébral, prévenant ainsi les maladies liées à l'âge."],
-        "explanation": "Le document détaille ces bienfaits de l'activité physique (p. 18).",
+        "correctAnswers": ["Apport en calcium (légumes verts, amandes), vitamine D (soleil, poissons gras), exercices portants (marche, musculation légère) et silice (prêle, bambou)"],
+        "explanation": "La prévention de l'ostéoporose repose sur un apport en calcium/vitamine D, des exercices stimulant la formation osseuse et de la silice pour la matrice osseuse.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois types d'activités physiques recommandées après 50 ans, selon le document ? (3 bonnes réponses)",
+        "question": "Quel est le rôle des oméga-3 (EPA/DHA) dans la prévention des troubles cognitifs après 50 ans",
         "options": [
-            "Marche (en pleine nature, pieds nus)",
-            "Natation ou aquagym",
-            "Yoga ou qi gong",
-            "Sports de combat (boxe, judo)",
-            "Course à pied intensive",
-            "Haltérophilie"
+            "Augmenter l'inflammation cérébrale",
+            "Protéger les neurones, réduire l'inflammation et soutenir la mémoire et la cognition",
+            "Inhiber la neurogenèse",
+            "Stimuler la production de radicalaires libres"
         ],
-        "correctAnswers": [
-            "Marche (en pleine nature, pieds nus)",
-            "Natation ou aquagym",
-            "Yoga ou qi gong"
-        ],
-        "explanation": "Le document recommande ces activités pour les plus de 50 ans (p. 18-19).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le mécanisme de l'ostéoporose après 50 ans, selon le document ?",
-        "options": [
-            "L'ostéoporose est une diminution de la densité osseuse due à un déséquilibre entre résorption (ostéoclastes) et formation (ostéoblastes), favorisée par des carences (calcium, vitamine D), un déséquilibre acido-basique et la sédentarité.",
-            "L'ostéoporose est causée par une infection bactérienne exclusive.",
-            "L'ostéoporose stimule la production d'anticorps.",
-            "L'ostéoporose n'a aucun lien avec l'alimentation."
-        ],
-        "correctAnswers": ["L'ostéoporose est une diminution de la densité osseuse due à un déséquilibre entre résorption (ostéoclastes) et formation (ostéoblastes), favorisée par des carences (calcium, vitamine D), un déséquilibre acido-basique et la sédentarité."],
-        "explanation": "Le document explique ce mécanisme pour l'ostéoporose (p. 4).",
+        "correctAnswers": ["Protéger les neurones, réduire l'inflammation et soutenir la mémoire et la cognition"],
+        "explanation": "Les oméga-3 (EPA/DHA) réduisent l'inflammation neuronale, protègent contre le déclin cognitif et soutiennent la neurogenèse.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois outils naturopathiques pour prévenir l'ostéoporose, selon le document ? (3 bonnes réponses)",
+        "question": "Quelle est la technique naturopathique recommandée pour maintenir la masse musculaire après 50 ans",
         "options": [
-            "Alimentation riche en calcium (légumes verts, amandes) et vitamine D (poissons gras, soleil)",
-            "Activité physique porteuse (marche, musculation douce)",
-            "Supplémentation en magnésium et silicium",
-            "Prescription de bisphosphonates",
-            "Utilisation de corticoïdes",
-            "Supplémentation en fer"
+            "Sédentarité totale",
+            "Exercices de résistance (musculation légère, Pilates) et apport protéique suffisant (poissons, légumineuses)",
+            "Jeûne prolongé",
+            "Consommation exclusive de sucres raffinés"
         ],
-        "correctAnswers": [
-            "Alimentation riche en calcium (légumes verts, amandes) et vitamine D (poissons gras, soleil)",
-            "Activité physique porteuse (marche, musculation douce)",
-            "Supplémentation en magnésium et silicium"
-        ],
-        "explanation": "Le document recommande ces outils pour l'ostéoporose (p. 4).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle de la vitamine D après 50 ans, selon le document ?",
-        "options": [
-            "La vitamine D est essentielle pour l'absorption du calcium, la santé osseuse, la prévention des chutes et le soutien immunitaire. Une carence est fréquente après 50 ans en raison d'une moindre exposition solaire et d'une baisse de la synthèse cutanée.",
-            "La vitamine D bloque la production d'hormones thyroïdiennes.",
-            "La vitamine D stimule la production de mucus intestinal.",
-            "La vitamine D n'a aucun rôle après 50 ans."
-        ],
-        "correctAnswers": ["La vitamine D est essentielle pour l'absorption du calcium, la santé osseuse, la prévention des chutes et le soutien immunitaire. Une carence est fréquente après 50 ans en raison d'une moindre exposition solaire et d'une baisse de la synthèse cutanée."],
-        "explanation": "Le document souligne ce rôle critique de la vitamine D (p. 19).",
+        "correctAnswers": ["Exercices de résistance (musculation légère, Pilates) et apport protéique suffisant (poissons, légumineuses)"],
+        "explanation": "Les exercices de résistance et un apport protéique adéquat stimulent la synthèse musculaire et préviennent la sarcopénie (perte de masse musculaire).",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois signes d'une carence en vitamine D, selon le document ? (3 bonnes réponses)",
+        "question": "Quel est le mécanisme d'action du curcuma sur les troubles inflammatoires après 50 ans",
         "options": [
-            "Fatigue chronique",
-            "Douleurs osseuses ou musculaires",
-            "Baisse de l'immunité (infections fréquentes)",
-            "Hypertension artérielle",
-            "Diabète de type 2",
-            "Ostéoporose"
+            "Stimulation de l'inflammation",
+            "Inhibition de la voie NF-κB, réduction des cytokines pro-inflammatoires et protection articulaire",
+            "Augmentation de la rigidité articulaire",
+            "Inhibition de l'absorption des minéraux"
         ],
-        "correctAnswers": [
-            "Fatigue chronique",
-            "Douleurs osseuses ou musculaires",
-            "Baisse de l'immunité (infections fréquentes)"
-        ],
-        "explanation": "Le document associe ces signes à une carence en vitamine D (p. 19).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le mécanisme des troubles cognitifs après 50 ans, selon le document ?",
-        "options": [
-            "Les troubles cognitifs (mémoire, concentration) sont liés à la baisse de la neurogenèse, à l'accumulation de radicaux libres, à la glycation des protéines et à une mauvaise irrigation cérébrale, souvent aggravés par le stress oxydatif et l'inflammation chronique.",
-            "Les troubles cognitifs sont causés par une infection bactérienne exclusive.",
-            "Les troubles cognitifs stimulent la production d'anticorps.",
-            "Les troubles cognitifs n'ont aucun lien avec l'alimentation."
-        ],
-        "correctAnswers": ["Les troubles cognitifs (mémoire, concentration) sont liés à la baisse de la neurogenèse, à l'accumulation de radicaux libres, à la glycation des protéines et à une mauvaise irrigation cérébrale, souvent aggravés par le stress oxydatif et l'inflammation chronique."],
-        "explanation": "Le document explique ce mécanisme pour les troubles cognitifs (p. 8).",
+        "correctAnswers": ["Inhibition de la voie NF-κB, réduction des cytokines pro-inflammatoires et protection articulaire"],
+        "explanation": "Le curcuma (curcumine) inhibe la voie NF-κB, réduisant ainsi l'inflammation chronique et protégeant les articulations (arthrose).",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois outils naturopathiques pour prévenir les troubles cognitifs, selon le document ? (3 bonnes réponses)",
+        "question": "Quels sont les deux aliments les plus riches en antioxydants pour lutter contre le vieillissement cellulaire (2 bonnes réponses)",
         "options": [
-            "Alimentation riche en antioxydants (fruits rouges, légumes verts)",
-            "Activité physique stimulant la neurogenèse (marche, danse)",
-            "Supplémentation en oméga-3 (DHA) et vitamine B",
-            "Prescription de psychotropes",
-            "Utilisation de corticoïdes",
-            "Supplémentation en fer"
-        ],
-        "correctAnswers": [
-            "Alimentation riche en antioxydants (fruits rouges, légumes verts)",
-            "Activité physique stimulant la neurogenèse (marche, danse)",
-            "Supplémentation en oméga-3 (DHA) et vitamine B"
-        ],
-        "explanation": "Le document recommande ces outils pour les troubles cognitifs (p. 8).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle de l'alimentation après 50 ans, selon le document ?",
-        "options": [
-            "L'alimentation après 50 ans doit être hypotoxique, alcalinisante, riche en nutriments (fibres, vitamines, minéraux, oméga-3), et adaptée aux capacités digestives (cuissons douces, protéines digestes), pour lutter contre l'inflammation et l'encrassement.",
-            "L'alimentation après 50 ans n'a aucun impact sur la santé.",
-            "L'alimentation après 50 ans doit être exclusivement carnée.",
-            "L'alimentation après 50 ans doit éviter les légumes."
-        ],
-        "correctAnswers": ["L'alimentation après 50 ans doit être hypotoxique, alcalinisante, riche en nutriments (fibres, vitamines, minéraux, oméga-3), et adaptée aux capacités digestives (cuissons douces, protéines digestes), pour lutter contre l'inflammation et l'encrassement."],
-        "explanation": "Le document détaille ces principes alimentaires (p. 26).",
-        "multiple": false
-    },
-    {
-        "question": "Quels sont les trois aliments à limiter après 50 ans, selon le document ? (3 bonnes réponses)",
-        "options": [
-            "Corps gras saturés (viandes grasses, charcuterie)",
-            "Sucres raffinés (sodas, pâtisseries)",
-            "Aliments transformés (plats préparés, chips)",
-            "Légumes verts",
-            "Fruits frais",
-            "Céréales complètes"
-        ],
-        "correctAnswers": [
-            "Corps gras saturés (viandes grasses, charcuterie)",
-            "Sucres raffinés (sodas, pâtisseries)",
-            "Aliments transformés (plats préparés, chips)"
-        ],
-        "explanation": "Le document cite ces aliments comme néfastes après 50 ans (p. 26).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le mécanisme de la résistance à l'insuline après 50 ans, selon le document ?",
-        "options": [
-            "La résistance à l'insuline est due à une moindre efficacité des récepteurs cellulaires, favorisée par la sédentarité, l'alimentation riche en sucres raffinés et l'accumulation de graisse viscérale, augmentant le risque de diabète de type 2 et de maladies cardiovasculaires.",
-            "La résistance à l'insuline est causée par une infection bactérienne exclusive.",
-            "La résistance à l'insuline stimule la production d'anticorps.",
-            "La résistance à l'insuline n'a aucun lien avec l'alimentation."
-        ],
-        "correctAnswers": ["La résistance à l'insuline est due à une moindre efficacité des récepteurs cellulaires, favorisée par la sédentarité, l'alimentation riche en sucres raffinés et l'accumulation de graisse viscérale, augmentant le risque de diabète de type 2 et de maladies cardiovasculaires."],
-        "explanation": "Le document explique ce mécanisme (p. 12).",
-        "multiple": false
-    },
-    {
-        "question": "Quels sont les trois outils naturopathiques pour prévenir la résistance à l'insuline, selon le document ? (3 bonnes réponses)",
-        "options": [
-            "Alimentation à index glycémique bas (légumineuses, céréales complètes)",
-            "Activité physique régulière (marche, natation)",
-            "Supplémentation en chrome et magnésium",
-            "Prescription d'insuline",
-            "Utilisation de corticoïdes",
-            "Supplémentation en fer"
-        ],
-        "correctAnswers": [
-            "Alimentation à index glycémique bas (légumineuses, céréales complètes)",
-            "Activité physique régulière (marche, natation)",
-            "Supplémentation en chrome et magnésium"
-        ],
-        "explanation": "Le document recommande ces outils pour la résistance à l'insuline (p. 12).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle des oméga-3 après 50 ans, selon le document ?",
-        "options": [
-            "Les oméga-3 (DHA, EPA) réduisent l'inflammation, protègent le système cardiovasculaire et cognitif, et préviennent la dégénérescence maculaire, essentiels pour lutter contre les maladies liées à l'âge.",
-            "Les oméga-3 bloquent la production d'hormones thyroïdiennes.",
-            "Les oméga-3 stimulent la production de mucus intestinal.",
-            "Les oméga-3 n'ont aucun rôle après 50 ans."
-        ],
-        "correctAnswers": ["Les oméga-3 (DHA, EPA) réduisent l'inflammation, protègent le système cardiovasculaire et cognitif, et préviennent la dégénérescence maculaire, essentiels pour lutter contre les maladies liées à l'âge."],
-        "explanation": "Le document souligne ces bienfaits des oméga-3 (p. 17).",
-        "multiple": false
-    },
-    {
-        "question": "Quels sont les trois aliments riches en oméga-3, selon le document ? (3 bonnes réponses)",
-        "options": [
-            "Petits poissons gras (sardines, maquereaux)",
-            "Huile de lin ou de colza",
-            "Noix et graines de lin",
-            "Viande rouge",
+            "Baies (myrtilles, grenade)",
+            "Légumes verts (épinards, kale)",
+            "Viandes rouges",
             "Produits laitiers",
             "Céréales raffinées"
         ],
         "correctAnswers": [
-            "Petits poissons gras (sardines, maquereaux)",
-            "Huile de lin ou de colza",
-            "Noix et graines de lin"
+            "Baies (myrtilles, grenade)",
+            "Légumes verts (épinards, kale)"
         ],
-        "explanation": "Le document cite ces sources d'oméga-3 (p. 17).",
+        "explanation": "Les baies et légumes verts sont riches en antioxydants (polyphénols, vitamine C), protégeant les cellules du stress oxydatif lié au vieillissement.",
         "multiple": true
     },
     {
-        "question": "Quel est le mécanisme de la presbyacousie après 50 ans, selon le document ?",
+        "question": "Quel est le rôle de la cohérence cardiaque dans la gestion du stress après 50 ans",
         "options": [
-            "La presbyacousie est une perte progressive de l'audition, surtout pour les fréquences aigües, due à la dégénérescence des cellules ciliées de l'oreille interne, aggravée par l'exposition au bruit et le vieillissement.",
-            "La presbyacousie est causée par une infection bactérienne exclusive.",
-            "La presbyacousie stimule la production d'anticorps.",
-            "La presbyacousie n'a aucun lien avec le vieillissement."
+            "Augmenter la pression artérielle",
+            "Réduire le cortisol, améliorer la variabilité cardiaque et soutenir la résilience au stress",
+            "Stimuler la production d'adrénaline",
+            "Inhiber la respiration diaphragmatique"
         ],
-        "correctAnswers": ["La presbyacousie est une perte progressive de l'audition, surtout pour les fréquences aigües, due à la dégénérescence des cellules ciliées de l'oreille interne, aggravée par l'exposition au bruit et le vieillissement."],
-        "explanation": "Le document explique ce mécanisme (p. 8).",
+        "correctAnswers": ["Réduire le cortisol, améliorer la variabilité cardiaque et soutenir la résilience au stress"],
+        "explanation": "La cohérence cardiaque (respiration à 6 cycles/min) réduit le cortisol, équilibre le système nerveux autonome et améliore la gestion du stress.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois outils naturopathiques pour prévenir la presbyacousie, selon le document ? (3 bonnes réponses)",
+        "question": "Quelle est la plante la plus indiquée pour soutenir la mémoire et la cognition après 50 ans",
         "options": [
-            "Protection contre les bruits forts (casque, bouchons)",
-            "Alimentation riche en antioxydants (vitamines A, C, E)",
-            "Supplémentation en magnésium et zinc",
-            "Prescription d'antibiotiques",
-            "Utilisation de corticoïdes",
-            "Supplémentation en fer"
+            "Ginkgo biloba",
+            "Mélisse",
+            "Camomille",
+            "Thym"
         ],
-        "correctAnswers": [
-            "Protection contre les bruits forts (casque, bouchons)",
-            "Alimentation riche en antioxydants (vitamines A, C, E)",
-            "Supplémentation en magnésium et zinc"
-        ],
-        "explanation": "Le document recommande ces outils pour la presbyacousie (p. 8).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle de la mélatonine après 50 ans, selon le document ?",
-        "options": [
-            "La mélatonine régule les cycles circadiens (sommeil/éveil), mais sa production diminue avec l'âge en raison de la calcification de la glande pinéale, favorisant les troubles du sommeil et le vieillissement prématuré.",
-            "La mélatonine bloque la production d'hormones thyroïdiennes.",
-            "La mélatonine stimule la production de mucus intestinal.",
-            "La mélatonine n'a aucun rôle après 50 ans."
-        ],
-        "correctAnswers": ["La mélatonine régule les cycles circadiens (sommeil/éveil), mais sa production diminue avec l'âge en raison de la calcification de la glande pinéale, favorisant les troubles du sommeil et le vieillissement prématuré."],
-        "explanation": "Le document détaille ce rôle de la mélatonine (p. 11).",
+        "correctAnswers": ["Ginkgo biloba"],
+        "explanation": "Le ginkgo biloba améliore la microcirculation cérébrale, la mémoire et les fonctions cognitives, souvent altérées après 50 ans.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois outils naturopathiques pour améliorer le sommeil après 50 ans, selon le document ? (3 bonnes réponses)",
+        "question": "Quel est le protocole naturopathique pour accompagner les bouffées de chaleur liées à la ménopause",
         "options": [
-            "Exposition à la lumière naturelle le matin",
-            "Alimentation riche en tryptophane (bananes, amandes)",
-            "Rituel du coucher (relaxation, méditation)",
-            "Prescription de somnifères",
-            "Utilisation de corticoïdes",
-            "Supplémentation en fer"
+            "Consommer des aliments épicés",
+            "Apport en phytoœstrogènes (soja, trèfle rouge), gestion du stress (cohérence cardiaque) et hydratation",
+            "Éviter toute activité physique",
+            "Supplémenter en iode sans bilan"
         ],
-        "correctAnswers": [
-            "Exposition à la lumière naturelle le matin",
-            "Alimentation riche en tryptophane (bananes, amandes)",
-            "Rituel du coucher (relaxation, méditation)"
-        ],
-        "explanation": "Le document recommande ces outils pour le sommeil (p. 18).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le mécanisme de l'arthrose après 50 ans, selon le document ?",
-        "options": [
-            "L'arthrose est une dégénérescence du cartilage articulaire due à l'usure, à l'inflammation chronique, à la sédentarité et à un déséquilibre acido-basique, entraînant douleurs et raideurs.",
-            "L'arthrose est causée par une infection bactérienne exclusive.",
-            "L'arthrose stimule la production d'anticorps.",
-            "L'arthrose n'a aucun lien avec l'alimentation."
-        ],
-        "correctAnswers": ["L'arthrose est une dégénérescence du cartilage articulaire due à l'usure, à l'inflammation chronique, à la sédentarité et à un déséquilibre acido-basique, entraînant douleurs et raideurs."],
-        "explanation": "Le document explique ce mécanisme pour l'arthrose (p. 4).",
+        "correctAnswers": ["Apport en phytoœstrogènes (soja, trèfle rouge), gestion du stress (cohérence cardiaque) et hydratation"],
+        "explanation": "Les bouffées de chaleur sont atténuées par les phytoœstrogènes (équilibre hormonal), la gestion du stress et une hydratation suffisante.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois outils naturopathiques pour soulager l'arthrose, selon le document ? (3 bonnes réponses)",
+        "question": "Quel est le rôle de la mélatonine après 50 ans",
         "options": [
-            "Alimentation anti-inflammatoire (curcuma, gingembre)",
-            "Activité physique douce (natation, yoga)",
-            "Supplémentation en collagène et silicium",
-            "Prescription d'anti-inflammatoires non stéroïdiens",
-            "Utilisation de corticoïdes",
-            "Supplémentation en fer"
+            "Stimuler l'éveil nocturne",
+            "Réguler le rythme circadien, améliorer la qualité du sommeil et soutenir la fonction immunitaire",
+            "Inhiber la production de sérotonine",
+            "Augmenter la pression artérielle"
         ],
-        "correctAnswers": [
-            "Alimentation anti-inflammatoire (curcuma, gingembre)",
-            "Activité physique douce (natation, yoga)",
-            "Supplémentation en collagène et silicium"
-        ],
-        "explanation": "Le document recommande ces outils pour l'arthrose (p. 4).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle de la DHEA après 50 ans, selon le document ?",
-        "options": [
-            "La DHEA (hormone surrénalienne) diminue avec l'âge, entraînant une baisse de la vitalité, de la libido et de la résistance au stress. Son taux peut être augmenté naturellement par l'activité physique et une alimentation équilibrée.",
-            "La DHEA bloque la production d'hormones thyroïdiennes.",
-            "La DHEA stimule la production de mucus intestinal.",
-            "La DHEA n'a aucun rôle après 50 ans."
-        ],
-        "correctAnswers": ["La DHEA (hormone surrénalienne) diminue avec l'âge, entraînant une baisse de la vitalité, de la libido et de la résistance au stress. Son taux peut être augmenté naturellement par l'activité physique et une alimentation équilibrée."],
-        "explanation": "Le document détaille ce rôle de la DHEA (p. 18).",
+        "correctAnswers": ["Réguler le rythme circadien, améliorer la qualité du sommeil et soutenir la fonction immunitaire"],
+        "explanation": "La mélatonine, dont la production diminue avec l'âge, est essentielle pour le sommeil, la régulation circadienne et l'immunité.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois outils naturopathiques pour soutenir la production de DHEA, selon le document ? (3 bonnes réponses)",
+        "question": "Quelle est la technique naturopathique pour prévenir l'athérosclérose après 50 ans",
         "options": [
-            "Activité physique régulière (marche, musculation douce)",
-            "Alimentation riche en bons lipides (avocat, oléagineux)",
-            "Gestion du stress (méditation, sommeil)",
-            "Prescription de DHEA de synthèse",
-            "Utilisation de corticoïdes",
-            "Supplémentation en fer"
+            "Consommer des graisses trans",
+            "Alimentation hypotoxique (réduction des sucres, graisses saturées), exercice physique régulier et plantes hypocholestérolémiantes (artichaut, levure de riz rouge)",
+            "Fumer régulièrement",
+            "Éviter les légumes verts"
         ],
-        "correctAnswers": [
-            "Activité physique régulière (marche, musculation douce)",
-            "Alimentation riche en bons lipides (avocat, oléagineux)",
-            "Gestion du stress (méditation, sommeil)"
-        ],
-        "explanation": "Le document recommande ces outils pour la DHEA (p. 18).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le mécanisme de la cataracte après 50 ans, selon le document ?",
-        "options": [
-            "La cataracte est due à l'opacification du cristallin par glycation des protéines, favorisée par le stress oxydatif, l'exposition aux UV et une alimentation riche en sucres, entraînant une baisse de l'acuité visuelle.",
-            "La cataracte est causée par une infection bactérienne exclusive.",
-            "La cataracte stimule la production d'anticorps.",
-            "La cataracte n'a aucun lien avec l'alimentation."
-        ],
-        "correctAnswers": ["La cataracte est due à l'opacification du cristallin par glycation des protéines, favorisée par le stress oxydatif, l'exposition aux UV et une alimentation riche en sucres, entraînant une baisse de l'acuité visuelle."],
-        "explanation": "Le document explique ce mécanisme pour la cataracte (p. 8).",
+        "correctAnswers": ["Alimentation hypotoxique (réduction des sucres, graisses saturées), exercice physique régulier et plantes hypocholestérolémiantes (artichaut, levure de riz rouge)"],
+        "explanation": "La prévention de l'athérosclérose passe par une alimentation anti-inflammatoire, de l'exercice et des plantes régulant le cholestérol.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois outils naturopathiques pour prévenir la cataracte, selon le document ? (3 bonnes réponses)",
+        "question": "Quel est le mécanisme d'action de la glucosamine sur les articulations après 50 ans",
         "options": [
-            "Alimentation riche en antioxydants (myrtilles, carottes)",
-            "Protection contre les UV (lunettes de soleil)",
-            "Supplémentation en lutéine et zéaxanthine",
-            "Prescription de collyres",
-            "Utilisation de corticoïdes",
-            "Supplémentation en fer"
+            "Dégrader le cartilage",
+            "Stimuler la synthèse des protéoglycanes et du collagène, et protéger le cartilage articulaire",
+            "Inhiber la lubrification articulaire",
+            "Augmenter l'inflammation"
         ],
-        "correctAnswers": [
-            "Alimentation riche en antioxydants (myrtilles, carottes)",
-            "Protection contre les UV (lunettes de soleil)",
-            "Supplémentation en lutéine et zéaxanthine"
-        ],
-        "explanation": "Le document recommande ces outils pour la cataracte (p. 8).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle des probiotiques après 50 ans, selon le document ?",
-        "options": [
-            "Les probiotiques (légumes lactofermentés, kéfir) équilibrent le microbiote intestinal, améliorent l'immunité, la digestion et la synthèse des vitamines, réduisant l'inflammation et le risque de maladies chroniques.",
-            "Les probiotiques bloquent la production d'hormones.",
-            "Les probiotiques stimulent la production de mucus intestinal.",
-            "Les probiotiques n'ont aucun rôle après 50 ans."
-        ],
-        "correctAnswers": ["Les probiotiques (légumes lactofermentés, kéfir) équilibrent le microbiote intestinal, améliorent l'immunité, la digestion et la synthèse des vitamines, réduisant l'inflammation et le risque de maladies chroniques."],
-        "explanation": "Le document souligne ce rôle des probiotiques (p. 26).",
+        "correctAnswers": ["Stimuler la synthèse des protéoglycanes et du collagène, et protéger le cartilage articulaire"],
+        "explanation": "La glucosamine soutient la synthèse des composants du cartilage (protéoglycanes, collagène) et ralentit sa dégradation (arthrose).",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois aliments riches en probiotiques naturels, selon le document ? (3 bonnes réponses)",
+        "question": "Quels sont les deux minéraux essentiels pour prévenir les crampes musculaires après 50 ans (2 bonnes réponses)",
         "options": [
-            "Choucroute crue non pasteurisée",
-            "Kéfir ou kombucha",
-            "Miso ou tempeh",
-            "Viande rouge",
-            "Produits laitiers pasteurisés",
-            "Pain blanc"
+            "Magnésium",
+            "Potassium",
+            "Fer",
+            "Zinc",
+            "Cuivre"
         ],
         "correctAnswers": [
-            "Choucroute crue non pasteurisée",
-            "Kéfir ou kombucha",
-            "Miso ou tempeh"
+            "Magnésium",
+            "Potassium"
         ],
-        "explanation": "Le document cite ces aliments comme sources de probiotiques (p. 26).",
+        "explanation": "Le magnésium et le potassium sont cruciaux pour la relaxation musculaire et la prévention des crampes, fréquentes après 50 ans.",
         "multiple": true
     },
     {
-        "question": "Quel est le mécanisme de la ménopause/andropause après 50 ans, selon le document ?",
+        "question": "Quel est le rôle de l'exercice physique adapté (marche, natation) après 50 ans",
         "options": [
-            "La ménopause (chez la femme) et l'andropause (chez l'homme) sont marquées par une baisse des hormones sexuelles (œstrogènes, testostérone), entraînant des symptômes comme les bouffées de chaleur, la fatigue, la prise de poids et une baisse de la libido, mais aussi des risques accrus d'ostéoporose et de maladies cardiovasculaires.",
-            "La ménopause/andropause est causée par une infection bactérienne exclusive.",
-            "La ménopause/andropause stimule la production d'anticorps.",
-            "La ménopause/andropause n'a aucun lien avec les hormones."
+            "Augmenter la sarcopénie",
+            "Maintien de la masse musculaire, amélioration de la circulation, prévention de l'ostéoporose et soutien de la santé cardiovasculaire",
+            "Inhiber la production d'endorphines",
+            "Réduire la densité osseuse"
         ],
-        "correctAnswers": ["La ménopause (chez la femme) et l'andropause (chez l'homme) sont marquées par une baisse des hormones sexuelles (œstrogènes, testostérone), entraînant des symptômes comme les bouffées de chaleur, la fatigue, la prise de poids et une baisse de la libido, mais aussi des risques accrus d'ostéoporose et de maladies cardiovasculaires."],
-        "explanation": "Le document explique ce mécanisme (p. 11).",
+        "correctAnswers": ["Maintien de la masse musculaire, amélioration de la circulation, prévention de l'ostéoporose et soutien de la santé cardiovasculaire"],
+        "explanation": "L'exercice adapté après 50 ans prévient la sarcopénie, stimule la circulation, renforce les os et soutient le cœur.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois outils naturopathiques pour accompagner la ménopause/andropause, selon le document ? (3 bonnes réponses)",
+        "question": "Quelle est la plante la plus indiquée pour soutenir la fonction hépatique après 50 ans",
         "options": [
-            "Alimentation riche en phytoœstrogènes (lin, soja)",
-            "Plantes adaptogènes (gattilier, maca)",
-            "Gestion du stress (méditation, activité physique)",
-            "Prescription d'hormones de synthèse",
-            "Utilisation de corticoïdes",
-            "Supplémentation en fer"
+            "Chardon-marie (Silybum marianum)",
+            "Menthe poivrée",
+            "Camomille",
+            "Thym"
+        ],
+        "correctAnswers": ["Chardon-marie (Silybum marianum)"],
+        "explanation": "Le chardon-marie protège et régénère les hépatocytes, soutenant la détoxification hépatique, souvent ralentie avec l'âge.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le protocole naturopathique pour accompagner l'andropause",
+        "options": [
+            "Supplémenter en œstrogènes",
+            "Apport en zinc, vitamine B6, plantes adaptogènes (tribulus, maca) et gestion du stress",
+            "Éviter toute activité physique",
+            "Consommer exclusivement des produits laitiers"
+        ],
+        "correctAnswers": ["Apport en zinc, vitamine B6, plantes adaptogènes (tribulus, maca) et gestion du stress"],
+        "explanation": "L'andropause est accompagnée par un apport en zinc/B6 (synthèse de testostérone), des adaptogènes (tribulus, maca) et une gestion du stress.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le rôle des probiotiques après 50 ans",
+        "options": [
+            "Stimuler la croissance des pathogènes intestinaux",
+            "Rééquilibrer le microbiote, soutenir l'immunité et réduire l'inflammation systémique",
+            "Inhiber l'absorption des nutriments",
+            "Augmenter la perméabilité intestinale"
+        ],
+        "correctAnswers": ["Rééquilibrer le microbiote, soutenir l'immunité et réduire l'inflammation systémique"],
+        "explanation": "Les probiotiques (Lactobacillus, Bifidobacterium) restaurent l'équilibre du microbiote, renforcent l'immunité et réduisent l'inflammation liée au vieillissement.",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la technique naturopathique pour améliorer la qualité du sommeil après 50 ans",
+        "options": [
+            "Consommer du café avant le coucher",
+            "Rituel du coucher (infusion de tilleul/passiflore, environnement calme et obscur, cohérence cardiaque)",
+            "Regarder des écrans jusqu'à minuit",
+            "Faire du sport intense le soir"
+        ],
+        "correctAnswers": ["Rituel du coucher (infusion de tilleul/passiflore, environnement calme et obscur, cohérence cardiaque)"],
+        "explanation": "Un rituel apaisant favorise la sécrétion de mélatonine et améliore la qualité du sommeil, souvent perturbé après 50 ans.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le rôle de la silice organique dans la prévention du vieillissement cutané après 50 ans",
+        "options": [
+            "Assécher la peau",
+            "Stimuler la synthèse du collagène et de l'élastine, et améliorer l'hydratation de la peau",
+            "Inhiber la cicatrisation",
+            "Augmenter la rigidité des tissus"
+        ],
+        "correctAnswers": ["Stimuler la synthèse du collagène et de l'élastine, et améliorer l'hydratation de la peau"],
+        "explanation": "La silice organique (prêle, bambou) stimule la production de collagène/élastine, essentielle pour l'élasticité et l'hydratation de la peau.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le protocole naturopathique pour prévenir les troubles cognitifs (Alzheimer, démence) après 50 ans",
+        "options": [
+            "Consommer des aliments ultra-transformés",
+            "Alimentation riche en oméga-3 (poissons gras, noix), antioxydants (baies, légumes verts), exercice physique et stimulation cognitive (lecture, jeux)",
+            "Éviter toute activité sociale",
+            "Dormir moins de 6h par nuit"
+        ],
+        "correctAnswers": ["Alimentation riche en oméga-3 (poissons gras, noix), antioxydants (baies, légumes verts), exercice physique et stimulation cognitive (lecture, jeux)"],
+        "explanation": "La prévention des troubles cognitifs repose sur une alimentation anti-inflammatoire, de l'exercice et une stimulation mentale régulière.",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la plante la plus indiquée pour soutenir la santé cardiovasculaire après 50 ans",
+        "options": [
+            "Ail (Allium sativum)",
+            "Mélisse",
+            "Camomille",
+            "Thym"
+        ],
+        "correctAnswers": ["Ail (Allium sativum)"],
+        "explanation": "L'ail réduit l'hypertension, le cholestérol LDL et l'agrégation plaquettaire, protégeant ainsi le système cardiovasculaire.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le rôle de la coenzyme Q10 après 50 ans",
+        "options": [
+            "Inhiber la production d'énergie mitochondriale",
+            "Soutenir la production d'ATP, protéger le cœur et réduire la fatigue musculaire",
+            "Augmenter le stress oxydatif",
+            "Stimuler la dégradation du collagène"
+        ],
+        "correctAnswers": ["Soutenir la production d'ATP, protéger le cœur et réduire la fatigue musculaire"],
+        "explanation": "La coenzyme Q10 soutient la production d'énergie cellulaire, protège le muscle cardiaque et réduit la fatigue, fréquente après 50 ans.",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la technique naturopathique pour accompagner la sécheresse vaginale liée à la ménopause",
+        "options": [
+            "Utiliser des savons agressifs",
+            "Hydratation locale (huile de coco, gel d'aloe vera) et apport en phytoœstrogènes (lin, soja)",
+            "Éviter toute hydratation",
+            "Consommer des aliments épicés"
+        ],
+        "correctAnswers": ["Hydratation locale (huile de coco, gel d'aloe vera) et apport en phytoœstrogènes (lin, soja)"],
+        "explanation": "La sécheresse vaginale est soulagée par une hydratation locale douce et un apport en phytoœstrogènes pour équilibrer les hormones.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le mécanisme d'action du resvératrol (raisin, vin rouge) sur le vieillissement",
+        "options": [
+            "Stimuler l'inflammation",
+            "Activation des gènes de longévité (sirtuines), protection antioxydante et soutien cardiovasculaire",
+            "Inhiber la synthèse du collagène",
+            "Augmenter la glycémie"
+        ],
+        "correctAnswers": ["Activation des gènes de longévité (sirtuines), protection antioxydante et soutien cardiovasculaire"],
+        "explanation": "Le resvératrol active les sirtuines (gènes de longévité), réduit le stress oxydatif et protège le système cardiovasculaire.",
+        "multiple": false
+    },
+    {
+        "question": "Quels sont les deux aliments à éviter pour prévenir l'inflammation chronique après 50 ans (2 bonnes réponses)",
+        "options": [
+            "Sucres raffinés",
+            "Viandes rouges (excès)",
+            "Légumes verts",
+            "Poissons gras",
+            "Fruits rouges"
         ],
         "correctAnswers": [
-            "Alimentation riche en phytoœstrogènes (lin, soja)",
-            "Plantes adaptogènes (gattilier, maca)",
-            "Gestion du stress (méditation, activité physique)"
+            "Sucres raffinés",
+            "Viandes rouges (excès)"
         ],
-        "explanation": "Le document recommande ces outils pour la ménopause/andropause (p. 11).",
+        "explanation": "Les sucres raffinés et les viandes rouges en excès favorisent l'inflammation chronique, un facteur clé du vieillissement accéléré.",
         "multiple": true
+    },
+    {
+        "question": "Quel est le rôle de l'hydratation après 50 ans",
+        "options": [
+            "Augmenter la rétention d'eau",
+            "Maintien de l'élasticité des tissus, prévention de la constipation et soutien de la fonction rénale",
+            "Inhiber la circulation sanguine",
+            "Réduire la production de salive"
+        ],
+        "correctAnswers": ["Maintien de l'élasticité des tissus, prévention de la constipation et soutien de la fonction rénale"],
+        "explanation": "Une hydratation suffisante après 50 ans préserve l'élasticité des tissus, prévient la constipation et soutient l'élimination rénale.",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la plante la plus indiquée pour soutenir la mémoire et la concentration après 50 ans",
+        "options": [
+            "Bacopa (Bacopa monnieri)",
+            "Mélisse",
+            "Camomille",
+            "Thym"
+        ],
+        "correctAnswers": ["Bacopa (Bacopa monnieri)"],
+        "explanation": "Le bacopa améliore la mémoire, la concentration et la neurogenèse, souvent altérées après 50 ans.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le protocole naturopathique pour prévenir la sarcopénie après 50 ans",
+        "options": [
+            "Éviter toute activité physique",
+            "Exercices de résistance (musculation légère, Pilates), apport protéique suffisant et vitamine D",
+            "Consommer exclusivement des glucides raffinés",
+            "Jeûner pendant 48h"
+        ],
+        "correctAnswers": ["Exercices de résistance (musculation légère, Pilates), apport protéique suffisant et vitamine D"],
+        "explanation": "La prévention de la sarcopénie repose sur des exercices de résistance, un apport protéique adéquat et de la vitamine D pour la synthèse musculaire.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le rôle de la méditation dans la gestion du vieillissement après 50 ans",
+        "options": [
+            "Augmenter le stress oxydatif",
+            "Réduire le cortisol, améliorer la neuroplasticité et soutenir la santé émotionnelle",
+            "Inhiber la production de mélatonine",
+            "Stimuler l'inflammation"
+        ],
+        "correctAnswers": ["Réduire le cortisol, améliorer la neuroplasticité et soutenir la santé émotionnelle"],
+        "explanation": "La méditation réduit le stress (cortisol), améliore la plasticité cérébrale et soutient l'équilibre émotionnel, clé pour un vieillissement réussi.",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la technique naturopathique pour accompagner les troubles de l'équilibre après 50 ans",
+        "options": [
+            "Éviter toute activité physique",
+            "Exercices d'équilibre (Tai Chi, yoga), apport en vitamine B12 et magnésium",
+            "Consommer des aliments riches en caféine",
+            "Regarder des écrans en mouvement"
+        ],
+        "correctAnswers": ["Exercices d'équilibre (Tai Chi, yoga), apport en vitamine B12 et magnésium"],
+        "explanation": "Les troubles de l'équilibre sont prévenus par des exercices spécifiques (Tai Chi), et un apport en B12/magnésium pour le système nerveux.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le rôle de la vitamine B12 après 50 ans",
+        "options": [
+            "Inhiber la synthèse des globules rouges",
+            "Prévenir l'anémie, soutenir la fonction nerveuse et la cognition",
+            "Augmenter l'homocystéine",
+            "Réduire l'absorption du fer"
+        ],
+        "correctAnswers": ["Prévenir l'anémie, soutenir la fonction nerveuse et la cognition"],
+        "explanation": "La vitamine B12 est cruciale pour la synthèse des globules rouges, la santé nerveuse et la prévention du déclin cognitif après 50 ans.",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la plante la plus indiquée pour soutenir la santé prostatique après 50 ans",
+        "options": [
+            "Saw palmetto (Serenoa repens)",
+            "Mélisse",
+            "Camomille",
+            "Thym"
+        ],
+        "correctAnswers": ["Saw palmetto (Serenoa repens)"],
+        "explanation": "Le saw palmetto réduit l'hypertrophie prostatique et les troubles urinaires liés à l'andropause.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le protocole naturopathique pour accompagner les troubles de la mémoire après 50 ans",
+        "options": [
+            "Consommer des aliments riches en graisses trans",
+            "Alimentation riche en antioxydants (baies, légumes verts), oméga-3 (poissons gras), exercice physique et stimulation cognitive",
+            "Éviter toute activité sociale",
+            "Dormir moins de 5h par nuit"
+        ],
+        "correctAnswers": ["Alimentation riche en antioxydants (baies, légumes verts), oméga-3 (poissons gras), exercice physique et stimulation cognitive"],
+        "explanation": "Les troubles de la mémoire sont ralenti par une alimentation antioxydante, des oméga-3, de l'exercice et une stimulation mentale régulière.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le rôle de la spiruline après 50 ans",
+        "options": [
+            "Augmenter la fatigue",
+            "Apport en protéines complètes, fer biodisponible, antioxydants et soutien de l'énergie et de l'immunité",
+            "Inhiber l'absorption des minéraux",
+            "Stimuler l'inflammation"
+        ],
+        "correctAnswers": ["Apport en protéines complètes, fer biodisponible, antioxydants et soutien de l'énergie et de l'immunité"],
+        "explanation": "La spiruline est une source complète de nutriments, idéale pour lutter contre la fatigue, les carences et soutenir l'immunité après 50 ans.",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la technique naturopathique pour accompagner les troubles du sommeil après 50 ans",
+        "options": [
+            "Boire du café avant le coucher",
+            "Rituel du coucher (infusion de passiflore/valériane, environnement calme, cohérence cardiaque)",
+            "Faire du sport intense le soir",
+            "Regarder des écrans jusqu'à minuit"
+        ],
+        "correctAnswers": ["Rituel du coucher (infusion de passiflore/valériane, environnement calme, cohérence cardiaque)"],
+        "explanation": "Un rituel apaisant (plantes sédatives, environnement calme) favorise la sécrétion de mélatonine et améliore le sommeil.",
+        "multiple": false
     }
 ]

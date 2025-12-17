@@ -1,482 +1,483 @@
-const questionsDereglementsOsteo = [
+const questionsDereglementsOsteo = 
+[
     {
-        "question": "Selon le document ISUPNAT, quel est le rôle principal du système ostéomusculaire dans la physiologie humaine ?",
+        "question": "Quel est le rôle principal du système ostéomusculaire selon l'approche naturopathique",
         "options": [
-            "Le système ostéomusculaire assure la forme, la stabilité, le mouvement et la capacité d'action du corps, tout en servant de réservoir protéique (muscles) et minéral (os), et en interagissant avec les autres systèmes (nerveux, circulatoire, etc.).",
-            "Le système ostéomusculaire produit des hormones pour réguler le métabolisme.",
-            "Le système ostéomusculaire filtre les toxines sanguines et produit des anticorps.",
-            "Le système ostéomusculaire contrôle exclusivement la température corporelle."
+            "Production exclusive d'hormones",
+            "Maintien de la forme, de la stabilité, du mouvement et stockage des réserves protéiques (muscles) et minérales (os)",
+            "Régulation de la température corporelle uniquement",
+            "Filtrage des toxines sanguines"
         ],
-        "correctAnswers": ["Le système ostéomusculaire assure la forme, la stabilité, le mouvement et la capacité d'action du corps, tout en servant de réservoir protéique (muscles) et minéral (os), et en interagissant avec les autres systèmes (nerveux, circulatoire, etc.)."],
-        "explanation": "Le document décrit ces fonctions comme centrales pour le système ostéomusculaire (p. 3).",
+        "correctAnswers": ["Maintien de la forme, de la stabilité, du mouvement et stockage des réserves protéiques (muscles) et minérales (os)"],
+        "explanation": "Le système ostéomusculaire assure la forme, la stabilité, le mouvement et la capacité d'action du corps, tout en servant de réservoir protéique (muscles) et minéral (os).",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois éléments constitutifs du système ostéomusculaire, selon le document ? (3 bonnes réponses)",
+        "question": "Quels sont les deux minéraux essentiels pour le fonctionnement musculaire (2 bonnes réponses)",
         "options": [
-            "Os",
-            "Muscles",
-            "Tendons et ligaments",
-            "Rate",
-            "Poumons",
-            "Foie"
+            "Calcium",
+            "Magnésium",
+            "Fer",
+            "Zinc",
+            "Cuivre"
         ],
         "correctAnswers": [
-            "Os",
-            "Muscles",
-            "Tendons et ligaments"
+            "Calcium",
+            "Magnésium"
         ],
-        "explanation": "Le document liste ces éléments comme constitutifs du système ostéomusculaire (p. 3).",
+        "explanation": "Le calcium et le magnésium sont indispensables pour la contraction musculaire, la transmission de l'influx nerveux et la régénération des fibres musculaires.",
         "multiple": true
     },
     {
-        "question": "Quel est le lien entre le système ostéomusculaire et le système nerveux, selon le document ?",
+        "question": "Quel est le mécanisme par lequel le stress chronique affecte la santé ostéomusculaire",
         "options": [
-            "Le système nerveux stimule l'activité musculaire, régule les mouvements et permet la sensation de douleur et de mobilité dans les articulations, tandis que le système osseux protège l'encéphale et la moelle épinière.",
-            "Le système ostéomusculaire n'a aucun lien avec le système nerveux.",
-            "Le système ostéomusculaire bloque la production de neurotransmetteurs.",
-            "Le système ostéomusculaire stimule exclusivement la production de mucus."
+            "Augmentation de la densité osseuse",
+            "Déséquilibre du cortisol, catabolisme musculaire et inhibition de la régénération osseuse",
+            "Stimulation de la synthèse du collagène",
+            "Réduction de la sensibilité à la douleur"
         ],
-        "correctAnswers": ["Le système nerveux stimule l'activité musculaire, régule les mouvements et permet la sensation de douleur et de mobilité dans les articulations, tandis que le système osseux protège l'encéphale et la moelle épinière."],
-        "explanation": "Le document explique cette interdépendance (p. 3).",
+        "correctAnswers": ["Déséquilibre du cortisol, catabolisme musculaire et inhibition de la régénération osseuse"],
+        "explanation": "Le stress chronique élève le cortisol, favorisant le catabolisme musculaire (perte de masse) et inhibant la régénération osseuse (ostéoblastes), affaiblissant ainsi le système ostéomusculaire.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois rôles de l'activité physique régulière sur le système ostéomusculaire, selon le document ? (3 bonnes réponses)",
+        "question": "Quelle est la plante adaptogène la plus indiquée pour soutenir la récupération musculaire après un effort intense",
         "options": [
-            "Développement de la masse et de la qualité musculaire",
-            "Densification des os par augmentation des contraintes mécaniques",
-            "Amélioration de la mobilité articulaire et de l'élasticité des ligaments",
-            "Stimulation exclusive de la production d'anticorps",
-            "Blocage de la circulation sanguine",
-            "Augmentation de la température corporelle"
+            "Ginseng",
+            "Rhodiola rosea",
+            "Valériane",
+            "Passiflore"
         ],
-        "correctAnswers": [
-            "Développement de la masse et de la qualité musculaire",
-            "Densification des os par augmentation des contraintes mécaniques",
-            "Amélioration de la mobilité articulaire et de l'élasticité des ligaments"
-        ],
-        "explanation": "Le document détaille ces bienfaits de l'activité physique (p. 4).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le mécanisme des douleurs musculaires locales, selon le document ?",
-        "options": [
-            "Les douleurs musculaires locales sont souvent dues à une saturation du muscle en déchets (acides, toxines), entraînant une contraction et une inflammation, même en l'absence de mouvement excessif.",
-            "Les douleurs musculaires sont toujours causées par une infection bactérienne.",
-            "Les douleurs musculaires bloquent la production d'enzymes digestives.",
-            "Les douleurs musculaires stimulent la production de mucus intestinal."
-        ],
-        "correctAnswers": ["Les douleurs musculaires locales sont souvent dues à une saturation du muscle en déchets (acides, toxines), entraînant une contraction et une inflammation, même en l'absence de mouvement excessif."],
-        "explanation": "Le document explique ce mécanisme pour les douleurs musculaires (p. 6).",
+        "correctAnswers": ["Rhodiola rosea"],
+        "explanation": "La rhodiola rosea, adaptogène, réduit la fatigue musculaire, améliore la récupération et protège contre le stress oxydatif induit par l'effort.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois symptômes principaux de la fibromyalgie, selon le document ? (3 bonnes réponses)",
+        "question": "Quel est le rôle de la vitamine D dans la santé osseuse",
         "options": [
-            "Douleurs diffuses musculaires et osseuses",
-            "Fatigue chronique",
-            "Troubles du sommeil",
-            "Hypertension artérielle",
-            "Diabète de type 2",
-            "Ostéoporose"
+            "Inhibition de l'absorption du calcium",
+            "Favorisation de l'absorption intestinale du calcium et régulation de la minéralisation osseuse",
+            "Stimulation de la dégradation du collagène",
+            "Réduction de la synthèse des ostéoblastes"
         ],
-        "correctAnswers": [
-            "Douleurs diffuses musculaires et osseuses",
-            "Fatigue chronique",
-            "Troubles du sommeil"
-        ],
-        "explanation": "Le document cite ces symptômes comme caractéristiques de la fibromyalgie (p. 6).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle de la chaleur dans la régénération musculaire, selon le document ?",
-        "options": [
-            "La chaleur (bouillotte, cataplasmes, sauna) augmente la vascularisation locale, favorise l'apport de nutriments et l'élimination des toxines, accélérant ainsi la régénération et la détoxination du muscle.",
-            "La chaleur bloque la production d'enzymes digestives.",
-            "La chaleur stimule la production de mucus intestinal.",
-            "La chaleur n'a aucun effet sur les muscles."
-        ],
-        "correctAnswers": ["La chaleur (bouillotte, cataplasmes, sauna) augmente la vascularisation locale, favorise l'apport de nutriments et l'élimination des toxines, accélérant ainsi la régénération et la détoxination du muscle."],
-        "explanation": "Le document décrit les bienfaits de la chaleur pour les muscles (p. 8).",
+        "correctAnswers": ["Favorisation de l'absorption intestinale du calcium et régulation de la minéralisation osseuse"],
+        "explanation": "La vitamine D augmente l'absorption intestinale du calcium et régule sa fixation sur les os, prévenant ainsi l'ostéoporose et les fractures.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois outils naturopathiques pour évacuer les toxines musculaires, selon le document ? (3 bonnes réponses)",
+        "question": "Quels sont les deux facteurs de risque majeurs pour l'ostéoporose (2 bonnes réponses)",
         "options": [
-            "Diètes hydriques ou monodiètes de fruits/légumes",
-            "Cure d'eau distillée",
-            "Plantes diurétiques (queue de cerise, pissenlit)",
-            "Prescription d'antibiotiques",
-            "Utilisation de corticoïdes",
-            "Supplémentation en fer"
-        ],
-        "correctAnswers": [
-            "Diètes hydriques ou monodiètes de fruits/légumes",
-            "Cure d'eau distillée",
-            "Plantes diurétiques (queue de cerise, pissenlit)"
-        ],
-        "explanation": "Le document recommande ces outils pour détoxifier les muscles (p. 8).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle des protéines dans la régénération musculaire, selon le document ?",
-        "options": [
-            "Les protéines (œufs, amandes, poisson cru) apportent les acides aminés nécessaires à la reconstruction et à la régénération musculaire, et doivent être équilibrées et peu encrassantes.",
-            "Les protéines bloquent la production d'enzymes digestives.",
-            "Les protéines stimulent la production de mucus intestinal.",
-            "Les protéines n'ont aucun rôle dans la régénération musculaire."
-        ],
-        "correctAnswers": ["Les protéines (œufs, amandes, poisson cru) apportent les acides aminés nécessaires à la reconstruction et à la régénération musculaire, et doivent être équilibrées et peu encrassantes."],
-        "explanation": "Le document souligne l'importance des protéines pour les muscles (p. 9).",
-        "multiple": false
-    },
-    {
-        "question": "Quels sont les trois nutriments essentiels pour la santé musculaire, selon le document ? (3 bonnes réponses)",
-        "options": [
-            "Protéines équilibrées (œufs, poisson)",
-            "Glucides naturels (fruits, légumes)",
-            "Minéraux (calcium, magnésium)",
-            "Vitamine K",
-            "Acides gras trans",
-            "Sucres raffinés"
-        ],
-        "correctAnswers": [
-            "Protéines équilibrées (œufs, poisson)",
-            "Glucides naturels (fruits, légumes)",
-            "Minéraux (calcium, magnésium)"
-        ],
-        "explanation": "Le document liste ces nutriments comme essentiels pour les muscles (p. 9).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle du stress dans les déséquilibres ostéo-musculaires, selon le document ?",
-        "options": [
-            "Le stress prolongé acidifie l'organisme, génère des carences, une dévitalisation et des déséquilibres ostéo-musculaires, et doit être géré en parallèle des autres techniques naturopathiques.",
-            "Le stress n'a aucun impact sur les muscles et les os.",
-            "Le stress stimule la production d'enzymes digestives.",
-            "Le stress améliore l'absorption des nutriments."
-        ],
-        "correctAnswers": ["Le stress prolongé acidifie l'organisme, génère des carences, une dévitalisation et des déséquilibres ostéo-musculaires, et doit être géré en parallèle des autres techniques naturopathiques."],
-        "explanation": "Le document explique l'impact du stress sur le système ostéomusculaire (p. 9).",
-        "multiple": false
-    },
-    {
-        "question": "Quels sont les trois outils naturopathiques pour gérer le stress dans la fibromyalgie, selon le document ? (3 bonnes réponses)",
-        "options": [
-            "Rituel de sommeil (extinction des écrans, tisane)",
-            "Contact avec les éléments vitalogènes (marche en forêt, bain de soleil)",
-            "Biothérapies complémentaires (plasma marin, magnésium)",
-            "Prescription d'anxiolytiques",
-            "Utilisation de corticoïdes",
-            "Supplémentation en fer"
-        ],
-        "correctAnswers": [
-            "Rituel de sommeil (extinction des écrans, tisane)",
-            "Contact avec les éléments vitalogènes (marche en forêt, bain de soleil)",
-            "Biothérapies complémentaires (plasma marin, magnésium)"
-        ],
-        "explanation": "Le document recommande ces outils pour la fibromyalgie (p. 9).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle des os dans le système ostéo-articulaire, selon le document ?",
-        "options": [
-            "Les os ont un rôle mécanique (soutien), protecteur (encéphale, moelle épinière), synthétique (réservoir de calcium) et métabolique (équilibre acido-basique).",
-            "Les os produisent des hormones pour réguler le métabolisme.",
-            "Les os filtrent les toxines sanguines et produisent des anticorps.",
-            "Les os contrôlent exclusivement la température corporelle."
-        ],
-        "correctAnswers": ["Les os ont un rôle mécanique (soutien), protecteur (encéphale, moelle épinière), synthétique (réservoir de calcium) et métabolique (équilibre acido-basique)."],
-        "explanation": "Le document décrit ces rôles pour les os (p. 11).",
-        "multiple": false
-    },
-    {
-        "question": "Quels sont les trois composants principaux du tissu osseux, selon le document ? (3 bonnes réponses)",
-        "options": [
-            "Osséine (collagène, 1/3)",
-            "Phosphate de calcium (85%)",
-            "Carbonate de calcium (9%)",
-            "Cholestérol",
-            "Glucides",
-            "Protéines végétales"
-        ],
-        "correctAnswers": [
-            "Osséine (collagène, 1/3)",
-            "Phosphate de calcium (85%)",
-            "Carbonate de calcium (9%)"
-        ],
-        "explanation": "Le document détaille la composition du tissu osseux (p. 12).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle des ostéoclastes et des ostéoblastes, selon le document ?",
-        "options": [
-            "Les ostéoclastes détruisent l'os (résorption) pour permettre son remodelage, tandis que les ostéoblastes construisent le tissu osseux (formation) et sécrètent la matrice organique.",
-            "Les ostéoclastes et ostéoblastes produisent des anticorps.",
-            "Les ostéoclastes et ostéoblastes bloquent la production d'enzymes digestives.",
-            "Les ostéoclastes et ostéoblastes n'ont aucun rôle dans la santé osseuse."
-        ],
-        "correctAnswers": ["Les ostéoclastes détruisent l'os (résorption) pour permettre son remodelage, tandis que les ostéoblastes construisent le tissu osseux (formation) et sécrètent la matrice organique."],
-        "explanation": "Le document explique le rôle de ces cellules dans le remodelage osseux (p. 12).",
-        "multiple": false
-    },
-    {
-        "question": "Quels sont les trois facteurs de fragilité osseuse, selon le document ? (3 bonnes réponses)",
-        "options": [
-            "Carence en calcium et vitamine D",
-            "Déséquilibre acido-basique (excès d'acides)",
-            "Sédentarité (manque de contraintes mécaniques)",
+            "Carence en vitamine D et en calcium",
+            "Sédentarité",
             "Excès de protéines végétales",
-            "Supplémentation en oméga-3",
-            "Consommation exclusive de fruits"
+            "Consommation régulière de légumes verts",
+            "Hydratation excessive"
         ],
         "correctAnswers": [
-            "Carence en calcium et vitamine D",
-            "Déséquilibre acido-basique (excès d'acides)",
-            "Sédentarité (manque de contraintes mécaniques)"
+            "Carence en vitamine D et en calcium",
+            "Sédentarité"
         ],
-        "explanation": "Le document cite ces facteurs comme affaiblissant les os (p. 14).",
+        "explanation": "L'ostéoporose est favorisée par un apport insuffisant en vitamine D/calcium (minéralisation) et la sédentarité (manque de stimulation mécanique sur les os).",
         "multiple": true
     },
     {
-        "question": "Quel est le mécanisme de l'ostéoporose, selon le document ?",
+        "question": "Quel est le protocole naturopathique pour accompagner une tendinite",
         "options": [
-            "L'ostéoporose est une diminution de la densité osseuse due à un déséquilibre entre résorption (ostéoclastes) et formation (ostéoblastes), favorisée par des carences, un déséquilibre acido-basique et la sédentarité.",
-            "L'ostéoporose est causée par une infection bactérienne exclusive.",
-            "L'ostéoporose stimule la production d'anticorps.",
-            "L'ostéoporose n'a aucun lien avec l'alimentation."
+            "Immobilisation totale et consommation de sucres raffinés",
+            "Repos relatif, application de froid local, curcuma (anti-inflammatoire) et renforcement progressif",
+            "Jeûne sec de 48h",
+            "Massage profond immédiat sur la zone douloureuse"
         ],
-        "correctAnswers": ["L'ostéoporose est une diminution de la densité osseuse due à un déséquilibre entre résorption (ostéoclastes) et formation (ostéoblastes), favorisée par des carences, un déséquilibre acido-basique et la sédentarité."],
-        "explanation": "Le document décrit ce mécanisme pour l'ostéoporose (p. 16).",
+        "correctAnswers": ["Repos relatif, application de froid local, curcuma (anti-inflammatoire) et renforcement progressif"],
+        "explanation": "Une tendinite nécessite du repos relatif, du froid pour réduire l'inflammation, du curcuma (anti-inflammatoire naturel) et un renforcement progressif pour éviter les récidives.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois outils naturopathiques pour prévenir l'ostéoporose, selon le document ? (3 bonnes réponses)",
+        "question": "Quel est le rôle de l'harpagophytum (griffe du diable) dans les troubles ostéo-articulaires",
         "options": [
-            "Alimentation alcalinisante (légumes, amandes)",
-            "Apport en calcium et vitamine D (soleil, petits poissons gras)",
-            "Activité physique porteuse (marche, musculation douce)",
-            "Prescription de bisphosphonates",
-            "Utilisation de corticoïdes",
-            "Supplémentation en fer"
+            "Stimulation de la dégradation du cartilage",
+            "Action anti-inflammatoire et analgésique sur les douleurs articulaires",
+            "Inhibition de la synthèse du collagène",
+            "Augmentation de la rigidité articulaire"
         ],
-        "correctAnswers": [
-            "Alimentation alcalinisante (légumes, amandes)",
-            "Apport en calcium et vitamine D (soleil, petits poissons gras)",
-            "Activité physique porteuse (marche, musculation douce)"
-        ],
-        "explanation": "Le document recommande ces outils pour l'ostéoporose (p. 16).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle des articulations dans le système ostéo-articulaire, selon le document ?",
-        "options": [
-            "Les articulations permettent la mobilité et protègent les extrémités osseuses grâce au cartilage et à la synovie, tout en assurant l'amortissement des chocs.",
-            "Les articulations produisent des hormones pour réguler le métabolisme.",
-            "Les articulations filtrent les toxines sanguines et produisent des anticorps.",
-            "Les articulations contrôlent exclusivement la température corporelle."
-        ],
-        "correctAnswers": ["Les articulations permettent la mobilité et protègent les extrémités osseuses grâce au cartilage et à la synovie, tout en assurant l'amortissement des chocs."],
-        "explanation": "Le document décrit ces rôles pour les articulations (p. 19).",
+        "correctAnswers": ["Action anti-inflammatoire et analgésique sur les douleurs articulaires"],
+        "explanation": "L'harpagophytum réduit l'inflammation et la douleur articulaire grâce à ses harpagoside, sans effet secondaire digestif majeur.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois outils naturopathiques pour accompagner les pathologies articulaires, selon le document ? (3 bonnes réponses)",
+        "question": "Quelle est la technique manuelle la plus adaptée pour soulager une scoliose",
         "options": [
-            "Alimentation anti-inflammatoire (oméga-3, curcuma)",
-            "Chaleur locale (cataplasmes, bouillotte)",
-            "Exercices de mobilité douce (yoga, étirements)",
-            "Prescription d'anti-inflammatoires non stéroïdiens",
-            "Utilisation de corticoïdes",
-            "Supplémentation en fer"
+            "Massage suédois profond",
+            "Ostéopathie structurelle et étirements asymétriques",
+            "Réflexologie plantaire exclusive",
+            "Application de ventouses sur le dos"
         ],
-        "correctAnswers": [
-            "Alimentation anti-inflammatoire (oméga-3, curcuma)",
-            "Chaleur locale (cataplasmes, bouillotte)",
-            "Exercices de mobilité douce (yoga, étirements)"
-        ],
-        "explanation": "Le document recommande ces outils pour les articulations (p. 19).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le mécanisme de l'arthrose, selon le document ?",
-        "options": [
-            "L'arthrose est une dégénérescence du cartilage articulaire due à un déséquilibre entre destruction (enzymes, radicaux libres) et régénération (chondrocytes), favorisée par l'acidité, les carences et le manque de mouvement.",
-            "L'arthrose est causée par une infection bactérienne exclusive.",
-            "L'arthrose stimule la production d'anticorps.",
-            "L'arthrose n'a aucun lien avec l'alimentation."
-        ],
-        "correctAnswers": ["L'arthrose est une dégénérescence du cartilage articulaire due à un déséquilibre entre destruction (enzymes, radicaux libres) et régénération (chondrocytes), favorisée par l'acidité, les carences et le manque de mouvement."],
-        "explanation": "Le document explique ce mécanisme pour l'arthrose (p. 19).",
+        "correctAnswers": ["Ostéopathie structurelle et étirements asymétriques"],
+        "explanation": "L'ostéopathie structurelle corrige les déséquilibres posturaux et les étirements asymétriques rééquilibrent les tensions musculaires liées à la scoliose.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois outils naturopathiques pour accompagner l'arthrose, selon le document ? (3 bonnes réponses)",
+        "question": "Quel est le mécanisme d'action du silicium organique sur la régénération des tissus conjonctifs",
         "options": [
-            "Alimentation alcaline et riche en collagène (bouillon d'os, légumes)",
-            "Supplémentation en glucosamine et chondroïtine",
-            "Activité physique adaptée (natation, vélo)",
-            "Prescription d'anti-inflammatoires non stéroïdiens",
-            "Utilisation de corticoïdes",
-            "Supplémentation en fer"
+            "Inhibition de la synthèse du collagène",
+            "Stimulation de la synthèse du collagène et de l'élastine, et minéralisation des os",
+            "Augmentation de la rigidité articulaire",
+            "Réduction de l'hydratation des tissus"
         ],
-        "correctAnswers": [
-            "Alimentation alcaline et riche en collagène (bouillon d'os, légumes)",
-            "Supplémentation en glucosamine et chondroïtine",
-            "Activité physique adaptée (natation, vélo)"
-        ],
-        "explanation": "Le document recommande ces outils pour l'arthrose (p. 19).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle des tendinites dans les déséquilibres ostéo-musculaires, selon le document ?",
-        "options": [
-            "Les tendinites sont des inflammations des tendons dues à des micro-traumatismes répétés, une acidité tissulaire ou des carences, et nécessitent repos, chaleur et drainage des acides.",
-            "Les tendinites sont causées par une infection bactérienne exclusive.",
-            "Les tendinites stimulent la production d'anticorps.",
-            "Les tendinites n'ont aucun lien avec l'alimentation."
-        ],
-        "correctAnswers": ["Les tendinites sont des inflammations des tendons dues à des micro-traumatismes répétés, une acidité tissulaire ou des carences, et nécessitent repos, chaleur et drainage des acides."],
-        "explanation": "Le document décrit ce mécanisme pour les tendinites (p. 6).",
+        "correctAnswers": ["Stimulation de la synthèse du collagène et de l'élastine, et minéralisation des os"],
+        "explanation": "Le silicium organique stimule la synthèse du collagène et de l'élastine, essentiels pour la souplesse des tissus conjonctifs et la minéralisation osseuse.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois outils naturopathiques pour accompagner une tendinite, selon le document ? (3 bonnes réponses)",
+        "question": "Quels sont les deux aliments les plus riches en collagène naturel (2 bonnes réponses)",
         "options": [
-            "Repos et glace en phase aiguë",
-            "Chaleur locale (cataplasme d'argile) en phase chronique",
-            "Drainage des acides (cure d'eau distillée, plantes diurétiques)",
-            "Prescription d'anti-inflammatoires non stéroïdiens",
-            "Utilisation de corticoïdes",
-            "Supplémentation en fer"
+            "Bouillon d'os",
+            "Poissons gras (saumon, sardines)",
+            "Légumes verts",
+            "Fruits rouges",
+            "Céréales complètes"
         ],
         "correctAnswers": [
-            "Repos et glace en phase aiguë",
-            "Chaleur locale (cataplasme d'argile) en phase chronique",
-            "Drainage des acides (cure d'eau distillée, plantes diurétiques)"
+            "Bouillon d'os",
+            "Poissons gras (saumon, sardines)"
         ],
-        "explanation": "Le document recommande ces outils pour les tendinites (p. 6).",
+        "explanation": "Le bouillon d'os et les poissons gras sont riches en collagène et en acides aminés soufrés, essentiels pour la réparation des tissus conjonctifs et articulaires.",
         "multiple": true
     },
     {
-        "question": "Quel est le mécanisme de la scoliose, selon le document ?",
+        "question": "Quel est le rôle de la glucosamine dans la santé articulaire",
         "options": [
-            "La scoliose est une déviation latérale de la colonne vertébrale, souvent liée à des déséquilibres musculaires, posturaux ou nerveux, et nécessite un travail global (étirements, renforcement, posture).",
-            "La scoliose est causée par une infection bactérienne exclusive.",
-            "La scoliose stimule la production d'anticorps.",
-            "La scoliose n'a aucun lien avec la posture."
+            "Dégradation du cartilage",
+            "Stimulation de la synthèse des protéoglycanes et protection du cartilage articulaire",
+            "Inhibition de la lubrification articulaire",
+            "Augmentation de l'inflammation"
         ],
-        "correctAnswers": ["La scoliose est une déviation latérale de la colonne vertébrale, souvent liée à des déséquilibres musculaires, posturaux ou nerveux, et nécessite un travail global (étirements, renforcement, posture)."],
-        "explanation": "Le document explique ce mécanisme pour la scoliose (p. 6).",
+        "correctAnswers": ["Stimulation de la synthèse des protéoglycanes et protection du cartilage articulaire"],
+        "explanation": "La glucosamine stimule la synthèse des protéoglycanes, composants majeurs du cartilage, et protège contre sa dégradation (arthrose).",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois outils naturopathiques pour accompagner une scoliose, selon le document ? (3 bonnes réponses)",
+        "question": "Quelle est la technique naturopathique recommandée pour soulager une crise de fibromyalgie",
         "options": [
-            "Étirements des muscles courts/contracturés (psoas, dorsaux)",
-            "Renforcement des muscles longs/affaiblis (abdominaux, érecteurs du rachis)",
-            "Techniques manuelles (massage, ostéopathie)",
-            "Prescription d'anti-inflammatoires non stéroïdiens",
-            "Utilisation de corticoïdes",
-            "Supplémentation en fer"
+            "Jeûne sec de 72h",
+            "Bains chauds aux sels de magnésium, massages doux et gestion du stress (cohérence cardiaque)",
+            "Consommation exclusive de produits laitiers",
+            "Exercices intenses immédiats"
         ],
-        "correctAnswers": [
-            "Étirements des muscles courts/contracturés (psoas, dorsaux)",
-            "Renforcement des muscles longs/affaiblis (abdominaux, érecteurs du rachis)",
-            "Techniques manuelles (massage, ostéopathie)"
-        ],
-        "explanation": "Le document recommande ces outils pour la scoliose (p. 6).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle du périoste dans la physiologie osseuse, selon le document ?",
-        "options": [
-            "Le périoste est une membrane de tissu conjonctif qui recouvre l'os (sauf les surfaces articulaires), assure sa croissance en épaisseur et participe à la réparation osseuse.",
-            "Le périoste produit des hormones pour réguler le métabolisme.",
-            "Le périoste filtre les toxines sanguines et produit des anticorps.",
-            "Le périoste contrôle exclusivement la température corporelle."
-        ],
-        "correctAnswers": ["Le périoste est une membrane de tissu conjonctif qui recouvre l'os (sauf les surfaces articulaires), assure sa croissance en épaisseur et participe à la réparation osseuse."],
-        "explanation": "Le document décrit ce rôle pour le périoste (p. 12).",
+        "correctAnswers": ["Bains chauds aux sels de magnésium, massages doux et gestion du stress (cohérence cardiaque)"],
+        "explanation": "Les bains chauds au magnésium détendent les muscles, les massages doux réduisent les tensions, et la cohérence cardiaque limite l'impact du stress sur la fibromyalgie.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois rôles des ostéocytes, selon le document ? (3 bonnes réponses)",
+        "question": "Quel est le rôle de l'exercice physique adapté dans la prévention de l'ostéoporose",
         "options": [
-            "Maintenance de la matrice osseuse",
-            "Transmission des informations mécaniques et chimiques",
-            "Régulation des échanges calciques (équilibre acido-basique)",
-            "Production d'anticorps",
-            "Blocage de la production d'enzymes digestives",
-            "Stimulation de la production de mucus intestinal"
+            "Augmentation de la résorption osseuse",
+            "Stimulation de la formation osseuse par les contraintes mécaniques et amélioration de la densité minérale",
+            "Inhibition de l'absorption du calcium",
+            "Réduction de la synthèse de vitamine D"
         ],
-        "correctAnswers": [
-            "Maintenance de la matrice osseuse",
-            "Transmission des informations mécaniques et chimiques",
-            "Régulation des échanges calciques (équilibre acido-basique)"
-        ],
-        "explanation": "Le document détaille ces rôles pour les ostéocytes (p. 12).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le mécanisme de la croissance osseuse, selon le document ?",
-        "options": [
-            "La croissance osseuse se fait par ossification des cartilages de conjugaison (en longueur) et des points d'ossification (en épaisseur), sous l'effet des hormones et des contraintes mécaniques.",
-            "La croissance osseuse est causée par une infection bactérienne exclusive.",
-            "La croissance osseuse stimule la production d'anticorps.",
-            "La croissance osseuse n'a aucun lien avec l'alimentation."
-        ],
-        "correctAnswers": ["La croissance osseuse se fait par ossification des cartilages de conjugaison (en longueur) et des points d'ossification (en épaisseur), sous l'effet des hormones et des contraintes mécaniques."],
-        "explanation": "Le document explique ce mécanisme pour la croissance osseuse (p. 13).",
+        "correctAnswers": ["Stimulation de la formation osseuse par les contraintes mécaniques et amélioration de la densité minérale"],
+        "explanation": "L'exercice physique adapté (marche, musculation légère) stimule la formation osseuse via les contraintes mécaniques, augmentant ainsi la densité minérale osseuse.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois outils naturopathiques pour accompagner une lombalgie, selon le document ? (3 bonnes réponses)",
+        "question": "Quelle est la plante la plus indiquée pour réduire l'inflammation articulaire dans l'arthrose",
         "options": [
-            "Chaleur locale (bouillotte, cataplasme)",
-            "Étirements et renforcement des muscles lombaires/abdominaux",
-            "Gestion du stress (relaxation, cohérence cardiaque)",
-            "Prescription d'anti-inflammatoires non stéroïdiens",
-            "Utilisation de corticoïdes",
-            "Supplémentation en fer"
+            "Reine-des-prés",
+            "Curcuma",
+            "Valériane",
+            "Mélisse"
         ],
-        "correctAnswers": [
-            "Chaleur locale (bouillotte, cataplasme)",
-            "Étirements et renforcement des muscles lombaires/abdominaux",
-            "Gestion du stress (relaxation, cohérence cardiaque)"
-        ],
-        "explanation": "Le document recommande ces outils pour la lombalgie (p. 6).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle de la vitamine D dans la santé osseuse, selon le document ?",
-        "options": [
-            "La vitamine D est essentielle pour l'assimilation du calcium alimentaire et la minéralisation osseuse, et sa carence favorise l'ostéoporose et les fractures.",
-            "La vitamine D n'a aucun rôle dans la santé osseuse.",
-            "La vitamine D stimule la production d'anticorps.",
-            "La vitamine D bloque la production d'enzymes digestives."
-        ],
-        "correctAnswers": ["La vitamine D est essentielle pour l'assimilation du calcium alimentaire et la minéralisation osseuse, et sa carence favorise l'ostéoporose et les fractures."],
-        "explanation": "Le document souligne l'importance de la vitamine D pour les os (p. 9).",
+        "correctAnswers": ["Curcuma"],
+        "explanation": "Le curcuma, grâce à sa curcumine, inhibe les cytokines pro-inflammatoires (NF-κB) et réduit la dégradation du cartilage dans l'arthrose.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois outils naturopathiques pour accompagner une hernie discale, selon le document ? (3 bonnes réponses)",
+        "question": "Quel est le protocole naturopathique pour accompagner une arthrose du genou",
         "options": [
-            "Repos relatif et éviter les ports de charge",
-            "Techniques manuelles douces (ostéopathie, étirements)",
-            "Alimentation anti-inflammatoire (oméga-3, curcuma)",
-            "Prescription d'anti-inflammatoires non stéroïdiens",
-            "Utilisation de corticoïdes",
-            "Supplémentation en fer"
+            "Immobilisation totale et consommation de sucres raffinés",
+            "Alimentation anti-inflammatoire (oméga-3, curcuma), exercices doux (natation) et compléments (glucosamine, chondroïtine)",
+            "Jeûne sec de 5 jours",
+            "Application de glace pendant 24h"
+        ],
+        "correctAnswers": ["Alimentation anti-inflammatoire (oméga-3, curcuma), exercices doux (natation) et compléments (glucosamine, chondroïtine)"],
+        "explanation": "L'arthrose du genou est accompagnée par une alimentation anti-inflammatoire, des exercices doux (natation) pour mobiliser sans forcer, et des compléments (glucosamine, chondroïtine) pour protéger le cartilage.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le rôle de la chondroïtine dans la santé articulaire",
+        "options": [
+            "Inhibition de la synthèse du collagène",
+            "Maintien de l'hydratation du cartilage et stimulation de la synthèse des protéoglycanes",
+            "Augmentation de la rigidité articulaire",
+            "Réduction de la lubrification articulaire"
+        ],
+        "correctAnswers": ["Maintien de l'hydratation du cartilage et stimulation de la synthèse des protéoglycanes"],
+        "explanation": "La chondroïtine maintient l'hydratation du cartilage et stimule la synthèse des protéoglycanes, essentiels pour l'élasticité et la résistance du cartilage articulaire.",
+        "multiple": false
+    },
+    {
+        "question": "Quels sont les deux minéraux essentiels pour prévenir les crampes musculaires (2 bonnes réponses)",
+        "options": [
+            "Magnésium",
+            "Potassium",
+            "Fer",
+            "Cuivre",
+            "Sélénium"
         ],
         "correctAnswers": [
-            "Repos relatif et éviter les ports de charge",
-            "Techniques manuelles douces (ostéopathie, étirements)",
-            "Alimentation anti-inflammatoire (oméga-3, curcuma)"
+            "Magnésium",
+            "Potassium"
         ],
-        "explanation": "Le document recommande ces outils pour la hernie discale (p. 6).",
+        "explanation": "Le magnésium et le potassium sont cruciaux pour la relaxation musculaire et la transmission de l'influx nerveux, prévenant ainsi les crampes.",
         "multiple": true
+    },
+    {
+        "question": "Quel est le mécanisme d'action des cataplasmes d'argile sur les douleurs articulaires",
+        "options": [
+            "Stimulation de l'inflammation",
+            "Absorption des toxines locales, effet anti-inflammatoire et analgésique",
+            "Augmentation de la température articulaire",
+            "Inhibition de la circulation sanguine"
+        ],
+        "correctAnswers": ["Absorption des toxines locales, effet anti-inflammatoire et analgésique"],
+        "explanation": "Les cataplasmes d'argile absorbent les toxines locales, réduisent l'inflammation et soulagent la douleur articulaire par leur effet tampon et minéralisant.",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la technique naturopathique pour accompagner une sciatique",
+        "options": [
+            "Immobilisation totale",
+            "Étirements doux, chaleur locale (bouillotte) et plantes anti-inflammatoires (harpagophytum)",
+            "Consommation exclusive de produits laitiers",
+            "Massage profond immédiat sur la zone douloureuse"
+        ],
+        "correctAnswers": ["Étirements doux, chaleur locale (bouillotte) et plantes anti-inflammatoires (harpagophytum)"],
+        "explanation": "La sciatique est soulagée par des étirements doux (décompression nerveuse), de la chaleur locale (détente musculaire) et des plantes anti-inflammatoires (harpagophytum).",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le rôle de la silice dans la régénération des tendons et ligaments",
+        "options": [
+            "Inhibition de la synthèse du collagène",
+            "Stimulation de la synthèse des fibres de collagène et d'élastine",
+            "Augmentation de la rigidité des tissus",
+            "Réduction de l'hydratation des tendons"
+        ],
+        "correctAnswers": ["Stimulation de la synthèse des fibres de collagène et d'élastine"],
+        "explanation": "La silice stimule la synthèse du collagène et de l'élastine, renforçant ainsi la résistance et l'élasticité des tendons et ligaments.",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la plante la plus efficace pour soulager les douleurs de la fibromyalgie",
+        "options": [
+            "Griffe du diable (harpagophytum)",
+            "Millepertuis",
+            "Valériane",
+            "Passiflore"
+        ],
+        "correctAnswers": ["Griffe du diable (harpagophytum)"],
+        "explanation": "L'harpagophytum (griffe du diable) est reconnue pour son action analgésique et anti-inflammatoire, soulageant les douleurs diffuses de la fibromyalgie.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le protocole naturopathique pour prévenir l'ostéoporose post-ménopausique",
+        "options": [
+            "Consommation exclusive de produits laitiers",
+            "Apport en calcium (légumes verts, amandes), vitamine D (soleil, poissons gras), exercices portants (marche, musculation légère) et plantes riches en phytoœstrogènes (trèfle rouge)",
+            "Jeûne intermittent strict",
+            "Supplémentation en fer sans bilan"
+        ],
+        "correctAnswers": ["Apport en calcium (légumes verts, amandes), vitamine D (soleil, poissons gras), exercices portants (marche, musculation légère) et plantes riches en phytoœstrogènes (trèfle rouge)"],
+        "explanation": "La prévention de l'ostéoporose post-ménopausique passe par un apport en calcium/vitamine D, des exercices portants (stimulation osseuse) et des phytoœstrogènes (trèfle rouge) pour compenser la baisse hormonale.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le rôle de l'exercice physique dans la gestion de l'arthrose",
+        "options": [
+            "Augmentation de la dégradation du cartilage",
+            "Maintien de la mobilité articulaire, renforcement musculaire et stimulation de la production de liquide synovial",
+            "Inhibition de la synthèse du collagène",
+            "Réduction de la lubrification articulaire"
+        ],
+        "correctAnswers": ["Maintien de la mobilité articulaire, renforcement musculaire et stimulation de la production de liquide synovial"],
+        "explanation": "L'exercice physique adapté maintient la mobilité, renforce les muscles stabilisateurs et stimule la production de liquide synovial, essentielle pour nourrir le cartilage.",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la technique manuelle la plus adaptée pour soulager une lombalgie chronique",
+        "options": [
+            "Massage suédois profond",
+            "Ostéopathie viscérale et étirements du psoas",
+            "Réflexologie plantaire exclusive",
+            "Application de ventouses sur les jambes"
+        ],
+        "correctAnswers": ["Ostéopathie viscérale et étirements du psoas"],
+        "explanation": "L'ostéopathie viscérale libère les tensions abdominales et les étirements du psoas (muscle souvent raccourci) réduisent la pression sur les lombaires.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le mécanisme d'action de l'huile essentielle de gaulthérie couchée sur les douleurs articulaires",
+        "options": [
+            "Stimulation de l'inflammation",
+            "Effet anti-inflammatoire et analgésique grâce au salicylate de méthyle",
+            "Augmentation de la rigidité articulaire",
+            "Inhibition de la circulation sanguine"
+        ],
+        "correctAnswers": ["Effet anti-inflammatoire et analgésique grâce au salicylate de méthyle"],
+        "explanation": "Le salicylate de méthyle de la gaulthérie couchée inhibe les prostaglandines pro-inflammatoires et soulage la douleur, comme un aspirine naturelle.",
+        "multiple": false
+    },
+    {
+        "question": "Quels sont les deux aliments à éviter en cas d'inflammation articulaire (2 bonnes réponses)",
+        "options": [
+            "Sucres raffinés",
+            "Viandes rouges",
+            "Légumes verts",
+            "Poissons gras",
+            "Fruits rouges"
+        ],
+        "correctAnswers": [
+            "Sucres raffinés",
+            "Viandes rouges"
+        ],
+        "explanation": "Les sucres raffinés et les viandes rouges favorisent l'inflammation (via les AGE et les acides gras saturés), aggravant les douleurs articulaires.",
+        "multiple": true
+    },
+    {
+        "question": "Quel est le rôle de la gelée royale dans la récupération musculaire",
+        "options": [
+            "Inhibition de la synthèse protéique",
+            "Apport en acides aminés, vitamines B et stimulation de la régénération cellulaire",
+            "Augmentation de la fatigue musculaire",
+            "Réduction de l'oxygénation des tissus"
+        ],
+        "correctAnswers": ["Apport en acides aminés, vitamines B et stimulation de la régénération cellulaire"],
+        "explanation": "La gelée royale, riche en acides aminés et vitamines B, stimule la synthèse protéique et la récupération musculaire après un effort.",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la technique naturopathique pour accompagner une entorse",
+        "options": [
+            "Application de chaleur immédiate",
+            "Repos, glace (48h), compression, élévation (RICE) et arnica en application locale",
+            "Consommation exclusive de produits laitiers",
+            "Massage profond immédiat"
+        ],
+        "correctAnswers": ["Repos, glace (48h), compression, élévation (RICE) et arnica en application locale"],
+        "explanation": "Le protocole RICE (Repos, Glace, Compression, Élévation) limite l'inflammation et l'œdème, tandis que l'arnica réduit les ecchymoses et accélère la récupération.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le rôle de la prêle des champs dans la santé osseuse",
+        "options": [
+            "Inhibition de l'absorption du calcium",
+            "Apport en silicium organique, stimulation de la minéralisation osseuse et synthèse du collagène",
+            "Augmentation de la résorption osseuse",
+            "Réduction de la synthèse de vitamine D"
+        ],
+        "correctAnswers": ["Apport en silicium organique, stimulation de la minéralisation osseuse et synthèse du collagène"],
+        "explanation": "La prêle, riche en silicium, stimule la minéralisation osseuse et la synthèse du collagène, renforçant ainsi la structure osseuse et prévenant l'ostéoporose.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le protocole naturopathique pour accompagner une ostéoporose",
+        "options": [
+            "Consommation exclusive de café",
+            "Apport en calcium (légumes verts, amandes), vitamine D (soleil), exercices portants (marche) et silice (prêle, bambou)",
+            "Jeûne sec de 7 jours",
+            "Supplémentation en fer sans bilan"
+        ],
+        "correctAnswers": ["Apport en calcium (légumes verts, amandes), vitamine D (soleil), exercices portants (marche) et silice (prêle, bambou)"],
+        "explanation": "L'ostéoporose est accompagnée par un apport en calcium/vitamine D, des exercices portants (stimulation osseuse) et de la silice (prêle, bambou) pour renforcer la matrice osseuse.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le rôle de l'exercice physique dans la prévention de la sarcopénie",
+        "options": [
+            "Augmentation du catabolisme musculaire",
+            "Stimulation de la synthèse protéique et maintien de la masse musculaire",
+            "Inhibition de l'absorption des acides aminés",
+            "Réduction de la circulation sanguine"
+        ],
+        "correctAnswers": ["Stimulation de la synthèse protéique et maintien de la masse musculaire"],
+        "explanation": "L'exercice physique, surtout en résistance, stimule la synthèse protéique et prévient la perte de masse musculaire (sarcopénie) liée à l'âge.",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la plante la plus indiquée pour soulager les douleurs rhumatismales",
+        "options": [
+            "Reine-des-prés",
+            "Bouleau",
+            "Mélisse",
+            "Camomille"
+        ],
+        "correctAnswers": ["Reine-des-prés"],
+        "explanation": "La reine-des-prés, riche en salicylates naturels, soulage les douleurs rhumatismales et réduit l'inflammation articulaire.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le mécanisme d'action de la boswellia (encens indien) sur l'arthrose",
+        "options": [
+            "Stimulation de la dégradation du cartilage",
+            "Inhibition de la 5-lipoxygénase, réduction de l'inflammation et protection du cartilage",
+            "Augmentation de la rigidité articulaire",
+            "Réduction de la lubrification articulaire"
+        ],
+        "correctAnswers": ["Inhibition de la 5-lipoxygénase, réduction de l'inflammation et protection du cartilage"],
+        "explanation": "La boswellia inhibe la 5-lipoxygénase, réduisant ainsi la production de leucotriènes pro-inflammatoires et protégeant le cartilage dans l'arthrose.",
+        "multiple": false
+    },
+    {
+        "question": "Quels sont les deux compléments les plus efficaces pour soutenir la santé articulaire (2 bonnes réponses)",
+        "options": [
+            "Glucosamine",
+            "Chondroïtine",
+            "Vitamine C",
+            "Fer",
+            "Zinc"
+        ],
+        "correctAnswers": [
+            "Glucosamine",
+            "Chondroïtine"
+        ],
+        "explanation": "La glucosamine et la chondroïtine sont les deux compléments les plus étudiés pour soutenir la synthèse du cartilage et réduire les symptômes de l'arthrose.",
+        "multiple": true
+    },
+    {
+        "question": "Quel est le rôle de la vitamine K2 dans la santé osseuse",
+        "options": [
+            "Inhibition de la fixation du calcium sur les os",
+            "Activation des protéines dépendantes de la vitamine K (ostéocalcine) pour diriger le calcium vers les os et non les artères",
+            "Augmentation de la résorption osseuse",
+            "Réduction de la synthèse de collagène"
+        ],
+        "correctAnswers": ["Activation des protéines dépendantes de la vitamine K (ostéocalcine) pour diriger le calcium vers les os et non les artères"],
+        "explanation": "La vitamine K2 active l'ostéocalcine, qui fixe le calcium sur la matrice osseuse et prévient sa deposition dans les artères (athérosclérose).",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la technique naturopathique pour accompagner une hernie discale",
+        "options": [
+            "Port de charges lourdes",
+            "Repos relatif, étirements doux (yoga), chaleur locale et plantes anti-inflammatoires (curcuma)",
+            "Consommation exclusive de produits laitiers",
+            "Massage profond immédiat sur la zone douloureuse"
+        ],
+        "correctAnswers": ["Repos relatif, étirements doux (yoga), chaleur locale et plantes anti-inflammatoires (curcuma)"],
+        "explanation": "Une hernie discale nécessite du repos relatif, des étirements doux (yoga) pour décompresser, de la chaleur locale (détente) et des anti-inflammatoires naturels (curcuma).",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le rôle de l'ortie dans la santé ostéo-articulaire",
+        "options": [
+            "Inhibition de la synthèse du collagène",
+            "Apport en minéraux (silice, calcium, magnésium) et action anti-inflammatoire",
+            "Augmentation de la rigidité articulaire",
+            "Réduction de l'hydratation des tissus"
+        ],
+        "correctAnswers": ["Apport en minéraux (silice, calcium, magnésium) et action anti-inflammatoire"],
+        "explanation": "L'ortie est riche en silice, calcium et magnésium, essentiels pour la minéralisation osseuse et la réduction de l'inflammation articulaire.",
+        "multiple": false
     }
 ]

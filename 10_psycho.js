@@ -1,545 +1,525 @@
-const questionsPsychologie = [
+const questionsPsychologie =
+[
     {
-        "question": "Selon le livret ISUPNAT, quelle est la définition de la psychologie et quel est son objectif principal ?",
+        "question": "Quel est le rôle de l'hypothalamus dans la réponse au stress selon le modèle PNEI",
         "options": [
-            "La psychologie est la science de l'âme (psyché) et du discours (logos), visant à comprendre la structure et le fonctionnement de l'activité mentale et des comportements associés.",
-            "La psychologie est une branche de la philosophie qui étudie les émotions et les comportements sociaux.",
-            "La psychologie est une technique thérapeutique visant à soigner les troubles mentaux par des médicaments.",
-            "La psychologie est une méthode de développement personnel basée sur la méditation et la pleine conscience."
+            "Sécrétion directe d'adrénaline",
+            "Activation de l'axe HPA (hypothalamo-hypophyso-surrénalien) via la CRH",
+            "Inhibition du système nerveux sympathique",
+            "Production de sérotonine"
         ],
-        "correctAnswers": ["La psychologie est la science de l'âme (psyché) et du discours (logos), visant à comprendre la structure et le fonctionnement de l'activité mentale et des comportements associés."],
-        "explanation": "Le livret définit la psychologie comme la science de l'âme et du discours, avec pour objectif de comprendre l'activité mentale et les comportements (p. 7).",
+        "correctAnswers": ["Activation de l'axe HPA (hypothalamo-hypophyso-surrénalien) via la CRH"],
+        "explanation": "L'hypothalamus sécrète la CRH (Corticotropin-Releasing Hormone), qui stimule l'hypophyse à libérer l'ACTH, activant ainsi les glandes surrénales pour produire du cortisol, hormone clé de la réponse au stress.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois axes de la psychologie de la santé, selon le livret ? (3 bonnes réponses)",
+        "question": "Quels sont les trois axes principaux de la psychologie de la santé (3 bonnes réponses)",
         "options": [
-            "Prévenir les comportements à risque et promouvoir des comportements protecteurs en matière de santé.",
-            "Agir sur le dépistage et l'éducation.",
-            "S'intéresser à la façon dont les individus vivent leurs problèmes de santé.",
-            "Étudier les mécanismes biochimiques du cerveau.",
-            "Développer des médicaments pour traiter les troubles mentaux.",
-            "Analyser les différences génétiques entre les individus."
+            "Prévention des comportements à risque",
+            "Dépistage et éducation",
+            "Compréhension du vécu des maladies",
+            "Étude des mécanismes de défense",
+            "Recherche des co-facteurs bio-psycho-sociaux des maladies"
         ],
         "correctAnswers": [
-            "Prévenir les comportements à risque et promouvoir des comportements protecteurs en matière de santé.",
-            "Agir sur le dépistage et l'éducation.",
-            "S'intéresser à la façon dont les individus vivent leurs problèmes de santé."
+            "Prévention des comportements à risque",
+            "Dépistage et éducation",
+            "Recherche des co-facteurs bio-psycho-sociaux des maladies"
         ],
-        "explanation": "Le livret liste ces trois axes comme centraux en psychologie de la santé (p. 7).",
+        "explanation": "La psychologie de la santé se concentre sur la prévention, le dépistage/éducation, et l'étude des interactions bio-psycho-sociales dans l'étiologie et l'évolution des maladies.",
         "multiple": true
     },
     {
-        "question": "Quel est le rôle de la psychologie clinique, selon le livret ?",
+        "question": "Quel est le mécanisme neurobiologique de l'effet placebo",
         "options": [
-            "La psychologie clinique est un acte se fondant sur une rencontre entre deux individus à visée d'accompagnement ou d'évaluation, avec une attention particulière aux symptômes et à l'observation.",
-            "La psychologie clinique consiste à prescrire des médicaments pour traiter les troubles mentaux.",
-            "La psychologie clinique est une technique de relaxation pour réduire le stress.",
-            "La psychologie clinique est une méthode de développement personnel basée sur la méditation."
+            "Inhibition de la dopamine",
+            "Activation des voies opioïdes endogènes et de la sécrétion de sérotonine",
+            "Blocage des récepteurs NMDA",
+            "Stimulation de l'axe HPA"
         ],
-        "correctAnswers": ["La psychologie clinique est un acte se fondant sur une rencontre entre deux individus à visée d'accompagnement ou d'évaluation, avec une attention particulière aux symptômes et à l'observation."],
-        "explanation": "Le livret définit la psychologie clinique comme une rencontre à visée d'accompagnement ou d'évaluation (p. 7).",
+        "correctAnswers": ["Activation des voies opioïdes endogènes et de la sécrétion de sérotonine"],
+        "explanation": "L'effet placebo active les voies de la récompense (dopamine) et les systèmes opioïdes endogènes, modulant ainsi la perception de la douleur et l'humeur via la sérotonine.",
         "multiple": false
     },
     {
-        "question": "Quelles sont les différences entre un psychologue, un psychiatre et un psychothérapeute, selon le livret ? (3 bonnes réponses)",
+        "question": "Quel est le rôle du système nerveux entérique (SNE) dans la régulation des émotions",
         "options": [
-            "Le psychologue est titulaire d'un master en psychologie et ne peut pas prescrire de médicaments.",
-            "Le psychiatre est un médecin spécialisé en psychiatrie et peut prescrire des médicaments.",
-            "Le psychothérapeute doit être titulaire d'un diplôme de psychologue ou de psychiatre, ou avoir validé une formation en psychopathologie clinique de 400 heures minimum.",
-            "Le psychologue peut prescrire des médicaments homéopathiques.",
-            "Le psychiatre ne peut pas utiliser de techniques de psychothérapie.",
-            "Le psychothérapeute n'a pas besoin de formation spécifique pour exercer."
+            "Production exclusive de neurotransmetteurs excitateurs",
+            "Communication bidirectionnelle avec le système nerveux central via le nerf vague",
+            "Inhibition de la motilité intestinale",
+            "Sécrétion d'hormones thyroïdiennes"
         ],
-        "correctAnswers": [
-            "Le psychologue est titulaire d'un master en psychologie et ne peut pas prescrire de médicaments.",
-            "Le psychiatre est un médecin spécialisé en psychiatrie et peut prescrire des médicaments.",
-            "Le psychothérapeute doit être titulaire d'un diplôme de psychologue ou de psychiatre, ou avoir validé une formation en psychopathologie clinique de 400 heures minimum."
-        ],
-        "explanation": "Le livret précise les différences entre ces trois professions (p. 7).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle de l'inconscient selon Sigmund Freud, d'après le livret ?",
-        "options": [
-            "L'inconscient est le siège des désirs refoulés et gère de façon autonome nos comportements, selon le principe de plaisir.",
-            "L'inconscient est une partie du cerveau responsable de la mémoire à long terme.",
-            "L'inconscient est une technique de méditation pour atteindre un état de pleine conscience.",
-            "L'inconscient est un concept philosophique sans lien avec la psychologie moderne."
-        ],
-        "correctAnswers": ["L'inconscient est le siège des désirs refoulés et gère de façon autonome nos comportements, selon le principe de plaisir."],
-        "explanation": "Le livret décrit l'inconscient selon Freud comme le siège des désirs refoulés, régi par le principe de plaisir (p. 8).",
+        "correctAnswers": ["Communication bidirectionnelle avec le système nerveux central via le nerf vague"],
+        "explanation": "Le SNE, souvent appelé \"deuxième cerveau\", communique avec le SNC via le nerf vague, influençant la régulation des émotions, la digestion et même la réponse immunitaire.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois concepts psychanalytiques passés dans le langage courant, selon le livret ? (3 bonnes réponses)",
+        "question": "Quelle est la définition de la psychologie selon l'approche naturopathique",
         "options": [
-            "Libido",
-            "Complexe d'Œdipe",
-            "Lapsus",
-            "Méditation",
-            "Pleine conscience",
-            "Neuroplasticité"
+            "Étude exclusive des troubles mentaux",
+            "Science de l'âme et du discours visant à comprendre l'activité mentale et les comportements dans une approche holistique",
+            "Branche de la médecine spécialisée dans les psychotropes",
+            "Technique de modification du comportement par conditionnement"
         ],
-        "correctAnswers": [
-            "Libido",
-            "Complexe d'Œdipe",
-            "Lapsus"
-        ],
-        "explanation": "Le livret cite ces concepts comme étant passés dans le langage courant (p. 8).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle du psychisme, selon le livret ?",
-        "options": [
-            "Le psychisme est l'ensemble des éléments conscients et inconscients qui définissent l'identité d'une personne et lui permettent d'avoir une conception du monde et de sa place dans celui-ci.",
-            "Le psychisme est une partie du cerveau responsable de la mémoire et de l'apprentissage.",
-            "Le psychisme est une technique de relaxation pour réduire le stress et l'anxiété.",
-            "Le psychisme est un concept philosophique sans application pratique en psychologie."
-        ],
-        "correctAnswers": ["Le psychisme est l'ensemble des éléments conscients et inconscients qui définissent l'identité d'une personne et lui permettent d'avoir une conception du monde et de sa place dans celui-ci."],
-        "explanation": "Le livret définit le psychisme comme l'ensemble des éléments conscients et inconscients qui façonnent l'identité et la perception du monde (p. 8).",
+        "correctAnswers": ["Science de l'âme et du discours visant à comprendre l'activité mentale et les comportements dans une approche holistique"],
+        "explanation": "En naturopathie, la psychologie est abordée comme une science holistique intégrant les dimensions physique, émotionnelle, mentale et spirituelle de l'individu.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois instances psychiques en interrelation selon Freud, d'après le livret ? (3 bonnes réponses)",
+        "question": "Quels sont les effets du stress chronique sur la mémoire (2 bonnes réponses)",
         "options": [
-            "Inconscient (principe de plaisir)",
-            "Préconscient (principe de réalité)",
-            "Conscient (réception des informations)",
-            "Surmoi (conscience morale)",
-            "Moi (lien entre réalité, ça et surmoi)",
-            "Ça (siège des désirs)"
+            "Atrophie de l'hippocampe",
+            "Augmentation de la neurogenèse",
+            "Diminution de la plasticité synaptique",
+            "Stimulation de la mémoire procédurale",
+            "Amélioration de la mémoire à court terme"
         ],
         "correctAnswers": [
-            "Inconscient (principe de plaisir)",
-            "Préconscient (principe de réalité)",
-            "Conscient (réception des informations)"
+            "Atrophie de l'hippocampe",
+            "Diminution de la plasticité synaptique"
         ],
-        "explanation": "Le livret liste ces trois instances psychiques selon Freud (p. 8).",
+        "explanation": "Le stress chronique élève les niveaux de cortisol, ce qui endommage les neurones de l'hippocampe (mémoire) et réduit la plasticité synaptique, altérant ainsi les capacités cognitives.",
         "multiple": true
     },
     {
-        "question": "Quel est le rôle de la première impression lors de la rencontre avec un client, selon le livret ?",
+        "question": "Quel est le mécanisme d'action de la cohérence cardiaque sur le système nerveux autonome",
         "options": [
-            "La première impression est spontanée et intuitive, influencée par l'esprit et non le cerveau, et peut être biaisée par des préjugés ou des stéréotypes.",
-            "La première impression est toujours objective et basée sur des faits vérifiables.",
-            "La première impression est une technique de diagnostic médical pour évaluer l'état de santé physique.",
-            "La première impression n'a aucun impact sur la relation thérapeutique."
+            "Stimulation exclusive du système sympathique",
+            "Rééquilibrage du système nerveux autonome via la synchronisation des rythmes cardiaque et respiratoire",
+            "Inhibition de la variabilité cardiaque",
+            "Augmentation de la pression artérielle"
         ],
-        "correctAnswers": ["La première impression est spontanée et intuitive, influencée par l'esprit et non le cerveau, et peut être biaisée par des préjugés ou des stéréotypes."],
-        "explanation": "Le livret souligne que la première impression est intuitive et peut être biaisée (p. 9).",
+        "correctAnswers": ["Rééquilibrage du système nerveux autonome via la synchronisation des rythmes cardiaque et respiratoire"],
+        "explanation": "La cohérence cardiaque (respiration à 6 cycles/min) synchronise les rythmes cardiaque et respiratoire, activant le système parasympathique et réduisant l'hyperactivité sympathique.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois éléments qui influencent les préjugés lors de la première rencontre avec un client, selon le livret ? (3 bonnes réponses)",
+        "question": "Quel est le rôle des neurones miroirs dans l'apprentissage social",
         "options": [
-            "Âge",
-            "Sexe",
-            "Couleur de peau",
-            "Niveau d'éducation",
-            "Revenu financier",
-            "Préférences alimentaires"
+            "Inhibition des comportements imitatifs",
+            "Activation des circuits neuronaux lors de l'observation d'actions, facilitant l'imitation et l'empathie",
+            "Production de neurotransmetteurs inhibiteurs",
+            "Blocage de la mémoire procédurale"
         ],
-        "correctAnswers": [
-            "Âge",
-            "Sexe",
-            "Couleur de peau"
-        ],
-        "explanation": "Le livret mentionne ces éléments comme influençant les préjugés (p. 9).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle de l'intuition lors d'un bilan de naturopathie, selon le livret ?",
-        "options": [
-            "L'intuition produit des liens et des analogies de façon automatique, offrant des pistes que le naturopathe tente de valider rationnellement.",
-            "L'intuition est une technique de diagnostic médical basée sur des symptômes physiques.",
-            "L'intuition est une méthode de relaxation pour réduire le stress.",
-            "L'intuition n'a aucun rôle dans la pratique de la naturopathie."
-        ],
-        "correctAnswers": ["L'intuition produit des liens et des analogies de façon automatique, offrant des pistes que le naturopathe tente de valider rationnellement."],
-        "explanation": "Le livret décrit l'intuition comme un outil produisant des pistes à valider (p. 9).",
+        "correctAnswers": ["Activation des circuits neuronaux lors de l'observation d'actions, facilitant l'imitation et l'empathie"],
+        "explanation": "Les neurones miroirs s'activent à la fois lors de l'exécution et de l'observation d'une action, jouant un rôle clé dans l'apprentissage par imitation et la compréhension des intentions d'autrui.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois piliers de l'approche centrée sur la personne de Carl Rogers, selon le livret ? (3 bonnes réponses)",
+        "question": "Quelle est la différence entre le stress aigu et le stress chronique selon le modèle de Selye",
         "options": [
-            "Favoriser le développement de la personne",
-            "Améliorer le fonctionnement global",
-            "Augmenter la capacité à affronter la vie",
-            "Prescrire des médicaments pour traiter les symptômes",
-            "Utiliser des techniques de relaxation pour réduire le stress",
-            "Analyser les rêves pour comprendre l'inconscient"
+            "Le stress aigu active uniquement l'axe HPA, le stress chronique active le système sympathique",
+            "Le stress aigu est adaptatif et temporaire, le stress chronique épuise les ressources et conduit à l'épuisement",
+            "Le stress aigu réduit le cortisol, le stress chronique l'augmente",
+            "Le stress aigu est toujours pathologique, le stress chronique est bénéfique"
         ],
-        "correctAnswers": [
-            "Favoriser le développement de la personne",
-            "Améliorer le fonctionnement global",
-            "Augmenter la capacité à affronter la vie"
-        ],
-        "explanation": "Le livret cite ces piliers comme centraux dans l'approche de Carl Rogers (p. 9).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle de la subjectivité dans la pratique de la relation d'aide, selon le livret ?",
-        "options": [
-            "La subjectivité est un élément incontournable de la pratique de relation d'aide, car toute observation est une construction influencée par le contexte et les représentations du praticien.",
-            "La subjectivité est un biais à éliminer pour une pratique objective et scientifique.",
-            "La subjectivité est une technique de diagnostic médical basée sur des symptômes physiques.",
-            "La subjectivité n'a aucun impact sur la relation thérapeutique."
-        ],
-        "correctAnswers": ["La subjectivité est un élément incontournable de la pratique de relation d'aide, car toute observation est une construction influencée par le contexte et les représentations du praticien."],
-        "explanation": "Le livret souligne que la subjectivité est un élément clé de la relation d'aide (p. 9).",
+        "correctAnswers": ["Le stress aigu est adaptatif et temporaire, le stress chronique épuise les ressources et conduit à l'épuisement"],
+        "explanation": "Le stress aigu (phase d'alarme) est une réponse adaptative et réversible, tandis que le stress chronique (phase d'épuisement) épuise les réserves physiologiques et psychologiques, menant à des désordres systémiques.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois types de mémoire mentionnés dans le livret ? (3 bonnes réponses)",
+        "question": "Quels sont les mécanismes de défense les plus courants face à l'anxiété (2 bonnes réponses)",
         "options": [
-            "Mémoire sensorielle",
-            "Mémoire à court terme",
-            "Mémoire à long terme",
-            "Mémoire musculaire",
-            "Mémoire émotionnelle",
-            "Mémoire collective"
+            "Refoulement",
+            "Projection",
+            "Sublimation",
+            "Rationalisation",
+            "Identification"
         ],
         "correctAnswers": [
-            "Mémoire sensorielle",
-            "Mémoire à court terme",
-            "Mémoire à long terme"
+            "Refoulement",
+            "Projection"
         ],
-        "explanation": "Le livret mentionne implicitement ces types de mémoire dans le contexte de la reconstruction des souvenirs (p. 9).",
+        "explanation": "Le refoulement (inconscient) et la projection (attribution à autrui de ses propres pensées) sont parmi les mécanismes de défense les plus fréquents pour gérer l'anxiété.",
         "multiple": true
     },
     {
-        "question": "Quel est le rôle de la pyramide des besoins de Maslow dans la motivation, selon le livret ?",
+        "question": "Quel est le rôle de la sérotonine dans la régulation de l'humeur et du sommeil",
         "options": [
-            "La pyramide des besoins de Maslow est une théorie de la motivation qui hiérarchise les besoins humains, des besoins physiologiques aux besoins d'accomplissement de soi.",
-            "La pyramide des besoins de Maslow est une technique de relaxation pour réduire le stress.",
-            "La pyramide des besoins de Maslow est une méthode de diagnostic médical pour évaluer l'état de santé physique.",
-            "La pyramide des besoins de Maslow est un concept philosophique sans application pratique en psychologie."
+            "Stimulation de l'éveil",
+            "Régulation de l'humeur, de l'appétit et du cycle veille-sommeil via son métabolite la mélatonine",
+            "Inhibition de la dopamine",
+            "Augmentation de la pression artérielle"
         ],
-        "correctAnswers": ["La pyramide des besoins de Maslow est une théorie de la motivation qui hiérarchise les besoins humains, des besoins physiologiques aux besoins d'accomplissement de soi."],
-        "explanation": "Le livret présente la pyramide des besoins de Maslow comme une théorie de la motivation (p. 10).",
+        "correctAnswers": ["Régulation de l'humeur, de l'appétit et du cycle veille-sommeil via son métabolite la mélatonine"],
+        "explanation": "La sérotonine, neurotransmetteur clé, régule l'humeur, l'appétit et le sommeil. Son métabolite, la mélatonine, synchronise le rythme circadien.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois types de valeurs universelles selon Schwartz, mentionnés dans le livret ? (3 bonnes réponses)",
+        "question": "Quelle est la théorie de l'émotion proposée par William James",
         "options": [
-            "Croyances associées aux affects",
-            "Objectifs désirables qui motivent l'action",
-            "Critères pour évaluer les actions",
-            "Normes sociales imposées par la société",
-            "Règles juridiques pour réguler les comportements",
-            "Techniques de relaxation pour réduire le stress"
+            "Les émotions sont des réactions innées et universelles",
+            "Les émotions résultent de la perception des réactions physiologiques (ex : la peur vient de la sensation des battements cardiaques)",
+            "Les émotions sont indépendantes des réactions corporelles",
+            "Les émotions sont uniquement déterminées par des facteurs sociaux"
         ],
-        "correctAnswers": [
-            "Croyances associées aux affects",
-            "Objectifs désirables qui motivent l'action",
-            "Critères pour évaluer les actions"
-        ],
-        "explanation": "Le livret cite ces caractéristiques des valeurs universelles selon Schwartz (p. 10).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle des croyances dans la motivation, selon le livret ?",
-        "options": [
-            "Les croyances sont des convictions qui influencent les comportements, les choix, et les attitudes en société, en fonction de leur importance relative.",
-            "Les croyances sont des techniques de relaxation pour réduire le stress.",
-            "Les croyances sont des méthodes de diagnostic médical pour évaluer l'état de santé physique.",
-            "Les croyances n'ont aucun impact sur la motivation ou les comportements."
-        ],
-        "correctAnswers": ["Les croyances sont des convictions qui influencent les comportements, les choix, et les attitudes en société, en fonction de leur importance relative."],
-        "explanation": "Le livret décrit les croyances comme des convictions influençant les comportements (p. 10).",
+        "correctAnswers": ["Les émotions résultent de la perception des réactions physiologiques (ex : la peur vient de la sensation des battements cardiaques)"],
+        "explanation": "James propose que les émotions soient la conscience des réactions physiologiques (ex : \"nous avons peur parce que nous tremblons\", et non l'inverse).",
         "multiple": false
     },
     {
-        "question": "Quels sont les quatre types de croyances qui influencent le comportement d'un client en cabinet, selon le livret ? (4 bonnes réponses)",
+        "question": "Quels sont les effets du stress sur le système immunitaire (2 bonnes réponses)",
         "options": [
-            "Vulnérabilité perçue",
-            "Gravité perçue",
-            "Bénéfices perçus",
-            "Coûts et obstacles perçus",
-            "Efficacité personnelle perçue",
-            "Motivation intrinsèque"
+            "Augmentation de la production d'anticorps",
+            "Diminution de l'activité des lymphocytes NK",
+            "Stimulation de la réponse inflammatoire chronique",
+            "Réduction de la sensibilité aux infections",
+            "Inhibition de la phagocytose"
         ],
         "correctAnswers": [
-            "Vulnérabilité perçue",
-            "Gravité perçue",
-            "Bénéfices perçus",
-            "Coûts et obstacles perçus"
+            "Diminution de l'activité des lymphocytes NK",
+            "Stimulation de la réponse inflammatoire chronique"
         ],
-        "explanation": "Le livret liste ces quatre types de croyances comme influençant le comportement (p. 10).",
+        "explanation": "Le stress chronique réduit l'activité des lymphocytes NK (immunité innée) et favorise une inflammation chronique via la sécrétion de cortisol et de cytokines pro-inflammatoires.",
         "multiple": true
     },
     {
-        "question": "Quel est le rôle de l'efficacité personnelle (Albert Bandura), selon le livret ?",
+        "question": "Quel est le rôle du naturopathe dans l'accompagnement des troubles psychiques",
         "options": [
-            "L'efficacité personnelle est la croyance en sa capacité à accomplir des actions pour atteindre un objectif, quel que soit le niveau d'aptitude.",
-            "L'efficacité personnelle est une technique de relaxation pour réduire le stress.",
-            "L'efficacité personnelle est une méthode de diagnostic médical pour évaluer l'état de santé physique.",
-            "L'efficacité personnelle est un concept philosophique sans application pratique en psychologie."
+            "Poser un diagnostic psychiatrique",
+            "Accompagner la personne dans une hygiène de vie globale et orienter vers un professionnel si nécessaire",
+            "Prescrire des psychotropes",
+            "Remplacer une psychothérapie"
         ],
-        "correctAnswers": ["L'efficacité personnelle est la croyance en sa capacité à accomplir des actions pour atteindre un objectif, quel que soit le niveau d'aptitude."],
-        "explanation": "Le livret définit l'efficacité personnelle comme une croyance en ses capacités (p. 10).",
+        "correctAnswers": ["Accompagner la personne dans une hygiène de vie globale et orienter vers un professionnel si nécessaire"],
+        "explanation": "Le naturopathe accompagne le client en agissant sur les leviers d'hygiène de vie (alimentation, exercice, gestion du stress), tout en connaissant ses limites et en orientant vers des psychothérapeutes ou psychiatres si besoin.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois leviers du changement mentionnés dans le livret ? (3 bonnes réponses)",
+        "question": "Quel est le mécanisme d'action de la méditation en pleine conscience sur le cerveau",
         "options": [
-            "Recadrer les pensées négatives",
-            "Développer l'optimisme",
-            "Utiliser des techniques de relaxation",
-            "Renforcer l'efficacité personnelle",
-            "Prescrire des médicaments",
-            "Analyser les rêves"
+            "Diminution de la densité de matière grise",
+            "Augmentation de la connectivité du cortex préfrontal et réduction de l'activité de l'amygdale",
+            "Stimulation exclusive du système limbique",
+            "Inhibition de la neurogenèse"
         ],
-        "correctAnswers": [
-            "Recadrer les pensées négatives",
-            "Développer l'optimisme",
-            "Renforcer l'efficacité personnelle"
-        ],
-        "explanation": "Le livret mentionne ces leviers comme des outils pour le changement (p. 10).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle de l'optimisme dans la santé, selon le livret ?",
-        "options": [
-            "L'optimisme est corrélé à une meilleure santé physique et mentale, car il permet de voir les obstacles comme temporaires et spécifiques, et favorise la recherche de solutions.",
-            "L'optimisme est une technique de relaxation pour réduire le stress.",
-            "L'optimisme est une méthode de diagnostic médical pour évaluer l'état de santé physique.",
-            "L'optimisme n'a aucun impact sur la santé ou le bien-être."
-        ],
-        "correctAnswers": ["L'optimisme est corrélé à une meilleure santé physique et mentale, car il permet de voir les obstacles comme temporaires et spécifiques, et favorise la recherche de solutions."],
-        "explanation": "Le livret souligne que l'optimisme est bénéfique pour la santé (p. 10).",
+        "correctAnswers": ["Augmentation de la connectivité du cortex préfrontal et réduction de l'activité de l'amygdale"],
+        "explanation": "La méditation en pleine conscience renforce la connectivité du cortex préfrontal (régulation émotionnelle) et réduit l'hyperactivité de l'amygdale (centre de la peur), améliorant ainsi la résilience au stress.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois bienfaits du journal de gratitude, selon le livret ? (3 bonnes réponses)",
+        "question": "Quelle est la définition du syndrome général d'adaptation (SGA) selon Hans Selye",
         "options": [
-            "Amélioration de la santé cardiaque",
-            "Réduction des facteurs inflammatoires",
-            "Augmentation de la fonction immunitaire",
-            "Diminution de la douleur",
-            "Réduction du stress",
-            "Amélioration de la mémoire"
+            "Réponse spécifique à un agent pathogène",
+            "Réponse non spécifique de l'organisme à toute sollicitation, en trois phases : alarme, résistance, épuisement",
+            "Mécanisme de défense immunitaire",
+            "Processus de mémorisation des traumatismes"
         ],
-        "correctAnswers": [
-            "Amélioration de la santé cardiaque",
-            "Réduction des facteurs inflammatoires",
-            "Augmentation de la fonction immunitaire"
-        ],
-        "explanation": "Le livret cite ces bienfaits du journal de gratitude (p. 11).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle du pardon dans la santé, selon le livret ?",
-        "options": [
-            "Le pardon est associé à une réduction de la colère, de l'anxiété, du stress, et à une meilleure tolérance à la douleur, grâce à des changements physiologiques et psychologiques.",
-            "Le pardon est une technique de relaxation pour réduire le stress.",
-            "Le pardon est une méthode de diagnostic médical pour évaluer l'état de santé physique.",
-            "Le pardon n'a aucun impact sur la santé ou le bien-être."
-        ],
-        "correctAnswers": ["Le pardon est associé à une réduction de la colère, de l'anxiété, du stress, et à une meilleure tolérance à la douleur, grâce à des changements physiologiques et psychologiques."],
-        "explanation": "Le livret décrit les bienfaits du pardon sur la santé (p. 11).",
+        "correctAnswers": ["Réponse non spécifique de l'organisme à toute sollicitation, en trois phases : alarme, résistance, épuisement"],
+        "explanation": "Le SGA décrit la réponse stéréotypée de l'organisme à tout stresseur, avec une phase d'alarme (réaction immédiate), de résistance (adaptation) et d'épuisement (épuisement des ressources).",
         "multiple": false
     },
     {
-        "question": "Quels sont les cinq étapes de la méthode REACH pour pardonner, selon le livret ? (5 bonnes réponses)",
+        "question": "Quels sont les signes d'un burn-out (2 bonnes réponses)",
         "options": [
-            "Rappel de la souffrance causée",
-            "Empathie envers l'offenseur",
-            "Don altruiste du pardon",
-            "Engagement à pardonner",
-            "Persévérance dans le pardon",
-            "Oubli total de l'offense"
+            "Épuisement émotionnel",
+            "Dépersonnalisation (cynisme)",
+            "Hyperactivité physique",
+            "Euphorie permanente",
+            "Amélioration des performances cognitives"
         ],
         "correctAnswers": [
-            "Rappel de la souffrance causée",
-            "Empathie envers l'offenseur",
-            "Don altruiste du pardon",
-            "Engagement à pardonner",
-            "Persévérance dans le pardon"
+            "Épuisement émotionnel",
+            "Dépersonnalisation (cynisme)"
         ],
-        "explanation": "Le livret détaille ces cinq étapes de la méthode REACH (p. 11).",
+        "explanation": "Le burn-out se caractérise par un épuisement émotionnel, une dépersonnalisation (attitude cynique envers les autres) et une réduction de l'accomplissement personnel.",
         "multiple": true
     },
     {
-        "question": "Quel est le rôle du naturopathe dans l'accompagnement psychologique, selon le livret ?",
+        "question": "Quel est le rôle de l'amygdale dans la réponse émotionnelle",
         "options": [
-            "Le naturopathe accompagne le client dans une approche holistique, en l'aidant à comprendre ses comportements et à envisager un futur serein, sans investigation psychologique formelle.",
-            "Le naturopathe prescrit des médicaments pour traiter les troubles mentaux.",
-            "Le naturopathe utilise des techniques de psychothérapie pour soigner les troubles psychiques.",
-            "Le naturopathe n'a aucun rôle dans l'accompagnement psychologique."
+            "Régulation de la température corporelle",
+            "Détection des menaces et activation de la réponse de peur",
+            "Production de mélatonine",
+            "Contrôle de la motricité fine"
         ],
-        "correctAnswers": ["Le naturopathe accompagne le client dans une approche holistique, en l'aidant à comprendre ses comportements et à envisager un futur serein, sans investigation psychologique formelle."],
-        "explanation": "Le livret définit le rôle du naturopathe comme un accompagnement holistique (p. 7).",
+        "correctAnswers": ["Détection des menaces et activation de la réponse de peur"],
+        "explanation": "L'amygdale évalue la valence émotionnelle des stimuli (menace/sécurité) et active les réponses de peur via l'axe HPA et le système nerveux sympathique.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois objectifs professionnels de la formation en psychologie pour naturopathes, selon le livret ? (3 bonnes réponses)",
+        "question": "Quelle est la technique de relaxation la plus adaptée pour un client souffrant d'anxiété généralisée",
         "options": [
-            "Aider le client à prendre conscience de ses freins par rapport aux changements",
-            "Savoir utiliser les mots justes et préciser ses questions lors de l'anamnèse",
-            "Favoriser une écoute professionnelle et bienveillante",
-            "Prescrire des médicaments pour traiter les symptômes",
-            "Utiliser des techniques de relaxation pour réduire le stress",
-            "Analyser les rêves pour comprendre l'inconscient"
+            "Training autogène de Schultz",
+            "Méthode Jacobson (relaxation progressive)",
+            "Respiration en 4-7-8",
+            "Hypnose régressive"
         ],
-        "correctAnswers": [
-            "Aider le client à prendre conscience de ses freins par rapport aux changements",
-            "Savoir utiliser les mots justes et préciser ses questions lors de l'anamnèse",
-            "Favoriser une écoute professionnelle et bienveillante"
-        ],
-        "explanation": "Le livret liste ces objectifs professionnels (p. 5).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle de la psychologie positive dans la prévention de la santé mentale, selon le livret ?",
-        "options": [
-            "La psychologie positive vise à développer les compétences et le fonctionnement optimal de la santé, plutôt que de se focaliser sur la réduction des troubles.",
-            "La psychologie positive est une technique de relaxation pour réduire le stress.",
-            "La psychologie positive est une méthode de diagnostic médical pour évaluer l'état de santé physique.",
-            "La psychologie positive est un concept philosophique sans application pratique en psychologie."
-        ],
-        "correctAnswers": ["La psychologie positive vise à développer les compétences et le fonctionnement optimal de la santé, plutôt que de se focaliser sur la réduction des troubles."],
-        "explanation": "Le livret présente la psychologie positive comme une approche centrée sur le développement des compétences (p. 26).",
+        "correctAnswers": ["Training autogène de Schultz"],
+        "explanation": "Le training autogène de Schultz, par ses exercices de visualisation et d'auto-suggestion, réduit l'anxiété en activant le système parasympathique et en restaurant l'équilibre neurovégétatif.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois modèles psychothérapeutiques mentionnés dans le livret ? (3 bonnes réponses)",
+        "question": "Quel est l'effet du stress sur la perméabilité intestinale",
         "options": [
-            "Modèle médical (centré sur les troubles)",
-            "Modèle de prévention de la santé mentale (centré sur le fonctionnement optimal)",
-            "Modèle cognitivo-comportemental (centré sur les pensées et comportements)",
-            "Modèle psychanalytique (centré sur l'inconscient)",
-            "Modèle humaniste (centré sur la personne)",
-            "Modèle systémique (centré sur les relations familiales)"
+            "Diminution de la perméabilité",
+            "Augmentation de la perméabilité (syndrome de l'intestin perméable)",
+            "Aucun effet sur l'intestin",
+            "Stimulation de la flore bénéfique"
         ],
-        "correctAnswers": [
-            "Modèle médical (centré sur les troubles)",
-            "Modèle de prévention de la santé mentale (centré sur le fonctionnement optimal)",
-            "Modèle cognitivo-comportemental (centré sur les pensées et comportements)"
-        ],
-        "explanation": "Le livret mentionne implicitement ces modèles, notamment le modèle médical et de prévention (p. 26).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle des mécanismes de défense, selon le livret ?",
-        "options": [
-            "Les mécanismes de défense sont des stratégies inconscientes pour protéger l'individu contre l'anxiété ou des émotions difficiles, en déformant la réalité.",
-            "Les mécanismes de défense sont des techniques de relaxation pour réduire le stress.",
-            "Les mécanismes de défense sont des méthodes de diagnostic médical pour évaluer l'état de santé physique.",
-            "Les mécanismes de défense sont des concepts philosophiques sans application pratique en psychologie."
-        ],
-        "correctAnswers": ["Les mécanismes de défense sont des stratégies inconscientes pour protéger l'individu contre l'anxiété ou des émotions difficiles, en déformant la réalité."],
-        "explanation": "Le livret décrit les mécanismes de défense comme des stratégies de protection (p. 17).",
+        "correctAnswers": ["Augmentation de la perméabilité (syndrome de l'intestin perméable)"],
+        "explanation": "Le stress chronique augmente la perméabilité intestinale via la sécrétion de cortisol et de cytokines pro-inflammatoires, favorisant le passage de toxines et de bactéries dans la circulation sanguine.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois troubles psychiques mentionnés dans le livret ? (3 bonnes réponses)",
+        "question": "Quels sont les mécanismes de défense les plus matures selon la psychologie (2 bonnes réponses)",
         "options": [
-            "Troubles névrotiques",
-            "Troubles psychotiques",
-            "Troubles de l'humeur",
-            "Troubles du sommeil",
-            "Troubles alimentaires",
-            "Troubles de la personnalité"
+            "Sublimation",
+            "Humour",
+            "Refoulement",
+            "Projection",
+            "Rationalisation"
         ],
         "correctAnswers": [
-            "Troubles névrotiques",
-            "Troubles psychotiques",
-            "Troubles de l'humeur"
+            "Sublimation",
+            "Humour"
         ],
-        "explanation": "Le livret mentionne implicitement ces troubles dans le contexte des troubles psychiques (p. 18).",
+        "explanation": "La sublimation (transformation des pulsions en activités socialement valorisées) et l'humour (expression des conflits de manière ludique) sont considérés comme des mécanismes de défense matures et adaptatifs.",
         "multiple": true
     },
     {
-        "question": "Quel est le rôle du triangle de Karpman, selon le livret ?",
+        "question": "Quel est le rôle du cortex préfrontal dans la régulation des émotions",
         "options": [
-            "Le triangle de Karpman décrit les rôles de persécuteur, sauveur et victime dans les relations toxiques, et aide à comprendre les dynamiques relationnelles dysfonctionnelles.",
-            "Le triangle de Karpman est une technique de relaxation pour réduire le stress.",
-            "Le triangle de Karpman est une méthode de diagnostic médical pour évaluer l'état de santé physique.",
-            "Le triangle de Karpman est un concept philosophique sans application pratique en psychologie."
+            "Activation exclusive des réponses de peur",
+            "Modulation des réponses émotionnelles via des connexions avec l'amygdale et le système limbique",
+            "Inhibition de la mémoire à long terme",
+            "Stimulation de la sécrétion d'adrénaline"
         ],
-        "correctAnswers": ["Le triangle de Karpman décrit les rôles de persécuteur, sauveur et victime dans les relations toxiques, et aide à comprendre les dynamiques relationnelles dysfonctionnelles."],
-        "explanation": "Le livret mentionne le triangle de Karpman comme un outil pour comprendre les dynamiques relationnelles (p. 21).",
+        "correctAnswers": ["Modulation des réponses émotionnelles via des connexions avec l'amygdale et le système limbique"],
+        "explanation": "Le cortex préfrontal (notamment dorsolatéral) régule les émotions en inhibant les réponses impulsives de l'amygdale et en intégrant les informations contextuelles pour une réponse adaptée.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois objectifs pédagogiques de la formation en psychologie pour naturopathes, selon le livret ? (3 bonnes réponses)",
+        "question": "Quelle est la différence entre la psychologie et la psychiatrie",
         "options": [
-            "Comprendre le fonctionnement psychique",
-            "Savoir appréhender le client dans sa singularité et sa subjectivité",
-            "Connaître et différencier les modèles de personnalité",
-            "Prescrire des médicaments pour traiter les symptômes",
-            "Utiliser des techniques de relaxation pour réduire le stress",
-            "Analyser les rêves pour comprendre l'inconscient"
+            "La psychologie étudie les comportements normaux et pathologiques, la psychiatrie est une branche de la médecine spécialisée dans les troubles mentaux",
+            "La psychologie prescrit des médicaments, la psychiatrie utilise uniquement la psychothérapie",
+            "La psychiatrie s'intéresse uniquement aux enfants, la psychologie aux adultes",
+            "La psychologie est une branche de la philosophie, la psychiatrie de la biologie"
         ],
-        "correctAnswers": [
-            "Comprendre le fonctionnement psychique",
-            "Savoir appréhender le client dans sa singularité et sa subjectivité",
-            "Connaître et différencier les modèles de personnalité"
-        ],
-        "explanation": "Le livret liste ces objectifs pédagogiques (p. 5).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle de la psychologie du développement, selon le livret ?",
-        "options": [
-            "La psychologie du développement étudie les étapes du développement affectif et cognitif, de l'enfance à l'âge adulte, pour comprendre les changements psychologiques et comportementaux.",
-            "La psychologie du développement est une technique de relaxation pour réduire le stress.",
-            "La psychologie du développement est une méthode de diagnostic médical pour évaluer l'état de santé physique.",
-            "La psychologie du développement est un concept philosophique sans application pratique en psychologie."
-        ],
-        "correctAnswers": ["La psychologie du développement étudie les étapes du développement affectif et cognitif, de l'enfance à l'âge adulte, pour comprendre les changements psychologiques et comportementaux."],
-        "explanation": "Le livret présente la psychologie du développement comme une étude des étapes de développement (p. 12).",
+        "correctAnswers": ["La psychologie étudie les comportements normaux et pathologiques, la psychiatrie est une branche de la médecine spécialisée dans les troubles mentaux"],
+        "explanation": "La psychologie est une science étudiant les processus mentaux et comportements, tandis que la psychiatrie est une spécialité médicale diagnostiquant et traitant les troubles mentaux (médicaments, thérapies).",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois types de tempérament définis par Hippocrate, selon le livret ? (3 bonnes réponses)",
+        "question": "Quel est le mécanisme d'action de l'hypnose sur la douleur",
         "options": [
-            "Sanguin",
-            "Colérique",
-            "Mélancolique",
-            "Flegmatique",
-            "Optimiste",
-            "Pessimiste"
+            "Blocage des récepteurs opioïdes",
+            "Modulation de la perception de la douleur via une altération de l'activité du cortex cingulaire antérieur",
+            "Stimulation de la sécrétion d'adrénaline",
+            "Inhibition de la mémoire procédurale"
         ],
-        "correctAnswers": [
-            "Sanguin",
-            "Colérique",
-            "Mélancolique"
-        ],
-        "explanation": "Le livret mentionne implicitement ces tempéraments dans le contexte historique (p. 11).",
-        "multiple": true
-    },
-    {
-        "question": "Quel est le rôle de la résilience, selon le livret ?",
-        "options": [
-            "La résilience est la capacité à surmonter les traumatismes ou les difficultés, en s'adaptant et en se renforçant face à l'adversité.",
-            "La résilience est une technique de relaxation pour réduire le stress.",
-            "La résilience est une méthode de diagnostic médical pour évaluer l'état de santé physique.",
-            "La résilience est un concept philosophique sans application pratique en psychologie."
-        ],
-        "correctAnswers": ["La résilience est la capacité à surmonter les traumatismes ou les difficultés, en s'adaptant et en se renforçant face à l'adversité."],
-        "explanation": "Le livret décrit implicitement la résilience comme une capacité d'adaptation (p. 10).",
+        "correctAnswers": ["Modulation de la perception de la douleur via une altération de l'activité du cortex cingulaire antérieur"],
+        "explanation": "L'hypnose réduit la douleur en modulant l'activité du cortex cingulaire antérieur (régulation de la composante affective de la douleur) et en activant les voies inhibitrices descendantes.",
         "multiple": false
     },
     {
-        "question": "Quels sont les trois signes de stress mentionnés dans le livret ? (3 bonnes réponses)",
+        "question": "Quels sont les effets du stress sur le système digestif (2 bonnes réponses)",
         "options": [
-            "Anxiété",
-            "Fatigue chronique",
-            "Troubles du sommeil",
-            "Douleurs articulaires",
-            "Hypertension artérielle",
-            "Perte de mémoire"
+            "Augmentation de la motilité intestinale (diarrhée)",
+            "Diminution de la sécrétion d'acide chlorhydrique",
+            "Risque accru d'ulcères gastriques",
+            "Amélioration de l'absorption des nutriments",
+            "Stimulation de la flore bénéfique"
         ],
         "correctAnswers": [
-            "Anxiété",
-            "Fatigue chronique",
-            "Troubles du sommeil"
+            "Augmentation de la motilité intestinale (diarrhée)",
+            "Risque accru d'ulcères gastriques"
         ],
-        "explanation": "Le livret mentionne implicitement ces signes dans le contexte du stress (p. 10).",
+        "explanation": "Le stress active le système nerveux sympathique, augmentant la motilité intestinale (diarrhée) et la sécrétion gastrique (risque d'ulcères), tout en réduisant la protection muqueuse.",
         "multiple": true
+    },
+    {
+        "question": "Quel est le rôle des croyances dans la biologie des émotions selon la PNEI",
+        "options": [
+            "Les croyances n'ont aucun impact sur la physiologie",
+            "Les croyances influencent la sécrétion d'hormones et de neurotransmetteurs via l'axe PNEI",
+            "Les croyances modifient uniquement le comportement",
+            "Les croyances sont exclusives au système nerveux central"
+        ],
+        "correctAnswers": ["Les croyances influencent la sécrétion d'hormones et de neurotransmetteurs via l'axe PNEI"],
+        "explanation": "Les croyances (positives ou négatives) activent des voies neuroendocriniennes (ex : cortisol, oxytocine) et immunitaires, modulant ainsi la réponse au stress et la santé globale (effet placebo/nocebo).",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la technique la plus efficace pour réduire l'hyperactivité du système nerveux sympathique",
+        "options": [
+            "Respiration rapide et superficielle",
+            "Cohérence cardiaque (respiration à 6 cycles/min)",
+            "Consommation de caféine",
+            "Exercice physique intense"
+        ],
+        "correctAnswers": ["Cohérence cardiaque (respiration à 6 cycles/min)"],
+        "explanation": "La cohérence cardiaque (5 secondes inspiration/5 secondes expiration) synchronise les rythmes cardiaque et respiratoire, activant le système parasympathique et réduisant l'hyperactivité sympathique.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le rôle de l'ocytocine dans la gestion du stress et des relations sociales",
+        "options": [
+            "Stimulation de l'agressivité",
+            "Réduction de l'anxiété et favorisation des liens sociaux",
+            "Inhibition de la mémoire",
+            "Augmentation de la pression artérielle"
+        ],
+        "correctAnswers": ["Réduction de l'anxiété et favorisation des liens sociaux"],
+        "explanation": "L'ocytocine, hormone et neurotransmetteur, réduit l'anxiété, favorise la confiance et les comportements prosociaux, modulant ainsi la réponse au stress.",
+        "multiple": false
+    },
+    {
+        "question": "Quels sont les trois piliers de la psychologie de la santé (3 bonnes réponses)",
+        "options": [
+            "Prévention des comportements à risque",
+            "Promotion de la santé",
+            "Compréhension des déterminants sociaux",
+            "Étude des mécanismes de défense",
+            "Amélioration de la qualité de vie"
+        ],
+        "correctAnswers": [
+            "Prévention des comportements à risque",
+            "Promotion de la santé",
+            "Amélioration de la qualité de vie"
+        ],
+        "explanation": "La psychologie de la santé repose sur la prévention, la promotion de la santé (éducation, dépistage) et l'amélioration de la qualité de vie, en intégrant les dimensions biologiques, psychologiques et sociales.",
+        "multiple": true
+    },
+    {
+        "question": "Quel est le mécanisme d'action de la méthode Vittoz sur la gestion du stress",
+        "options": [
+            "Inhibition de la conscience corporelle",
+            "Rééquilibrage du système nerveux autonome par la concentration sur les sensations internes",
+            "Stimulation de la sécrétion d'adrénaline",
+            "Blocage de la respiration diaphragmatique"
+        ],
+        "correctAnswers": ["Rééquilibrage du système nerveux autonome par la concentration sur les sensations internes"],
+        "explanation": "La méthode Vittoz, par la focalisation sur les sensations corporelles et la respiration, active le système parasympathique et réduit l'hyperactivité sympathique, restaurant ainsi l'équilibre neurovégétatif.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est l'impact des traumatismes non résolus sur la santé selon le décodage biologique",
+        "options": [
+            "Aucun impact physique",
+            "Création de conflits psychobiologiques pouvant se manifester par des symptômes physiques",
+            "Stimulation exclusive du système immunitaire",
+            "Augmentation de la neurogenèse"
+        ],
+        "correctAnswers": ["Création de conflits psychobiologiques pouvant se manifester par des symptômes physiques"],
+        "explanation": "Le décodage biologique postule que les traumatismes non résolus génèrent des conflits psychiques qui, via le système nerveux autonome, peuvent se somatiser (ex : eczéma, migraines).",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la technique naturopathique la plus adaptée pour accompagner un client en dépression légère",
+        "options": [
+            "Prescription de médicaments antidépresseurs",
+            "Approche holistique combinant alimentation anti-inflammatoire, exercice physique et techniques de relaxation",
+            "Isolement social",
+            "Thérapie de choc"
+        ],
+        "correctAnswers": ["Approche holistique combinant alimentation anti-inflammatoire, exercice physique et techniques de relaxation"],
+        "explanation": "Une approche naturopathique de la dépression légère inclut une alimentation riche en oméga-3 (anti-inflammatoire), de l'exercice (endorphines), et des techniques de relaxation (réduction du cortisol), en complément d'un suivi psychothérapeutique si nécessaire.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le rôle du système limbique dans la régulation des émotions",
+        "options": [
+            "Contrôle exclusif des mouvements volontaires",
+            "Intégration des émotions, de la mémoire et des comportements de survie",
+            "Production d'hormones thyroïdiennes",
+            "Régulation de la température corporelle"
+        ],
+        "correctAnswers": ["Intégration des émotions, de la mémoire et des comportements de survie"],
+        "explanation": "Le système limbique (amygdale, hippocampe, cortex cingulaire) joue un rôle central dans la régulation des émotions, la mémoire émotionnelle et les réponses de survie (peur, agressivité).",
+        "multiple": false
+    },
+    {
+        "question": "Quels sont les effets de la méditation sur la plasticité cérébrale (2 bonnes réponses)",
+        "options": [
+            "Augmentation de la densité de matière grise dans l'hippocampe",
+            "Réduction de la connectivité du cortex préfrontal",
+            "Amélioration de la connectivité des réseaux neuronaux",
+            "Diminution de la neurogenèse",
+            "Inhibition de la mémoire de travail"
+        ],
+        "correctAnswers": [
+            "Augmentation de la densité de matière grise dans l'hippocampe",
+            "Amélioration de la connectivité des réseaux neuronaux"
+        ],
+        "explanation": "La méditation augmente la densité de matière grise (notamment dans l'hippocampe) et améliore la connectivité des réseaux neuronaux, favorisant ainsi la résilience et la cognition.",
+        "multiple": true
+    },
+    {
+        "question": "Quel est le mécanisme d'action de l'EMDR sur les traumatismes",
+        "options": [
+            "Inhibition de la mémoire à long terme",
+            "Réactivation et retraitement des souvenirs traumatiques via des mouvements oculaires",
+            "Stimulation de la sécrétion de cortisol",
+            "Blocage des récepteurs GABA"
+        ],
+        "correctAnswers": ["Réactivation et retraitement des souvenirs traumatiques via des mouvements oculaires"],
+        "explanation": "L'EMDR (Eye Movement Desensitization and Reprocessing) utilise des mouvements oculaires pour réactiver et retravailler les souvenirs traumatiques, réduisant ainsi leur charge émotionnelle via une intégration adaptative.",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la différence entre une émotion et un sentiment selon la psychologie",
+        "options": [
+            "Les émotions sont durables, les sentiments sont éphémères",
+            "Les émotions sont des réactions physiologiques et comportementales brèves, les sentiments sont des états affectifs durables et conscients",
+            "Les émotions sont exclusives aux humains, les sentiments aux animaux",
+            "Les émotions sont toujours positives, les sentiments toujours négatifs"
+        ],
+        "correctAnswers": ["Les émotions sont des réactions physiologiques et comportementales brèves, les sentiments sont des états affectifs durables et conscients"],
+        "explanation": "Les émotions (ex : peur, colère) sont des réactions automatiques et brèves à un stimulus, tandis que les sentiments (ex : amour, haine) sont des états affectifs durables, construits par l'expérience et la cognition.",
+        "multiple": false
+    },
+    {
+        "question": "Quel est le rôle de la dopamine dans la motivation et la récompense",
+        "options": [
+            "Inhibition des comportements motivés",
+            "Régulation de la motivation, de la récompense et de la prise de décision",
+            "Stimulation exclusive de la mémoire",
+            "Réduction de la plasticité synaptique"
+        ],
+        "correctAnswers": ["Régulation de la motivation, de la récompense et de la prise de décision"],
+        "explanation": "La dopamine, neurotransmetteur clé, module la motivation (recherche de récompense), la prise de décision et l'apprentissage, via les voies mésolimbique et mésocorticale.",
+        "multiple": false
+    },
+    {
+        "question": "Quels sont les signes d'un trouble de stress post-traumatique (TSPT) (2 bonnes réponses)",
+        "options": [
+            "Reviviscence intrusive du traumatisme",
+            "Évitement des stimuli associés au traumatisme",
+            "Euphorie permanente",
+            "Amélioration des performances cognitives",
+            "Hyperactivité physique"
+        ],
+        "correctAnswers": [
+            "Reviviscence intrusive du traumatisme",
+            "Évitement des stimuli associés au traumatisme"
+        ],
+        "explanation": "Le TSPT se caractérise par des reviviscences intrusives (flashbacks, cauchemars), un évitement des stimuli liés au traumatisme, et une hypervigilance, avec des symptômes persistants plus d'un mois après l'événement.",
+        "multiple": true
+    },
+    {
+        "question": "Quel est l'effet de l'alimentation sur la santé mentale selon la PNEI",
+        "options": [
+            "Aucun effet démontré",
+            "Influence majeure via le microbiote intestinal et la production de neurotransmetteurs",
+            "Stimulation exclusive des troubles psychiques",
+            "Réduction de la neurogenèse"
+        ],
+        "correctAnswers": ["Influence majeure via le microbiote intestinal et la production de neurotransmetteurs"],
+        "explanation": "L'alimentation influence la santé mentale via le microbiote (axe intestin-cerveau), la production de neurotransmetteurs (sérotonine, GABA) et la modulation de l'inflammation systémique.",
+        "multiple": false
+    },
+    {
+        "question": "Quelle est la technique la plus adaptée pour gérer un état de panique",
+        "options": [
+            "Respiration en 4-7-8 (inspiration 4s, rétention 7s, expiration 8s)",
+            "Cohérence cardiaque",
+            "Méditation transcendantale",
+            "Hypnose régressive"
+        ],
+        "correctAnswers": ["Respiration en 4-7-8 (inspiration 4s, rétention 7s, expiration 8s)"],
+        "explanation": "La respiration 4-7-8 active le système parasympathique, réduit rapidement la fréquence cardiaque et l'hyperventilation, et restaure un état de calme en cas de panique.",
+        "multiple": false
     }
 ]
