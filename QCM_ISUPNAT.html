@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QCM Naturopathie - ISUPNAT</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .menu {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        select, button {
+            padding: 10px 15px;
+            margin: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        #quiz-container {
+            display: none;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .question {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .options {
+            margin-top: 10px;
+        }
+        .option {
+            margin: 5px 0;
+            padding: 8px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        .option:hover {
+            background-color: #e9e9e9;
+        }
+        .option.correct {
+            background-color: #d4edda;
+            border-color: #28a745;
+        }
+        .option.incorrect {
+            background-color: #f8d7da;
+            border-color: #dc3545;
+        }
+        .option.selected {
+            background-color: #e2e3e5;
+        }
+        .explanation {
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 3px;
+            display: none;
+        }
+        .explanation.correct {
+            background-color: #d4edda;
+            border-left: 4px solid #28a745;
+        }
+        .explanation.incorrect {
+            background-color: #f8d7da;
+            border-left: 4px solid #dc3545;
+        }
+        #score-container-top, #score-container-bottom {
+            font-weight: bold;
+            font-size: 18px;
+            text-align: center;
+            margin: 10px 0;
+        }
+        #score-container-bottom {
+            margin-top: 30px;
+            padding: 10px;
+            background-color: #e9ecef;
+            border-radius: 5px;
+        }
+        .validate-btn {
+            margin-top: 10px;
+            background-color: #007bff;
+        }
+        .validate-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>QCM Naturopathie - ISUPNAT</h1>
+
+    <div class="menu">
+        <h2>Choisis une matière pour commencer le QCM :</h2>
+        <select id="matiere-select">
+            <option value="">-- Sélectionne une matière --</option>
+            <option value="micronutrition">Micronutrition et compléments alimentaires</option>
+            <option value="techniques_manuelles">Techniques manuelles</option>
+            <option value="phytologie">Phytologie</option>
+            <option value="gestion_stress">Gestion des émotions, du mental et du stress</option>
+            <option value="bionutrition">Bionutrition</option>
+            <option value="hydrologie">Hydrologie</option>
+            <option value="exercice_physique">Exercice physique</option>
+            <option value="emonctoires">Émonctoires et synthèse des interactions</option>
+            <option value="biodietetique">Biodiététique et jeûne</option>
+            <option value="psychologie">Introduction à la psychologie</option>
+            <option value="pnei">PNEI (Psycho-Neuro-Endocrino-Immunologie)</option>
+            <option value="deontologie">Déontologie et bilan de vitalité</option>
+            <option value="dereglements_respiratoires">Approche naturopathique des dérèglements respiratoires</option>
+            <option value="dereglements_digestifs">Approche naturopathique des dérèglements digestifs</option>
+            <option value="dereglements_cardio">Approche naturopathique des dérèglements cardio-vasculaires</option>
+            <option value="dereglements_osteo">Approche naturopathique des déséquilibres ostéo-musculaires</option>
+            <option value="dereglements_neuro">Approche naturopathique des dérèglements neuro-glandulaires</option>
+            <option value="femmes_enceintes">Hygiène de vie des femmes enceintes et nouveau-nés</option>
+            <option value="plus_50_ans">Hygiène de vie des plus de 50 ans</option>
+            <option value="enfants_adolescents">Hygiène de vie des enfants et des adolescents</option>
+            <option value="uro_genital">Approche naturopathique des dérèglements uro-génitaux et cutanés</option>
+            <option value="plantes_feminin">Plantes au féminin et contraception naturelle</option>
+        </select>
+        <button onclick="chargerQuiz()">Commencer le QCM</button>
+    </div>
+
+    <div id="quiz-container">
+        <div id="score-container-top">Score : 0/0</div>
+        <!-- Les questions seront insérées ici par JavaScript -->
+        <div id="score-container-bottom">Score final : 0/0</div>
+    </div>
+	
+	<script src="01_micronutrition.js"></script>
+	<script src="02_tech_manuelles.js"></script>
+	<script src="03_phytologie.js"></script>
+	<script src="04_gestionstress.js"></script>
+	<script src="05_bionutrition.js"></script>
+	<script src="06_hydrologie.js"></script>
+	<script src="07_exercicephysique.js"></script>
+	<script src="08_emonctoires.js"></script>
+	<script src="09_biodietetique.js"></script>
+	<script src="10_psycho.js"></script>
+	<script src="11_pnei.js"></script>
+	<script src="12_deontologie.js"></script>
+	<script src="13_dereglements_respi.js"></script>
+	<script src="14_dereglements_digestifs.js"></script>
+	<script src="15_dereglements_cardio.js"></script>
+	<script src="16_dereglements_osteo.js"></script>
+	<script src="17_dereglements_neuroglandu.js"></script>
+	<script src="18_hygiene_femme_enceinte.js"></script>
+	<script src="19_hygiene_50_ans.js"></script>
+	<script src="20_hygiene_ado.js"></script>
+	<script src="21_urogenital.js"></script>
+	<script src="22_plantes.js"></script>
+
+    <script>
+        let score = 0;
+        let totalQuestions = 0;
+
+        // 40 questions pour la micronutrition (dont 10 à réponses multiples)
+        const questionsMicronutrition_original = [];
+        // Placeholder pour les autres matières (à remplir avec les JSON fournis ensuite)
+        const questionsTechniquesManuelles_original = [];
+        const questionsPhytologie_original = [];
+        const questionsGestionStress_original = [];
+        const questionsBionutrition_original = [];
+        const questionsHydrologie_original = [];
+        const questionsExercicePhysique_original = [];
+        const questionsEmonctoires_original = [];
+        const questionsBiodietetique_original = [];
+        const questionsPsychologie_original = [];
+        const questionsPnei_original = [];
+        const questionsDeontologie_original = [];
+        const questionsDereglementsRespiratoires_original = [];
+        const questionsDereglementsDigestifs_original = [];
+        const questionsDereglementsCardio_original = [];
+        const questionsDereglementsOsteo_original = [];
+        const questionsDereglementsNeuro_original = [];
+        const questionsFemmesEnceintes_original = [];
+        const questionsPlus50Ans_original = [];
+        const questionsEnfantsAdolescents_original = [];
+        const questionsUroGenital_original = [];
+        const questionsPlantesFeminin_original = [];
+
+        // Fonction pour afficher le quiz
+        function afficherQuiz(questions) {
+            const container = document.getElementById('quiz-container');
+            container.innerHTML = '<h2>QCM - ' + document.getElementById('matiere-select').selectedOptions[0].text + '</h2><div id="score-container-top">Score : 0/' + questions.length + '</div>';
+
+            questions.forEach((q, index) => {
+                const questionDiv = document.createElement('div');
+                questionDiv.className = 'question';
+                questionDiv.innerHTML = `
+                    <h3>Question ${index + 1} : ${q.question}</h3>
+                    <div class="options" data-correct="${q.correctAnswers.join(',')}">
+                        ${q.options.map(option => `
+                            <div class="option" onclick="selectAnswer(this, ${q.multiple})">${option}</div>
+                        `).join('')}
+                    </div>
+                    <div class="explanation">
+                        <strong>✅ Bonne réponse !</strong> ${q.explanation}
+                    </div>
+                    ${q.multiple ? '<button class="validate-btn" onclick="validateMultiple(this)">Valider</button>' : ''}
+                `;
+                container.appendChild(questionDiv);
+            });
+
+            container.innerHTML += '<div id="score-container-bottom">Score final : 0/' + questions.length + '</div>';
+            container.style.display = 'block';
+            score = 0;
+            totalQuestions = questions.length;
+        }
+
+        // Fonction pour sélectionner une réponse
+        function selectAnswer(element, multiple) {
+            const questionDiv = element.closest('.question');
+            const explanationDiv = questionDiv.querySelector('.explanation');
+            if (!multiple) {
+                const options = questionDiv.querySelectorAll('.option');
+                const correctAnswers = questionDiv.querySelector('.options').dataset.correct.split(',');
+
+                options.forEach(option => {
+                    option.onclick = null;
+                    option.classList.remove('selected');
+                });
+
+                element.classList.add('selected');
+
+                options.forEach(option => {
+                    if (correctAnswers.includes(option.textContent)) {
+                        option.classList.add('correct');
+                    } else {
+                        option.classList.add('incorrect');
+                    }
+                });
+
+                if (element.textContent === correctAnswers[0]) {
+                    score++;
+                    explanationDiv.classList.add('correct');
+                } else {
+                    explanationDiv.classList.add('incorrect');
+                    explanationDiv.innerHTML = '<strong>❌ Mauvaise réponse.</strong> ' + explanationDiv.innerHTML.replace('✅ Bonne réponse !', '');
+                }
+
+                explanationDiv.style.display = 'block';
+                document.getElementById('score-container-top').textContent = 'Score : ' + score + '/' + totalQuestions;
+                document.getElementById('score-container-bottom').textContent = 'Score final : ' + score + '/' + totalQuestions;
+            } else {
+                element.classList.toggle('selected');
+            }
+        }
+
+        // Fonction pour valider les réponses multiples
+        function validateMultiple(button) {
+            const questionDiv = button.closest('.question');
+            const options = questionDiv.querySelectorAll('.option');
+            const explanationDiv = questionDiv.querySelector('.explanation');
+            const correctAnswers = questionDiv.querySelector('.options').dataset.correct.split(',');
+            let userAnswers = [];
+
+            options.forEach(option => {
+                option.onclick = null;
+                if (option.classList.contains('selected')) {
+                    userAnswers.push(option.textContent);
+                }
+            });
+
+            const allCorrectSelected = correctAnswers.every(ans => userAnswers.includes(ans)) && userAnswers.length === correctAnswers.length;
+
+            options.forEach(option => {
+                if (correctAnswers.includes(option.textContent)) {
+                    option.classList.add('correct');
+                } else if (userAnswers.includes(option.textContent)) {
+                    option.classList.add('incorrect');
+                }
+            });
+
+            if (allCorrectSelected) {
+                score++;
+                explanationDiv.classList.add('correct');
+            } else {
+                explanationDiv.classList.add('incorrect');
+                explanationDiv.innerHTML = '<strong>❌ Mauvaise réponse.</strong> ' + explanationDiv.innerHTML.replace('✅ Bonne réponse !', '');
+            }
+
+            explanationDiv.style.display = 'block';
+            document.getElementById('score-container-top').textContent = 'Score : ' + score + '/' + totalQuestions;
+            document.getElementById('score-container-bottom').textContent = 'Score final : ' + score + '/' + totalQuestions;
+        }
+
+        // Fonction pour charger le quiz sélectionné
+        function chargerQuiz() {
+            const matiere = document.getElementById('matiere-select').value;
+            if (matiere === 'micronutrition') {
+                afficherQuiz(questionsMicronutrition);
+            } else if (matiere === 'techniques_manuelles') {
+                afficherQuiz(questionsTechniquesManuelles);
+            } else if (matiere === 'phytologie') {
+                afficherQuiz(questionsPhytologie);
+            } else if (matiere === 'gestion_stress') {
+                afficherQuiz(questionsGestionStress);
+            } else if (matiere === 'bionutrition') {
+                afficherQuiz(questionsBionutrition);
+            } else if (matiere === 'hydrologie') {
+                afficherQuiz(questionsHydrologie);
+            } else if (matiere === 'exercice_physique') {
+                afficherQuiz(questionsExercicePhysique);
+            } else if (matiere === 'emonctoires') {
+                afficherQuiz(questionsEmonctoires);
+            } else if (matiere === 'biodietetique') {
+                afficherQuiz(questionsBiodietetique);
+            } else if (matiere === 'psychologie') {
+                afficherQuiz(questionsPsychologie);
+            } else if (matiere === 'pnei') {
+                afficherQuiz(questionsPnei);
+            } else if (matiere === 'deontologie') {
+                afficherQuiz(questionsDeontologie);
+            } else if (matiere === 'dereglements_respiratoires') {
+                afficherQuiz(questionsDereglementsRespiratoires);
+            } else if (matiere === 'dereglements_digestifs') {
+                afficherQuiz(questionsDereglementsDigestifs);
+            } else if (matiere === 'dereglements_cardio') {
+                afficherQuiz(questionsDereglementsCardio);
+            } else if (matiere === 'dereglements_osteo') {
+                afficherQuiz(questionsDereglementsOsteo);
+            } else if (matiere === 'dereglements_neuro') {
+                afficherQuiz(questionsDereglementsNeuro);
+            } else if (matiere === 'femmes_enceintes') {
+                afficherQuiz(questionsFemmesEnceintes);
+            } else if (matiere === 'plus_50_ans') {
+                afficherQuiz(questionsPlus50Ans);
+            } else if (matiere === 'enfants_adolescents') {
+                afficherQuiz(questionsEnfantsAdolescents);
+            } else if (matiere === 'uro_genital') {
+                afficherQuiz(questionsUroGenital);
+            } else if (matiere === 'plantes_feminin') {
+                afficherQuiz(questionsPlantesFeminin);
+            }
+        }
+    </script>
+</body>
+</html>
