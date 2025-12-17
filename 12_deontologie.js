@@ -273,11 +273,11 @@ const questionsDeontologie =
         "question": "Quel est le principe de l'indépendance professionnelle en naturopathie",
         "options": [
             "Soumission aux laboratoires de compléments alimentaires",
-            "Liberté de conseil et d'exercice, sans pression commerciale ou conflictuelle",
+            "Liberté de conseil et d'exercice sans pression commerciale ou conflictuelle",
             "Obligation de collaborer avec un seul médecin",
             "Interdiction de toute formation"
         ],
-        "correctAnswers": ["Liberté de conseil et d'exercice, sans pression commerciale ou conflictuelle"],
+        "correctAnswers": ["Liberté de conseil et d'exercice sans pression commerciale ou conflictuelle"],
         "explanation": "L'indépendance professionnelle (article 7) garantit au naturopathe la liberté de conseil et d'exercice, sans influence commerciale (ex : commissions) ou conflictuelle, pour préserver l'objectivité et l'éthique.",
         "multiple": false
     },
